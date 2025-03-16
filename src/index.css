@@ -10,3 +10,7 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  @apply ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White;
+}

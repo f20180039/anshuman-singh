@@ -1,68 +1,49 @@
-import React from "react";
-
-const Experience: React.FC = () => {
+const Experience = () => {
   return (
-    <section id="experience">
-      <p className="section__text__p1">Explore My</p>
-      <h1 className="title">Experience</h1>
-      <div className="experience-details-container">
-        <div className="about-containers">
-          <div className="details-container">
-            <h2 className="experience-sub-title">Frontend Development</h2>
-            <div className="article-container">
-              {[
-                { skill: "HTML", level: "Experienced" },
-                { skill: "CSS", level: "Experienced" },
-                { skill: "SASS", level: "Intermediate" },
-                { skill: "JavaScript", level: "Basic" },
-                { skill: "TypeScript", level: "Basic" },
-                { skill: "Material UI", level: "Intermediate" },
-              ].map(({ skill, level }) => (
-                <article key={skill}>
-                  <img
-                    src="/assets/checkmark.png"
-                    alt="Experience icon"
-                    className="icon"
-                  />
-                  <div>
-                    <h3>{skill}</h3>
-                    <p>{level}</p>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-          <div className="details-container">
-            <h2 className="experience-sub-title">Backend Development</h2>
-            <div className="article-container">
-              {[
-                { skill: "PostgreSQL", level: "Basic" },
-                { skill: "Node JS", level: "Intermediate" },
-                { skill: "Express JS", level: "Intermediate" },
-                { skill: "Git", level: "Intermediate" },
-              ].map(({ skill, level }) => (
-                <article key={skill}>
-                  <img
-                    src="/assets/checkmark.png"
-                    alt="Experience icon"
-                    className="icon"
-                  />
-                  <div>
-                    <h3>{skill}</h3>
-                    <p>{level}</p>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </div>
-        </div>
+    <section className="ans-container ans-mx-auto ans-px-6 ans-py-16 ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
+      <h2 className="ans-text-5 ans-font-bold ans-text-Blue-600 dark:ans-text-Blue-400">
+        Work Experience
+      </h2>
+
+      <div className="ans-mt-8">
+        <h3 className="ans-text-4 ans-font-semibold ans-text-Gray-900 dark:ans-text-Gray-200">
+          Frontend Engineer - HealthPlix Technologies
+        </h3>
+        <p className="ans-text-Gray-600 dark:ans-text-Gray-400 ans-text-3">
+          July 2022 - Present
+        </p>
+        <ul className="ans-list-disc ans-list-inside ans-text-Gray-700 dark:ans-text-Gray-300 ans-mt-4">
+          <li>Integrated AI-powered documentation using OpenAI APIs.</li>
+          <li>
+            Optimized frontend performance, reducing re-rendering overhead by
+            25%.
+          </li>
+          <li>
+            Developed reusable UI components using React, TypeScript, and
+            Tailwind CSS.
+          </li>
+          <li>Integrated analytics for data-driven improvements.</li>
+        </ul>
       </div>
-      <img
-        src="/assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "#projects")}
-      />
+
+      <div className="ans-mt-8">
+        <h3 className="ans-text-4 ans-font-semibold ans-text-Gray-900 dark:ans-text-Gray-200">
+          Data Science Intern - Aramex India Pvt Ltd
+        </h3>
+        <p className="ans-text-Gray-600 dark:ans-text-Gray-400 ans-text-3">
+          Aug 2021 - Jan 2022
+        </p>
+        <ul className="ans-list-disc ans-list-inside ans-text-Gray-700 dark:ans-text-Gray-300 ans-mt-4">
+          <li>
+            Developed a model to improve address extraction, increasing accuracy
+            from 90% to 99%.
+          </li>
+          <li>
+            Performed data analysis and feature engineering for reliable model
+            results.
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
