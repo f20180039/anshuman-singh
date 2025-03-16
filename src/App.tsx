@@ -1,22 +1,29 @@
-import { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import { EAPP_ROUTES } from "./constants";
 
-function App() {
-  const [count, setCount] = useState<number>(0);
-
-  console.log(count);
-  useEffect(() => {
-    console.log(count);
-  }, []);
-
+const App = () => {
   return (
-    <div
-      className="ans-flex ans-bg-highlight ans-text-Success-500"
-      onClick={() => setCount((prev) => prev + 1)}
-    >
-      Let's get started
-
-    </div>
+    <Router>
+      <div className="ans-flex ans-flex-col ans-min-h-screen">
+        <Header />
+        <main className="ans-flex-1 ans-p-4">
+          <Routes>
+            <Route path={EAPP_ROUTES.home} element={<Home />} />
+            <Route path={EAPP_ROUTES.about} element={<About />} />
+            <Route path={EAPP_ROUTES.projects} element={<Projects />} />
+            <Route path={EAPP_ROUTES.contact} element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
