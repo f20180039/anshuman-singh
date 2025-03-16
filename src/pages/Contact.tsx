@@ -1,10 +1,11 @@
 import { C_LINKEDIN_URL, C_MY_MAIL, C_MY_PHONE_NUMBER } from "../constants";
-import EmailIcon from "../assets/email.png";
-import LinkedInIcon from "../assets/linkedin.png";
+import { FaPhoneAlt, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { ReactNode } from "react";
 // import PhoneIcon from "../assets/phone.png";
 
 interface ContactItemProps {
-  icon?: string;
+  icon: ReactNode;
   altText: string;
   link: string;
   displayText: string;
@@ -20,13 +21,9 @@ const ContactItem = ({
 }: ContactItemProps) => {
   return (
     <div className="ans-flex ans-items-center ans-gap-4">
-      {icon && (
-        <img
-          src={icon}
-          alt={altText}
-          className="ans-w-8 ans-filter dark:ans-invert"
-        />
-      )}
+      <span className="ans-text-4 ans-text-Blue_gray-700 dark:ans-text-Blue_gray-600">
+        {icon}
+      </span>
       <p>
         <a
           href={link}
@@ -57,19 +54,19 @@ export default function Contact() {
 
       <div className="ans-flex ans-flex-col sm:ans-flex-row ans-justify-center ans-gap-8 ans-mt-8">
         <ContactItem
-          icon={EmailIcon}
+          icon={<MdEmail />}
           altText="Email icon"
           link={`mailto:${C_MY_MAIL}`}
           displayText={C_MY_MAIL}
         />
         <ContactItem
-          // icon={EmailIcon}
+          icon={<FaPhoneAlt />}
           altText="Phone icon"
           link={`tel:${C_MY_PHONE_NUMBER}`}
           displayText={C_MY_PHONE_NUMBER}
         />
         <ContactItem
-          icon={LinkedInIcon}
+          icon={<FaLinkedin />}
           altText="LinkedIn icon"
           link={C_LINKEDIN_URL}
           displayText="anshuman-singh-4546b5275"

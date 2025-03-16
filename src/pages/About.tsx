@@ -13,7 +13,7 @@ const About = () => {
           React, TypeScript, AI integrations, and performance optimization
         </strong>
         . I specialize in building scalable, high-performance applications,
-        particularly in the **healthcare tech** domain.
+        particularly in the healthtech domain.
       </p>
 
       <div className="ans-mt-8">
