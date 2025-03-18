@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { NAV_LINKS } from "../constants";
 import { FaMoon, FaSun } from "react-icons/fa";
-import { useThemeStore } from "../theme-store";
+import { useThemeStore } from "../store/theme-store";
+import { NAV_LINKS } from "../constants";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -6,7 +6,7 @@ import {
   C_HEALTHPLIX_URL,
   C_LINKEDIN_URL,
   EAPP_ROUTES,
-} from "../constants";
+} from "../common/constants";
 import Resume from "../assets/AnshumanSingh-FE-Resume.pdf";
 
 const Home = () => {

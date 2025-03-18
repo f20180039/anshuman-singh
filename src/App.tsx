@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./common/components/Header";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import Footer from "./common/components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
-import { EAPP_ROUTES } from "./constants";
+import { EAPP_ROUTES } from "./common/constants";
 import Experience from "./pages/Experience";
 
 const App = () => {

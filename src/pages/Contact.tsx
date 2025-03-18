@@ -1,4 +1,4 @@
-import { C_LINKEDIN_URL, C_MY_MAIL, C_MY_PHONE_NUMBER } from "../constants";
+import { C_LINKEDIN_URL, C_MY_MAIL, C_MY_PHONE_NUMBER } from "../common/constants";
 import { FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { ReactNode } from "react";
