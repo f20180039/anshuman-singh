@@ -45,10 +45,10 @@ export default function Contact() {
       id="contact"
       className="ans-py-12 ans-text-center ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White"
     >
-      <p className="ans-text-lg ans-font-medium ans-text-Gray-700 dark:ans-text-Gray-300">
+      <p className="ans-text-2 ans-font-inter-1 ans-text-Gray-700 dark:ans-text-Gray-300">
         Get in Touch
       </p>
-      <h1 className="ans-text-3xl ans-font-bold ans-text-Blue-600 dark:ans-text-Blue-400">
+      <h1 className="ans-text-3 ans-font-inter-3 ans-text-Blue-600 dark:ans-text-Blue-400">
         Contact Me
       </h1>
 

@@ -10,8 +10,8 @@ const About = lazy(() => import("./pages/About"));
 const Experience = lazy(() => import("./pages/Experience"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Contact = lazy(() => import("./pages/Contact"));
-const GuessNumber = lazy(() => import("./modules/Guess-Number"));
-const PigGame = lazy(() => import("./modules/Pig-Game"));
+const GuessNumber = lazy(() => import("./modules/Guess-Number/GuessNumber"));
+const PigGame = lazy(() => import("./modules/Pig-Game/PigGame"));
 
 const App = () => {
   return (

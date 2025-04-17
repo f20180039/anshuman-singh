@@ -12,7 +12,7 @@ export default function Header() {
     <header className="ans-bg-Gray-800 dark:ans-bg-Gray-900 ans-text-White ans-p-4 ans-sticky ans-top-0 ans-w-full ans-shadow-md ans-z-50">
       <div className="ans-flex ans-justify-between ans-items-center">
         {/* Logo / Title */}
-        <h1 className="ans-text-2xl ans-font-bold">My Portfolio</h1>
+        <h1 className="ans-text-2 ans-font-inter-3">My Portfolio</h1>
 
         {/* Desktop Navigation */}
         <nav className="ans-hidden sm:ans-flex ans-items-center ans-gap-6">
@@ -32,7 +32,7 @@ export default function Header() {
           {/* Dark Mode Toggle */}
           {/* <button
             onClick={toggleTheme}
-            className="ans-text-2xl ans-ml-4 ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
+            className="ans-text-2 ans-ml-4 ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
           >
             {isDarkMode ? (
               <FaSun className="ans-text-Warning-300" />
@@ -87,7 +87,7 @@ export default function Header() {
         {/* Dark Mode Toggle for Mobile */}
         {/* <button
           onClick={toggleTheme}
-          className="ans-mt-6 ans-ml-6 ans-text-2xl ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
+          className="ans-mt-6 ans-ml-6 ans-text-2 ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
         >
           {isDarkMode ? (
             <FaSun className="ans-text-Yellow-400" />

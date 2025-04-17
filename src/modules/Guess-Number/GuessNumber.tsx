@@ -50,7 +50,7 @@ const GuessNumber = () => {
       <div className="ans-flex ans-flex-col sm:ans-flex-row ans-justify-between ans-w-full ans-gap-4">
         <button
           onClick={getTarget}
-          className="ans-bg-Blue-500 dark:ans-bg-Blue-400 hover:ans-bg-Blue-700 dark:hover:ans-bg-Blue-800 ans-text-White ans-px-6 ans-py-2 ans-rounded-lg ans-text-lg"
+          className="ans-bg-Blue-500 dark:ans-bg-Blue-400 hover:ans-bg-Blue-700 dark:hover:ans-bg-Blue-800 ans-text-White ans-px-6 ans-py-2 ans-rounded-lg ans-text-2"
         >
           🎯 Play!
         </button>
@@ -104,7 +104,7 @@ const GuessNumber = () => {
 
           <div className="ans-flex ans-flex-col ans-items-center ans-gap-2">
             <div
-              className={`ans-text-3 ans-font-inter-2 ans-text-center ${
+              className={`ans-text-3 ans-font-inter-1 ans-text-center ${
                 message.includes("Win")
                   ? "ans-text-Success-600"
                   : message.includes("Lose")

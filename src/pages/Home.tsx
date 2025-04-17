@@ -18,7 +18,7 @@ const Home = () => {
           alt="Anshuman Singh"
           className="ans-w-48 ans-h-48 ans-rounded-full ans-shadow-lg ans-object-cover ans-border-4 ans-border-Gray-200 dark:ans-border-Gray-700"
         />
-        <h1 className="ans-text-5 ans-font-bold ans-text-Blue-600 dark:ans-text-Blue-400">
+        <h1 className="ans-text-5 ans-font-inter-1 ans-text-Blue-600 dark:ans-text-Blue-400">
           Anshuman Singh
         </h1>
         <p className="ans-text-4 ans-text-Gray-500 dark:ans-text-Gray-400">

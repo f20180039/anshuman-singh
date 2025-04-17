@@ -52,7 +52,7 @@ export default function Projects() {
       id="projects"
       className="ans-flex ans-flex-col ans-gap-xlarge ans-py-xlarge ans-text-center ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White"
     >
-      <p className="ans-text-lg ans-font-medium ans-text-Gray-700 dark:ans-text-Gray-300">
+      <p className="ans-text-3 ans-font-inter-2 ans-text-Gray-700 dark:ans-text-Gray-300">
         Browse My Recent Projects
       </p>
       <div className="ans-flex ans-flex-wrap ans-justify-center ans-gap-8">
@@ -75,7 +75,7 @@ export default function Projects() {
                 </span>
               </div>
             )}
-            <h2 className="ans-text-xl ans-font-semibold ans-text-Gray-900 dark:ans-text-Gray-200">
+            <h2 className="ans-text-3 ans-font-inter-0 ans-text-Gray-900 dark:ans-text-Gray-200">
               {project.title}
             </h2>
             <div className="ans-flex ans-gap-4 ans-justify-center">

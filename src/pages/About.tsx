@@ -2,7 +2,7 @@ import React from "react";
 
 // 📌 Reusable Section Title Component
 const SectionTitle = ({ children }: { children: React.ReactNode }) => (
-  <h3 className="ans-text-4 ans-font-inter-2 ans-text-Blue-500 dark:ans-text-Blue-300">
+  <h3 className="ans-text-4 ans-font-inter-1 ans-text-Blue-500 dark:ans-text-Blue-300">
     {children}
   </h3>
 );
