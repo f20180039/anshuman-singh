@@ -21,7 +21,7 @@ const AboutMe = () => (
       About Me
     </h2>
     <p className="ans-text-3 ans-text-Gray-700 dark:ans-text-Gray-300 ans-leading-relaxed">
-      I'm a passionate <strong>Frontend Engineer</strong> with a strong
+      I&apos;m a passionate <strong>Frontend Engineer</strong> with a strong
       background in
       <strong>
         {" "}
@@ -85,7 +85,7 @@ const Skills = () => {
 // 📌 Main About Component
 const About = () => {
   return (
-    <section className="ans-container ans-mx-auto ans-px-6 ans-py-16 ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
+    <section className="ans-container ans-mx-auto ans-px-6 ans-py-xxlarge ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
       <AboutMe />
       <Education />
       <Interests />

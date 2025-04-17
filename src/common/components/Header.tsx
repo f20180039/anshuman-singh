@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaMoon, FaSun } from "react-icons/fa";
-import { useThemeStore } from "../store/theme-store";
+// import { FaMoon, FaSun } from "react-icons/fa";
+// import { useThemeStore } from "../store/theme-store";
 import { NAV_LINKS } from "../constants";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { isDarkMode, toggleTheme } = useThemeStore();
+  // const { isDarkMode, toggleTheme } = useThemeStore();
 
   return (
     <header className="ans-bg-Gray-800 dark:ans-bg-Gray-900 ans-text-White ans-p-4 ans-sticky ans-top-0 ans-w-full ans-shadow-md ans-z-50">
@@ -30,16 +30,16 @@ export default function Header() {
           </ul>
 
           {/* Dark Mode Toggle */}
-          <button
+          {/* <button
             onClick={toggleTheme}
             className="ans-text-2xl ans-ml-4 ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
           >
             {isDarkMode ? (
-              <FaSun className="ans-text-Yellow-400" />
+              <FaSun className="ans-text-Warning-300" />
             ) : (
               <FaMoon className="ans-text-Gray-300" />
             )}
-          </button>
+          </button> */}
         </nav>
 
         {/* Mobile Menu Icon */}
@@ -85,7 +85,7 @@ export default function Header() {
         </ul>
 
         {/* Dark Mode Toggle for Mobile */}
-        <button
+        {/* <button
           onClick={toggleTheme}
           className="ans-mt-6 ans-ml-6 ans-text-2xl ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
         >
@@ -94,7 +94,7 @@ export default function Header() {
           ) : (
             <FaMoon className="ans-text-Gray-300" />
           )}
-        </button>
+        </button> */}
       </nav>
     </header>
   );

@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <section className="ans-container ans-mx-auto ans-px-6 ans-py-16 ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
+    <section className="ans-container ans-mx-auto ans-px-6 ans-py-xxlarge ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
       <h2 className="ans-text-5 ans-font-bold ans-text-Blue-600 dark:ans-text-Blue-400">
         Work Experience
       </h2>

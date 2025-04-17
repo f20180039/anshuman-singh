@@ -5,7 +5,10 @@ export const EAPP_ROUTES = {
   projects: "/projects",
   contact: "/contact",
 };
-
+export const PROJECT_ROUTES = {
+  guessGame: "/guess-game",
+  pigGame: "/pig-game",
+};
 export const NAV_LINKS = [
   { name: "Home", path: EAPP_ROUTES.home },
   { name: "About", path: EAPP_ROUTES.about },

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,4 +14,11 @@
 html,
 body {
   @apply ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White;
+}
+
+
+@layer base {
+  html {
+    font-family: 'Press Start 2P', cursive;
+  }
 }

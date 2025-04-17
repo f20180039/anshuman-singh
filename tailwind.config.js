@@ -181,7 +181,7 @@ const colors = {
 
 module.exports = {
   prefix: "ans-",
-  darkMode: "class", // media
+  darkMode: "media",
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   variants: {
     scale: ["responsive", "hover", "focus", "group-hover"],
@@ -297,6 +297,7 @@ module.exports = {
     },
     fontFamily: {
       inter: "Inter",
+      mario: ['"Press Start 2P"', "sans-serif"],
     },
     extend: {
       gridTemplateColumns: {

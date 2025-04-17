@@ -12,7 +12,7 @@ import Resume from "../assets/AnshumanSingh-FE-Resume.pdf";
 const Home = () => {
   return (
     <section className="ans-flex ans-flex-col ans-w-full sm:ans-flex-row ans-items-center ans-justify-center ans-text-center sm:ans-text-left ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
-      <div className="ans-flex ans-flex-col ans-items-center ans-w-full sm:ans-w-1/2 ans-gap-4 ans-px-6 sm:ans-px-20 ans-py-16">
+      <div className="ans-flex ans-flex-col ans-items-center ans-w-full sm:ans-w-1/2 ans-gap-4 ans-px-6 sm:ans-px-20 ans-py-xxlarge">
         <img
           src={Profile}
           alt="Anshuman Singh"
@@ -55,7 +55,7 @@ const Home = () => {
       </div>
 
       {/* Right: Bio & Actions */}
-      <div className="ans-flex ans-flex-col ans-w-full sm:ans-w-1/2 ans-max-w-2xl ans-px-6 sm:ans-px-20 ans-py-16 ans-gap-6">
+      <div className="ans-flex ans-flex-col ans-w-full sm:ans-w-1/2 ans-max-w-2xl ans-px-6 sm:ans-px-20  ans-gap-6">
         <p className="ans-text-3 ans-text-Gray-700 dark:ans-text-Gray-300 ans-leading-relaxed">
           Experienced frontend engineer skilled in{" "}
           <strong className="ans-text-Gray-900 dark:ans-text-White">

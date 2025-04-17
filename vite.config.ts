@@ -1,17 +1,8 @@
-import checker from "vite-plugin-checker";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tsconfigPaths from "vite-tsconfig-paths";
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: "my-portfolio", // Your repo name
-  plugins: [
-    react(),
-    checker({
-      typescript: {
-        tsconfigPath: "./tsconfig.app.json", // Ensure correct tsconfig is used
-        // overlay: true,
-      },
-    }),
-  ],
+  base: "/my-portfolio/",
+  plugins: [react(), tsconfigPaths()],
 });
