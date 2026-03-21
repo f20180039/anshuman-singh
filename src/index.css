@@ -1,24 +1,154 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ===== Theme Color Tokens (CSS Custom Properties) ===== */
 :root {
+  /* Light theme (default) */
+  --th-bg: 255 255 255;
+  --th-fg: 16 24 40;
+  --th-surface: 249 250 251;
+  --th-surface-alt: 242 244 247;
+  --th-muted: 228 231 236;
+  --th-muted-fg: 102 112 133;
+  --th-secondary-fg: 52 64 84;
+  --th-accent: 21 112 239;
+  --th-accent-hover: 23 92 211;
+  --th-accent-subtle: 239 248 255;
+  --th-border: 228 231 236;
+  --th-header: 29 41 57;
+  --th-success: 18 183 106;
+  --th-error: 240 68 56;
+  --th-warning: 247 144 9;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  @apply ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White;
+/* Dark theme */
+html.dark {
+  --th-bg: 16 24 40;
+  --th-fg: 255 255 255;
+  --th-surface: 29 41 57;
+  --th-surface-alt: 29 41 57;
+  --th-muted: 52 64 84;
+  --th-muted-fg: 152 162 179;
+  --th-secondary-fg: 208 213 221;
+  --th-accent: 83 177 253;
+  --th-accent-hover: 132 202 255;
+  --th-accent-subtle: 21 37 63;
+  --th-border: 71 85 105;
+  --th-header: 16 24 40;
+  --th-success: 50 213 131;
+  --th-error: 249 112 102;
+  --th-warning: 254 200 75;
 }
 
+/* Ocean theme — deep blue */
+html[data-theme="ocean"] {
+  --th-bg: 15 23 42;
+  --th-fg: 226 232 240;
+  --th-surface: 30 41 59;
+  --th-surface-alt: 30 41 59;
+  --th-muted: 51 65 85;
+  --th-muted-fg: 148 163 184;
+  --th-secondary-fg: 203 213 225;
+  --th-accent: 56 189 248;
+  --th-accent-hover: 125 211 252;
+  --th-accent-subtle: 12 74 110;
+  --th-border: 51 65 85;
+  --th-header: 2 6 23;
+  --th-success: 52 211 153;
+  --th-error: 251 113 133;
+  --th-warning: 250 204 21;
+}
+
+/* Forest theme — earthy greens */
+html[data-theme="forest"] {
+  --th-bg: 20 26 22;
+  --th-fg: 220 237 222;
+  --th-surface: 30 41 33;
+  --th-surface-alt: 30 41 33;
+  --th-muted: 45 60 48;
+  --th-muted-fg: 134 168 140;
+  --th-secondary-fg: 187 213 191;
+  --th-accent: 74 222 128;
+  --th-accent-hover: 134 239 172;
+  --th-accent-subtle: 20 83 45;
+  --th-border: 45 60 48;
+  --th-header: 10 16 12;
+  --th-success: 74 222 128;
+  --th-error: 248 113 113;
+  --th-warning: 250 204 21;
+}
+
+/* Sunset theme — warm orange/rose */
+html[data-theme="sunset"] {
+  --th-bg: 28 18 18;
+  --th-fg: 255 228 218;
+  --th-surface: 45 28 28;
+  --th-surface-alt: 45 28 28;
+  --th-muted: 68 42 42;
+  --th-muted-fg: 178 134 124;
+  --th-secondary-fg: 220 180 170;
+  --th-accent: 251 146 60;
+  --th-accent-hover: 253 186 116;
+  --th-accent-subtle: 124 45 18;
+  --th-border: 68 42 42;
+  --th-header: 18 10 10;
+  --th-success: 74 222 128;
+  --th-error: 248 113 113;
+  --th-warning: 251 146 60;
+}
+
+/* ===== Global Styles ===== */
+* {
+  box-sizing: border-box;
+  transition-property: background-color, border-color, color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+html,
+body {
+  background-color: rgb(var(--th-bg));
+  color: rgb(var(--th-fg));
+}
 
 @layer base {
   html {
     font-family: 'Press Start 2P', cursive;
+  }
+}
+
+/* Stagger animation delays */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+
+/* Retro glow text effect */
+.retro-glow {
+  text-shadow: 0 0 10px rgb(var(--th-accent) / 0.5), 0 0 20px rgb(var(--th-accent) / 0.3);
+}
+
+/* Pixel border utility */
+.pixel-border {
+  box-shadow:
+    4px 0 0 0 currentColor,
+    -4px 0 0 0 currentColor,
+    0 4px 0 0 currentColor,
+    0 -4px 0 0 currentColor;
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
