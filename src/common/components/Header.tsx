@@ -1,18 +1,30 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-// import { FaMoon, FaSun } from "react-icons/fa";
-// import { useThemeStore } from "../store/theme-store";
+import { useState, useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useThemeStore, THEMES } from "../store/theme-store";
 import { NAV_LINKS } from "../constants";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  // const { isDarkMode, toggleTheme } = useThemeStore();
+  const [themeOpen, setThemeOpen] = useState(false);
+  const { theme, setTheme } = useThemeStore();
+  const location = useLocation();
+  const themeRef = useRef<HTMLDivElement>(null);
+
+  // Close theme picker on outside click
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (themeRef.current && !themeRef.current.contains(e.target as Node)) {
+        setThemeOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
 
   return (
-    <header className="ans-bg-Gray-800 dark:ans-bg-Gray-900 ans-text-White ans-p-4 ans-sticky ans-top-0 ans-w-full ans-shadow-md ans-z-50">
+    <header className="ans-bg-th-header/90 ans-backdrop-blur-sm ans-text-White ans-p-4 ans-sticky ans-top-0 ans-w-full ans-shadow-md ans-z-50">
       <div className="ans-flex ans-justify-between ans-items-center">
-        {/* Logo / Title */}
-        <h1 className="ans-text-2 ans-font-inter-3">My Portfolio</h1>
+        <h1 className="ans-text-2 ans-font-inter-3 retro-glow">My Portfolio</h1>
 
         {/* Desktop Navigation */}
         <nav className="ans-hidden sm:ans-flex ans-items-center ans-gap-6">
@@ -21,7 +33,11 @@ export default function Header() {
               <li key={path}>
                 <Link
                   to={path}
-                  className="ans-text-White dark:ans-text-Gray-300 hover:ans-text-Gray-300 dark:hover:ans-text-Gray-400"
+                  className={`ans-pb-1 ans-transition-all ans-duration-200 ${
+                    location.pathname === path
+                      ? "ans-text-th-accent ans-border-b-2 ans-border-th-accent"
+                      : "ans-text-White hover:ans-text-th-accent"
+                  }`}
                 >
                   {name}
                 </Link>
@@ -29,44 +45,123 @@ export default function Header() {
             ))}
           </ul>
 
-          {/* Dark Mode Toggle */}
-          {/* <button
-            onClick={toggleTheme}
-            className="ans-text-2 ans-ml-4 ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
-          >
-            {isDarkMode ? (
-              <FaSun className="ans-text-Warning-300" />
-            ) : (
-              <FaMoon className="ans-text-Gray-300" />
+          {/* Theme Picker */}
+          <div ref={themeRef} className="ans-relative ans-ml-4">
+            <button
+              onClick={() => setThemeOpen(!themeOpen)}
+              className="ans-flex ans-items-center ans-gap-2 ans-bg-White/10 ans-px-3 ans-py-1.5 ans-rounded-lg hover:ans-bg-White/20 ans-transition-colors ans-duration-200"
+            >
+              <span
+                className="ans-w-4 ans-h-4 ans-rounded-full ans-border-2 ans-border-White/50"
+                style={{ backgroundColor: THEMES.find((t) => t.id === theme)?.color }}
+              />
+              <span className="ans-text-xs">{THEMES.find((t) => t.id === theme)?.label}</span>
+            </button>
+
+            {themeOpen && (
+              <div className="ans-absolute ans-right-0 ans-mt-2 ans-bg-th-surface ans-rounded-lg ans-shadow-lg ans-border ans-border-th-border ans-py-2 ans-min-w-[140px] ans-z-50 ans-animate-fade-in">
+                {THEMES.map((t) => (
+                  <button
+                    key={t.id}
+                    onClick={() => {
+                      setTheme(t.id);
+                      setThemeOpen(false);
+                    }}
+                    className={`ans-flex ans-items-center ans-gap-3 ans-w-full ans-px-4 ans-py-2 ans-text-xs ans-transition-colors ans-duration-150 ${
+                      theme === t.id
+                        ? "ans-bg-th-accent/20 ans-text-th-accent"
+                        : "ans-text-th-fg hover:ans-bg-th-muted"
+                    }`}
+                  >
+                    <span
+                      className="ans-w-4 ans-h-4 ans-rounded-full ans-border-2 ans-border-th-border ans-shrink-0"
+                      style={{ backgroundColor: t.color }}
+                    />
+                    {t.label}
+                  </button>
+                ))}
+              </div>
             )}
-          </button> */}
+          </div>
         </nav>
 
         {/* Mobile Menu Icon */}
-        <button
-          className="sm:ans-hidden ans-flex ans-flex-col ans-space-y-1 focus:ans-outline-none"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle navigation menu"
-        >
-          <span className="ans-w-6 ans-h-1 ans-bg-White dark:ans-bg-Gray-300 ans-transition-transform"></span>
-          <span className="ans-w-6 ans-h-1 ans-bg-White dark:ans-bg-Gray-300 ans-transition-transform"></span>
-          <span className="ans-w-6 ans-h-1 ans-bg-White dark:ans-bg-Gray-300 ans-transition-transform"></span>
-        </button>
+        <div className="sm:ans-hidden ans-flex ans-items-center ans-gap-3">
+          {/* Mobile theme picker */}
+          <div ref={undefined} className="ans-relative">
+            <button
+              onClick={() => setThemeOpen(!themeOpen)}
+              className="ans-p-2 ans-rounded-lg ans-bg-White/10"
+            >
+              <span
+                className="ans-block ans-w-4 ans-h-4 ans-rounded-full ans-border-2 ans-border-White/50"
+                style={{ backgroundColor: THEMES.find((t) => t.id === theme)?.color }}
+              />
+            </button>
+            {themeOpen && (
+              <div className="ans-absolute ans-right-0 ans-mt-2 ans-bg-th-surface ans-rounded-lg ans-shadow-lg ans-border ans-border-th-border ans-py-2 ans-min-w-[140px] ans-z-50 ans-animate-fade-in">
+                {THEMES.map((t) => (
+                  <button
+                    key={t.id}
+                    onClick={() => {
+                      setTheme(t.id);
+                      setThemeOpen(false);
+                    }}
+                    className={`ans-flex ans-items-center ans-gap-3 ans-w-full ans-px-4 ans-py-2 ans-text-xs ans-transition-colors ${
+                      theme === t.id
+                        ? "ans-bg-th-accent/20 ans-text-th-accent"
+                        : "ans-text-th-fg hover:ans-bg-th-muted"
+                    }`}
+                  >
+                    <span
+                      className="ans-w-4 ans-h-4 ans-rounded-full ans-border-2 ans-border-th-border ans-shrink-0"
+                      style={{ backgroundColor: t.color }}
+                    />
+                    {t.label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Hamburger */}
+          <button
+            className="ans-flex ans-flex-col ans-justify-center ans-items-center ans-w-8 ans-h-8 ans-space-y-1.5 focus:ans-outline-none"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle navigation menu"
+          >
+            <span
+              className={`ans-block ans-w-6 ans-h-0.5 ans-bg-White ans-transition-all ans-duration-300 ${
+                menuOpen ? "ans-rotate-45 ans-translate-y-2" : ""
+              }`}
+            />
+            <span
+              className={`ans-block ans-w-6 ans-h-0.5 ans-bg-White ans-transition-all ans-duration-300 ${
+                menuOpen ? "ans-opacity-0" : ""
+              }`}
+            />
+            <span
+              className={`ans-block ans-w-6 ans-h-0.5 ans-bg-White ans-transition-all ans-duration-300 ${
+                menuOpen ? "-ans-rotate-45 -ans-translate-y-2" : ""
+              }`}
+            />
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`sm:ans-hidden ans-fixed ans-inset-0 ans-bg-Gray-300 ans-bg-opacity-50 ans-transition-opacity ${
+        className={`sm:ans-hidden ans-fixed ans-inset-0 ans-bg-th-header/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 ${
           menuOpen
             ? "ans-opacity-100 ans-pointer-events-auto"
             : "ans-opacity-0 ans-pointer-events-none"
         }`}
         onClick={() => setMenuOpen(false)}
-      ></div>
+      />
 
       {/* Mobile Navigation Menu */}
       <nav
-        className={`sm:ans-hidden ans-fixed ans-top-0 ans-right-0 ans-h-full ans-w-64 ans-bg-Gray-900 dark:ans-bg-Gray-800 ans-shadow-lg ans-transform ans-transition-transform ${
+        className={`sm:ans-hidden ans-fixed ans-top-0 ans-right-0 ans-h-full ans-w-64 ans-bg-th-header ans-shadow-lg ans-transform ans-transition-transform ans-duration-300 ${
           menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
         }`}
       >
@@ -75,7 +170,11 @@ export default function Header() {
             <li key={path}>
               <Link
                 to={path}
-                className="ans-text-White dark:ans-text-Gray-300 hover:ans-text-Gray-300 dark:hover:ans-text-Gray-400"
+                className={`ans-pb-1 ans-transition-all ans-duration-200 ${
+                  location.pathname === path
+                    ? "ans-text-th-accent ans-border-b-2 ans-border-th-accent"
+                    : "ans-text-White hover:ans-text-th-accent"
+                }`}
                 onClick={() => setMenuOpen(false)}
               >
                 {name}
@@ -83,18 +182,6 @@ export default function Header() {
             </li>
           ))}
         </ul>
-
-        {/* Dark Mode Toggle for Mobile */}
-        {/* <button
-          onClick={toggleTheme}
-          className="ans-mt-6 ans-ml-6 ans-text-2 ans-bg-Gray-700 dark:ans-bg-Gray-800 ans-p-2 ans-rounded-full ans-shadow-md"
-        >
-          {isDarkMode ? (
-            <FaSun className="ans-text-Yellow-400" />
-          ) : (
-            <FaMoon className="ans-text-Gray-300" />
-          )}
-        </button> */}
       </nav>
     </header>
   );

@@ -3,16 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-// Ensure default mode is light
+// Apply saved theme on initial load (before React renders)
+const savedTheme = localStorage.getItem("theme") || "light";
 if (!localStorage.getItem("theme")) {
   localStorage.setItem("theme", "light");
 }
 
-const isDarkMode = localStorage.getItem("theme") === "dark";
-if (isDarkMode) {
-  document.documentElement.classList.add("dark");
-} else {
-  document.documentElement.classList.remove("dark");
+const html = document.documentElement;
+if (savedTheme === "dark") {
+  html.classList.add("dark");
+} else if (savedTheme !== "light") {
+  html.setAttribute("data-theme", savedTheme);
 }
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
