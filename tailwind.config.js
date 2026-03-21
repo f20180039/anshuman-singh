@@ -181,7 +181,7 @@ const colors = {
 
 module.exports = {
   prefix: "ans-",
-  darkMode: "media",
+  // darkMode not needed — using CSS custom properties for theming
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   variants: {
     scale: ["responsive", "hover", "focus", "group-hover"],
@@ -300,6 +300,25 @@ module.exports = {
       mario: ['"Press Start 2P"', "sans-serif"],
     },
     extend: {
+      colors: {
+        th: {
+          bg: "rgb(var(--th-bg) / <alpha-value>)",
+          fg: "rgb(var(--th-fg) / <alpha-value>)",
+          surface: "rgb(var(--th-surface) / <alpha-value>)",
+          "surface-alt": "rgb(var(--th-surface-alt) / <alpha-value>)",
+          muted: "rgb(var(--th-muted) / <alpha-value>)",
+          "muted-fg": "rgb(var(--th-muted-fg) / <alpha-value>)",
+          "secondary-fg": "rgb(var(--th-secondary-fg) / <alpha-value>)",
+          accent: "rgb(var(--th-accent) / <alpha-value>)",
+          "accent-hover": "rgb(var(--th-accent-hover) / <alpha-value>)",
+          "accent-subtle": "rgb(var(--th-accent-subtle) / <alpha-value>)",
+          border: "rgb(var(--th-border) / <alpha-value>)",
+          header: "rgb(var(--th-header) / <alpha-value>)",
+          success: "rgb(var(--th-success) / <alpha-value>)",
+          error: "rgb(var(--th-error) / <alpha-value>)",
+          warning: "rgb(var(--th-warning) / <alpha-value>)",
+        },
+      },
       gridTemplateColumns: {
         headertemplate: "130px 1fr",
         templateGrid: "minmax(240px,2fr) 5fr 1fr",
@@ -363,10 +382,52 @@ module.exports = {
           "0%": { transform: "translateY(100%)" },
           "100%": { transform: "translateY(0)" },
         },
+        "fade-in-up": {
+          "0%": { opacity: "0", transform: "translateY(24px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "fade-in-left": {
+          "0%": { opacity: "0", transform: "translateX(-24px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "fade-in-right": {
+          "0%": { opacity: "0", transform: "translateX(24px)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "scale-bounce": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.05)" },
+        },
+        "pixel-blink": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0" },
+        },
+        "dice-shake": {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "25%": { transform: "rotate(-12deg)" },
+          "50%": { transform: "rotate(12deg)" },
+          "75%": { transform: "rotate(-6deg)" },
+        },
+        "victory-pulse": {
+          "0%, 100%": { transform: "scale(1)", opacity: "1" },
+          "50%": { transform: "scale(1.15)", opacity: "0.8" },
+        },
       },
       animation: {
         "rotate-circle": "rotate-circle 5s linear infinite",
         "slide-up": "slide-up 1s ease-in-out forwards",
+        "fade-in-up": "fade-in-up 0.6s ease-out forwards",
+        "fade-in-left": "fade-in-left 0.6s ease-out forwards",
+        "fade-in-right": "fade-in-right 0.6s ease-out forwards",
+        "fade-in": "fade-in 0.5s ease-out forwards",
+        "scale-bounce": "scale-bounce 0.3s ease-in-out",
+        "pixel-blink": "pixel-blink 1s step-end infinite",
+        "dice-shake": "dice-shake 0.4s ease-in-out",
+        "victory-pulse": "victory-pulse 1.5s ease-in-out infinite",
       },
     },
   },

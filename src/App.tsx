@@ -16,10 +16,18 @@ const PigGame = lazy(() => import("./modules/Pig-Game/PigGame"));
 const App = () => {
   return (
     <Router basename="/my-portfolio">
-      <div className="ans-flex ans-flex-col ans-min-h-screen ans-bg-White dark:ans-bg-Gray-900 ans-text-Gray-900 dark:ans-text-White">
+      <div className="ans-flex ans-flex-col ans-min-h-screen ans-bg-th-bg ans-text-th-fg">
         <Header />
-        <main className="ans-flex-1 ans-p-4 ans-bg-Gray-200 dark:ans-bg-Gray-800">
-          <Suspense fallback={<div>Loading</div>}>
+        <main className="ans-flex-1 ans-p-4 ans-bg-th-muted">
+          <Suspense
+            fallback={
+              <div className="ans-flex ans-items-center ans-justify-center ans-min-h-[60vh]">
+                <p className="ans-text-3 ans-text-th-accent ans-animate-pixel-blink retro-glow">
+                  LOADING...
+                </p>
+              </div>
+            }
+          >
             <Routes>
               <Route path={EAPP_ROUTES.home} element={<Home />} />
               <Route path={EAPP_ROUTES.about} element={<About />} />
