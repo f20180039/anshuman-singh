@@ -1,11 +1,22 @@
-<!-- public/404.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page Not Found</title>
-    <meta http-equiv="refresh" content="0; url=/my-portfolio/" />
+    <script>
+      // SPA redirect for GitHub Pages
+      // Encodes the current path into a query parameter so index.html can restore it
+      var pathSegmentsToKeep = 1; // keeps "/my-portfolio" prefix
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
   </head>
   <body>
     <p>If you are not redirected, <a href="/my-portfolio/">click here</a>.</p>
