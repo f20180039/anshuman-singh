@@ -113,7 +113,7 @@ const GuessNumber = () => {
 
       {/* Mystery number box */}
       <div
-        className={`ans-w-fit ans-px-8 ans-py-5 ans-text-6 ans-bg-th-surface ans-text-center ans-font-inter-3 ans-rounded-xl ans-border-4 ans-cursor-pointer ans-transition-all ans-duration-300 ${
+        className={`ans-w-fit ans-px-8 ans-py-5 ans-text-5 sm:ans-text-6 ans-bg-th-surface ans-text-center ans-font-inter-3 ans-rounded-xl ans-border-4 ans-cursor-pointer ans-transition-all ans-duration-300 ${
           hasWon
             ? "ans-border-th-success ans-text-th-success retro-glow ans-animate-scale-bounce"
             : gameOver
@@ -226,7 +226,7 @@ const GuessNumber = () => {
       {/* Game Over overlay */}
       {gameOver && !hasWon && (
         <div className="ans-fixed ans-inset-0 ans-bg-th-bg/90 ans-flex ans-flex-col ans-items-center ans-justify-center ans-z-50 ans-animate-fade-in">
-          <h2 className="ans-text-6 ans-font-inter-3 ans-text-th-error ans-mb-4 retro-glow">
+          <h2 className="ans-text-5 sm:ans-text-6 ans-font-inter-3 ans-text-th-error ans-mb-4 retro-glow">
             GAME OVER
           </h2>
           <p className="ans-text-3 ans-text-th-muted-fg ans-mb-2">

@@ -123,7 +123,7 @@ const PigGame: React.FC = () => {
   if (step === "setup") {
     return (
       <div className="ans-flex ans-flex-col ans-items-center ans-justify-center ans-p-8 ans-bg-th-surface-alt ans-min-h-screen">
-        <div className="ans-bg-th-bg ans-rounded-xl ans-shadow-lg ans-p-8 ans-max-w-md ans-w-full ans-space-y-6">
+        <div className="ans-bg-th-bg ans-rounded-xl ans-shadow-lg ans-p-4 sm:ans-p-8 ans-max-w-md ans-w-full ans-space-y-6">
           <h1 className="ans-text-2 ans-font-inter-3 ans-text-th-accent ans-text-center retro-glow">
             Pig Dice Game
           </h1>
@@ -186,7 +186,7 @@ const PigGame: React.FC = () => {
         </div>
       )}
 
-      <div className="ans-flex ans-items-center ans-gap-8 ans-mb-8">
+      <div className="ans-flex ans-items-center ans-gap-4 sm:ans-gap-8 ans-mb-8">
         <div className="ans-flex ans-flex-col ans-items-center ans-gap-2">
           <span className="ans-text-xs ans-text-th-muted-fg ans-uppercase">Dice</span>
           <DiceFace value={diceRoll} shaking={diceShaking} />

@@ -70,7 +70,7 @@ export default function Contact() {
         </h1>
       </div>
 
-      <div className="ans-flex ans-flex-col sm:ans-flex-row ans-justify-center ans-gap-8 ans-mt-10 ans-px-6">
+      <div className="ans-flex ans-flex-col sm:ans-flex-row ans-justify-center ans-gap-4 sm:ans-gap-8 ans-mt-10 ans-px-6">
         <ContactItem
           icon={<MdEmail className="ans-text-th-error" />}
           altText="Email"
