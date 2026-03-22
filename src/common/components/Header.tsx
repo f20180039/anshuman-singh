@@ -53,9 +53,13 @@ export default function Header() {
             >
               <span
                 className="ans-w-4 ans-h-4 ans-rounded-full ans-border-2 ans-border-White/50"
-                style={{ backgroundColor: THEMES.find((t) => t.id === theme)?.color }}
+                style={{
+                  backgroundColor: THEMES.find((t) => t.id === theme)?.color,
+                }}
               />
-              <span className="ans-text-xs">{THEMES.find((t) => t.id === theme)?.label}</span>
+              <span className="ans-text-xs">
+                {THEMES.find((t) => t.id === theme)?.label}
+              </span>
             </button>
 
             {themeOpen && (
@@ -88,14 +92,16 @@ export default function Header() {
         {/* Mobile Menu Icon */}
         <div className="sm:ans-hidden ans-flex ans-items-center ans-gap-3">
           {/* Mobile theme picker */}
-          <div ref={undefined} className="ans-relative">
+          <div ref={themeRef} className="ans-relative">
             <button
               onClick={() => setThemeOpen(!themeOpen)}
               className="ans-p-2 ans-rounded-lg ans-bg-White/10"
             >
               <span
                 className="ans-block ans-w-4 ans-h-4 ans-rounded-full ans-border-2 ans-border-White/50"
-                style={{ backgroundColor: THEMES.find((t) => t.id === theme)?.color }}
+                style={{
+                  backgroundColor: THEMES.find((t) => t.id === theme)?.color,
+                }}
               />
             </button>
             {themeOpen && (
@@ -151,7 +157,7 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`sm:ans-hidden ans-fixed ans-inset-0 ans-bg-th-header/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 ${
+        className={`sm:ans-hidden ans-fixed ans-inset-0 ans-z-[55] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 ${
           menuOpen
             ? "ans-opacity-100 ans-pointer-events-auto"
             : "ans-opacity-0 ans-pointer-events-none"
@@ -161,19 +167,19 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       <nav
-        className={`sm:ans-hidden ans-fixed ans-top-0 ans-right-0 ans-h-full ans-w-64 ans-bg-th-header ans-shadow-lg ans-transform ans-transition-transform ans-duration-300 ${
+        className={`sm:ans-hidden ans-fixed ans-top-0 ans-right-0 ans-h-full ans-w-64 ans-z-[60] ans-bg-th-surface ans-shadow-lg ans-border-l ans-border-th-border ans-transform ans-transition-transform ans-duration-300 ${
           menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
         }`}
       >
-        <ul className="ans-flex ans-flex-col ans-items-start ans-py-6 ans-pl-6 ans-space-y-4">
+        <ul className="ans-flex ans-flex-col ans-py-2 ans-bg-th-bg">
           {NAV_LINKS.map(({ name, path }) => (
             <li key={path}>
               <Link
                 to={path}
-                className={`ans-pb-1 ans-transition-all ans-duration-200 ${
+                className={`ans-flex ans-w-full ans-px-4 ans-py-2 ans-transition-colors ans-duration-150 ${
                   location.pathname === path
-                    ? "ans-text-th-accent ans-border-b-2 ans-border-th-accent"
-                    : "ans-text-White hover:ans-text-th-accent"
+                    ? "ans-bg-th-accent/20 ans-text-th-accent"
+                    : "ans-text-th-fg hover:ans-bg-th-muted"
                 }`}
                 onClick={() => setMenuOpen(false)}
               >

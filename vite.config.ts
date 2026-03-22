@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  base: "/my-portfolio/",
+  base: "/anshuman-singh/",
   plugins: [react(), tsconfigPaths()],
 });

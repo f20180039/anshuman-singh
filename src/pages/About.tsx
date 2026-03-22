@@ -59,7 +59,7 @@ const AboutMe = () => (
     </p>
 
     {/* Stats Row */}
-    <div className="ans-flex ans-flex-wrap ans-gap-6 ans-mt-6">
+    <div className="ans-flex ans-flex-wrap ans-gap-3 sm:ans-gap-6 ans-mt-6">
       {[
         { value: `${getYearsOfExperience()}+`, label: "Years Experience" },
         { value: "React", label: "Primary Stack" },

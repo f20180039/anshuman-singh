@@ -188,21 +188,10 @@ module.exports = {
   },
   theme: {
     screens: {
-      xxs: "360px",
-      // => @media (min-width: 360px) { ... }
-      xs: "748px",
-      // => @media (min-width: 748px) { ... }
-      sm: "992px",
-      // => @media (min-width: 640px) { ... }
-
-      md: "1250px",
-      // => @media (min-width: 768px) { ... }
-
-      lg: "1318px",
-      // => @media (min-width: 1024px) { ... }
-
-      xl: "1502px",
-      // => @media (min-width: 1280px) { ... }
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
     colors: {
       ...colors,
