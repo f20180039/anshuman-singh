@@ -15,7 +15,7 @@ const PigGame = lazy(() => import("./modules/Pig-Game/PigGame"));
 
 const App = () => {
   return (
-    <Router basename="/my-portfolio">
+    <Router basename="/anshuman-singh">
       <div className="ans-flex ans-flex-col ans-min-h-screen ans-bg-th-bg ans-text-th-fg">
         <Header />
         <main className="ans-flex-1 ans-p-4 ans-bg-th-muted">

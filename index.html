@@ -19,8 +19,17 @@
       content="A portfolio site built with React and TypeScript"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <base href="/my-portfolio/" />
+    <base href="/anshuman-singh/" />
     <title>Vite + React + TS</title>
+    <!-- Redirect old /my-portfolio/ URLs to /anshuman-singh/ -->
+    <script>
+      if (window.location.pathname.indexOf('/my-portfolio') === 0) {
+        window.location.replace(
+          window.location.pathname.replace('/my-portfolio', '/anshuman-singh') +
+          window.location.search + window.location.hash
+        );
+      }
+    </script>
     <!-- SPA redirect handler: restores the path encoded by 404.html -->
     <script>
       (function(l) {

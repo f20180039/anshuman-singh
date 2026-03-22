@@ -26,7 +26,7 @@ const Home = () => {
           <img
             src={Profile}
             alt="Anshuman Singh"
-            className="ans-w-48 ans-h-48 ans-rounded-full ans-shadow-lg ans-object-cover ans-border-4 ans-border-th-accent/30 hover:ans-scale-105 ans-transition-transform ans-duration-300"
+            className="ans-w-32 ans-h-32 sm:ans-w-48 sm:ans-h-48 ans-rounded-full ans-shadow-lg ans-object-cover ans-border-4 ans-border-th-accent/30 hover:ans-scale-105 ans-transition-transform ans-duration-300"
           />
           <div className="ans-absolute ans-inset-0 ans-rounded-full ans-border-4 ans-border-th-accent/20 ans-animate-pulse" />
         </div>
