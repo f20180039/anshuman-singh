@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="ans-mt-auto ans-bg-th-header ans-text-White ans-py-8 ans-text-center ans-border-t ans-border-th-border/30">
       <nav>
-        <ul className="ans-flex ans-justify-center ans-gap-6 ans-mb-6">
+        <ul className="ans-flex ans-flex-wrap ans-justify-center ans-gap-3 sm:ans-gap-6 ans-mb-6">
           {NAV_LINKS.map(({ name, path }) => (
             <li key={path}>
               <Link

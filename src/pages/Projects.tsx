@@ -53,7 +53,7 @@ const ProjectCard = ({
   return (
     <div
       ref={ref}
-      className={`ans-flex ans-flex-col ans-gap-medium ans-bg-th-surface ans-rounded-lg ans-shadow-md ans-p-6 ans-w-80 hover:ans-shadow-xl hover:ans-scale-[1.03] ans-transition-all ans-duration-300 ans-opacity-0 stagger-${Math.min(index + 1, 5)} ${
+      className={`ans-flex ans-flex-col ans-gap-medium ans-bg-th-surface ans-rounded-lg ans-shadow-md ans-p-6 ans-w-full sm:ans-w-80 hover:ans-shadow-xl hover:ans-scale-[1.03] ans-transition-all ans-duration-300 ans-opacity-0 stagger-${Math.min(index + 1, 5)} ${
         isInView ? "ans-animate-fade-in-up" : ""
       }`}
     >
@@ -142,7 +142,7 @@ export default function Projects() {
       >
         Browse My Recent Projects
       </p>
-      <div className="ans-flex ans-flex-wrap ans-justify-center ans-gap-8">
+      <div className="ans-flex ans-flex-wrap ans-justify-center ans-gap-4 sm:ans-gap-8 ans-px-4">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
