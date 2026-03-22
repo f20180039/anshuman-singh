@@ -9,11 +9,15 @@ export default function Header() {
   const { theme, setTheme } = useThemeStore();
   const location = useLocation();
   const themeRef = useRef<HTMLDivElement>(null);
+  const mobileThemeRef = useRef<HTMLDivElement>(null);
 
   // Close theme picker on outside click
   useEffect(() => {
     const handler = (e: MouseEvent) => {
-      if (themeRef.current && !themeRef.current.contains(e.target as Node)) {
+      const target = e.target as Node;
+      const insideDesktop = themeRef.current?.contains(target);
+      const insideMobile = mobileThemeRef.current?.contains(target);
+      if (!insideDesktop && !insideMobile) {
         setThemeOpen(false);
       }
     };
@@ -92,7 +96,7 @@ export default function Header() {
         {/* Mobile Menu Icon */}
         <div className="sm:ans-hidden ans-flex ans-items-center ans-gap-3">
           {/* Mobile theme picker */}
-          <div ref={themeRef} className="ans-relative">
+          <div ref={mobileThemeRef} className="ans-relative">
             <button
               onClick={() => setThemeOpen(!themeOpen)}
               className="ans-p-2 ans-rounded-lg ans-bg-White/10"
