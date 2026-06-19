@@ -32,10 +32,15 @@ function applyTheme(theme: Theme) {
   localStorage.setItem("theme", theme);
 }
 
-export const useThemeStore = create<ThemeState>((set) => ({
-  theme: (localStorage.getItem("theme") as Theme) || "light",
-  setTheme: (theme: Theme) => {
-    applyTheme(theme);
-    set({ theme });
-  },
-}));
+export const useThemeStore = create<ThemeState>((set) => {
+  const initialTheme = (localStorage.getItem("theme") as Theme) || "dark";
+  applyTheme(initialTheme); // Apply theme on init
+
+  return {
+    theme: initialTheme,
+    setTheme: (theme: Theme) => {
+      applyTheme(theme);
+      set({ theme });
+    },
+  };
+});

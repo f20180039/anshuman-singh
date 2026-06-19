@@ -1,33 +1,47 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import {
+  SiReact,
+  SiTypescript,
+  SiTailwindcss,
+  SiJavascript,
+} from "react-icons/si";
 import SnapgramImage from "../assets/snapgram.png";
 import GuessGame from "../assets/GuessGame.png";
 import { PROJECT_ROUTES } from "../common/constants";
 import { useNavigate } from "react-router-dom";
-import { useInView } from "../common/utils";
+import { motion, useMotionValue, useTransform } from "framer-motion";
+import { useState } from "react";
+import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 
 const projects = [
   {
     title: "Snapgram",
-    description: "A full-featured Instagram clone with social features, image sharing, and real-time interactions.",
+    description:
+      "A full-featured Instagram clone with social features, image sharing, and real-time interactions.",
     image: SnapgramImage,
     github: "https://github.com/f20180039/snapgram",
     liveDemo: "https://stalkergram.netlify.app",
+    tech: [SiReact, SiTypescript, SiTailwindcss],
   },
   {
     title: "Guess Game",
-    description: "An interactive number guessing game with score tracking and adaptive difficulty.",
+    description:
+      "An interactive number guessing game with score tracking and adaptive difficulty.",
     image: GuessGame,
     github: "",
     liveDemo: PROJECT_ROUTES.guessGame,
     isInternal: true,
+    tech: [SiJavascript],
   },
   {
     title: "Pig Game",
-    description: "A multiplayer dice game supporting 2-6 players with strategic score banking mechanics.",
+    description:
+      "A multiplayer dice game supporting 2-6 players with strategic score banking mechanics.",
     image: "",
     github: "",
     liveDemo: PROJECT_ROUTES.pigGame,
     isInternal: true,
+    tech: [SiJavascript],
   },
   {
     title: "Coming Soon",
@@ -35,6 +49,7 @@ const projects = [
     image: "",
     github: "#",
     liveDemo: "#",
+    tech: [],
   },
 ];
 
@@ -47,23 +62,59 @@ const ProjectCard = ({
   index: number;
   onLiveDemo: () => void;
 }) => {
-  const { ref, isInView } = useInView();
   const isComingSoon = project.title === "Coming Soon";
+  const [isHovered, setIsHovered] = useState(false);
+  const mouseX = useMotionValue(0);
+  const mouseY = useMotionValue(0);
+
+  const rotateX = useTransform(mouseY, [-100, 100], [5, -5]);
+  const rotateY = useTransform(mouseX, [-100, 100], [-5, 5]);
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    mouseX.set(e.clientX - centerX);
+    mouseY.set(e.clientY - centerY);
+  };
 
   return (
-    <div
-      ref={ref}
-      className={`ans-flex ans-flex-col ans-gap-medium ans-bg-th-surface ans-rounded-lg ans-shadow-md ans-p-6 ans-w-full sm:ans-w-80 hover:ans-shadow-xl hover:ans-scale-[1.03] ans-transition-all ans-duration-300 ans-opacity-0 stagger-${Math.min(index + 1, 5)} ${
-        isInView ? "ans-animate-fade-in-up" : ""
-      }`}
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+      onMouseMove={handleMouseMove}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => {
+        setIsHovered(false);
+        mouseX.set(0);
+        mouseY.set(0);
+      }}
+      style={{
+        rotateX: isHovered ? rotateX : 0,
+        rotateY: isHovered ? rotateY : 0,
+        transformStyle: "preserve-3d",
+      }}
+      whileHover={{ scale: 1.05 }}
+      className="ans-flex ans-flex-col ans-gap-medium ans-bg-th-surface ans-rounded-lg ans-shadow-md ans-p-6 ans-w-full sm:ans-w-80 ans-transition-all ans-duration-300 ans-relative ans-overflow-hidden"
     >
+      {/* Gradient overlay on hover */}
+      <motion.div
+        className="ans-absolute ans-inset-0 ans-bg-gradient-to-br ans-from-th-accent/10 ans-to-transparent ans-pointer-events-none"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: isHovered ? 1 : 0 }}
+        transition={{ duration: 0.3 }}
+      />
+
       {project.image ? (
-        <div className="ans-overflow-hidden ans-rounded">
-          <img
+        <div className="ans-overflow-hidden ans-rounded ans-relative">
+          <motion.img
             src={project.image}
             alt={project.title}
-            className="ans-w-full ans-h-48 ans-object-scale-down hover:ans-scale-110 ans-transition-transform ans-duration-500"
+            className="ans-w-full ans-h-48 ans-object-scale-down"
             loading="lazy"
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.4 }}
           />
         </div>
       ) : (
@@ -83,40 +134,59 @@ const ProjectCard = ({
       <p className="ans-text-th-muted-fg ans-text-xs ans-leading-relaxed">
         {project.description}
       </p>
+
+      {/* Tech Stack Icons */}
+      {project.tech.length > 0 && (
+        <div className="ans-flex ans-gap-3 ans-items-center">
+          {project.tech.map((Icon, i) => (
+            <motion.div
+              key={i}
+              className="ans-text-th-accent ans-text-4"
+              whileHover={{ scale: 1.2, rotate: 360 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <Icon />
+            </motion.div>
+          ))}
+        </div>
+      )}
       <div className="ans-flex ans-gap-4 ans-justify-center ans-mt-auto">
         {!project.isInternal &&
           (project.github && project.github !== "#" ? (
-            <a
+            <motion.a
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="ans-flex ans-items-center ans-gap-2 ans-bg-th-accent ans-text-White ans-px-4 ans-py-2 ans-rounded-lg hover:ans-bg-th-accent-hover hover:ans-scale-105 active:ans-scale-95 ans-transition-all ans-duration-200"
+              className="ans-flex ans-items-center ans-gap-2 ans-bg-th-accent ans-text-White ans-px-4 ans-py-2 ans-rounded-lg"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               <FaGithub />
               GitHub
-            </a>
+            </motion.a>
           ) : isComingSoon ? (
             <span className="ans-bg-th-muted ans-text-th-muted-fg ans-px-4 ans-py-2 ans-rounded-lg ans-cursor-not-allowed">
               In Progress
             </span>
           ) : null)}
         {project.liveDemo !== "#" && (
-          <button
+          <motion.button
             onClick={onLiveDemo}
-            className="ans-flex ans-items-center ans-gap-2 ans-bg-th-success ans-text-White ans-px-4 ans-py-2 ans-rounded-lg hover:ans-opacity-90 hover:ans-scale-105 active:ans-scale-95 ans-transition-all ans-duration-200"
+            className="ans-flex ans-items-center ans-gap-2 ans-bg-th-success ans-text-White ans-px-4 ans-py-2 ans-rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
             <FaExternalLinkAlt />
             Live Demo
-          </button>
+          </motion.button>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
 export default function Projects() {
   const navigate = useNavigate();
-  const { ref: titleRef, isInView: titleVisible } = useInView();
 
   const handleLiveDemoClick = (project: {
     liveDemo: string;
@@ -130,28 +200,30 @@ export default function Projects() {
   };
 
   return (
-    <section
-      id="projects"
-      className="ans-flex ans-flex-col ans-gap-xlarge ans-py-xlarge ans-text-center ans-bg-th-bg ans-text-th-fg"
-    >
-      <p
-        ref={titleRef}
-        className={`ans-text-3 ans-font-inter-2 ans-text-th-secondary-fg ans-opacity-0 ${
-          titleVisible ? "ans-animate-fade-in-up" : ""
-        }`}
+    <BackgroundManager showGrid showGradient gradientIntensity="medium">
+      <section
+        id="projects"
+        className="ans-flex ans-flex-col ans-gap-xlarge ans-py-xlarge ans-text-center ans-text-th-fg"
       >
-        Browse My Recent Projects
-      </p>
-      <div className="ans-flex ans-flex-wrap ans-justify-center ans-gap-4 sm:ans-gap-8 ans-px-4">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            project={project}
-            index={index}
-            onLiveDemo={() => handleLiveDemoClick(project)}
-          />
-        ))}
-      </div>
-    </section>
+        <motion.p
+          className="ans-text-3 ans-font-inter-2 ans-text-th-secondary-fg"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          Browse My Recent Projects
+        </motion.p>
+        <div className="ans-flex ans-flex-wrap ans-justify-center ans-gap-4 sm:ans-gap-8 ans-px-4">
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              project={project}
+              index={index}
+              onLiveDemo={() => handleLiveDemoClick(project)}
+            />
+          ))}
+        </div>
+      </section>
+    </BackgroundManager>
   );
 }

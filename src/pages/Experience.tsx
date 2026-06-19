@@ -1,4 +1,5 @@
 import { useInView } from "../common/utils";
+import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 
 interface ExperienceItem {
   title: string;
@@ -106,22 +107,24 @@ const Experience = () => {
   const { ref: titleRef, isInView: titleVisible } = useInView();
 
   return (
-    <section className="ans-container ans-mx-auto ans-px-6 ans-py-xxlarge ans-bg-th-bg ans-text-th-fg ans-max-w-3xl">
-      <h2
-        ref={titleRef}
-        className={`ans-text-5 ans-font-inter-2 ans-text-th-accent ans-mb-10 retro-glow ans-opacity-0 ${
-          titleVisible ? "ans-animate-fade-in-up" : ""
-        }`}
-      >
-        Work Experience
-      </h2>
+    <BackgroundManager showGrid showGradient gradientIntensity="medium">
+      <section className="ans-container ans-mx-auto ans-px-6 ans-py-xxlarge ans-text-th-fg ans-max-w-3xl">
+        <h2
+          ref={titleRef}
+          className={`ans-text-5 ans-font-inter-2 ans-text-th-accent ans-mb-10 retro-glow ans-opacity-0 ${
+            titleVisible ? "ans-animate-fade-in-up" : ""
+          }`}
+        >
+          Work Experience
+        </h2>
 
-      <div>
-        {experiences.map((exp, index) => (
-          <TimelineCard key={exp.company} experience={exp} index={index} />
-        ))}
-      </div>
-    </section>
+        <div>
+          {experiences.map((exp, index) => (
+            <TimelineCard key={exp.company} experience={exp} index={index} />
+          ))}
+        </div>
+      </section>
+    </BackgroundManager>
   );
 };
 
