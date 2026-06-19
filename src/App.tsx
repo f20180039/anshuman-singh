@@ -1,8 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState } from "react";
 import Header from "./common/components/Header";
 import Footer from "./common/components/Footer";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "./common/constants";
+import AIChatButton from "./features/ai-chat/AIChatButton";
+import AIChatWindow from "./features/ai-chat/AIChatWindow";
 
 // Lazy-loaded pages
 const Home = lazy(() => import("./pages/Home"));
@@ -14,6 +16,8 @@ const GuessNumber = lazy(() => import("./modules/Guess-Number/GuessNumber"));
 const PigGame = lazy(() => import("./modules/Pig-Game/PigGame"));
 
 const App = () => {
+  const [isChatOpen, setIsChatOpen] = useState(false);
+
   return (
     <Router basename="/anshuman-singh">
       <div className="ans-flex ans-flex-col ans-min-h-screen ans-bg-th-bg ans-text-th-fg">
@@ -43,6 +47,10 @@ const App = () => {
           </Suspense>
         </main>
         <Footer />
+
+        {/* AI Chat */}
+        <AIChatButton onClick={() => setIsChatOpen(true)} />
+        <AIChatWindow isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
       </div>
     </Router>
   );
