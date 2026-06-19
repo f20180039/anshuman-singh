@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView, getYearsOfExperience } from "../common/utils";
+import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 
 const skillCategories = [
   {
@@ -141,12 +142,14 @@ const Skills = () => (
 
 const About = () => {
   return (
-    <section className="ans-container ans-mx-auto ans-px-6 ans-py-xxlarge ans-bg-th-bg ans-text-th-fg ans-max-w-4xl">
-      <AboutMe />
-      <Education />
-      <Interests />
-      <Skills />
-    </section>
+    <BackgroundManager showGrid showGradient gradientIntensity="medium">
+      <section className="ans-container ans-mx-auto ans-px-6 ans-py-xxlarge ans-text-th-fg ans-max-w-4xl">
+        <AboutMe />
+        <Education />
+        <Interests />
+        <Skills />
+      </section>
+    </BackgroundManager>
   );
 };
 

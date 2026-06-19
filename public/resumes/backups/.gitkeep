@@ -1,0 +1,6 @@
+# Resume Backups Directory
+
+This directory stores timestamped backups of the resume.
+- Naming format: `AnshumanSingh-FE-YYYY-MM-DD-HH.pdf`
+- Maximum backups: 10 (oldest are automatically deleted)
+- Synced automatically from latex-resume-builder repo

@@ -3,6 +3,7 @@ import { FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { ReactNode } from "react";
 import { useInView } from "../common/utils";
+import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 
 interface ContactItemProps {
   icon: ReactNode;
@@ -54,49 +55,51 @@ export default function Contact() {
   const { ref: titleRef, isInView: titleVisible } = useInView();
 
   return (
-    <section
-      id="contact"
-      className="ans-py-12 ans-text-center ans-bg-th-bg ans-text-th-fg"
-    >
-      <div
-        ref={titleRef}
-        className={`ans-opacity-0 ${titleVisible ? "ans-animate-fade-in-up" : ""}`}
+    <BackgroundManager showGrid showGradient gradientIntensity="medium">
+      <section
+        id="contact"
+        className="ans-py-12 ans-text-center ans-text-th-fg ans-min-h-[70vh] ans-flex ans-flex-col ans-justify-center"
       >
-        <p className="ans-text-2 ans-font-inter-1 ans-text-th-muted-fg">
-          Get in Touch
-        </p>
-        <h1 className="ans-text-3 ans-font-inter-3 ans-text-th-accent ans-mt-2 retro-glow">
-          Let&apos;s Connect
-        </h1>
-      </div>
+        <div
+          ref={titleRef}
+          className={`ans-opacity-0 ${titleVisible ? "ans-animate-fade-in-up" : ""}`}
+        >
+          <p className="ans-text-2 ans-font-inter-1 ans-text-th-muted-fg">
+            Get in Touch
+          </p>
+          <h1 className="ans-text-3 ans-font-inter-3 ans-text-th-accent ans-mt-2 retro-glow">
+            Let&apos;s Connect
+          </h1>
+        </div>
 
-      <div className="ans-flex ans-flex-col sm:ans-flex-row ans-justify-center ans-gap-4 sm:ans-gap-8 ans-mt-10 ans-px-6">
-        <ContactItem
-          icon={<MdEmail className="ans-text-th-error" />}
-          altText="Email"
-          link={`mailto:${C_MY_MAIL}`}
-          displayText={C_MY_MAIL}
-          iconBg="ans-bg-th-error/10"
-          delay="stagger-1"
-        />
-        <ContactItem
-          icon={<FaPhoneAlt className="ans-text-th-success" />}
-          altText="Phone"
-          link={`tel:${C_MY_PHONE_NUMBER}`}
-          displayText={C_MY_PHONE_NUMBER}
-          iconBg="ans-bg-th-success/10"
-          delay="stagger-2"
-        />
-        <ContactItem
-          icon={<FaLinkedin className="ans-text-th-accent" />}
-          altText="LinkedIn"
-          link={C_LINKEDIN_URL}
-          displayText="anshuman-singh-4546b5275"
-          isExternal={true}
-          iconBg="ans-bg-th-accent/10"
-          delay="stagger-3"
-        />
-      </div>
-    </section>
+        <div className="ans-flex ans-flex-col sm:ans-flex-row ans-justify-center ans-gap-4 sm:ans-gap-8 ans-mt-10 ans-px-6">
+          <ContactItem
+            icon={<MdEmail className="ans-text-th-error" />}
+            altText="Email"
+            link={`mailto:${C_MY_MAIL}`}
+            displayText={C_MY_MAIL}
+            iconBg="ans-bg-th-error/10"
+            delay="stagger-1"
+          />
+          <ContactItem
+            icon={<FaPhoneAlt className="ans-text-th-success" />}
+            altText="Phone"
+            link={`tel:${C_MY_PHONE_NUMBER}`}
+            displayText={C_MY_PHONE_NUMBER}
+            iconBg="ans-bg-th-success/10"
+            delay="stagger-2"
+          />
+          <ContactItem
+            icon={<FaLinkedin className="ans-text-th-accent" />}
+            altText="LinkedIn"
+            link={C_LINKEDIN_URL}
+            displayText="anshuman-singh-4546b5275"
+            isExternal={true}
+            iconBg="ans-bg-th-accent/10"
+            delay="stagger-3"
+          />
+        </div>
+      </section>
+    </BackgroundManager>
   );
 }
