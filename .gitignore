@@ -23,10 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
-# Environment variables
+# Environment variables (keep .env.production out - it's safe to commit)
 .env
 .env.local
-.env.production
 server/.env
 server/node_modules
 
