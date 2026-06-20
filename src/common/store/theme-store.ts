@@ -1,14 +1,17 @@
 import { create } from "zustand";
 
-export type Theme = "light" | "dark" | "ocean" | "forest" | "sunset";
+export type Theme = "dark" | "light" | "matrix" | "cyberpunk";
 
 export const THEMES: { id: Theme; label: string; color: string }[] = [
-  { id: "light", label: "Light", color: "#ffffff" },
-  { id: "dark", label: "Dark", color: "#101828" },
-  { id: "ocean", label: "Ocean", color: "#0ea5e9" },
-  { id: "forest", label: "Forest", color: "#4ade80" },
-  { id: "sunset", label: "Sunset", color: "#fb923c" },
+  { id: "dark", label: "Dark", color: "#07111f" },
+  { id: "light", label: "Light", color: "#f8fbff" },
+  { id: "matrix", label: "Matrix", color: "#a3e635" },
+  { id: "cyberpunk", label: "Cyberpunk", color: "#f72585" },
 ];
+
+export function isTheme(value: string | null): value is Theme {
+  return THEMES.some((theme) => theme.id === value);
+}
 
 interface ThemeState {
   theme: Theme;
@@ -33,8 +36,10 @@ function applyTheme(theme: Theme) {
 }
 
 export const useThemeStore = create<ThemeState>((set) => {
-  const initialTheme = (localStorage.getItem("theme") as Theme) || "dark";
-  applyTheme(initialTheme); // Apply theme on init
+  const savedTheme = localStorage.getItem("theme") as Theme | null;
+  const initialTheme = isTheme(savedTheme) ? savedTheme : "dark";
+
+  applyTheme(initialTheme);
 
   return {
     theme: initialTheme,

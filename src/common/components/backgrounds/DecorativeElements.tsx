@@ -6,7 +6,7 @@ import { memo } from "react";
  */
 const DecorativeElements = memo(() => {
   return (
-    <div className="ans-absolute ans-inset-0 -ans-z-10 ans-pointer-events-none ans-overflow-hidden">
+    <div className="ans-absolute ans-inset-0 ans-z-0 ans-pointer-events-none ans-overflow-hidden">
       {/* Curved lines */}
       <svg
         className="ans-absolute ans-inset-0 ans-w-full ans-h-full"

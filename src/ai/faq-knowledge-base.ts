@@ -14,7 +14,7 @@ export interface FAQItem {
 export const FAQ_DATABASE: FAQItem[] = [
   {
     question: "What is your experience with React?",
-    answer: "I have 2.5+ years of professional experience with React, working at HealthPlix Technologies since July 2022. I've built complex healthcare applications using React 18, TypeScript, and modern patterns like hooks, context, and custom hooks. I specialize in performance optimization, achieving a 25% reduction in re-rendering overhead through memoization and code splitting.",
+    answer: "I have 4+ years of professional experience with React, working at HealthPlix Technologies since July 2022. I've built complex healthcare applications using React 18, TypeScript, and modern patterns like hooks, context, and custom hooks. I specialize in performance optimization, achieving a 25% reduction in re-rendering overhead through memoization and code splitting.",
     keywords: ["react", "experience", "react.js", "reactjs", "frontend", "javascript"],
   },
   {
@@ -24,7 +24,7 @@ export const FAQ_DATABASE: FAQItem[] = [
   },
   {
     question: "Do you have AI/ML experience?",
-    answer: "Yes, I have hands-on experience with AI integration. At HealthPlix, I built ScribePad, an AI-powered medical documentation tool using OpenAI APIs. I integrated GPT models to streamline doctor workflows, handling API integration, prompt engineering, and error handling for production use. I also worked as a Data Science Intern at Aramex, where I developed ML models for address extraction with 99% accuracy.",
+    answer: "Yes, I have hands-on experience with AI integration. At HealthPlix, I built an AI-powered medical documentation tool using OpenAI APIs. I integrated GPT models to streamline doctor workflows, handling API integration, prompt engineering, and error handling for production use. I also worked as a Data Science Intern at Aramex, where I developed ML models for address extraction with 99% accuracy.",
     keywords: ["ai", "ml", "artificial intelligence", "machine learning", "openai", "gpt", "llm"],
   },
   {
@@ -39,7 +39,7 @@ export const FAQ_DATABASE: FAQItem[] = [
   },
   {
     question: "What is your notice period?",
-    answer: "My notice period is negotiable based on the urgency and requirements of the role. I'm committed to ensuring a smooth transition at my current position while being flexible to accommodate the right opportunity. We can discuss specific timelines during our conversation.",
+    answer: "My notice period is 60 days, but it's negotiable based on the urgency and requirements of the role. I'm committed to ensuring a smooth transition at my current position while being flexible to accommodate the right opportunity. We can discuss specific timelines during our conversation.",
     keywords: ["notice period", "notice", "joining", "availability", "when can you join"],
   },
   {
