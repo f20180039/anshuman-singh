@@ -1,7 +1,6 @@
 name: Sync Resume from LaTeX Builder
 
 on:
-  # Manual trigger - primary method
   workflow_dispatch:
     inputs:
       force_sync:
@@ -9,11 +8,9 @@ on:
         required: false
         default: 'false'
 
-  # Webhook trigger from latex-resume-builder
   repository_dispatch:
     types: [resume_updated]
 
-  # Optional: Schedule as fallback (every Monday at 9 AM)
   schedule:
     - cron: '0 9 * * 1'
 
@@ -35,19 +32,15 @@ jobs:
         run: |
           echo "🔍 Fetching latest resume from latex-resume-builder..."
 
-          # Get latest release from latex-resume-builder
           LATEST_RELEASE=$(curl -s https://api.github.com/repos/f20180039/latex-resume-builder/releases/latest)
 
-          # Extract PDF download URL from release assets
           RESUME_URL=$(echo "$LATEST_RELEASE" | jq -r '.assets[] | select(.name | test(".*\\.pdf$")) | .browser_download_url' | head -1)
 
           if [ -z "$RESUME_URL" ] || [ "$RESUME_URL" = "null" ]; then
             echo "⚠️  No PDF found in latest release, checking for direct file access..."
 
-            # Fallback: Try to get PDF from main branch directly
             RESUME_URL="https://raw.githubusercontent.com/f20180039/latex-resume-builder/main/AnshumanSingh-FE-Resume.pdf"
 
-            # Check if file exists
             if ! curl -f -s -I "$RESUME_URL" > /dev/null; then
               echo "❌ No PDF found in releases or main branch"
               echo "changed=false" >> $GITHUB_OUTPUT
@@ -58,13 +51,11 @@ jobs:
           echo "📥 Downloading from: $RESUME_URL"
           curl -L "$RESUME_URL" -o /tmp/new-resume.pdf
 
-          # Verify downloaded file is a valid PDF
           if ! file /tmp/new-resume.pdf | grep -q "PDF"; then
             echo "❌ Downloaded file is not a valid PDF"
             exit 1
           fi
 
-          # Check file size (should be > 10KB)
           FILE_SIZE=$(stat -f%z /tmp/new-resume.pdf 2>/dev/null || stat -c%s /tmp/new-resume.pdf)
           if [ "$FILE_SIZE" -lt 10000 ]; then
             echo "❌ Downloaded PDF is too small ($FILE_SIZE bytes)"
@@ -73,7 +64,6 @@ jobs:
 
           echo "✅ Downloaded PDF ($FILE_SIZE bytes)"
 
-          # Compare with existing resume (if exists)
           if [ -f "src/assets/AnshumanSingh-FE-Resume.pdf" ]; then
             NEW_HASH=$(sha256sum /tmp/new-resume.pdf | awk '{print $1}')
             OLD_HASH=$(sha256sum src/assets/AnshumanSingh-FE-Resume.pdf | awk '{print $1}')
@@ -100,13 +90,11 @@ jobs:
       - name: Create timestamped backup
         if: steps.fetch-resume.outputs.changed == 'true'
         run: |
-          # Generate timestamp (YYYY-MM-DD-HH format)
           TIMESTAMP=$(date -u +"%Y-%m-%d-%H")
           BACKUP_NAME="AnshumanSingh-FE-${TIMESTAMP}.pdf"
 
           echo "💾 Creating backup: $BACKUP_NAME"
 
-          # Copy current resume to backup if it exists
           if [ -f "src/assets/AnshumanSingh-FE-Resume.pdf" ]; then
             cp src/assets/AnshumanSingh-FE-Resume.pdf "public/resumes/backups/${BACKUP_NAME}"
             echo "✅ Backup created successfully"
@@ -126,12 +114,10 @@ jobs:
         run: |
           cd public/resumes/backups
 
-          # Count current backups
           BACKUP_COUNT=$(ls -1 AnshumanSingh-FE-*.pdf 2>/dev/null | wc -l)
           echo "📊 Current backup count: $BACKUP_COUNT"
 
           if [ "$BACKUP_COUNT" -gt 10 ]; then
-            # Remove oldest backups, keep only 10 newest
             ls -t AnshumanSingh-FE-*.pdf | tail -n +11 | xargs rm -f
             REMAINING=$(ls -1 AnshumanSingh-FE-*.pdf 2>/dev/null | wc -l)
             echo "🗑️  Cleaned up old backups. Remaining: $REMAINING"
@@ -147,22 +133,14 @@ jobs:
 
           git add src/assets/AnshumanSingh-FE-Resume.pdf public/resumes/backups/
 
-          # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "ℹ️  No changes to commit"
             exit 0
           fi
 
-          # Create commit message with details
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          git commit -m "$(cat <<EOF
-chore: sync resume from latex-resume-builder
-
-Updated: ${TIMESTAMP}
-Trigger: ${{ github.event_name }}
-[skip ci]
-EOF
-)"
+          COMMIT_MSG="chore: sync resume from latex-resume-builder"$'\n\n'"Updated: ${TIMESTAMP}"$'\n'"Trigger: ${{ github.event_name }}"$'\n\n'"[skip ci]"
+          git commit -m "$COMMIT_MSG"
 
           git push
 
