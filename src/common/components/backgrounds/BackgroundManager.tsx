@@ -23,11 +23,13 @@ const BackgroundManager = memo(({
   gradientIntensity = "low",
 }: BackgroundManagerProps) => {
   return (
-    <div className="ans-relative ans-w-full ans-min-h-full">
-      {showGrid && <GridPattern />}
-      {showGradient && <GradientOverlay intensity={gradientIntensity} />}
-      {showDecorative && <DecorativeElements />}
-      {children}
+    <div className="ans-relative ans-isolate ans-min-h-full ans-w-full ans-overflow-hidden">
+      <div className="ans-absolute ans-inset-0 ans-z-0 ans-pointer-events-none">
+        {showGradient && <GradientOverlay intensity={gradientIntensity} />}
+        {showGrid && <GridPattern />}
+        {showDecorative && <DecorativeElements />}
+      </div>
+      <div className="ans-relative ans-z-10">{children}</div>
     </div>
   );
 });

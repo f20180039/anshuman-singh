@@ -5,21 +5,27 @@
 /* ===== Theme Color Tokens (CSS Custom Properties) ===== */
 :root {
   /* Light theme (default) */
-  --th-bg: 255 255 255;
-  --th-fg: 16 24 40;
-  --th-surface: 249 250 251;
-  --th-surface-alt: 242 244 247;
-  --th-muted: 228 231 236;
-  --th-muted-fg: 102 112 133;
-  --th-secondary-fg: 52 64 84;
-  --th-accent: 21 112 239;
-  --th-accent-hover: 23 92 211;
-  --th-accent-subtle: 239 248 255;
-  --th-border: 228 231 236;
-  --th-header: 29 41 57;
+  --th-bg: 246 250 255;
+  --th-fg: 10 23 42;
+  --th-surface: 255 255 255;
+  --th-surface-alt: 236 244 255;
+  --th-muted: 213 225 242;
+  --th-muted-fg: 55 70 96;
+  --th-secondary-fg: 31 45 68;
+  --th-accent: 10 102 214;
+  --th-accent-hover: 6 78 172;
+  --th-accent-subtle: 219 234 254;
+  --th-border: 164 185 214;
+  --th-header: 11 25 46;
   --th-success: 18 183 106;
   --th-error: 240 68 56;
   --th-warning: 247 144 9;
+  --th-swirl-a: 37 99 235;
+  --th-swirl-b: 14 165 233;
+  --th-swirl-c: 245 158 11;
+  --th-nav-fg: 248 250 252;
+  --th-nav-muted: 226 232 240;
+  --th-nav-active: 125 211 252;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -27,78 +33,77 @@
 
 /* Dark theme */
 html.dark {
-  --th-bg: 16 24 40;
-  --th-fg: 255 255 255;
-  --th-surface: 29 41 57;
-  --th-surface-alt: 29 41 57;
-  --th-muted: 52 64 84;
-  --th-muted-fg: 152 162 179;
-  --th-secondary-fg: 208 213 221;
-  --th-accent: 83 177 253;
-  --th-accent-hover: 132 202 255;
-  --th-accent-subtle: 21 37 63;
-  --th-border: 71 85 105;
-  --th-header: 16 24 40;
+  --th-bg: 3 7 18;
+  --th-fg: 248 250 252;
+  --th-surface: 9 18 32;
+  --th-surface-alt: 14 27 48;
+  --th-muted: 31 48 74;
+  --th-muted-fg: 203 213 225;
+  --th-secondary-fg: 226 232 240;
+  --th-accent: 103 232 249;
+  --th-accent-hover: 165 243 252;
+  --th-accent-subtle: 8 47 73;
+  --th-border: 70 96 128;
+  --th-header: 2 6 23;
   --th-success: 50 213 131;
   --th-error: 249 112 102;
   --th-warning: 254 200 75;
+  --th-swirl-a: 34 211 238;
+  --th-swirl-b: 45 212 191;
+  --th-swirl-c: 147 197 253;
+  --th-nav-fg: 248 250 252;
+  --th-nav-muted: 203 213 225;
+  --th-nav-active: 165 243 252;
 }
 
-/* Ocean theme — deep blue */
-html[data-theme="ocean"] {
-  --th-bg: 15 23 42;
-  --th-fg: 226 232 240;
-  --th-surface: 30 41 59;
-  --th-surface-alt: 30 41 59;
-  --th-muted: 51 65 85;
-  --th-muted-fg: 148 163 184;
-  --th-secondary-fg: 203 213 225;
-  --th-accent: 56 189 248;
-  --th-accent-hover: 125 211 252;
-  --th-accent-subtle: 12 74 110;
-  --th-border: 51 65 85;
-  --th-header: 2 6 23;
-  --th-success: 52 211 153;
-  --th-error: 251 113 133;
-  --th-warning: 250 204 21;
-}
-
-/* Forest theme — earthy greens */
-html[data-theme="forest"] {
-  --th-bg: 20 26 22;
-  --th-fg: 220 237 222;
-  --th-surface: 30 41 33;
-  --th-surface-alt: 30 41 33;
-  --th-muted: 45 60 48;
-  --th-muted-fg: 134 168 140;
-  --th-secondary-fg: 187 213 191;
-  --th-accent: 74 222 128;
-  --th-accent-hover: 134 239 172;
-  --th-accent-subtle: 20 83 45;
-  --th-border: 45 60 48;
-  --th-header: 10 16 12;
+/* Matrix theme */
+html[data-theme="matrix"] {
+  --th-bg: 2 16 8;
+  --th-fg: 240 253 244;
+  --th-surface: 6 35 17;
+  --th-surface-alt: 12 52 27;
+  --th-muted: 25 74 43;
+  --th-muted-fg: 190 242 100;
+  --th-secondary-fg: 220 252 231;
+  --th-accent: 163 230 53;
+  --th-accent-hover: 217 249 157;
+  --th-accent-subtle: 54 83 20;
+  --th-border: 77 124 15;
+  --th-header: 1 10 5;
   --th-success: 74 222 128;
   --th-error: 248 113 113;
   --th-warning: 250 204 21;
+  --th-swirl-a: 163 230 53;
+  --th-swirl-b: 34 197 94;
+  --th-swirl-c: 45 212 191;
+  --th-nav-fg: 247 254 231;
+  --th-nav-muted: 220 252 231;
+  --th-nav-active: 217 249 157;
 }
 
-/* Sunset theme — warm orange/rose */
-html[data-theme="sunset"] {
-  --th-bg: 28 18 18;
-  --th-fg: 255 228 218;
-  --th-surface: 45 28 28;
-  --th-surface-alt: 45 28 28;
-  --th-muted: 68 42 42;
-  --th-muted-fg: 178 134 124;
-  --th-secondary-fg: 220 180 170;
-  --th-accent: 251 146 60;
-  --th-accent-hover: 253 186 116;
-  --th-accent-subtle: 124 45 18;
-  --th-border: 68 42 42;
-  --th-header: 18 10 10;
+/* Cyberpunk theme */
+html[data-theme="cyberpunk"] {
+  --th-bg: 18 4 34;
+  --th-fg: 255 247 253;
+  --th-surface: 35 10 58;
+  --th-surface-alt: 50 16 83;
+  --th-muted: 76 29 119;
+  --th-muted-fg: 245 208 254;
+  --th-secondary-fg: 252 231 243;
+  --th-accent: 247 37 133;
+  --th-accent-hover: 251 113 177;
+  --th-accent-subtle: 112 26 117;
+  --th-border: 168 85 247;
+  --th-header: 12 3 27;
   --th-success: 74 222 128;
   --th-error: 248 113 113;
-  --th-warning: 251 146 60;
+  --th-warning: 250 204 21;
+  --th-swirl-a: 247 37 133;
+  --th-swirl-b: 34 211 238;
+  --th-swirl-c: 168 85 247;
+  --th-nav-fg: 255 247 253;
+  --th-nav-muted: 245 208 254;
+  --th-nav-active: 251 113 177;
 }
 
 /* ===== Global Styles ===== */
@@ -113,6 +118,14 @@ html,
 body {
   background-color: rgb(var(--th-bg));
   color: rgb(var(--th-fg));
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 10% 8%, rgb(var(--th-swirl-a) / 0.14), transparent 28rem),
+    radial-gradient(circle at 88% 84%, rgb(var(--th-swirl-b) / 0.12), transparent 30rem),
+    linear-gradient(135deg, rgb(var(--th-bg)) 0%, rgb(var(--th-header)) 100%);
+  min-height: 100vh;
 }
 
 @layer base {
@@ -131,6 +144,108 @@ body {
 /* Retro glow text effect */
 .retro-glow {
   text-shadow: 0 0 10px rgb(var(--th-accent) / 0.5), 0 0 20px rgb(var(--th-accent) / 0.3);
+}
+
+.nav-glass {
+  color: rgb(var(--th-nav-fg));
+  background:
+    linear-gradient(135deg, rgb(var(--th-header) / 0.94), rgb(var(--th-bg) / 0.78)),
+    linear-gradient(90deg, rgb(var(--th-accent) / 0.1), transparent 42%, rgb(var(--th-swirl-b) / 0.08));
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.08),
+    0 16px 48px rgb(0 0 0 / 0.22);
+}
+
+.nav-title,
+.nav-control {
+  color: rgb(var(--th-nav-fg));
+}
+
+.nav-link-muted {
+  color: rgb(var(--th-nav-muted) / 0.9);
+}
+
+.nav-link-muted:hover {
+  color: rgb(var(--th-nav-active));
+}
+
+.nav-link-active {
+  color: rgb(var(--th-nav-active));
+}
+
+.theme-panel {
+  background:
+    linear-gradient(145deg, rgb(var(--th-surface) / 0.96), rgb(var(--th-bg) / 0.9)),
+    radial-gradient(circle at 18% 0%, rgb(var(--th-accent) / 0.22), transparent 12rem);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.08),
+    0 20px 60px rgb(0 0 0 / 0.35),
+    0 0 36px rgb(var(--th-accent) / 0.16);
+}
+
+.theme-tile:hover span:first-child {
+  transform: translateY(-2px);
+}
+
+.cyber-grid {
+  background-image:
+    linear-gradient(rgb(var(--th-accent) / 0.14) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--th-accent) / 0.14) 1px, transparent 1px),
+    linear-gradient(rgb(var(--th-fg) / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--th-fg) / 0.06) 1px, transparent 1px);
+  background-size: 128px 128px, 128px 128px, 32px 32px, 32px 32px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 8%, #000 86%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 8%, #000 86%, transparent);
+}
+
+.scanline-field {
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgb(255 255 255 / 0.04) 0,
+      rgb(255 255 255 / 0.04) 1px,
+      transparent 1px,
+      transparent 7px
+    );
+  opacity: 0.22;
+  mix-blend-mode: overlay;
+}
+
+.aurora-field {
+  background:
+    radial-gradient(ellipse at 18% 18%, rgb(var(--th-swirl-a) / 0.36), transparent 34rem),
+    radial-gradient(ellipse at 76% 26%, rgb(var(--th-swirl-c) / 0.22), transparent 30rem),
+    radial-gradient(ellipse at 74% 86%, rgb(var(--th-swirl-b) / 0.28), transparent 34rem),
+    conic-gradient(from 210deg at 28% 36%, transparent 0deg, rgb(var(--th-swirl-a) / 0.2) 58deg, transparent 118deg),
+    conic-gradient(from 45deg at 82% 72%, transparent 0deg, rgb(var(--th-swirl-b) / 0.18) 70deg, transparent 132deg);
+  filter: saturate(1.2);
+}
+
+.vignette-field {
+  background:
+    linear-gradient(90deg, rgb(var(--th-bg) / 0.42), transparent 18%, transparent 82%, rgb(var(--th-bg) / 0.42)),
+    radial-gradient(circle at center, transparent 0%, transparent 58%, rgb(var(--th-bg) / 0.5) 100%);
+}
+
+.energy-ribbon {
+  background:
+    conic-gradient(
+      from 160deg,
+      transparent 0deg,
+      rgb(var(--th-swirl-a) / 0.22) 34deg,
+      transparent 88deg,
+      rgb(var(--th-swirl-c) / 0.16) 136deg,
+      transparent 212deg,
+      rgb(var(--th-swirl-b) / 0.18) 278deg,
+      transparent 360deg
+    );
+  filter: blur(48px);
+  opacity: 0.68;
+  transform-origin: center;
+}
+
+.energy-ribbon-secondary {
+  opacity: 0.54;
 }
 
 /* Pixel border utility */

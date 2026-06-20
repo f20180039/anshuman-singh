@@ -1,20 +1,95 @@
 # Action Items & Setup Checklist 📋
 
-This file contains all the steps you need to complete **outside this codebase** to fully activate your portfolio.
+This file contains all the steps you need to complete to make your portfolio **production-ready**.
 
 ---
 
-## 🎯 Quick Overview
+## 🎯 Current Status
 
-- **Phase 1 (Design)**: ✅ Ready (works immediately after push)
-- **Phase 2 (Resume Sync)**: ⏳ Needs GitHub Actions permissions
-- **Phase 3 (AI Chat)**: ⏳ Needs API key + deployment
+- **Phase 1 (Design & Resume Preview)**: ✅ Complete
+- **Phase 2 (Resume Sync)**: ✅ Complete (workflow fixed, local testing script ready)
+- **Phase 3 (AI Chat)**: ✅ Complete (needs API key & deployment)
+
+**What's Done:**
+- ✅ Resume sync workflow fixed (downloads correct PDF)
+- ✅ Local testing script created (`scripts/sync-resume-local.sh`)
+- ✅ Resume preview page added
+- ✅ AI chat feature fully implemented
+- ✅ Server dependencies installed
+- ✅ Helper scripts created for testing
+
+**What's Needed:**
+- 🔑 Replace dummy Google API key with real one
+- 🚀 Deploy backend to Render (free)
+- 🌐 Update production URLs
+- ✅ Enable GitHub Actions permissions
 
 **Estimated Time:** 30-45 minutes total
 
 ---
 
-## Step 1: Commit & Push to GitHub (5 minutes)
+## Step 1: Local Testing First (10 minutes)
+
+Before deploying to production, test everything locally to ensure it works.
+
+### 1.1 Get Real Google API Key
+
+**Current Status:** Dummy key in `.env` for security
+
+1. Visit: https://makersuite.google.com/app/apikey
+2. Sign in with your Google account
+3. Click **"Create API Key"**
+4. Select: **"Create API key in new project"** (or use existing)
+5. **COPY THE KEY** - looks like: `AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+6. Open `.env` file in project root
+7. Replace the `GOOGLE_API_KEY` value with your real key:
+   ```
+   GOOGLE_API_KEY=AIzaSy_YOUR_ACTUAL_KEY_HERE
+   ```
+8. Save the file
+
+### 1.2 Test AI Chat Locally
+
+**Option A: Quick Start (One Command)**
+```bash
+./start-chat-test.sh
+```
+
+**Option B: Manual (Two Terminals)**
+
+Terminal 1 - Start Backend:
+```bash
+cd server
+npm start
+```
+
+Expected output:
+```
+✅ Server running on port 3001
+🌍 Environment: development
+🤖 AI Chat: Configured  ← Should say "Configured" not "NOT configured"
+```
+
+Terminal 2 - Start Frontend:
+```bash
+npm run dev
+```
+
+### 1.3 Test in Browser
+
+1. Open: http://localhost:5173/anshuman-singh/
+2. Click the chat button (bottom-right corner)
+3. Test these scenarios:
+   - ✅ "What is your experience with React?" → Should get instant FAQ response
+   - ✅ "Tell me about your problem-solving approach" → Should get AI response (2-3 sec)
+   - ✅ "What's the weather?" → Should reject (not career-related)
+   - ✅ Send 6 messages quickly → 6th should hit rate limit
+
+**If everything works, proceed to deployment!**
+
+---
+
+## Step 2: Commit & Push to GitHub (5 minutes)
 
 ### 1.1 Review Changes
 ```bash
@@ -23,31 +98,41 @@ git status
 git diff --stat
 ```
 
-### 1.2 Commit Everything
+### 2.1 Review Changes
+```bash
+git status
+git diff --stat
+```
+
+### 2.2 Commit Everything
+
+**⚠️ IMPORTANT:** Make sure `.env` is NOT staged (it's in `.gitignore`)
+
 ```bash
 git add .
 
-git commit -m "feat: complete portfolio modernization (Phases 1-3)
+git commit -m "feat: add resume preview, fix sync workflow, setup AI chat
 
-- Phase 1: Modern design with animations, dark theme, optimized images
-- Phase 2: Automated resume sync from latex-resume-builder
-- Phase 3: AI chat with Google Gemini integration
+- Add resume preview page with PDF viewer
+- Fix sync workflow to download correct PDF (Anshuman_Singh_4FE.pdf)
+- Remove [skip ci] to allow automatic deployment after resume sync
+- Add local testing script for resume sync
+- Setup AI chat feature with Google Gemini
+- Add helper scripts for chat testing
 
-All features implemented and documented."
+All features ready for production deployment."
 
 git push origin master
 ```
 
 **✅ After this step:**
-- Phase 1 (Design) will be live on GitHub Pages
+- Updated portfolio will be live on GitHub Pages
 - Resume sync workflow will be available in Actions tab
-- AI chat components ready (needs backend deployment)
+- AI chat components deployed (needs backend deployment next)
 
 ---
 
-## Step 2: Enable Resume Auto-Sync (10 minutes)
-
-### 2.1 Enable GitHub Actions Permissions
+## Step 3: Enable GitHub Actions Permissions (2 minutes)
 
 **In my-portfolio repo:**
 1. Go to: https://github.com/f20180039/my-portfolio/settings/actions
@@ -56,7 +141,13 @@ git push origin master
 4. Check: ✅ **"Allow GitHub Actions to create and approve pull requests"**
 5. Click **Save**
 
-### 2.2 Test Manual Sync (First Time)
+**Why:** This allows the resume sync workflow to commit and push updated PDFs.
+
+---
+
+## Step 4: Test Resume Sync Workflow (5 minutes)
+
+### 4.1 Manual Sync Test
 
 1. Go to: https://github.com/f20180039/my-portfolio/actions
 2. Click: **"Sync Resume from LaTeX Builder"**
@@ -68,24 +159,194 @@ git push origin master
 
 **Troubleshooting:**
 - ❌ Red X? Click it to see error logs
-- Common issue: No PDF in latex-resume-builder
-- Solution: Ensure latex repo has releases with PDF
+- Check that latex-resume-builder has `Anshuman_Singh_4FE.pdf` in main branch
+- Verify GitHub Actions permissions are enabled
 
-### 2.3 (OPTIONAL) Setup Webhook for Auto-Sync
+### 4.2 Verify Auto-Deployment
 
-**Only do this if you want automatic sync when latex repo updates**
+After sync completes:
+1. Check the "Actions" tab again
+2. You should see the "Deploy to GitHub Pages" workflow automatically triggered
+3. Wait for it to complete (green ✅)
+4. Visit your portfolio to see the updated resume
 
-**Step A: Create Personal Access Token (PAT)**
+**✅ Success:** Resume sync now works and auto-deploys!
+
+---
+
+## Step 5: Deploy AI Chat Backend to Render (15 minutes)
+
+### 5.1 Create Render Account
+
+1. Go to: https://render.com/
+2. Click **"Get Started"**
+3. Sign up with GitHub (recommended - easier deployment)
+4. Authorize Render to access your GitHub repos
+
+### 5.2 Deploy Backend as Web Service
+
+1. From Render Dashboard, click **"New +"** button (top right)
+2. Select: **"Web Service"**
+3. Connect your GitHub repository:
+   - If first time: Click **"Connect GitHub"** and authorize
+   - Search for: **`my-portfolio`**
+   - Click **"Connect"** next to it
+
+4. **Configure the Service:**
+
+   | Setting | Value |
+   |---------|-------|
+   | **Name** | `my-portfolio-backend` (or any name you prefer) |
+   | **Region** | Select closest to your location (e.g., Oregon, Singapore) |
+   | **Branch** | `master` |
+   | **Root Directory** | Leave empty (defaults to root) |
+   | **Runtime** | `Node` |
+   | **Build Command** | `cd server && npm install` |
+   | **Start Command** | `cd server && node index.js` |
+   | **Instance Type** | **Free** (or Starter if you want 24/7 uptime) |
+
+5. **Add Environment Variables:**
+
+   Click **"Advanced"** section, then **"Add Environment Variable"** for each:
+
+   | Key | Value |
+   |-----|-------|
+   | `GOOGLE_API_KEY` | Your actual Google API key (AIzaSy...) |
+   | `NODE_ENV` | `production` |
+   | `PORT` | `3001` (optional, Render sets this automatically) |
+
+   **⚠️ IMPORTANT:** Use your REAL Google API key here, not the dummy one!
+
+6. Click **"Create Web Service"**
+
+7. Wait 2-3 minutes for deployment
+   - Watch the logs scroll in real-time
+   - Should end with: `✅ Server running on port 10000` (Render uses internal port)
+   - Status should show: **"Live"** with a green dot
+
+8. **COPY YOUR BACKEND URL**
+   - At the top of the page, you'll see: `https://my-portfolio-backend-xxxx.onrender.com`
+   - **Copy this entire URL** - you'll need it in the next step
+
+### 5.3 Test Backend Deployment
+
+```bash
+# Replace with your actual Render URL
+curl https://your-backend-url.onrender.com/health
+```
+
+Expected response:
+```json
+{"status":"ok","timestamp":"2026-06-20T...","uptime":...}
+```
+
+**If this works, your backend is live! 🎉**
+
+---
+
+## Step 6: Update Frontend with Production API URL (5 minutes)
+
+### 6.1 Create Production Environment File
+
+In your local project root, create `.env.production`:
+
+```bash
+cat > .env.production << 'EOF'
+# Production API URL (from Render)
+VITE_API_URL=https://your-backend-url.onrender.com
+
+# Base URL for GitHub Pages
+VITE_BASE_URL=/my-portfolio/
+EOF
+```
+
+**⚠️ Replace `your-backend-url.onrender.com` with your actual Render URL!**
+
+### 6.2 Update CORS in Backend
+
+Edit `server/index.js` line 13-14:
+
+**Before:**
+```javascript
+origin: process.env.NODE_ENV === 'production'
+  ? ['https://yourdomain.com', 'https://www.yourdomain.com']
+  : ['http://localhost:5173', 'http://localhost:3000'],
+```
+
+**After:**
+```javascript
+origin: process.env.NODE_ENV === 'production'
+  ? ['https://f20180039.github.io', 'https://yourdomain.com']
+  : ['http://localhost:5173', 'http://localhost:3000'],
+```
+
+**Note:** Add your custom domain if you have one, otherwise just GitHub Pages URL is fine.
+
+### 6.3 Commit and Deploy
+
+```bash
+# Add production env file and updated backend
+git add .env.production server/index.js
+
+git commit -m "chore: configure production API URL and CORS"
+
+git push origin master
+```
+
+**This will:**
+1. Trigger Render to redeploy backend (with updated CORS)
+2. Trigger GitHub Actions to rebuild frontend (with production API URL)
+
+Wait 2-3 minutes for both to complete.
+
+---
+
+## Step 7: Test Production Deployment (5 minutes)
+
+### 7.1 Visit Your Live Portfolio
+
+https://f20180039.github.io/my-portfolio/
+
+(Replace with your actual GitHub Pages URL)
+
+### 7.2 Test AI Chat Feature
+
+1. Look for chat button (bottom-right corner)
+2. Click to open chat window
+3. **First message may take 5-10 seconds** (Render free tier cold start - this is normal!)
+4. Test:
+   - "What is your experience with React?" → Should work
+   - "Tell me about your projects" → Should work
+   - Check browser console (F12) for errors
+
+### 7.3 Test Resume Preview
+
+1. Click **"Preview Resume"** button on home page
+2. Should show PDF viewer with your resume
+3. Click **"Download PDF"** to download
+
+### 7.4 Verify Resume Sync
+
+1. Make a small change to your resume in latex-resume-builder
+2. Wait for workflow to complete
+3. Check if updated resume appears on your portfolio
+
+---
+
+## Step 8: (OPTIONAL) Setup Automatic Resume Sync (10 minutes)
+
+Currently, resume sync needs to be triggered manually. To make it automatic when you update latex-resume-builder:
+
+### 8.1 Create Personal Access Token (PAT)
 
 1. Go to: https://github.com/settings/tokens/new
 2. Note: `Portfolio Resume Sync`
-3. Expiration: `No expiration` (or 1 year)
+3. Expiration: `1 year` (or No expiration)
 4. Scopes: ✅ Check **`repo`** (all sub-boxes)
 5. Click **"Generate token"**
-6. **COPY THE TOKEN** (you won't see it again!)
-   - Example: `ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
+6. **COPY THE TOKEN** - Example: `ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
-**Step B: Add Token to latex-resume-builder**
+### 8.2 Add Token to latex-resume-builder
 
 1. Go to: https://github.com/f20180039/latex-resume-builder/settings/secrets/actions
 2. Click **"New repository secret"**
@@ -93,9 +354,36 @@ git push origin master
 4. Secret: Paste the PAT you copied
 5. Click **"Add secret"**
 
-**Step C: Create Workflow in latex-resume-builder**
+### 8.3 Create Webhook Workflow
 
-See [Step 3 in latex-resume-builder section](#step-3-optional-webhook-in-latex-resume-builder-repo) below.
+In `latex-resume-builder` repo, create `.github/workflows/notify-portfolio.yml`:
+
+```yaml
+name: Notify Portfolio on Resume Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.pdf'
+      - '**.tex'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger portfolio resume sync
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PORTFOLIO_SYNC_TOKEN }}" \
+            https://api.github.com/repos/f20180039/my-portfolio/dispatches \
+            -d '{"event_type":"resume_updated"}'
+
+          echo "✅ Portfolio sync triggered"
+```
+
+**✅ Now:** Every time you push to latex-resume-builder, your portfolio auto-syncs the resume!
 
 ---
 
@@ -162,7 +450,7 @@ jobs:
 
 ```bash
 curl -X POST \
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_KEY_HERE" \
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AQ.Ab8RN6IVsOEEVw2U-If0wpphDZ-yP18EhcxvLpMIzxOXqspvVQ1" \
   -H "Content-Type: application/json" \
   -d '{"contents":[{"parts":[{"text":"Hello"}]}]}'
 ```
