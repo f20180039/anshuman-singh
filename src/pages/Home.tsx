@@ -162,21 +162,31 @@ const Home = () => {
 
           {/* Buttons */}
           <motion.div
-            className="ans-flex ans-flex-col ans-w-full sm:ans-flex-row ans-gap-6"
+            className="ans-flex ans-flex-col ans-w-full sm:ans-flex-row ans-gap-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <motion.a
-              href={Resume}
-              download
-              className="ans-flex-1 ans-min-w-[160px] ans-bg-th-accent ans-text-White ans-px-6 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center"
-              whileHover={{ scale: 1.05, boxShadow: "0 10px 20px rgba(0,0,0,0.2)" }}
-              whileTap={{ scale: 0.95 }}
+            <motion.div
+              className="ans-flex ans-gap-4 ans-flex-1"
+              whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 400, damping: 17 }}
             >
-              Download Resume
-            </motion.a>
+              <Link
+                to={EAPP_ROUTES.resumePreview}
+                className="ans-flex-1 ans-min-w-[120px] ans-bg-th-accent/80 ans-text-White ans-px-4 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center hover:ans-bg-th-accent/90"
+              >
+                Preview Resume
+              </Link>
+              <motion.a
+                href={Resume}
+                download
+                className="ans-flex-1 ans-min-w-[120px] ans-bg-th-accent ans-text-White ans-px-4 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center"
+                whileHover={{ boxShadow: "0 10px 20px rgba(0,0,0,0.2)" }}
+              >
+                Download Resume
+              </motion.a>
+            </motion.div>
             <motion.div
               whileHover={{ scale: 1.05, boxShadow: "0 10px 20px rgba(0,0,0,0.2)" }}
               whileTap={{ scale: 0.95 }}
