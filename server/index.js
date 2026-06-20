@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production'
-    ? ['https://yourdomain.com', 'https://www.yourdomain.com']
+    ? ['https://f20180039.github.io']
     : ['http://localhost:5173', 'http://localhost:3000'],
   credentials: true,
 }));
