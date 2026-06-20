@@ -139,12 +139,13 @@ jobs:
           fi
 
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          COMMIT_MSG="chore: sync resume from latex-resume-builder"$'\n\n'"Updated: ${TIMESTAMP}"$'\n'"Trigger: ${{ github.event_name }}"$'\n\n'"[skip ci]"
+          COMMIT_MSG="chore: sync resume from latex-resume-builder"$'\n\n'"Updated: ${TIMESTAMP}"$'\n'"Trigger: ${{ github.event_name }}"
           git commit -m "$COMMIT_MSG"
 
           git push
 
           echo "✅ Changes committed and pushed successfully"
+          echo "📦 Deploy workflow will automatically trigger to rebuild the site"
 
       - name: Summary
         if: always()
