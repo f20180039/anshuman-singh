@@ -155,11 +155,14 @@ jobs:
 
           # Create commit message with details
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          git commit -m "chore: sync resume from latex-resume-builder
+          git commit -m "$(cat <<EOF
+chore: sync resume from latex-resume-builder
 
 Updated: ${TIMESTAMP}
 Trigger: ${{ github.event_name }}
-[skip ci]"
+[skip ci]
+EOF
+)"
 
           git push
 
