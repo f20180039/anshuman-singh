@@ -6,17 +6,22 @@ const skillCategories = [
   {
     label: "Core",
     color: "ans-border-th-accent",
-    skills: ["JavaScript (ES6+)", "TypeScript", "React.js", "HTML5", "CSS3"],
+    skills: ["JavaScript (ES6+)", "TypeScript", "React.js", "HTML5", "CSS3", "Python"],
   },
   {
-    label: "Ecosystem",
+    label: "Frameworks & Tools",
     color: "ans-border-th-success",
-    skills: ["Tailwind CSS", "Zustand", "REST APIs", "Vite", "Webpack"],
+    skills: ["Tailwind CSS", "Zustand", "Vite", "Webpack", "Git", "Sentry"],
+  },
+  {
+    label: "Backend & APIs",
+    color: "ans-border-Blue-500",
+    skills: ["REST APIs", "WebSockets"],
   },
   {
     label: "Specialties",
     color: "ans-border-Purple-500",
-    skills: ["AI Integrations", "Performance Optimization", "Responsive Design", "Web Accessibility"],
+    skills: ["AI Integrations", "Performance Optimization", "Responsive Design", "Web Accessibility", "System Design"],
   },
 ];
 
@@ -51,12 +56,18 @@ const AboutMe = () => (
     <h2 className="ans-text-5 ans-font-inter-3 ans-text-th-accent ans-mb-6 retro-glow">
       About Me
     </h2>
-    <p className="ans-text-3 ans-text-th-secondary-fg ans-leading-relaxed">
+    <p className="ans-text-3 ans-text-th-secondary-fg ans-leading-relaxed ans-mb-4">
       I&apos;m a passionate <strong className="ans-text-th-fg">Frontend Engineer</strong> with{" "}
       <strong className="ans-text-th-accent">{getYearsOfExperience()}+ years</strong> of
       experience building scalable, high-performance applications. I specialize in{" "}
       <strong className="ans-text-th-fg">React, TypeScript, AI integrations, and performance optimization</strong>,
       particularly in the healthtech domain.
+    </p>
+    <p className="ans-text-3 ans-text-th-secondary-fg ans-leading-relaxed">
+      At HealthPlix, I&apos;ve delivered critical AI-powered features including real-time voice-to-text dictation
+      and clinical note generation. 
+     I&apos;m passionate about building accessible, performant user experiences and leveraging
+      modern AI capabilities to solve real-world problems.
     </p>
 
     {/* Stats Row */}

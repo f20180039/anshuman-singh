@@ -6,6 +6,7 @@ import {
   SiJavascript,
 } from "react-icons/si";
 import SnapgramImage from "../assets/snapgram.png";
+import ExplodingProductionImage from "../assets/exploding-production.png";
 import GuessGame from "../assets/GuessGame.png";
 import { PROJECT_ROUTES } from "../common/constants";
 import { useNavigate } from "react-router-dom";
@@ -15,9 +16,36 @@ import BackgroundManager from "../common/components/backgrounds/BackgroundManage
 
 const projects = [
   {
+    title: "Portfolio Website",
+    description:
+      "Personal frontend portfolio with AI chat assistant, automated resume sync, and modern animations.",
+    image: "",
+    github: "https://github.com/f20180039/anshuman-singh",
+    liveDemo: "https://f20180039.github.io/anshuman-singh/",
+    tech: [SiReact, SiTypescript, SiTailwindcss],
+  },
+  {
+    title: "Exploding Production Game",
+    description:
+      "Codex-assisted browser game with polished gameplay flow, production routing, and frontend-first interaction design.",
+    image: ExplodingProductionImage,
+    github: "",
+    liveDemo: "https://exploding-production.onrender.com",
+    tech: [SiReact, SiJavascript],
+  },
+  {
+    title: "Multiplayer Game Hub",
+    description:
+      "Multiplayer browser game platform using real-time game-room flows and WebSocket-style state synchronization.",
+    image: "",
+    github: "",
+    liveDemo: "https://multiplayer-frontend-x0cb.onrender.com",
+    tech: [SiReact, SiJavascript],
+  },
+  {
     title: "Snapgram",
     description:
-      "A full-featured Instagram clone with social features, image sharing, and real-time interactions.",
+      "Full-stack Instagram clone with authentication, posts, likes, comments, and real-time updates.",
     image: SnapgramImage,
     github: "https://github.com/f20180039/snapgram",
     liveDemo: "https://stalkergram.netlify.app",
@@ -33,24 +61,16 @@ const projects = [
     isInternal: true,
     tech: [SiJavascript],
   },
-  {
-    title: "Pig Game",
-    description:
-      "A multiplayer dice game supporting 2-6 players with strategic score banking mechanics.",
-    image: "",
-    github: "",
-    liveDemo: PROJECT_ROUTES.pigGame,
-    isInternal: true,
-    tech: [SiJavascript],
-  },
-  {
-    title: "Coming Soon",
-    description: "Next project is in the works. Stay tuned!",
-    image: "",
-    github: "#",
-    liveDemo: "#",
-    tech: [],
-  },
+  // {
+  //   title: "Pig Game",
+  //   description:
+  //     "A multiplayer dice game supporting 2-6 players with strategic score banking mechanics.",
+  //   image: "",
+  //   github: "",
+  //   liveDemo: PROJECT_ROUTES.pigGame,
+  //   isInternal: true,
+  //   tech: [SiJavascript],
+  // },
 ];
 
 const ProjectCard = ({
