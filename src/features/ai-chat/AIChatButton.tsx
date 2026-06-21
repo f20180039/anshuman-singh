@@ -4,17 +4,22 @@ import { HiChatBubbleLeftRight } from "react-icons/hi2";
 interface AIChatButtonProps {
   onClick: () => void;
   unreadCount?: number;
+  isOpen?: boolean;
 }
 
-const AIChatButton = ({ onClick, unreadCount = 0 }: AIChatButtonProps) => {
+const AIChatButton = ({ onClick, unreadCount = 0, isOpen = false }: AIChatButtonProps) => {
+  // Hide button when chat is open
+  if (isOpen) return null;
+
   return (
     <motion.button
       onClick={onClick}
-      className="ans-fixed ans-bottom-6 ans-right-6 ans-z-50 ans-w-16 ans-h-16 ans-bg-th-accent ans-text-White ans-rounded-full ans-shadow-xl hover:ans-shadow-2xl ans-flex ans-items-center ans-justify-center ans-cursor-pointer"
+      className="ans-fixed ans-bottom-6 ans-right-6 ans-z-50 ans-w-14 ans-h-14 ans-bg-th-accent ans-text-White ans-rounded-full ans-shadow-xl hover:ans-shadow-2xl ans-flex ans-items-center ans-justify-center ans-cursor-pointer"
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: 0, opacity: 0 }}
       transition={{
         type: "spring",
         stiffness: 260,
@@ -36,8 +41,8 @@ const AIChatButton = ({ onClick, unreadCount = 0 }: AIChatButtonProps) => {
         }}
       />
 
-      {/* Icon */}
-      <HiChatBubbleLeftRight className="ans-text-5 ans-relative ans-z-10" />
+      {/* Icon - increased from text-5 to text-6 for better visibility */}
+      <HiChatBubbleLeftRight className="ans-text-6 ans-relative ans-z-10" />
 
       {/* Unread badge */}
       {unreadCount > 0 && (

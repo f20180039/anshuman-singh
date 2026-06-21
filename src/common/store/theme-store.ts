@@ -21,18 +21,21 @@ interface ThemeState {
 function applyTheme(theme: Theme) {
   const html = document.documentElement;
 
-  // Remove old theme classes/attributes
-  html.classList.remove("dark");
-  html.removeAttribute("data-theme");
+  // Batch DOM updates in a single animation frame for better performance
+  requestAnimationFrame(() => {
+    // Remove old theme classes/attributes
+    html.classList.remove("dark");
+    html.removeAttribute("data-theme");
 
-  // Apply new theme
-  if (theme === "dark") {
-    html.classList.add("dark");
-  } else if (theme !== "light") {
-    html.setAttribute("data-theme", theme);
-  }
+    // Apply new theme
+    if (theme === "dark") {
+      html.classList.add("dark");
+    } else if (theme !== "light") {
+      html.setAttribute("data-theme", theme);
+    }
 
-  localStorage.setItem("theme", theme);
+    localStorage.setItem("theme", theme);
+  });
 }
 
 export const useThemeStore = create<ThemeState>((set) => {
