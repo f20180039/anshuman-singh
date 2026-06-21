@@ -1,4 +1,4 @@
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaImage } from "react-icons/fa";
 import {
   SiReact,
   SiTypescript,
@@ -144,7 +144,7 @@ const ProjectCard = ({
               Coming Soon
             </span>
           ) : (
-            <span className="ans-text-th-muted-fg">No Image</span>
+            <FaImage className="ans-text-th-muted-fg ans-text-10" />
           )}
         </div>
       )}

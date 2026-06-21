@@ -23,9 +23,9 @@
   --th-swirl-a: 37 99 235;
   --th-swirl-b: 14 165 233;
   --th-swirl-c: 245 158 11;
-  --th-nav-fg: 248 250 252;
-  --th-nav-muted: 226 232 240;
-  --th-nav-active: 125 211 252;
+  --th-nav-fg: 15 23 42;
+  --th-nav-muted: 71 85 105;
+  --th-nav-active: 6 78 172;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -158,11 +158,11 @@ body {
 .nav-glass {
   color: rgb(var(--th-nav-fg));
   background:
-    linear-gradient(135deg, rgb(var(--th-header) / 0.94), rgb(var(--th-bg) / 0.78)),
-    linear-gradient(90deg, rgb(var(--th-accent) / 0.1), transparent 42%, rgb(var(--th-swirl-b) / 0.08));
+    linear-gradient(135deg, rgb(var(--th-surface) / 0.98), rgb(var(--th-surface-alt) / 0.95)),
+    linear-gradient(90deg, rgb(var(--th-accent) / 0.08), transparent 42%, rgb(var(--th-swirl-b) / 0.06));
   box-shadow:
     inset 0 1px 0 rgb(255 255 255 / 0.08),
-    0 16px 48px rgb(0 0 0 / 0.22);
+    0 16px 48px rgb(0 0 0 / 0.12);
 }
 
 .nav-title,
