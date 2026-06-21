@@ -51,7 +51,7 @@ const App = () => {
         <Footer />
 
         {/* AI Chat */}
-        <AIChatButton onClick={() => setIsChatOpen(true)} />
+        <AIChatButton onClick={() => setIsChatOpen(true)} isOpen={isChatOpen} />
         <AIChatWindow isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
       </div>
     </Router>

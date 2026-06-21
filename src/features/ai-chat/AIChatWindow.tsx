@@ -29,23 +29,13 @@ const AIChatWindow = ({ isOpen, onClose }: AIChatWindowProps) => {
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop */}
+          {/* Chat Window - Floating panel without blocking backdrop */}
           <motion.div
-            className="ans-fixed ans-inset-0 ans-bg-Black/50 ans-backdrop-blur-sm ans-z-40"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={onClose}
-          />
-
-          {/* Chat Window */}
-          <motion.div
-            className="ans-fixed ans-bottom-4 ans-right-4 ans-w-[400px] ans-h-[600px] ans-bg-th-bg ans-rounded-2xl ans-shadow-2xl ans-z-50 ans-flex ans-flex-col ans-overflow-hidden ans-border ans-border-th-border sm:ans-bottom-24 sm:ans-right-6"
+            className="ans-fixed ans-bottom-4 ans-right-4 ans-w-[400px] ans-h-[600px] ans-bg-th-bg ans-rounded-2xl ans-shadow-2xl ans-z-50 ans-flex ans-flex-col ans-overflow-hidden ans-border-2 ans-border-th-accent/30 sm:ans-bottom-6 sm:ans-right-6"
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
-            onClick={(e) => e.stopPropagation()}
           >
             {/* Header */}
             <div className="ans-bg-th-accent ans-text-White ans-p-4 ans-flex ans-items-center ans-justify-between ans-shrink-0">

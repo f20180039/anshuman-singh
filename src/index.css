@@ -109,9 +109,18 @@ html[data-theme="cyberpunk"] {
 /* ===== Global Styles ===== */
 * {
   box-sizing: border-box;
-  transition-property: background-color, border-color, color;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+}
+
+/* Theme transitions - applied only to interactive elements */
+button,
+a,
+input,
+textarea,
+select,
+.theme-transition {
+  transition: background-color 200ms ease-in-out,
+              border-color 200ms ease-in-out,
+              color 200ms ease-in-out;
 }
 
 html,

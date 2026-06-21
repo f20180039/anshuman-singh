@@ -450,7 +450,7 @@ jobs:
 
 ```bash
 curl -X POST \
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AQ.Ab8RN6IVsOEEVw2U-If0wpphDZ-yP18EhcxvLpMIzxOXqspvVQ1" \
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=google_api_key" \
   -H "Content-Type: application/json" \
   -d '{"contents":[{"parts":[{"text":"Hello"}]}]}'
 ```

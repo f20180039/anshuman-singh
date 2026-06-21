@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaDownload, FaArrowLeft } from "react-icons/fa";
+import { FaDownload, FaArrowLeft, FaPrint } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Resume from "../assets/AnshumanSingh-FE-Resume.pdf";
 import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
@@ -35,16 +35,28 @@ const ResumePreview = () => {
             Resume Preview
           </motion.h1>
 
-          <motion.a
-            href={Resume}
-            download
-            className="ans-flex ans-items-center ans-gap-2 ans-bg-th-accent ans-text-White ans-px-4 ans-py-2 ans-rounded-lg ans-shadow-md ans-text-2 hover:ans-bg-th-accent/80"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <FaDownload />
-            <span>Download PDF</span>
-          </motion.a>
+          <div className="ans-flex ans-gap-2">
+            <motion.a
+              href={Resume}
+              download
+              className="ans-flex ans-items-center ans-gap-2 ans-bg-th-accent ans-text-White ans-px-4 ans-py-2 ans-rounded-lg ans-shadow-md ans-text-2 hover:ans-bg-th-accent/80"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <FaDownload />
+              <span>Download</span>
+            </motion.a>
+
+            <motion.button
+              onClick={() => window.print()}
+              className="ans-flex ans-items-center ans-gap-2 ans-bg-th-secondary ans-text-White ans-px-4 ans-py-2 ans-rounded-lg ans-shadow-md ans-text-2 hover:ans-bg-th-secondary/80"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <FaPrint />
+              <span>Print</span>
+            </motion.button>
+          </div>
         </motion.div>
 
         <motion.div
@@ -60,22 +72,6 @@ const ResumePreview = () => {
             style={{ border: "none" }}
           />
         </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="ans-text-center ans-text-2 ans-text-th-muted-fg ans-mt-4"
-        >
-          Having trouble viewing?
-          <a
-            href={Resume}
-            download
-            className="ans-text-th-accent hover:ans-underline ans-ml-1"
-          >
-            Download the PDF instead
-          </a>
-        </motion.p>
       </div>
     </BackgroundManager>
   );

@@ -167,26 +167,31 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.5 }}
           >
-            <motion.div
-              className="ans-flex ans-gap-4 ans-flex-1"
-              whileHover={{ scale: 1.02 }}
-              transition={{ type: "spring", stiffness: 400, damping: 17 }}
-            >
-              <Link
-                to={EAPP_ROUTES.resumePreview}
-                className="ans-flex-1 ans-min-w-[120px] ans-bg-th-accent/80 ans-text-White ans-px-4 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center hover:ans-bg-th-accent/90"
+            <div className="ans-flex ans-gap-4 ans-flex-1">
+              <motion.div
+                className="ans-flex-1"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                Preview Resume
-              </Link>
+                <Link
+                  to={EAPP_ROUTES.resumePreview}
+                  className="ans-block ans-w-full ans-min-w-[120px] ans-bg-th-accent/80 hover:ans-bg-th-accent ans-text-White ans-px-4 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center"
+                >
+                  Preview Resume
+                </Link>
+              </motion.div>
               <motion.a
                 href={Resume}
                 download
-                className="ans-flex-1 ans-min-w-[120px] ans-bg-th-accent ans-text-White ans-px-4 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center"
-                whileHover={{ boxShadow: "0 10px 20px rgba(0,0,0,0.2)" }}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                className="ans-flex-1 ans-min-w-[120px] ans-bg-th-accent hover:ans-bg-th-accent/90 ans-text-White ans-px-4 ans-py-3 ans-rounded-lg ans-shadow-md ans-text-3 ans-text-center"
               >
                 Download Resume
               </motion.a>
-            </motion.div>
+            </div>
             <motion.div
               whileHover={{ scale: 1.05, boxShadow: "0 10px 20px rgba(0,0,0,0.2)" }}
               whileTap={{ scale: 0.95 }}
