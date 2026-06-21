@@ -17,12 +17,12 @@ const experiences: ExperienceItem[] = [
     period: "July 2022 - Present",
     isCurrent: true,
     bullets: [
-      "Integrated AI-powered medical documentation (ScribePad) using OpenAI APIs, streamlining doctor workflows.",
-      "Optimized frontend performance with memoization and code splitting, reducing re-rendering overhead by 25%.",
-      "Developed a library of reusable, accessible UI components using React, TypeScript, and Tailwind CSS.",
-      "Integrated analytics pipelines for data-driven product decisions and user behavior insights.",
+      "Delivered end-to-end frontend for AI Summarization and Dictation modules, enabling seamless real-time voice-to-text and AI-driven clinical note generation.",
+      "Implemented Sentry error tracking for proactive monitoring and reduced bug resolution time by 30%.",
+      "Optimized VisitPad performance by reducing re-renderings by 25%, improving UI responsiveness during patient consultations.",
+      "Led migration from legacy patterns to modern React architecture, improving code maintainability and developer velocity.",
     ],
-    techStack: ["React 18", "TypeScript", "Tailwind CSS", "Zustand", "OpenAI APIs", "Vite"],
+    techStack: ["React 18", "TypeScript", "Tailwind CSS", "Zustand", "OpenAI APIs", "Sentry", "Vite"],
   },
   {
     title: "Data Science Intern",
@@ -30,10 +30,10 @@ const experiences: ExperienceItem[] = [
     period: "Aug 2021 - Jan 2022",
     isCurrent: false,
     bullets: [
-      "Developed a model to improve address extraction accuracy from 90% to 99%, reducing delivery failures.",
-      "Performed data analysis and feature engineering for reliable and scalable model results.",
+      "Developed a model to improve address extraction accuracy from 90% to 99%, reducing delivery failures and operational costs.",
+      "Performed data analysis and feature engineering on 100K+ delivery records for reliable and scalable model results.",
     ],
-    techStack: ["Python", "Machine Learning", "Data Analysis"],
+    techStack: ["Python", "Machine Learning", "Data Analysis", "NLP"],
   },
 ];
 

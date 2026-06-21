@@ -3,6 +3,7 @@ export const EAPP_ROUTES = {
   about: "/about",
   experience: "/experience",
   projects: "/projects",
+  certificates: "/certificates",
   contact: "/contact",
   resumePreview: "/resume",
 };
@@ -15,6 +16,7 @@ export const NAV_LINKS = [
   { name: "About", path: EAPP_ROUTES.about },
   { name: "Experience", path: EAPP_ROUTES.experience },
   { name: "Projects", path: EAPP_ROUTES.projects },
+  { name: "Certificates", path: EAPP_ROUTES.certificates },
   { name: "Contact", path: EAPP_ROUTES.contact },
 ];
 
