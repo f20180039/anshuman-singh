@@ -205,6 +205,27 @@ const Home = () => {
               </Link>
             </motion.div>
           </motion.div>
+
+          {/* 3D Demo Link */}
+          <motion.div
+            className="ans-mt-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.5 }}
+          >
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              transition={{ type: "spring", stiffness: 400, damping: 17 }}
+            >
+              <Link
+                to={EAPP_ROUTES.test3d}
+                className="ans-block ans-w-full ans-bg-gradient-to-r ans-from-cyan-500 ans-via-purple-500 ans-to-pink-500 ans-text-White ans-px-6 ans-py-3 ans-rounded-lg ans-shadow-lg ans-text-3 ans-text-center ans-font-semibold hover:ans-shadow-xl ans-transition-shadow"
+              >
+                🎨 Explore 3D Tech Lab (NEW)
+              </Link>
+            </motion.div>
+          </motion.div>
         </motion.div>
       </section>
     </BackgroundManager>
