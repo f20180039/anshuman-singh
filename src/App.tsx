@@ -3,9 +3,6 @@ import { Suspense, lazy, useState } from "react";
 import Header from "./common/components/Header";
 import Footer from "./common/components/Footer";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "./common/constants";
-import AIChatButton from "./features/ai-chat/AIChatButton";
-import AIChatWindow from "./features/ai-chat/AIChatWindow";
-
 // Lazy-loaded pages
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -14,8 +11,13 @@ const Projects = lazy(() => import("./pages/Projects"));
 const Certificates = lazy(() => import("./pages/Certificates"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ResumePreview = lazy(() => import("./pages/ResumePreview"));
+const Test3D = lazy(() => import("./pages/Test3D"));
 const GuessNumber = lazy(() => import("./modules/Guess-Number/GuessNumber"));
 const PigGame = lazy(() => import("./modules/Pig-Game/PigGame"));
+
+// Lazy-loaded AI Chat (non-critical, loaded on demand)
+const AIChatButton = lazy(() => import("./features/ai-chat/AIChatButton"));
+const AIChatWindow = lazy(() => import("./features/ai-chat/AIChatWindow"));
 
 const App = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -42,6 +44,7 @@ const App = () => {
               <Route path={EAPP_ROUTES.certificates} element={<Certificates />} />
               <Route path={EAPP_ROUTES.contact} element={<Contact />} />
               <Route path={EAPP_ROUTES.resumePreview} element={<ResumePreview />} />
+              <Route path={EAPP_ROUTES.test3d} element={<Test3D />} />
               <Route
                 path={PROJECT_ROUTES.guessGame}
                 element={<GuessNumber />}
@@ -52,9 +55,11 @@ const App = () => {
         </main>
         <Footer />
 
-        {/* AI Chat */}
-        <AIChatButton onClick={() => setIsChatOpen(true)} isOpen={isChatOpen} />
-        <AIChatWindow isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
+        {/* AI Chat - lazy-loaded for better initial page performance */}
+        <Suspense fallback={null}>
+          <AIChatButton onClick={() => setIsChatOpen(true)} isOpen={isChatOpen} />
+          <AIChatWindow isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
+        </Suspense>
       </div>
     </Router>
   );
