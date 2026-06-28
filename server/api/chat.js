@@ -9,14 +9,18 @@ const __dirname = dirname(__filename);
 
 const router = express.Router();
 
-// Import FAQ database from frontend (shared)
-const faqDataPath = join(__dirname, '../../src/ai/faq-knowledge-base.ts');
+// Import FAQ database from JSON file
+const faqDataPath = join(__dirname, '../faq-data.json');
 let FAQ_DATABASE, RESUME_CONTEXT, ADDITIONAL_CONTEXT, AI_SYSTEM_INSTRUCTIONS;
 
 try {
   const faqContent = readFileSync(faqDataPath, 'utf-8');
-  // Simple extraction (in production, you'd build this properly)
-  eval(faqContent.replace(/export /g, '').replace(/interface.*{[^}]*}/gs, ''));
+  const faqData = JSON.parse(faqContent);
+  FAQ_DATABASE = faqData.FAQ_DATABASE;
+  RESUME_CONTEXT = faqData.RESUME_CONTEXT;
+  ADDITIONAL_CONTEXT = faqData.ADDITIONAL_CONTEXT;
+  AI_SYSTEM_INSTRUCTIONS = faqData.AI_SYSTEM_INSTRUCTIONS;
+  console.log(`✅ Loaded ${FAQ_DATABASE.length} FAQ entries`);
 } catch (error) {
   console.warn('⚠️  Could not load FAQ database, using fallback');
   FAQ_DATABASE = [];
@@ -38,9 +42,9 @@ const sessionLimits = new Map();
 function checkRateLimit(ip, sessionId) {
   const now = Date.now();
   const HOUR_MS = 60 * 60 * 1000;
-  const IP_LIMIT = 5;
-  const SESSION_LIMIT = 10;
-  const COOLDOWN_MS = 60 * 1000;
+  const IP_LIMIT = 10; // Increased from 5 to 10
+  const SESSION_LIMIT = 15; // Increased from 10 to 15
+  const COOLDOWN_MS = 3 * 1000; // Reduced from 60s to 10s
 
   // IP rate limit
   const ipEntry = ipLimits.get(ip) || { count: 0, firstRequest: now, lastRequest: 0 };
@@ -88,14 +92,33 @@ function checkRateLimit(ip, sessionId) {
 // Utility: Check if career-related
 function isCareerRelated(question) {
   const careerKeywords = [
-    'experience', 'work', 'job', 'skills', 'project', 'tech', 'stack',
-    'react', 'typescript', 'frontend', 'salary', 'notice', 'relocation',
-    'education', 'career', 'hiring', 'resume', 'portfolio',
+    'experience', 'work', 'job', 'skills', 'skill', 'project', 'tech', 'stack',
+    'react', 'typescript', 'javascript', 'frontend', 'backend', 'developer',
+    'salary', 'ctc', 'compensation', 'package', 'notice', 'relocation', 'location',
+    'education', 'degree', 'college', 'university', 'career', 'hiring', 'resume',
+    'portfolio', 'anshuman', 'about', 'tell me', 'who', 'what', 'where', 'when',
+    'why', 'how', 'can you', 'do you', 'have you', 'are you', 'your', 'you',
+    'strength', 'weakness', 'team', 'goals', 'aspiration', 'interest', 'hobby',
+    'achievement', 'challenge', 'learning', 'remote', 'hybrid', 'office',
+  ];
+
+  // Block obvious irrelevant topics
+  const irrelevantKeywords = [
+    'recipe', 'cook', 'food', 'movie', 'song', 'weather', 'news', 'sport',
+    'game', 'travel', 'hotel', 'restaurant', 'shopping', 'price', 'buy',
+    'health', 'medical', 'doctor', 'medicine', 'politics', 'religion',
   ];
 
   const questionLower = question.toLowerCase();
+
+  // Reject if contains irrelevant keywords
+  if (irrelevantKeywords.some(keyword => questionLower.includes(keyword))) {
+    return false;
+  }
+
+  // Accept if contains career keywords OR is a reasonable question length
   return careerKeywords.some(keyword => questionLower.includes(keyword)) ||
-         questionLower.length > 10; // Allow general questions
+         (questionLower.length >= 10 && questionLower.length <= 200);
 }
 
 // Utility: Find FAQ match
@@ -155,7 +178,7 @@ router.post('/chat', async (req, res) => {
     // Topic filter
     if (!isCareerRelated(sanitizedMessage)) {
       return res.json({
-        response: "I'm here to help with questions about Anshuman's professional background, skills, and career. Please ask about his work experience, projects, education, or career interests.",
+        response: "I'm here to answer questions about Anshuman Singh's professional background, skills, and career. Please ask about his:\n\n• Work experience and projects\n• Technical skills and expertise\n• Education and certifications\n• Career goals and interests\n• Availability and work preferences\n• Salary expectations and relocation\n\nFeel free to ask any career-related questions!",
         source: 'filter',
       });
     }
@@ -179,7 +202,7 @@ router.post('/chat', async (req, res) => {
     }
 
     const model = genAI.getGenerativeModel({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-2.5-flash',
       safetySettings: [
         { category: 'HARM_CATEGORY_HARASSMENT', threshold: 'BLOCK_MEDIUM_AND_ABOVE' },
         { category: 'HARM_CATEGORY_HATE_SPEECH', threshold: 'BLOCK_MEDIUM_AND_ABOVE' },
@@ -195,7 +218,14 @@ router.post('/chat', async (req, res) => {
       .map(msg => `${msg.role === 'user' ? 'User' : 'Assistant'}: ${msg.content}`)
       .join('\n');
 
-    const prompt = `${fullContext}\n\n${historyText ? `Previous conversation:\n${historyText}\n\n` : ''}User question: ${sanitizedMessage}\n\nYour response (be concise, under 150 words):`;
+    const prompt = `${fullContext}\n\n${historyText ? `Previous conversation:\n${historyText}\n\n` : ''}User question: ${sanitizedMessage}\n\nIMPORTANT:
+- Answer ONLY about Anshuman Singh using the context provided above
+- Speak in first person (I/my) as if you ARE Anshuman
+- If the answer is NOT in the context, say: "That information isn't in my profile. Please contact me directly for more details."
+- NEVER give generic AI answers or talk about yourself as AI
+- Be concise (under 150 words)
+
+Your response:`;
 
     // Generate response
     const result = await model.generateContent(prompt);

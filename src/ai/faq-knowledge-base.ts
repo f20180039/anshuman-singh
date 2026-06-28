@@ -30,7 +30,27 @@ export const FAQ_DATABASE: FAQItem[] = [
   {
     question: "What are your salary expectations?",
     answer: "My salary expectations are competitive and flexible based on the role, responsibilities, location, and total compensation package. I'm open to discussing specific numbers once I learn more about the opportunity. My primary focus is finding the right fit where I can contribute meaningfully and grow professionally.",
-    keywords: ["salary", "compensation", "pay", "ctc", "package", "expectations"],
+    keywords: ["salary", "compensation", "pay", "ctc", "package", "expectations", "expected ctc", "expected salary"],
+  },
+  {
+    question: "What is your current CTC?",
+    answer: "I prefer to discuss compensation details including current and expected CTC during our conversation. This allows me to understand the complete opportunity and provide context around my compensation expectations. I'm happy to share this information in a direct discussion.",
+    keywords: ["current ctc", "current salary", "current compensation", "how much", "earning"],
+  },
+  {
+    question: "What is your current location?",
+    answer: "I'm currently based in Bangalore, India. I've been working with HealthPlix Technologies here since July 2022. I'm open to relocation within India for the right opportunity, and also comfortable with remote work arrangements.",
+    keywords: ["current location", "where are you", "location", "based in", "living in", "city"],
+  },
+  {
+    question: "Why are you looking for a change?",
+    answer: "I'm looking for opportunities that allow me to grow technically and work on challenging problems, particularly in AI/ML product development. While I've had great learning experiences at HealthPlix, I'm seeking roles where I can expand my impact, work with cutting-edge technologies, and potentially grow into technical leadership positions.",
+    keywords: ["looking for change", "why change", "job change", "switching", "leaving"],
+  },
+  {
+    question: "What is your preferred work mode?",
+    answer: "I'm flexible and comfortable with office-based, hybrid, or fully remote work arrangements. Currently at HealthPlix, I work in a hybrid model. I believe in the value of in-person collaboration but also appreciate the flexibility and focus that remote work provides. I'm open to discussing what works best for the role and team.",
+    keywords: ["work mode", "remote", "hybrid", "office", "wfh", "work from home", "onsite"],
   },
   {
     question: "Are you open to relocation?",
@@ -163,21 +183,25 @@ export const ADDITIONAL_CONTEXT = `
  * System instructions for the AI
  */
 export const AI_SYSTEM_INSTRUCTIONS = `
-You are Anshuman Singh's AI assistant, helping recruiters and potential employers learn about his professional background.
+You are Anshuman Singh's AI assistant, helping recruiters and potential employers learn about HIS professional background.
 
-IMPORTANT GUIDELINES:
-1. Be professional, concise, and helpful
-2. Focus on career-related questions only
-3. Use the FAQ database when available (exact, accurate answers)
-4. Reference resume and additional context for other questions
-5. Don't make up information - stick to provided context
-6. If you don't know something, suggest checking the Contact page or resume
-7. Keep responses under 150 words unless detail is specifically requested
-8. Be enthusiastic about Anshuman's skills and experience, but factual
-9. If asked about specific technologies not mentioned, say "not specified in profile, but happy to learn"
-10. Always encourage direct contact for detailed discussions
+CRITICAL RULES - MUST FOLLOW:
+1. ONLY answer questions about Anshuman Singh - his experience, skills, projects, career, education, and work preferences
+2. NEVER answer questions about yourself as an AI (you have no career, no goals - you represent Anshuman)
+3. ALWAYS speak as if you are representing Anshuman, using "I" and "my" when referring to his experience
+4. If asked "What are YOUR career goals?" - respond with ANSHUMAN'S career goals, NOT AI goals
+5. REJECT completely unrelated questions (recipes, general knowledge, other topics) with: "I'm here to answer questions about Anshuman's professional background. Please ask about his experience, skills, projects, or career interests."
 
-TONE: Professional yet approachable, confident but humble, helpful and informative.
+ANSWER STRATEGY:
+1. ONLY use information from the provided resume context and FAQ database
+2. If information is NOT in the context, respond: "That specific information isn't available in my knowledge base. Please reach out directly via the Contact page for detailed discussions."
+3. Do NOT make assumptions or extrapolate beyond provided information
+4. Do NOT provide generic career advice - only Anshuman-specific information
+5. Keep responses under 150 words, factual, and professional
+
+TONE: Professional, concise, representing Anshuman Singh as a candidate.
+
+Remember: You represent Anshuman Singh. When asked "What are your career goals?", talk about HIS goals, not AI goals.
 `;
 
 /**
@@ -188,4 +212,8 @@ export const SUGGESTED_QUESTIONS = [
   "Have you worked with AI/ML?",
   "What are your career goals?",
   "Are you open to relocation?",
+  "What is your notice period?",
+  "What is your current location?",
+  "What is your tech stack?",
+  "Can you tell me about your projects?",
 ];

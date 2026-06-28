@@ -53,7 +53,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="nav-glass ans-sticky ans-top-0 ans-z-[100] ans-w-full ans-border-b ans-border-th-accent/20 ans-px-5 ans-py-4 ans-shadow-md ans-backdrop-blur-md">
+      <header className="nav-glass ans-sticky ans-top-0 ans-z-[10] ans-w-full ans-border-b ans-border-th-accent/20 ans-px-5 ans-py-4 ans-shadow-md ans-backdrop-blur-md">
         <div className="ans-flex ans-items-center ans-justify-between ans-gap-4 ans-max-w-full">
           <h1 className="nav-title ans-whitespace-nowrap ans-text-[20px] ans-font-inter-3 retro-glow">
             Anshuman Singh
@@ -153,7 +153,7 @@ export default function Header() {
 
     {/* Mobile menu overlay and nav - outside header to avoid clipping */}
     <div
-      className={`ans-fixed ans-inset-0 ans-z-[998] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 sm:ans-hidden ${
+      className={`ans-fixed ans-inset-0 ans-z-[10] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 sm:ans-hidden ${
         menuOpen
           ? "ans-pointer-events-auto ans-opacity-100"
           : "ans-pointer-events-none ans-opacity-0"
@@ -162,7 +162,7 @@ export default function Header() {
     />
 
     <nav
-      className={`ans-fixed ans-right-0 ans-top-0 ans-z-[999] ans-h-full ans-w-64 ans-transform ans-border-l ans-border-th-accent/30 ans-bg-th-surface ans-shadow-2xl ans-backdrop-blur-md ans-transition-transform ans-duration-300 sm:ans-hidden ${
+      className={`ans-fixed ans-right-0 ans-top-0 ans-z-[10] ans-h-full ans-w-64 ans-transform ans-border-l ans-border-th-accent/30 ans-bg-th-surface ans-shadow-2xl ans-backdrop-blur-md ans-transition-transform ans-duration-300 sm:ans-hidden ${
         menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
       }`}
       style={{

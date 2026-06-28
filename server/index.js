@@ -17,7 +17,14 @@ const PORT = process.env.PORT || 3001;
 app.use(cors({
   origin: process.env.NODE_ENV === 'production'
     ? ['https://f20180039.github.io']
-    : ['http://localhost:5173', 'http://localhost:3000'],
+    : (origin, callback) => {
+        // Allow all localhost origins in development
+        if (!origin || origin.startsWith('http://localhost:')) {
+          callback(null, true);
+        } else {
+          callback(new Error('Not allowed by CORS'));
+        }
+      },
   credentials: true,
 }));
 
