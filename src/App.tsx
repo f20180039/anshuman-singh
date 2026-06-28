@@ -24,9 +24,9 @@ const App = () => {
 
   return (
     <Router basename="/anshuman-singh">
-      <div className="ans-flex ans-flex-col ans-min-h-screen ans-bg-th-bg ans-text-th-fg">
+      <div className="ans-relative ans-flex ans-flex-col ans-min-h-screen ans-bg-th-bg ans-text-th-fg ans-overflow-x-hidden ans-max-w-full">
         <Header />
-        <main className="ans-flex-1 ans-p-4">
+        <main className="ans-relative ans-flex-1 ans-p-4 ans-z-0">
           <Suspense
             fallback={
               <div className="ans-flex ans-items-center ans-justify-center ans-min-h-[60vh]">

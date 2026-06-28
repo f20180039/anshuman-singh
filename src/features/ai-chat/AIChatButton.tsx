@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { HiChatBubbleLeftRight } from "react-icons/hi2";
+import { useState, useEffect } from "react";
 
 interface AIChatButtonProps {
   onClick: () => void;
@@ -8,14 +9,50 @@ interface AIChatButtonProps {
 }
 
 const AIChatButton = ({ onClick, unreadCount = 0, isOpen = false }: AIChatButtonProps) => {
+  const [isDragging, setIsDragging] = useState(false);
+  const [constraints, setConstraints] = useState({ top: 0, left: 0, right: 0, bottom: 0 });
+
+  // Update constraints on mount and resize
+  useEffect(() => {
+    const updateConstraints = () => {
+      const buttonSize = 56; // 14 * 4 (tailwind w-14 h-14)
+      const padding = 16; // minimum padding from edges
+
+      setConstraints({
+        top: -(window.innerHeight - buttonSize - padding),
+        left: -(window.innerWidth - buttonSize - padding),
+        right: padding,
+        bottom: padding,
+      });
+    };
+
+    updateConstraints();
+    window.addEventListener("resize", updateConstraints);
+    return () => window.removeEventListener("resize", updateConstraints);
+  }, []);
+
   // Hide button when chat is open
   if (isOpen) return null;
 
   return (
     <motion.button
-      onClick={onClick}
-      className="ans-fixed ans-bottom-6 ans-right-6 ans-z-50 ans-w-14 ans-h-14 ans-bg-th-accent ans-text-White ans-rounded-full ans-shadow-xl hover:ans-shadow-2xl ans-flex ans-items-center ans-justify-center ans-cursor-pointer"
-      whileHover={{ scale: 1.1 }}
+      onClick={() => {
+        // Only trigger onClick if not dragging
+        if (!isDragging) {
+          onClick();
+        }
+      }}
+      drag
+      dragConstraints={constraints}
+      dragElastic={0.1}
+      dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+      onDragStart={() => setIsDragging(true)}
+      onDragEnd={() => {
+        // Delay to prevent click from firing after drag
+        setTimeout(() => setIsDragging(false), 100);
+      }}
+      className="ans-fixed ans-bottom-6 ans-right-4 sm:ans-right-6 ans-z-[45] ans-w-14 ans-h-14 ans-bg-th-accent ans-text-White ans-rounded-full ans-shadow-xl hover:ans-shadow-2xl ans-flex ans-items-center ans-justify-center ans-cursor-grab active:ans-cursor-grabbing ans-touch-none"
+      whileHover={{ scale: isDragging ? 1 : 1.1 }}
       whileTap={{ scale: 0.95 }}
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
@@ -25,7 +62,7 @@ const AIChatButton = ({ onClick, unreadCount = 0, isOpen = false }: AIChatButton
         stiffness: 260,
         damping: 20,
       }}
-      aria-label="Open AI Chat"
+      aria-label="Open AI Chat (Draggable)"
     >
       {/* Pulse animation */}
       <motion.div

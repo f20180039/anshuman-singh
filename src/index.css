@@ -127,6 +127,9 @@ html,
 body {
   background-color: rgb(var(--th-bg));
   color: rgb(var(--th-fg));
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
 }
 
 body {
@@ -140,6 +143,12 @@ body {
 @layer base {
   html {
     font-family: 'Press Start 2P', cursive;
+  }
+
+  #root {
+    position: relative;
+    min-height: 100vh;
+    isolation: isolate;
   }
 }
 
