@@ -52,13 +52,14 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="nav-glass ans-sticky ans-top-0 ans-z-50 ans-w-full ans-border-b ans-border-th-accent/20 ans-px-5 ans-py-4 ans-shadow-md ans-backdrop-blur-md">
-      <div className="ans-flex ans-items-center ans-justify-between ans-gap-4">
-        <h1 className="nav-title ans-whitespace-nowrap ans-text-[20px] ans-font-inter-3 retro-glow">
-          Anshuman Singh
-        </h1>
+    <>
+      <header className="nav-glass ans-sticky ans-top-0 ans-z-[10] ans-w-full ans-border-b ans-border-th-accent/20 ans-px-5 ans-py-4 ans-shadow-md ans-backdrop-blur-md">
+        <div className="ans-flex ans-items-center ans-justify-between ans-gap-4 ans-max-w-full">
+          <h1 className="nav-title ans-whitespace-nowrap ans-text-[20px] ans-font-inter-3 retro-glow">
+            Anshuman Singh
+          </h1>
 
-        <nav className="ans-hidden ans-items-center ans-gap-5 sm:ans-flex">
+          <nav className="ans-hidden ans-items-center ans-gap-5 sm:ans-flex">
           <ul className="ans-flex ans-items-center ans-gap-2 ans-rounded-lg ans-border ans-border-White/10 ans-bg-White/[0.04] ans-p-1.5 ans-shadow-sm">
             {NAV_LINKS.map(({ name, path }) => (
               <li key={path}>
@@ -148,40 +149,45 @@ export default function Header() {
           </button>
         </div>
       </div>
-
-      <div
-        className={`ans-fixed ans-inset-0 ans-z-[55] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 sm:ans-hidden ${
-          menuOpen
-            ? "ans-pointer-events-auto ans-opacity-100"
-            : "ans-pointer-events-none ans-opacity-0"
-        }`}
-        onClick={() => setMenuOpen(false)}
-      />
-
-      <nav
-        className={`nav-glass ans-fixed ans-right-0 ans-top-0 ans-z-[60] ans-h-full ans-w-64 ans-transform ans-border-l ans-border-th-accent/20 ans-bg-th-surface/95 ans-shadow-lg ans-transition-transform ans-duration-300 sm:ans-hidden ${
-          menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
-        }`}
-      >
-        <ul className="ans-flex ans-flex-col ans-gap-1 ans-p-3 ans-pt-16">
-          {NAV_LINKS.map(({ name, path }) => (
-            <li key={path}>
-              <Link
-                to={path}
-                className={`ans-flex ans-w-full ans-rounded-lg ans-px-4 ans-py-3 ans-text-[15px] ans-font-inter-2 ans-transition-colors ans-duration-150 ${
-                  location.pathname === path
-                    ? "ans-bg-th-accent/20 ans-text-th-accent"
-                    : "ans-text-th-fg hover:ans-bg-th-muted"
-                }`}
-                onClick={() => setMenuOpen(false)}
-              >
-                {name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
     </header>
+
+    {/* Mobile menu overlay and nav - outside header to avoid clipping */}
+    <div
+      className={`ans-fixed ans-inset-0 ans-z-[10] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 sm:ans-hidden ${
+        menuOpen
+          ? "ans-pointer-events-auto ans-opacity-100"
+          : "ans-pointer-events-none ans-opacity-0"
+      }`}
+      onClick={() => setMenuOpen(false)}
+    />
+
+    <nav
+      className={`ans-fixed ans-right-0 ans-top-0 ans-z-[10] ans-h-full ans-w-64 ans-transform ans-border-l ans-border-th-accent/30 ans-bg-th-surface ans-shadow-2xl ans-backdrop-blur-md ans-transition-transform ans-duration-300 sm:ans-hidden ${
+        menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
+      }`}
+      style={{
+        background: 'linear-gradient(135deg, rgb(var(--th-surface)), rgb(var(--th-surface-alt)))'
+      }}
+    >
+      <ul className="ans-flex ans-flex-col ans-gap-1 ans-p-3 ans-pt-16">
+        {NAV_LINKS.map(({ name, path }) => (
+          <li key={path}>
+            <Link
+              to={path}
+              className={`ans-flex ans-w-full ans-rounded-lg ans-px-4 ans-py-3 ans-text-[15px] ans-font-inter-2 ans-transition-colors ans-duration-150 ${
+                location.pathname === path
+                  ? "ans-bg-th-accent/20 ans-text-th-accent"
+                  : "ans-text-th-fg hover:ans-bg-th-muted"
+              }`}
+              onClick={() => setMenuOpen(false)}
+            >
+              {name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </>
   );
 }
 

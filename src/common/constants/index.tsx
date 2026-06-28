@@ -6,6 +6,7 @@ export const EAPP_ROUTES = {
   certificates: "/certificates",
   contact: "/contact",
   resumePreview: "/resume",
+  test3d: "/test-3d",
 };
 export const PROJECT_ROUTES = {
   guessGame: "/guess-game",

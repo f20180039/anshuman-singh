@@ -205,6 +205,7 @@ const Home = () => {
               </Link>
             </motion.div>
           </motion.div>
+
         </motion.div>
       </section>
     </BackgroundManager>
