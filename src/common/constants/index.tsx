@@ -21,6 +21,11 @@ export const NAV_LINKS = [
   { name: "Contact", path: EAPP_ROUTES.contact },
 ];
 
+// Resume PDFs are built by the latex-resume-builder repo and synced into
+// public/resume/ by CI. Served from the Vite base path.
+export const C_RESUME_SINGLE_COL_URL = `${import.meta.env.BASE_URL}resume/resume-single-col.pdf`;
+export const C_RESUME_MULTI_COL_URL = `${import.meta.env.BASE_URL}resume/resume-multicol.pdf`;
+
 export const C_LINKEDIN_URL =
   "https://linkedin.com/in/anshuman-singh-4546b5275";
 export const C_GITHUB_URL = "https://github.com/f20180039";

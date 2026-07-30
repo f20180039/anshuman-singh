@@ -5,9 +5,11 @@ import {
   C_GITHUB_URL,
   C_HEALTHPLIX_URL,
   C_LINKEDIN_URL,
+  C_RESUME_SINGLE_COL_URL,
   EAPP_ROUTES,
 } from "../common/constants";
-import Resume from "../assets/AnshumanSingh-FE-Resume.pdf";
+
+const Resume = C_RESUME_SINGLE_COL_URL;
 import { getYearsOfExperience } from "../common/utils";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useState } from "react";

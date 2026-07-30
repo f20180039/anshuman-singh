@@ -34,7 +34,7 @@ jobs:
 
           LATEST_RELEASE=$(curl -s https://api.github.com/repos/f20180039/latex-resume-builder/releases/latest)
 
-          RESUME_URL=$(echo "$LATEST_RELEASE" | jq -r '.assets[] | select(.name == "Anshuman_Singh_4FE.pdf") | .browser_download_url')
+          RESUME_URL=$(echo "$LATEST_RELEASE" | jq -r '.assets[]? | select(.name == "Anshuman_Singh_4FE.pdf") | .browser_download_url' 2>/dev/null || true)
 
           if [ -z "$RESUME_URL" ] || [ "$RESUME_URL" = "null" ]; then
             echo "⚠️  No PDF found in latest release, checking for direct file access..."

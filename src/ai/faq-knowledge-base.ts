@@ -14,7 +14,7 @@ export interface FAQItem {
 export const FAQ_DATABASE: FAQItem[] = [
   {
     question: "What is your experience with React?",
-    answer: "I have 4+ years of professional experience with React, working at HealthPlix Technologies since July 2022. I've built complex healthcare applications using React 18, TypeScript, and modern patterns like hooks, context, and custom hooks. I specialize in performance optimization, achieving a 25% reduction in re-rendering overhead through memoization and code splitting.",
+    answer: "I have 4+ years of professional experience with React, working at HealthPlix Technologies since July 2022. I've built complex healthcare applications with React, TypeScript, and modern patterns like hooks, context, and custom hooks, and I'm a HackerRank-certified React developer. I specialize in performance optimization, achieving a 25% reduction in re-rendering overhead through memoization and code splitting.",
     keywords: ["react", "experience", "react.js", "reactjs", "frontend", "javascript"],
   },
   {
@@ -69,7 +69,7 @@ export const FAQ_DATABASE: FAQItem[] = [
   },
   {
     question: "What is your tech stack?",
-    answer: "My primary tech stack includes React 18, TypeScript, Tailwind CSS, Zustand for state management, and Vite/Webpack for build tools. I'm proficient in REST APIs, have experience with OpenAI APIs for AI integration, and use modern development tools like Git, ESLint, and Prettier. I'm always learning new technologies and recently explored Framer Motion for animations.",
+    answer: "My primary tech stack includes React, TypeScript, Tailwind CSS, Shadcn UI, Zustand for state management, and Vite/Webpack for build tools. On the backend/API side I work with REST APIs, Backend-for-Frontend (BFF) architecture, Server-Sent Events (SSE), and WebSockets, and I've integrated OpenAI APIs for production AI features. I also use Sentry, Amplitude, Git, ESLint, and Framer Motion.",
     keywords: ["tech stack", "technologies", "tools", "stack", "frameworks"],
   },
   {
@@ -79,8 +79,18 @@ export const FAQ_DATABASE: FAQItem[] = [
   },
   {
     question: "What projects have you built?",
-    answer: "At HealthPlix, I built ScribePad (AI-powered medical documentation), integrated analytics pipelines, and developed a library of reusable UI components. I've also built personal projects like Snapgram (Instagram clone with social features), interactive games, and this portfolio showcasing modern React patterns. You can find detailed project information in the Projects section of my portfolio.",
+    answer: "At HealthPlix, I architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer, built an AI dictation/summarization tool over OpenAI + SSE, and developed a reusable UI component library. I've also built personal projects like a real-time multiplayer game hub (WebSockets), Snapgram (a full-stack social app), and this portfolio with a 3D hero and AI chat. See the Projects section for details.",
     keywords: ["projects", "work", "portfolio", "built", "developed", "apps"],
+  },
+  {
+    question: "What is your experience with system design or architecture?",
+    answer: "At HealthPlix I architected two flagship capabilities — AI Clinical Documentation and IPD/OPD Billing — as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer. The BFF exposes versioned, contract-driven endpoints that normalize upstream data and decouple the UI from core EMR services, so external Hospital Integration Systems can embed each module independently without adopting the full HealthPlix EMR. I also unified duplicated components (like the Patient Popup) across modules to reduce technical debt.",
+    keywords: ["bff", "backend for frontend", "architecture", "system design", "integration", "module", "modular", "hospital integration", "api gateway", "decouple", "microfrontend"],
+  },
+  {
+    question: "What certifications do you have?",
+    answer: "I hold a Frontend Developer (React) certification from HackerRank, verifying my React, JavaScript, and CSS proficiency, and a GenAI for Professionals certification from Hack2Skill covering generative-AI workflows and prompt engineering. Both are listed with verification links in the Certificates section of my portfolio.",
+    keywords: ["certification", "certifications", "certificate", "certificates", "hackerrank", "react certified", "credential", "genai", "hack2skill"],
   },
   {
     question: "What is your education background?",
@@ -103,11 +113,13 @@ export const RESUME_CONTEXT = `
 ## Professional Experience
 
 **Frontend Engineer at HealthPlix Technologies** (July 2022 - Present)
-- Integrated AI-powered medical documentation (ScribePad) using OpenAI APIs
-- Optimized frontend performance: 25% reduction in re-rendering overhead through memoization and code splitting
-- Developed reusable, accessible UI component library with React, TypeScript, and Tailwind CSS
-- Integrated analytics pipelines for data-driven product decisions
-- Tech Stack: React 18, TypeScript, Tailwind CSS, Zustand, OpenAI APIs, Vite
+- Architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer, exposing versioned, contract-driven endpoints so external hospital systems can embed each module without adopting the full HealthPlix EMR
+- Built AI-powered medical documentation (summarization + dictation) using OpenAI workflows over Server-Sent Events (SSE) with live parsing and conversational input
+- Resolved 95% of revenue-leakage cases and stabilized high-stakes IPD/OPD billing (deposit calculations, payment-split logic)
+- Optimized frontend performance: 25% reduction in VisitPad re-renders through memoization and code splitting; eliminated memory leaks; unified core components (Patient Popup) across modules
+- Advanced observability with Sentry monitoring and Amplitude telemetry
+- Built a reusable UI component library with Shadcn UI, React, TypeScript, and Tailwind CSS; integrated WatermelonDB for offline-first performance
+- Tech Stack: React, TypeScript, Tailwind CSS, Zustand, BFF architecture, OpenAI APIs, SSE, Sentry, Amplitude, Vite
 
 **Data Science Intern at Aramex India Pvt Ltd** (Aug 2021 - Jan 2022)
 - Developed ML model improving address extraction accuracy from 90% to 99%
@@ -119,18 +131,23 @@ export const RESUME_CONTEXT = `
 **B.E, Electronics and Instrumentation Engineering**
 Birla Institute of Technology and Science (BITS), Pilani - 2022
 
+## Certifications
+
+- Frontend Developer (React) - HackerRank
+- GenAI for Professionals - Hack2Skill
+
 ## Technical Skills
 
 **Core:** JavaScript (ES6+), TypeScript, React.js, HTML5, CSS3
-**Ecosystem:** Tailwind CSS, Zustand, REST APIs, Vite, Webpack
-**Specialties:** AI Integrations, Performance Optimization, Responsive Design, Web Accessibility
+**Ecosystem:** Tailwind CSS, Zustand, Shadcn UI, REST APIs, Vite, Webpack
+**Backend & APIs:** Backend-for-Frontend (BFF) architecture, REST APIs, Server-Sent Events (SSE), WebSockets
+**Specialties:** AI Integrations, System Design, Performance Optimization, Responsive Design, Web Accessibility
 
 ## Projects
 
-1. **Snapgram** - Instagram clone with social features (React, TypeScript, Tailwind)
-2. **ScribePad** - AI-powered medical documentation (OpenAI integration)
-3. **Portfolio** - Modern React portfolio with animations and AI chat
-4. **Interactive Games** - Guess Game, Pig Game (JavaScript)
+1. **Portfolio** - React + TypeScript portfolio with a 3D hero (React Three Fiber), an AI chat assistant, and an automated CI pipeline that syncs the resume PDF
+2. **Multiplayer Game Hub** - Real-time multiplayer platform with WebSocket-driven game rooms and bi-directional state sync
+3. **Snapgram** - Full-stack social app with authentication, posts, likes, comments, and real-time feed updates (React, Tailwind, Appwrite)
 
 ## Interests
 
@@ -209,11 +226,11 @@ Remember: You represent Anshuman Singh. When asked "What are your career goals?"
  */
 export const SUGGESTED_QUESTIONS = [
   "What is your experience with React?",
+  "Tell me about your BFF/architecture work",
+  "What certifications do you have?",
   "Have you worked with AI/ML?",
   "What are your career goals?",
   "Are you open to relocation?",
   "What is your notice period?",
-  "What is your current location?",
   "What is your tech stack?",
-  "Can you tell me about your projects?",
 ];

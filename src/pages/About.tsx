@@ -16,7 +16,7 @@ const skillCategories = [
   {
     label: "Backend & APIs",
     color: "ans-border-Blue-500",
-    skills: ["REST APIs", "WebSockets"],
+    skills: ["REST APIs", "BFF Architecture", "Server-Sent Events (SSE)", "WebSockets"],
   },
   {
     label: "Specialties",
@@ -64,10 +64,10 @@ const AboutMe = () => (
       particularly in the healthtech domain.
     </p>
     <p className="ans-text-3 ans-text-th-secondary-fg ans-leading-relaxed">
-      At HealthPlix, I&apos;ve delivered critical AI-powered features including real-time voice-to-text dictation
-      and clinical note generation. 
-     I&apos;m passionate about building accessible, performant user experiences and leveraging
-      modern AI capabilities to solve real-world problems.
+      At HealthPlix, I architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end
+      modules on a <strong className="ans-text-th-fg">Backend-for-Frontend (BFF)</strong> layer, so external
+      hospital systems can embed them without adopting the full EMR. I&apos;m passionate about building
+      accessible, performant user experiences and leveraging modern AI capabilities to solve real-world problems.
     </p>
 
     {/* Stats Row */}

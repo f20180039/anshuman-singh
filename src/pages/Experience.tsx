@@ -17,12 +17,13 @@ const experiences: ExperienceItem[] = [
     period: "July 2022 - Present",
     isCurrent: true,
     bullets: [
-      "Delivered end-to-end frontend for AI Summarization and Dictation modules, enabling seamless real-time voice-to-text and AI-driven clinical note generation.",
+      "Architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer, exposing versioned, contract-driven endpoints so external hospital systems can embed each module without adopting the full HealthPlix EMR.",
+      "Delivered the AI Summarization and Dictation module by integrating OpenAI workflows over Server-Sent Events (SSE), with live parsing and conversational input for real-time clinical note generation.",
       "Implemented Sentry error tracking for proactive monitoring and reduced bug resolution time by 30%.",
       "Optimized VisitPad performance by reducing re-renderings by 25%, improving UI responsiveness during patient consultations.",
-      "Led migration from legacy patterns to modern React architecture, improving code maintainability and developer velocity.",
+      "Built and maintained an in-house reusable UI library with Shadcn UI and Tailwind CSS, improving frontend consistency and cross-team developer velocity.",
     ],
-    techStack: ["React 18", "TypeScript", "Tailwind CSS", "Zustand", "OpenAI APIs", "Sentry", "Vite"],
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Zustand", "BFF Architecture", "OpenAI APIs", "SSE", "Sentry", "Vite"],
   },
   {
     title: "Data Science Intern",
