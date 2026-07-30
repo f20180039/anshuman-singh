@@ -99,9 +99,9 @@ const Home = () => {
             >
               HealthPlix Technologies
             </a>
-            <span className="ans-animate-pixel-blink ans-text-th-accent ans-ml-1">
+            {/* <span className="ans-animate-pixel-blink ans-text-th-accent ans-ml-1">
               _
-            </span>
+            </span> */}
           </motion.p>
 
           {/* Social Links */}

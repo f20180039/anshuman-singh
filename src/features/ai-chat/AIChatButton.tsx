@@ -52,34 +52,59 @@ const AIChatButton = ({ onClick, unreadCount = 0, isOpen = false }: AIChatButton
         setTimeout(() => setIsDragging(false), 100);
       }}
       className="ans-fixed ans-bottom-6 ans-right-4 sm:ans-right-6 ans-z-[45] ans-w-14 ans-h-14 ans-bg-th-accent ans-text-White ans-rounded-full ans-shadow-xl hover:ans-shadow-2xl ans-flex ans-items-center ans-justify-center ans-cursor-grab active:ans-cursor-grabbing ans-touch-none"
-      whileHover={{ scale: isDragging ? 1 : 1.1 }}
+      whileHover={{ scale: isDragging ? 1 : 1.12 }}
       whileTap={{ scale: 0.95 }}
       initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
+      animate={{
+        scale: 1,
+        opacity: 1,
+        // Gentle idle float when not being dragged
+        y: isDragging ? 0 : [0, -6, 0],
+      }}
       exit={{ scale: 0, opacity: 0 }}
       transition={{
-        type: "spring",
-        stiffness: 260,
-        damping: 20,
+        scale: { type: "spring", stiffness: 260, damping: 20 },
+        opacity: { duration: 0.3 },
+        y: { duration: 3, repeat: Infinity, ease: "easeInOut" },
       }}
       aria-label="Open AI Chat (Draggable)"
     >
-      {/* Pulse animation */}
+      {/* Rotating conic gradient glow ring */}
+      <motion.div
+        className="ans-absolute -ans-inset-1 ans-rounded-full ans-opacity-70 ans-blur-[6px]"
+        style={{
+          background:
+            "conic-gradient(from 0deg, rgb(var(--th-accent)), transparent 55%, rgb(var(--th-accent)))",
+        }}
+        animate={{ rotate: 360 }}
+        transition={{ duration: 6, repeat: Infinity, ease: "linear" }}
+      />
+
+      {/* Expanding pulse ring */}
       <motion.div
         className="ans-absolute ans-inset-0 ans-rounded-full ans-bg-th-accent"
         animate={{
-          scale: [1, 1.2, 1],
+          scale: [1, 1.35, 1],
           opacity: [0.5, 0, 0.5],
         }}
         transition={{
-          duration: 2,
+          duration: 2.2,
           repeat: Infinity,
           ease: "easeInOut",
         }}
       />
 
-      {/* Icon - increased from text-5 to text-6 for better visibility */}
-      <HiChatBubbleLeftRight className="ans-text-6 ans-relative ans-z-10" />
+      {/* Solid core so the icon stays readable over the glow */}
+      <div className="ans-absolute ans-inset-0 ans-rounded-full ans-bg-th-accent" />
+
+      {/* Icon with a subtle wobble */}
+      <motion.div
+        className="ans-relative ans-z-10"
+        animate={isDragging ? {} : { rotate: [0, -8, 8, 0] }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <HiChatBubbleLeftRight className="ans-text-6" />
+      </motion.div>
 
       {/* Unread badge */}
       {unreadCount > 0 && (
