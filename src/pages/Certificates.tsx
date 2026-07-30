@@ -12,9 +12,16 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
+    title: "Frontend Developer (React)",
+    issuer: "HackerRank",
+    date: "2026",
+    verifyUrl: "https://www.hackerrank.com/certificates/72e9b1a58a2e",
+    description: "Verified certification in frontend development with React, covering components, state management, JavaScript, and CSS."
+  },
+  {
     title: "GenAI for Professionals",
     issuer: "Hack2Skill",
-    date: "2025",
+    date: "2026",
     verifyUrl: "https://certificate.hack2skill.com/verify/2026H2S05GCGENAIAPACC1-P01309",
     description: "Certification in Generative AI, covering AI-assisted development, prompt engineering, and modern AI workflows."
   },
