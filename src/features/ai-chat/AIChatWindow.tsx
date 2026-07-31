@@ -105,15 +105,26 @@ const AIChatWindow = ({ isOpen, onClose }: AIChatWindowProps) => {
             <ChatInput onSend={sendMessage} disabled={isLoading} />
           </motion.div>
 
-          {/* Mobile version (fullscreen on small screens) */}
+          {/* Mobile version (fullscreen on small screens).
+              Uses 100dvh so the panel tracks the dynamic viewport as mobile
+              browser chrome (URL bar / bottom nav) shows and hides, and pads the
+              header + input with the safe-area insets so the close button and
+              input never sit under the browser UI. */}
           <style>{`
             @media (max-width: 640px) {
               .ans-fixed.ans-w-\\[400px\\] {
                 width: 100vw !important;
+                width: 100dvw !important;
                 height: 100vh !important;
+                height: 100dvh !important;
+                top: 0 !important;
                 bottom: 0 !important;
                 right: 0 !important;
+                left: 0 !important;
                 border-radius: 0 !important;
+                border: none !important;
+                padding-top: env(safe-area-inset-top, 0px) !important;
+                padding-bottom: env(safe-area-inset-bottom, 0px) !important;
               }
             }
           `}</style>
