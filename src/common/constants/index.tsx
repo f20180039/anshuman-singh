@@ -7,6 +7,7 @@ export const EAPP_ROUTES = {
   contact: "/contact",
   resumePreview: "/resume",
   test3d: "/test-3d",
+  jobs: "/jobs",
 };
 export const PROJECT_ROUTES = {
   guessGame: "/guess-game",
@@ -20,6 +21,11 @@ export const NAV_LINKS = [
   { name: "Certificates", path: EAPP_ROUTES.certificates },
   { name: "Contact", path: EAPP_ROUTES.contact },
 ];
+
+// Public data files served from the Vite base path, produced by the daily
+// jobs-feed workflow and the committed public job profile.
+export const C_JOB_PROFILE_URL = `${import.meta.env.BASE_URL}data/job-profile.json`;
+export const C_JOBS_FEED_URL = `${import.meta.env.BASE_URL}data/jobs-feed.json`;
 
 // Resume PDFs are built by the latex-resume-builder repo and synced into
 // public/resume/ by CI. Served from the Vite base path.

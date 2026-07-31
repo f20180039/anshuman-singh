@@ -12,6 +12,7 @@ const Certificates = lazy(() => import("./pages/Certificates"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ResumePreview = lazy(() => import("./pages/ResumePreview"));
 const Test3D = lazy(() => import("./pages/Test3D"));
+const Jobs = lazy(() => import("./pages/Jobs"));
 const GuessNumber = lazy(() => import("./modules/Guess-Number/GuessNumber"));
 const PigGame = lazy(() => import("./modules/Pig-Game/PigGame"));
 
@@ -45,6 +46,7 @@ const App = () => {
               <Route path={EAPP_ROUTES.contact} element={<Contact />} />
               <Route path={EAPP_ROUTES.resumePreview} element={<ResumePreview />} />
               <Route path={EAPP_ROUTES.test3d} element={<Test3D />} />
+              <Route path={EAPP_ROUTES.jobs} element={<Jobs />} />
               <Route
                 path={PROJECT_ROUTES.guessGame}
                 element={<GuessNumber />}
