@@ -25,7 +25,7 @@ drafts tailored cover letters — always human-reviewed, never auto-submitted.
 - **Public-site honesty.** The portfolio is a public static GitHub Pages site.
   The dashboard "soft gate" hides content from casual visitors only; the data
   still ships in the public bundle. UI copy must not over-promise privacy.
-  Exact current CTC is never published; 25 LPA is published as a stated
+  Exact current CTC is never published; 28 LPA is published as a stated
   expectation. Listings in the feed are already-public job posts.
 
 ## Architecture
@@ -52,17 +52,29 @@ Daily 9AM IST GitHub Action (jobs-feed.yml)
 One answers file means the page and the plugin never drift. The daily job only
 writes the listings file, never the answers.
 
-## Component 1 — Answer bank (`public/data/job-profile.json`)
+## Component 1 — Answer bank (split: public file + private file)
 
-Two zones in one file.
+The answer bank is split across TWO files so sensitive data never ships on the
+public site:
 
-**A. Structured facts** (mapped into form fields by the plugin):
+- **`public/data/job-profile.json`** — PUBLIC. Ships in the GitHub Pages bundle,
+  read by the `/jobs` page and importable by the plugin. Contains only data the
+  user is comfortable publishing.
+- **`job-profile.private.json`** — PRIVATE. Never committed to the public repo
+  (gitignored). Lives only in the plugin's `chrome.storage.local` (imported
+  once by the user). Contains exact current CTC, base/bonus split, and
+  demographic fields. The plugin merges public + private in memory to fill
+  forms; the website only ever sees the public file.
+
+**A. Public structured facts** (`public/data/job-profile.json`):
 
 ```jsonc
 {
   "identity": {
-    "fullName": "", "email": "", "phone": "",
-    "location": "Bangalore, India",
+    "fullName": "Anshuman Singh",
+    "email": "singh.anshuman.singh8@gmail.com",
+    "phone": "+91-6388480701",
+    "location": "Bangalore, Karnataka, India",
     "linkedin": "https://linkedin.com/in/anshuman-singh-4546b5275",
     "github": "https://github.com/f20180039",
     "portfolio": "https://f20180039.github.io/anshuman-singh/",
@@ -70,15 +82,16 @@ Two zones in one file.
   },
   "experience": {
     "years": 4,
-    "currentTitle": "", "currentCompany": "HealthPlix Technologies",
+    "currentTitle": "Software Engineer",
+    "currentCompany": "HealthPlix Technologies",
     "noticePeriod": "1 month (negotiable, currently serving 2)",
     "noticePeriodDays": 30,        // plugin fills the negotiable minimum
     "noticePeriodMaxDays": 60      // true figure, kept for reference
   },
   "compensation": {
-    "expectedMinLPA": 25, "currency": "INR",
-    "expectedNote": "25 LPA minimum base, negotiable by role/geo",
-    "currentCTC": null             // null = never published or filled
+    "expectedMinLPA": 28, "currency": "INR",
+    "expectedNote": "28 LPA minimum base, negotiable by role/geo"
+    // exact current CTC deliberately NOT here — see private file
   },
   "locationPreferences": {
     "priorityCountries": ["UAE", "Singapore"],
@@ -91,7 +104,25 @@ Two zones in one file.
 }
 ```
 
-**B. Reusable free-text answers** — keyed, with match keywords:
+**A2. Private structured facts** (`job-profile.private.json`, plugin-only, gitignored):
+
+```jsonc
+{
+  "compensation": {
+    "currentCTC": "22 LPA",
+    "currentBase": "20.7 LPA",
+    "currentBonus": "1.3 LPA"
+  },
+  "demographics": {           // for EEO/diversity form fields; never published
+    "gender": "Male",
+    "race": "Asian",
+    "disability": "None",
+    "pincode": 560087
+  }
+}
+```
+
+**B. Reusable free-text answers** — keyed, with match keywords (public file):
 
 ```jsonc
 "answers": [
@@ -128,7 +159,7 @@ lazy-load pattern). Fetches `job-profile.json` and `jobs-feed.json`.
 
 - **Zone 1 — Open-to-work summary (always visible):** recruiter-facing card
   from the structured facts — role targets, 4 yrs, notice "1 month
-  (negotiable)", 25 LPA min, location story (India relocate-anywhere · remote
+  (negotiable)", 28 LPA min, location story (India relocate-anywhere · remote
   worldwide · targeting UAE/Singapore · open to Europe/Australia). Shareable in
   a LinkedIn "open to work" post.
 - **Zone 2 — Matched-jobs dashboard (soft gate):** passphrase field reveals a
@@ -172,8 +203,12 @@ Same MV3 shape as the existing `study-helper-extension`.
 - `sidepanel/` — review UI: detected field → mapped answer, "Fill all" +
   per-field fill, answer-bank editor synced to `chrome.storage.local`, and the
   cover-letter generator (JD in → draft → edit → fill/copy).
-- **Answer source:** import `job-profile.json` (paste or fetch public URL) into
-  `chrome.storage.local`; edit locally. API key entered once, stored locally.
+- **Answer source:** import the PUBLIC `job-profile.json` (paste or fetch public
+  URL) AND the PRIVATE `job-profile.private.json` (paste/upload only — never
+  fetched from the web) into `chrome.storage.local`. The plugin merges the two
+  in memory; private compensation/demographic fields fill forms but are never
+  published. API key entered once, stored locally. `job-profile.private.json`
+  is gitignored.
 
 **Cover-letter generation:** Gemini (reuses the existing wired provider). Prompt
 grounded by the answer bank; `neverClaim` enforced; `voiceSamples` used as
@@ -197,5 +232,5 @@ negotiable-minimum notice (1 month) by default.
 - Auto-submitting applications; scraping LinkedIn/Naukri.
 - True privacy for the dashboard (impossible on a public static site).
 - Guaranteed AI-detector evasion for cover letters.
-- Publishing exact current CTC.
-```
+- Publishing exact current CTC / base / bonus / demographics on the public site
+  (these live only in the private, plugin-local file).
