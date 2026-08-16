@@ -10,7 +10,10 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "npm run lint && tsc && vite build",
+    "build": "npm run lint && tsc && npm run gen:seo && vite build",
+    "gen:seo": "node scripts/generate-seo-files.mjs",
+    "gen:brand": "node scripts/generate-brand-assets.mjs",
+    "gen:images": "node scripts/optimize-images.js",
     "lint:fix": "eslint ./src --ext .ts,.tsx --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "eslint --fix",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",

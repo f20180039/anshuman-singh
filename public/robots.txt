@@ -1,0 +1,13 @@
+# Portfolio of Anshuman Singh — https://f20180039.github.io/anshuman-singh/
+
+User-agent: *
+Allow: /
+
+# Personal tooling and post-submission pages: no search value.
+Disallow: /anshuman-singh/jobs
+Disallow: /anshuman-singh/thank-you
+Disallow: /anshuman-singh/test-3d
+Disallow: /anshuman-singh/guess-game
+Disallow: /anshuman-singh/pig-game
+
+Sitemap: https://f20180039.github.io/anshuman-singh/sitemap.xml
