@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import {
   C_RESUME_SINGLE_COL_URL,
   C_RESUME_MULTI_COL_URL,
+  resumeDownloadName,
 } from "../common/constants";
 import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 import Spinner from "../common/components/Spinner";
@@ -58,7 +59,7 @@ const ResumePreview = () => {
           <div className="ans-flex ans-gap-2">
             <motion.a
               href={activeResume}
-              download
+              download={resumeDownloadName(layout)}
               className="ans-flex ans-items-center ans-gap-2 ans-bg-th-accent ans-text-White ans-px-4 ans-py-2 ans-rounded-lg ans-shadow-md ans-text-2 hover:ans-bg-th-accent/80"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -134,7 +135,7 @@ const ResumePreview = () => {
               </p>
               <a
                 href={activeResume}
-                download
+                download={resumeDownloadName(layout)}
                 className="ans-text-1 ans-text-th-accent ans-underline ans-underline-offset-4"
               >
                 Download the PDF instead

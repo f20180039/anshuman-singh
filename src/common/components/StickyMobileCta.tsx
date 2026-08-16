@@ -2,7 +2,11 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
-import { C_RESUME_SINGLE_COL_URL, EAPP_ROUTES } from "../constants";
+import {
+  C_RESUME_MULTI_COL_URL,
+  EAPP_ROUTES,
+  resumeDownloadName,
+} from "../constants";
 import { isAnalyticsConfigured, trackEvent } from "../analytics/analytics";
 import { getConsent, subscribeToConsent } from "../analytics/consent";
 
@@ -77,8 +81,8 @@ export default function StickyMobileCta() {
               Get in touch
             </Link>
             <a
-              href={C_RESUME_SINGLE_COL_URL}
-              download
+              href={C_RESUME_MULTI_COL_URL}
+              download={resumeDownloadName("multi")}
               onClick={() => trackEvent("sticky_cta_click", { action: "resume" })}
               className="ans-flex ans-min-h-[48px] ans-items-center ans-justify-center ans-gap-2 ans-rounded-lg ans-border ans-border-th-accent/45 ans-px-4 ans-text-2 ans-font-inter-1 ans-text-th-accent"
               aria-label="Download my resume as a PDF"

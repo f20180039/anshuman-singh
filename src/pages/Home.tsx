@@ -6,8 +6,9 @@ import {
   C_HEALTHPLIX_URL,
   C_LINKEDIN_URL,
   C_LOCATION_LINE,
-  C_RESUME_SINGLE_COL_URL,
+  C_RESUME_MULTI_COL_URL,
   EAPP_ROUTES,
+  resumeDownloadName,
 } from "../common/constants";
 import { getYearsOfExperience } from "../common/utils";
 import { motion, useMotionValue, useTransform } from "framer-motion";
@@ -210,8 +211,8 @@ const Home = () => {
               Preview resume
             </Link>
             <a
-              href={C_RESUME_SINGLE_COL_URL}
-              download
+              href={C_RESUME_MULTI_COL_URL}
+              download={resumeDownloadName("multi")}
               onClick={() => trackEvent("hero_cta_click", { action: "resume_download" })}
               className="ans-flex ans-items-center ans-gap-2 ans-text-2 ans-text-th-secondary-fg ans-underline-offset-4 hover:ans-text-th-accent hover:ans-underline"
             >

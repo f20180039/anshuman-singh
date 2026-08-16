@@ -1,3 +1,5 @@
+import resumeMeta from "../resume-meta.json";
+
 export const EAPP_ROUTES = {
   home: "/",
   about: "/about",
@@ -36,9 +38,31 @@ export const C_JOB_PROFILE_URL = `${import.meta.env.BASE_URL}data/job-profile.js
 export const C_JOBS_FEED_URL = `${import.meta.env.BASE_URL}data/jobs-feed.json`;
 
 // Resume PDFs are built by the latex-resume-builder repo and synced into
-// public/resume/ by CI. Served from the Vite base path.
-export const C_RESUME_SINGLE_COL_URL = `${import.meta.env.BASE_URL}resume/resume-single-col.pdf`;
-export const C_RESUME_MULTI_COL_URL = `${import.meta.env.BASE_URL}resume/resume-multicol.pdf`;
+// public/resume/ by .github/workflows/sync-resume.yml. Served from the Vite
+// base path.
+//
+// The filenames are self-describing rather than resume-multicol.pdf, so that
+// the name is still meaningful when the browser's built-in PDF viewer handles
+// the download and ignores the anchor's `download` attribute.
+export const C_RESUME_MULTI_COL_URL = `${import.meta.env.BASE_URL}resume/Anshuman-Singh-Frontend-Engineer-Resume.pdf`;
+export const C_RESUME_SINGLE_COL_URL = `${import.meta.env.BASE_URL}resume/Anshuman-Singh-Frontend-Engineer-Resume-Single-Column.pdf`;
+
+/**
+ * Filename a recruiter ends up with in their Downloads folder.
+ *
+ * Leads with the name and the role so it is identifiable among hundreds of
+ * other resumes, and carries the month the resume was last rebuilt so an old
+ * copy is obviously an old copy. Only the alternate layout is labelled — the
+ * default download should not carry jargon that means nothing to the reader.
+ */
+export function resumeDownloadName(layout: "single" | "multi" = "multi"): string {
+  const month = resumeMeta.updatedAt.slice(0, 7); // YYYY-MM
+  const variant = layout === "single" ? "-Single-Column" : "";
+  return `Anshuman-Singh-Frontend-Engineer-Resume${variant}-${month}.pdf`;
+}
+
+/** Date of the last resume sync, maintained by the sync workflow. */
+export const C_RESUME_UPDATED_AT = resumeMeta.updatedAt;
 
 export const C_LINKEDIN_URL = "https://linkedin.com/in/anshuman-singh-bits";
 export const C_GITHUB_URL = "https://github.com/f20180039";

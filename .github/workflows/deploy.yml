@@ -4,6 +4,21 @@ on:
   push:
     branches: [master]
 
+  # Lets sync-resume.yml deploy directly after it commits new resume PDFs.
+  # A push made with GITHUB_TOKEN deliberately does not trigger `on: push`
+  # workflows, so a sync would otherwise commit the new resume and never
+  # rebuild the site. Calling this workflow is a direct invocation rather than
+  # an event, so that restriction does not apply.
+  workflow_call:
+    inputs:
+      ref:
+        description: >-
+          Git ref to build. Callers that have just pushed a commit must pass
+          the branch name, because the caller's github.sha is pinned to the
+          commit that started their run, which predates their own push.
+        required: false
+        type: string
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -16,6 +31,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
       - uses: actions/setup-node@v4
         with:
           node-version: 20

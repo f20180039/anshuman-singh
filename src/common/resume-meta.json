@@ -1,0 +1,4 @@
+{
+  "_comment": "Written by .github/workflows/sync-resume.yml on every successful sync, and imported at build time so the date is baked into the bundle with no runtime fetch. It drives the month suffix on the downloaded filename. Update by hand only if you replace the PDFs manually.",
+  "updatedAt": "2026-08-16"
+}
