@@ -72,35 +72,40 @@ public site:
 {
   "identity": {
     "fullName": "Anshuman Singh",
-    "email": "singh.anshuman.singh8@gmail.com",
+    "email": "f20180039@gmail.com",
     "phone": "+91-6388480701",
     "location": "Bangalore, Karnataka, India",
-    "linkedin": "https://linkedin.com/in/anshuman-singh-4546b5275",
+    "linkedin": "https://linkedin.com/in/anshuman-singh-bits",
     "github": "https://github.com/f20180039",
     "portfolio": "https://f20180039.github.io/anshuman-singh/",
-    "willingToRelocate": true
+    "willingToRelocate": true,
   },
   "experience": {
     "years": 4,
     "currentTitle": "Software Engineer",
     "currentCompany": "HealthPlix Technologies",
     "noticePeriod": "1 month (negotiable, currently serving 2)",
-    "noticePeriodDays": 30,        // plugin fills the negotiable minimum
-    "noticePeriodMaxDays": 60      // true figure, kept for reference
+    "noticePeriodDays": 30, // plugin fills the negotiable minimum
+    "noticePeriodMaxDays": 60, // true figure, kept for reference
   },
   "compensation": {
-    "expectedMinLPA": 28, "currency": "INR",
-    "expectedNote": "28 LPA minimum base, negotiable by role/geo"
+    "expectedMinLPA": 28,
+    "currency": "INR",
+    "expectedNote": "28 LPA minimum base, negotiable by role/geo",
     // exact current CTC deliberately NOT here — see private file
   },
   "locationPreferences": {
     "priorityCountries": ["UAE", "Singapore"],
     "openRegions": ["Europe", "Australia", "India"],
     "remoteWorldwide": true,
-    "needsSponsorship": true
+    "needsSponsorship": true,
   },
-  "roles": ["Frontend Engineer", "Software Engineer", "Full-stack (FE-leaning)"],
-  "workAuth": { "current": "India", "sponsorshipRequiredOutsideIndia": true }
+  "roles": [
+    "Frontend Engineer",
+    "Software Engineer",
+    "Full-stack (FE-leaning)",
+  ],
+  "workAuth": { "current": "India", "sponsorshipRequiredOutsideIndia": true },
 }
 ```
 
@@ -111,14 +116,15 @@ public site:
   "compensation": {
     "currentCTC": "22 LPA",
     "currentBase": "20.7 LPA",
-    "currentBonus": "1.3 LPA"
+    "currentBonus": "1.3 LPA",
   },
-  "demographics": {           // for EEO/diversity form fields; never published
+  "demographics": {
+    // for EEO/diversity form fields; never published
     "gender": "Male",
     "race": "Asian",
     "disability": "None",
-    "pincode": 560087
-  }
+    "pincode": 560087,
+  },
 }
 ```
 
