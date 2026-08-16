@@ -1,0 +1,75 @@
+What’s motivating you to explore an engineering role at Automattic and why now? *
+We’d love to hear specifics — about how we work, what we build, or our creed — that make Automattic a good fit for you and your goals.
+
+Over the last four years, I've enjoyed taking ownership of products rather than just implementing features. I've built healthcare products from scratch, worked closely with product, design, and backend teams, and recently started exploring how AI changes the way software is built.
+
+That shift is one of the reasons I'm looking for my next opportunity now. AI has dramatically accelerated implementation, which means I want to spend more of my time solving the harder engineering problems—architecture, product design, developer experience, and long-term maintainability—rather than simply shipping features.
+
+What attracts me to Automattic is that it seems to optimize for engineers who think in terms of ownership and long-term product quality. The emphasis on asynchronous communication, written reasoning, and giving engineers autonomy to make decisions resonates with how I like to work. I enjoy environments where people are trusted to own problems end-to-end, and where good engineering decisions matter more than the number of pull requests merged.
+
+Tell us about a project or piece of work you’re especially proud of (from any point in your career). *
+What was your role, and what were you personally responsible for? What technical decisions, trade-offs, and challenges made it interesting, and how did you navigate them?
+
+The project I'm most proud of is leading the frontend development of new healthcare modules from scratch, starting with the Pharmacy module and more recently a Hospital Material Management System (HMMS).
+
+My responsibility went far beyond implementing screens. I was involved in defining the frontend architecture, designing reusable component patterns, integrating backend APIs, supporting production releases, and mentoring junior developers. One challenge was balancing rapid delivery with building an architecture that could support future modules without accumulating technical debt.
+
+The experience reinforced something I enjoy about engineering: solving the right problem is often more valuable than writing more code. Many of the technical decisions we made—around modular architecture, reusable components, and clear API contracts—were aimed at making future development faster and safer rather than simply delivering the next feature.
+
+How has AI changed your work — if at all? *
+Specifics about your workflow and tooling are more useful than general opinions about where AI is headed — including how you decide when to use AI and when not to.
+
+AI has fundamentally changed how I approach software development. Earlier in my career, implementing an idea was the expensive part, so I naturally optimized for execution. Today, implementation has become significantly cheaper.
+
+Instead of spending days searching documentation, blog posts, GitHub issues, and Stack Overflow, I now use ChatGPT and Claude as engineering collaborators. I explore multiple architectural approaches, challenge assumptions, prototype ideas, and compare trade-offs before committing to an implementation.
+
+This has enabled me to build personal projects that would previously have taken months of research, including a production-ready multiplayer card game and an AI-powered image colorization project. AI also generates much of the repetitive work—boilerplate, unit tests, documentation, and initial implementations—which lets me focus more on architecture, product decisions, and system design.
+
+More than making me faster, AI has changed how I think. I now spend more time evaluating "why" one solution is better than another instead of focusing primarily on "how" to implement it.
+
+What’s an idea, book, blog post, or talk that recently changed how you think about your craft? *
+What is it? How did it change the way you build, collaborate, or make decisions?
+
+The idea that has changed how I think about software engineering is that **good engineering is less about making the current feature work and more about making the next feature easy to build.**
+
+Early in my career, working in a fast-paced product company, I naturally optimized for shipping quickly. If there was a bug or an urgent feature request, my first instinct was to find the fastest solution that solved the immediate problem. In many cases, it worked—and that felt like success.
+
+Over time, I realized that "it works" is often only a temporary milestone. As new features were added, products evolved, and teams changed, I saw many of those quick decisions—both my own and those made by engineers around me—become the source of future bugs, regressions, and technical debt. Code that solved today's problem often made tomorrow's problem significantly harder.
+
+One of the most valuable lessons I've learned is that some of my biggest contributions haven't come from always making the right decision—they've come from openly discussing the decisions that didn't age well. A few colleagues have jokingly told me that I've been a great source of learning for "what not to do." I actually take that as a compliment. By sharing the reasoning behind my mistakes, why a particular shortcut looked reasonable at the time, and how it later became a maintenance problem, I've helped both myself and the people around me build better engineering instincts.
+
+That experience fundamentally changed how I approach software design. Before writing code, I now spend much more time asking questions like:
+
+* How will this design evolve when requirements change?
+* Which assumptions am I making that might not hold six months from now?
+* Am I introducing unnecessary coupling?
+* Will another engineer understand why this decision was made?
+
+This mindset has changed the way I build software. I prefer well-defined interfaces over implicit dependencies, modular designs over tightly coupled implementations, and simple, understandable solutions over clever abstractions. I'm also much more comfortable investing extra time upfront if it reduces complexity for everyone who works on the system later.
+
+Interestingly, AI has reinforced this way of thinking. Since implementation has become dramatically faster, I can prototype multiple approaches, compare trade-offs, and validate ideas before committing to one. That has shifted my focus away from simply writing code and toward making better engineering decisions.
+
+The biggest lesson I've learned is that "good engineers aren't the ones who never make mistakes—they're the ones who learn from them quickly, make those lessons visible to others, and build systems that become easier to evolve over time."
+
+What’s a controversial or unpopular opinion you hold about software engineering, and why? *
+This could be about tools, practices, philosophies — anything where your take might challenge conventional wisdom. We’re interested in how you think, not whether we agree.
+
+A view I hold that I think is still unpopular is that "AI hasn't reduced the need for software engineers—it has shifted where their value comes from."
+
+A few years ago, implementation was expensive. Teams often reused existing architectures because exploring multiple alternatives wasn't practical under time constraints. Today, AI can generate production-quality code, tests, documentation, and UI implementations remarkably quickly. The bottleneck has shifted from writing software to making good engineering decisions.
+
+I've experienced this directly in my own projects. Instead of spending days moving between documentation, blog posts, and forums, I use ChatGPT and Claude to explore multiple architectural approaches, challenge assumptions, and compare trade-offs before writing code. That has allowed me to build projects in days that would previously have taken months of research.
+
+Because implementation is becoming cheaper, I believe engineers should spend more time evaluating architecture, interfaces, maintainability, and long-term trade-offs than they traditionally have. I also think code review is evolving. Rather than manually reviewing every generated line, engineers should focus on validating system design, correctness, edge cases, and business logic while relying on automated tests, static analysis, and independent AI reviewers to validate implementation.
+
+My controversial opinion isn't that frontend or backend engineers are becoming obsolete. It's that "implementation is becoming a commodity, while engineering judgment is becoming the true differentiator." The engineers who create the most value will be the ones who can design systems, ask better questions, evaluate trade-offs, and remain accountable for the quality of what gets built.
+
+Is there anything else you’d like us to know?
+This is your space. Maybe there’s context about your background that doesn’t fit neatly into the questions above, something you’re working on that you’re excited about, a constraint we should know about, or just something you think would help us understand you better.
+
+One final thought: these application questions genuinely made me stop and reflect. Most engineering applications focus on technologies or projects, but these questions asked me to think about *how* I've grown as an engineer.
+
+I spent a couple of hours thinking through my answers before writing them. I then used AI to help me refine the language and improve the structure, much like I use it in my day-to-day work. The ideas, experiences, successes, and mistakes are my own; AI simply helped me communicate them more clearly.
+
+Preparing these answers reminded me that engineering isn't just about building software—it's also about being able to explain your reasoning, learn from your mistakes, and continuously refine how you think. Regardless of the outcome, I appreciate being asked questions that encouraged that kind of reflection.
+

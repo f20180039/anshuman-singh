@@ -7,6 +7,7 @@ import {
   C_RESUME_MULTI_COL_URL,
 } from "../common/constants";
 import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
+import Spinner from "../common/components/Spinner";
 
 type ResumeLayout = "single" | "multi";
 
@@ -23,6 +24,7 @@ const LAYOUT_OPTIONS: { key: ResumeLayout; label: string }[] = [
 const ResumePreview = () => {
   const navigate = useNavigate();
   const [layout, setLayout] = useState<ResumeLayout>("single");
+  const [pdfLoaded, setPdfLoaded] = useState(false);
   const activeResume = RESUME_URLS[layout];
 
   return (
@@ -96,7 +98,12 @@ const ResumePreview = () => {
                   key={option.key}
                   role="tab"
                   aria-selected={isActive}
-                  onClick={() => setLayout(option.key)}
+                  onClick={() => {
+                    // The iframe reloads with a different PDF, so the
+                    // loading state has to reload with it.
+                    setLayout(option.key);
+                    setPdfLoaded(false);
+                  }}
                   className={`ans-px-4 ans-py-2 ans-rounded-md ans-text-2 ans-transition-colors ${
                     isActive
                       ? "ans-bg-th-accent ans-text-White ans-shadow-md"
@@ -115,13 +122,31 @@ const ResumePreview = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
-          className="ans-flex-1 ans-w-full ans-bg-White ans-rounded-lg ans-shadow-2xl ans-overflow-hidden"
+          className="ans-relative ans-flex-1 ans-w-full ans-bg-White ans-rounded-lg ans-shadow-2xl ans-overflow-hidden"
         >
+          {/* A PDF is a big download over mobile data, and an empty white
+              rectangle looks like a broken page while it arrives. */}
+          {!pdfLoaded && (
+            <div className="ans-absolute ans-inset-0 ans-flex ans-flex-col ans-items-center ans-justify-center ans-gap-3 ans-bg-th-surface">
+              <Spinner className="ans-h-8 ans-w-8 ans-text-th-accent" />
+              <p className="ans-text-2 ans-text-th-muted-fg">
+                Loading resume…
+              </p>
+              <a
+                href={activeResume}
+                download
+                className="ans-text-1 ans-text-th-accent ans-underline ans-underline-offset-4"
+              >
+                Download the PDF instead
+              </a>
+            </div>
+          )}
           <iframe
             src={activeResume}
             className="ans-w-full ans-h-full ans-min-h-[80vh]"
             title={`Resume Preview - ${layout === "single" ? "Single Column" : "Two Column"}`}
             style={{ border: "none" }}
+            onLoad={() => setPdfLoaded(true)}
           />
         </motion.div>
       </div>

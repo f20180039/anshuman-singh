@@ -1,0 +1,123 @@
+{
+  "_comment": "Single source of truth for per-page SEO. Consumed at runtime by src/common/seo/meta.ts and at build time by scripts/generate-seo-assets.mjs (sitemap + robots). The {years} token is replaced with the live years-of-experience figure so copy never goes stale.",
+  "pages": [
+    {
+      "path": "/",
+      "title": "Anshuman Singh — Frontend Engineer (React, TypeScript, AI)",
+      "description": "Frontend engineer in Bengaluru with {years}+ years shipping React and TypeScript products at HealthPlix — AI clinical documentation, billing modules, and performance work.",
+      "indexable": true,
+      "priority": 1.0,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/about",
+      "title": "About — Anshuman Singh, Frontend Engineer in Bengaluru",
+      "description": "Background, education and technical skills: {years}+ years of React, TypeScript, BFF architecture, AI integrations and web performance in the healthtech domain.",
+      "indexable": true,
+      "priority": 0.8,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/experience",
+      "title": "Experience — Frontend Engineering at HealthPlix | Anshuman Singh",
+      "description": "Roles, responsibilities and shipped work: AI clinical documentation, IPD/OPD billing on a Backend-for-Frontend layer, and performance optimisation at HealthPlix Technologies.",
+      "indexable": true,
+      "priority": 0.8,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects",
+      "title": "Projects — React & TypeScript Builds | Anshuman Singh",
+      "description": "Selected side projects with live demos and source: a full-stack Instagram clone, multiplayer browser games, and this AI-assisted portfolio itself.",
+      "indexable": true,
+      "priority": 0.9,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/certificates",
+      "title": "Certificates & Credentials | Anshuman Singh",
+      "description": "Verified courses and certifications in frontend engineering, JavaScript, React and web development completed by Anshuman Singh.",
+      "indexable": true,
+      "priority": 0.5,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/contact",
+      "title": "Contact — Hire Anshuman Singh, Frontend Engineer",
+      "description": "Get in touch about frontend engineering roles or freelance work. Send a message directly, or reach out by email, phone or LinkedIn. Based in Bengaluru, India.",
+      "indexable": true,
+      "priority": 0.9,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/resume",
+      "title": "Resume — Anshuman Singh, Frontend Engineer",
+      "description": "Read or download the up-to-date resume of Anshuman Singh in single-column or two-column layout. Kept in sync automatically from source.",
+      "indexable": true,
+      "priority": 0.9,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/privacy",
+      "title": "Privacy Policy | Anshuman Singh",
+      "description": "What this site collects, why, and how to opt out: analytics consent, contact form submissions, the AI chat assistant, and your rights over that data.",
+      "indexable": true,
+      "priority": 0.3,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/terms",
+      "title": "Terms of Use | Anshuman Singh",
+      "description": "The terms governing use of this portfolio site, including acceptable use, intellectual property in the code and content, and limitations of liability.",
+      "indexable": true,
+      "priority": 0.3,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/jobs",
+      "title": "Job Feed | Anshuman Singh",
+      "description": "A personal, automatically refreshed feed of frontend roles matched against my profile. Not intended as a public listing.",
+      "indexable": false,
+      "priority": 0.1,
+      "changefreq": "daily"
+    },
+    {
+      "path": "/thank-you",
+      "title": "Message Sent — Thank You | Anshuman Singh",
+      "description": "Your message has been sent. I typically reply within one business day.",
+      "indexable": false,
+      "priority": 0.1,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/test-3d",
+      "title": "3D Sandbox | Anshuman Singh",
+      "description": "An experimental react-three-fiber scene used to test 3D rendering and performance budgets.",
+      "indexable": false,
+      "priority": 0.1,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/guess-game",
+      "title": "Guess the Number — Playable Demo | Anshuman Singh",
+      "description": "A small interactive number-guessing game with score tracking and adaptive difficulty, playable in the browser.",
+      "indexable": false,
+      "priority": 0.1,
+      "changefreq": "yearly"
+    },
+    {
+      "path": "/pig-game",
+      "title": "Pig Game — Playable Demo | Anshuman Singh",
+      "description": "A multiplayer dice game with strategic score banking, playable in the browser.",
+      "indexable": false,
+      "priority": 0.1,
+      "changefreq": "yearly"
+    }
+  ],
+  "notFound": {
+    "path": "/404",
+    "title": "Page Not Found (404) | Anshuman Singh",
+    "description": "That page does not exist. Head back to the homepage, or jump straight to projects, experience or the resume.",
+    "indexable": false
+  }
+}

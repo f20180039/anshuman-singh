@@ -7,6 +7,10 @@ export const EAPP_ROUTES = {
   contact: "/contact",
   resumePreview: "/resume",
   test3d: "/test-3d",
+  jobs: "/jobs",
+  thankYou: "/thank-you",
+  privacy: "/privacy",
+  terms: "/terms",
 };
 export const PROJECT_ROUTES = {
   guessGame: "/guess-game",
@@ -21,14 +25,40 @@ export const NAV_LINKS = [
   { name: "Contact", path: EAPP_ROUTES.contact },
 ];
 
+export const LEGAL_LINKS = [
+  { name: "Privacy Policy", path: EAPP_ROUTES.privacy },
+  { name: "Terms", path: EAPP_ROUTES.terms },
+];
+
+// Public data files served from the Vite base path, produced by the daily
+// jobs-feed workflow and the committed public job profile.
+export const C_JOB_PROFILE_URL = `${import.meta.env.BASE_URL}data/job-profile.json`;
+export const C_JOBS_FEED_URL = `${import.meta.env.BASE_URL}data/jobs-feed.json`;
+
 // Resume PDFs are built by the latex-resume-builder repo and synced into
 // public/resume/ by CI. Served from the Vite base path.
 export const C_RESUME_SINGLE_COL_URL = `${import.meta.env.BASE_URL}resume/resume-single-col.pdf`;
 export const C_RESUME_MULTI_COL_URL = `${import.meta.env.BASE_URL}resume/resume-multicol.pdf`;
 
-export const C_LINKEDIN_URL =
-  "https://linkedin.com/in/anshuman-singh-4546b5275";
+export const C_LINKEDIN_URL = "https://linkedin.com/in/anshuman-singh-bits";
 export const C_GITHUB_URL = "https://github.com/f20180039";
 export const C_HEALTHPLIX_URL = "https://www.healthplix.com";
-export const C_MY_MAIL = "singh.anshuman.singh8@gmail.com";
-export const C_MY_PHONE_NUMBER = "+91 63884 80701";
+export const C_MY_MAIL = "f20180039@gmail.com";
+export const C_MY_PHONE_NUMBER = "+91 6388480701";
+
+// Origin the site is actually served from. Used to build absolute canonical
+// and Open Graph URLs, which must not be relative.
+export const C_SITE_ORIGIN = "https://f20180039.github.io";
+export const C_SITE_URL = `${C_SITE_ORIGIN}/anshuman-singh`;
+
+// City-level location. Deliberately not a street address: it is enough for
+// recruiters filtering by location and for the schema.org PostalAddress,
+// without publishing a home address.
+export const C_LOCATION = {
+  locality: "Bengaluru",
+  region: "Karnataka",
+  country: "India",
+  countryCode: "IN",
+  timezone: "Asia/Kolkata (IST, UTC+5:30)",
+};
+export const C_LOCATION_LINE = `${C_LOCATION.locality}, ${C_LOCATION.region}, ${C_LOCATION.country}`;

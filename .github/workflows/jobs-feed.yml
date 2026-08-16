@@ -1,0 +1,49 @@
+name: Refresh Jobs Feed
+
+# Fetches fresh job listings daily and commits the feed. The commit to master
+# triggers the existing deploy.yml, so the /jobs dashboard updates automatically.
+
+on:
+  schedule:
+    # 03:30 UTC = 09:00 AM IST. GitHub cron can lag 5–15 min under load.
+    - cron: "30 3 * * *"
+  workflow_dispatch: {}
+
+# Avoid overlapping runs.
+concurrency:
+  group: jobs-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch and score job listings
+        env:
+          # Optional — Adzuna is used only if both are present as repo secrets.
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: node scripts/fetch-jobs.mjs
+
+      - name: Commit feed if it changed
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- public/data/jobs-feed.json; then
+            echo "No changes to the jobs feed — skipping commit."
+            exit 0
+          fi
+          git add public/data/jobs-feed.json
+          # No [skip ci]: this push intentionally triggers deploy.yml to rebuild
+          # the site with the fresh feed.
+          git commit -m "chore: refresh jobs feed"
+          git push

@@ -1,0 +1,117 @@
+{
+  "_note": "PUBLIC job profile. Ships in the GitHub Pages bundle and is world-readable. Contains NO current CTC and NO demographic data — those live only in the Fast Apply plugin's local storage.",
+  "updated": "2026-07-31",
+  "identity": {
+    "fullName": "Anshuman Singh",
+    "headline": "Frontend Engineer · 4+ years · React / TypeScript / AI",
+    "location": "Bangalore, India",
+    "linkedin": "https://linkedin.com/in/anshuman-singh-bits",
+    "github": "https://github.com/f20180039",
+    "portfolio": "https://f20180039.github.io/anshuman-singh/",
+    "email": "f20180039@gmail.com"
+  },
+  "experience": {
+    "years": 4,
+    "currentTitle": "Software Engineer",
+    "currentCompany": "HealthPlix Technologies",
+    "noticePeriod": "1 month (negotiable)"
+  },
+  "compensation": {
+    "expectedMinLPA": 28,
+    "currency": "INR",
+    "expectedNote": "28 LPA minimum base, negotiable by role and geography"
+  },
+  "locationPreferences": {
+    "priorityCountries": ["UAE", "Singapore"],
+    "openRegions": ["Europe", "Australia", "India"],
+    "remoteWorldwide": true,
+    "needsSponsorship": true,
+    "summary": "Open across India (will relocate anywhere) and remote worldwide. Actively targeting UAE and Singapore, and open to Europe and Australia. Requires visa sponsorship for roles outside India."
+  },
+  "roles": [
+    "Frontend Engineer",
+    "Software Engineer",
+    "Full-stack Engineer (frontend-leaning)"
+  ],
+  "openToWork": true,
+  "highlights": [
+    "Architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer.",
+    "Built production AI features (dictation + summarization) over OpenAI APIs with Server-Sent Events.",
+    "Optimized frontend performance — 25% reduction in re-renders through memoization and code splitting.",
+    "HackerRank-certified React developer; GenAI for Professionals certified."
+  ],
+  "matchKeywords": {
+    "roleTerms": [
+      "frontend",
+      "front end",
+      "front-end",
+      "react",
+      "typescript",
+      "javascript",
+      "ui engineer",
+      "web developer",
+      "software engineer",
+      "fullstack",
+      "full stack",
+      "full-stack"
+    ],
+    "seniorityTerms": [
+      "mid",
+      "senior",
+      "sde ii",
+      "sde 2",
+      "sde-2",
+      "software engineer ii",
+      "4 year",
+      "4+ year",
+      "3-5 year",
+      "3 to 6"
+    ],
+    "sponsorshipTerms": [
+      "visa",
+      "sponsor",
+      "sponsorship",
+      "relocation",
+      "relocate",
+      "work permit"
+    ],
+    "regionTerms": {
+      "India": [
+        "india",
+        "bangalore",
+        "bengaluru",
+        "hyderabad",
+        "pune",
+        "gurgaon",
+        "gurugram",
+        "noida",
+        "mumbai",
+        "delhi",
+        "chennai",
+        "remote india"
+      ],
+      "UAE": ["uae", "dubai", "abu dhabi", "united arab emirates"],
+      "Singapore": ["singapore"],
+      "Europe": [
+        "europe",
+        "eu",
+        "emea",
+        "united kingdom",
+        "uk",
+        "london",
+        "berlin",
+        "germany",
+        "netherlands",
+        "amsterdam",
+        "ireland",
+        "dublin",
+        "poland",
+        "portugal",
+        "spain",
+        "france"
+      ],
+      "Australia": ["australia", "sydney", "melbourne"],
+      "Remote": ["remote", "anywhere", "worldwide", "work from home", "wfh"]
+    }
+  }
+}
