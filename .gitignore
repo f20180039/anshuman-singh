@@ -29,3 +29,10 @@ dist-ssr
 server/.env
 server/node_modules
 
+
+# Build-time SEO output. Regenerated from src/common/seo/pages.json by
+# `npm run gen:seo`, which runs inside `npm run build` — including in CI before
+# deploy, so the published copies are always current. Tracking them only made
+# the tree dirty after every local build.
+public/robots.txt
+public/sitemap.xml

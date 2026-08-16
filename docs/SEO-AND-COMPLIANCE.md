@@ -61,9 +61,9 @@ to this project repository, so this repo cannot serve it.
 `<meta name="robots" content="noindex, follow">` emitted by
 `src/common/seo/Seo.tsx` for every route marked `"indexable": false` in
 `src/common/seo/pages.json`. That is honoured by Google and Bing and needs no
-origin-level access. The generated `public/robots.txt` is still correct and
-still committed, so it starts working the moment this site moves to a custom
-domain or to the user-pages repo.
+origin-level access. The generated `public/robots.txt` is still correct and is
+still published with every deploy, so it starts working the moment this site
+moves to a custom domain or to the user-pages repo.
 
 If you want origin-level control now, add this to the root of your
 `f20180039.github.io` repository as `robots.txt`:
@@ -110,6 +110,11 @@ are replaced in place and never duplicated.
 | Command | Writes | When to run |
 | --- | --- | --- |
 | `npm run gen:seo` | `public/sitemap.xml`, `public/robots.txt` | Automatic — part of `npm run build` |
+
+`gen:seo`'s two outputs are gitignored. They are rebuilt from `pages.json` on
+every build, including in CI before deploy, so the published copies are always
+current — tracking them only meant the working tree went dirty after every
+local build. To inspect them, run `npm run gen:seo` and look in `public/`.
 | `npm run gen:brand` | favicons, `og-image.png`, `site.webmanifest` | Manually, when the brand changes |
 | `npm run gen:images` | `.webp` versions of `src/assets` rasters | Manually, when an image is added or replaced |
 

@@ -296,7 +296,7 @@ export default function Contact() {
             Let&apos;s Connect
           </h1>
           <p className="ans-mx-auto ans-mt-4 ans-max-w-xl ans-text-2 ans-leading-relaxed ans-text-th-secondary-fg">
-            Open to frontend engineering roles and interesting freelance work.
+            Open to software engineering roles and interesting freelance work.
             Send a message below and I&apos;ll usually reply within a business
             day.
           </p>

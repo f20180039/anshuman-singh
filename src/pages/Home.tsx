@@ -154,7 +154,7 @@ const Home = () => {
         >
           <span className="ans-inline-flex ans-items-center ans-gap-2 ans-rounded-full ans-border ans-border-th-success/40 ans-bg-th-success/10 ans-px-3 ans-py-1 ans-text-0 ans-text-th-success sm:ans-py-1.5 sm:ans-text-1">
             <span className="ans-h-2 ans-w-2 ans-animate-pulse ans-rounded-full ans-bg-th-success" />
-            Open to frontend engineering roles
+            Open to software engineering roles
           </span>
 
           {/*
