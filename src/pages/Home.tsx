@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Profile from "../assets/profile-pic-2-optimized.jpg";
+import Profile from "../assets/profile-pic-2-optimized.webp";
 import { Link } from "react-router-dom";
 import {
   C_GITHUB_URL,

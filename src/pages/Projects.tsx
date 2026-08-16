@@ -5,9 +5,9 @@ import {
   SiTailwindcss,
   SiJavascript,
 } from "react-icons/si";
-import SnapgramImage from "../assets/snapgram.png";
-import ExplodingProductionImage from "../assets/exploding-production.png";
-import GuessGame from "../assets/GuessGame.png";
+import SnapgramImage from "../assets/snapgram.webp";
+import ExplodingProductionImage from "../assets/exploding-production.webp";
+import GuessGame from "../assets/GuessGame.webp";
 import { PROJECT_ROUTES } from "../common/constants";
 import { useNavigate } from "react-router-dom";
 import { motion, useMotionValue, useTransform } from "framer-motion";
