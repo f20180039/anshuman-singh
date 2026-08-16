@@ -5,6 +5,8 @@ import {
   SiTailwindcss,
   SiJavascript,
 } from "react-icons/si";
+// WebP outputs from `npm run gen:images`; the PNG sources stay in the repo but
+// are deliberately not imported, so they never reach the bundle.
 import SnapgramImage from "../assets/snapgram.webp";
 import ExplodingProductionImage from "../assets/exploding-production.webp";
 import GuessGame from "../assets/GuessGame.webp";
@@ -14,12 +16,18 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useState } from "react";
 import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 
+/**
+ * `alt` describes what the screenshot actually shows rather than repeating the
+ * title, which is already the adjacent heading — a screen reader hearing the
+ * name twice learns nothing the second time.
+ */
 const projects = [
   {
     title: "Portfolio Website",
     description:
       "Personal frontend portfolio with AI chat assistant, automated resume sync, and modern animations.",
     image: "",
+    alt: "",
     github: "https://github.com/f20180039/anshuman-singh",
     liveDemo: "https://f20180039.github.io/anshuman-singh/",
     tech: [SiReact, SiTypescript, SiTailwindcss],
@@ -29,6 +37,7 @@ const projects = [
     description:
       "Codex-assisted browser game with polished gameplay flow, production routing, and frontend-first interaction design.",
     image: ExplodingProductionImage,
+    alt: "Screenshot of the Exploding Production browser game showing its gameplay board and score panel",
     github: "",
     liveDemo: "https://exploding-production.onrender.com",
     tech: [SiReact, SiJavascript],
@@ -38,6 +47,7 @@ const projects = [
     description:
       "Multiplayer browser game platform using real-time game-room flows and WebSocket-style state synchronization.",
     image: "",
+    alt: "",
     github: "",
     liveDemo: "https://multiplayer-frontend-x0cb.onrender.com",
     tech: [SiReact, SiJavascript],
@@ -47,6 +57,7 @@ const projects = [
     description:
       "Full-stack Instagram clone with authentication, posts, likes, comments, and real-time updates.",
     image: SnapgramImage,
+    alt: "Snapgram login screen beside a collage of user posts from the feed",
     github: "https://github.com/f20180039/snapgram",
     liveDemo: "https://stalkergram.netlify.app",
     tech: [SiReact, SiTypescript, SiTailwindcss],
@@ -56,6 +67,7 @@ const projects = [
     description:
       "An interactive number guessing game with score tracking and adaptive difficulty.",
     image: GuessGame,
+    alt: "Guess Game interface with a number input, score counter and remaining attempts",
     github: "",
     liveDemo: PROJECT_ROUTES.guessGame,
     isInternal: true,
@@ -84,6 +96,7 @@ const ProjectCard = ({
 }) => {
   const isComingSoon = project.title === "Coming Soon";
   const [isHovered, setIsHovered] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
@@ -127,24 +140,42 @@ const ProjectCard = ({
       />
 
       {project.image ? (
-        <div className="ans-overflow-hidden ans-rounded ans-relative">
+        <div className="ans-relative ans-h-48 ans-w-full ans-overflow-hidden ans-rounded">
+          {/* Placeholder holds the slot until the screenshot decodes, so cards
+              never reflow as thumbnails stream in on a slow connection. */}
+          {!imageLoaded && (
+            <div
+              aria-hidden="true"
+              className="ans-absolute ans-inset-0 ans-animate-pulse ans-rounded ans-bg-th-muted"
+            />
+          )}
           <motion.img
             src={project.image}
-            alt={project.title}
-            className="ans-w-full ans-h-48 ans-object-scale-down"
+            alt={project.alt}
+            width={640}
+            height={384}
+            className={`ans-relative ans-h-48 ans-w-full ans-object-scale-down ans-transition-opacity ans-duration-300 ${
+              imageLoaded ? "ans-opacity-100" : "ans-opacity-0"
+            }`}
             loading="lazy"
+            decoding="async"
+            onLoad={() => setImageLoaded(true)}
+            onError={() => setImageLoaded(true)}
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.4 }}
           />
         </div>
       ) : (
-        <div className="ans-h-48 ans-w-full ans-bg-th-muted ans-flex ans-items-center ans-justify-center ans-rounded">
+        <div className="ans-flex ans-h-48 ans-w-full ans-items-center ans-justify-center ans-rounded ans-bg-th-muted">
           {isComingSoon ? (
             <span className="ans-text-th-accent ans-animate-pulse ans-font-inter-1">
               Coming Soon
             </span>
           ) : (
-            <FaImage className="ans-text-th-muted-fg ans-text-10" />
+            <FaImage
+              aria-hidden="true"
+              className="ans-text-10 ans-text-th-muted-fg"
+            />
           )}
         </div>
       )}
