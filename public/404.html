@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Not Found</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" href="/anshuman-singh/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/anshuman-singh/favicon.ico" sizes="32x32" />
+    <title>Page Not Found (404) | Anshuman Singh</title>
     <script>
-      // SPA redirect for GitHub Pages
-      // Encodes the current path into a query parameter so index.html can restore it
+      // SPA redirect for GitHub Pages.
+      // Encodes the current path into a query parameter so index.html can restore
+      // it and hand the route to React Router, which renders the real 404 page.
+      // Everything below this script is the no-JS fallback.
       var pathSegmentsToKeep = 1; // keeps "/anshuman-singh" prefix
       var l = window.location;
       l.replace(
@@ -17,8 +22,62 @@
         l.hash
       );
     </script>
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background: radial-gradient(circle at 20% 15%, #0e1b30 0%, #030712 60%);
+        color: #f8fafc;
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+      .card { max-width: 32rem; }
+      .code {
+        font-size: clamp(3.5rem, 16vw, 6rem);
+        font-weight: 700;
+        line-height: 1;
+        margin: 0;
+        color: #67e8f9;
+        text-shadow: 0 0 28px rgba(103, 232, 249, 0.35);
+      }
+      h1 { font-size: clamp(1.25rem, 5vw, 1.75rem); margin: 16px 0 8px; }
+      p { color: #cbd5e1; line-height: 1.6; margin: 0 0 28px; }
+      .links { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+      a {
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        border: 1px solid rgba(103, 232, 249, 0.35);
+        color: #67e8f9;
+        min-height: 44px;
+      }
+      a.primary { background: #67e8f9; color: #030712; border-color: #67e8f9; }
+      a:hover { border-color: #67e8f9; background: rgba(103, 232, 249, 0.12); }
+      a.primary:hover { background: #a5f3fc; }
+    </style>
   </head>
   <body>
-    <p>If you are not redirected, <a href="/anshuman-singh/">click here</a>.</p>
+    <div class="card">
+      <p class="code">404</p>
+      <h1>This page took a wrong turn</h1>
+      <p>
+        The page you were looking for doesn't exist or has moved. If JavaScript is
+        enabled you'll be redirected automatically — otherwise, pick a link below.
+      </p>
+      <div class="links">
+        <a class="primary" href="/anshuman-singh/">Go to homepage</a>
+        <a href="/anshuman-singh/projects">Projects</a>
+        <a href="/anshuman-singh/resume">Resume</a>
+        <a href="/anshuman-singh/contact">Contact</a>
+      </div>
+    </div>
   </body>
 </html>
