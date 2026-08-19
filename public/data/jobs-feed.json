@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T04:04:59.141Z",
-  "count": 59,
+  "generatedAt": "2026-08-19T04:05:49.098Z",
+  "count": 32,
   "sourcesLive": 3,
   "jobs": [
     {
@@ -64,126 +64,42 @@
       ]
     },
     {
-      "id": "arbeitnow-remote-senior-software-engineer-tools-automation-89931",
-      "title": "(Senior) Software Engineer (M/F/D) - Tools & Automation",
-      "company": "Vmray Gmbh",
-      "location": "Germany, Bochum or Remote (Europe)",
+      "id": "arbeitnow-remote-senior-software-engineer-backend-118699",
+      "title": "Senior Software Engineer, Backend",
+      "company": "Camunda",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/camunda/remote-senior-software-engineer-backend-118699",
+      "description": "Register Here! Camunda is the enterprise platform for agentic orchestration , enabling organizations to coordinate AI agents, people, and systems across complex, end-to-end business processes. With built-in governance, auditability, and human oversight, Camunda gives enterprises the control they need to move AI from pilots to production — safely and at scale. Trusted by over 700 organizations worldwide , including 9 of top 10 US banks, Camunda helps enterprises boost operational efficiency, accelerate time-to-value, and deliver better customer experiences. Fully remote and global, we are in the middle of something bigger: transforming into an AI-first organisation, built on our own platform . We use Agentic AI to automate, orchestrate intelligent processes, and elevate human contribution across every team. Named GP Bullhound’s Top 100 Next Unicorn list, 2025 Great Place to Work certified. Visionary in 2025 Gartner® Magic Quadrant™ for Business Orchestration and Automation Technologies. ranked 3rd in Flexa's 2026 Most Flexible Companies , We’re growing fast and looking for top talent to join our team. If you want meaningful work, visible impact and put something genuinely rare on yo",
+      "tags": [
+        "Products"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-08-18T23:40:19.000Z",
+      "score": 85,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-senior-software-engineer-200108",
+      "title": "Senior Software Engineer (m/w/d)",
+      "company": "Conceptboard",
+      "location": "Stuttgart / Remote",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/vmray-gmbh/remote-senior-software-engineer-tools-automation-89931",
-      "description": "Find more English Speaking Jobs in Germany on Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/conceptboard/remote-senior-software-engineer-200108",
+      "description": "Arbeitsort Stuttgart / remote Deine Aufgaben Your Mission Bei Conceptboard bauen wir ein Kollaborationsprodukt, das Teams in Enterprise- und sicherheitskritischen Umgebungen täglich nutzen – und wir bauen es mit dem Anspruch, dass es zuverlässig, wartbar und skalierbar bleibt. Dafür brauchen wir Senior Engineers, die nicht nur liefern, sondern die Messlatte durch die Art, wie sie bauen, höher legen. Du bist hands-on im Platform- oder App-Team, du shippst – und du machst das Team besser, indem du es tust. Du bringst Senior-Delivery-Capacity dort, wo der Bottleneck heute sitzt, setzt die Target Architecture in echte Software um und gibst Feedback zurück, wenn sie auf die Realität trifft. Gleichzeitig sorgst du aktiv dafür, dass Wissen im Team bleibt und verteilt wird – du wirst nicht der nächste Single Point of Failure. Your Responsibilities Bauen, auf hohem Niveau. Du lieferst Platform- und App-Services hands-on – mit den Practices, die sie langfristig wartbar halten: Testing, Observability, klare Boundaries, gute Dokumentation. Architecture umsetzen und pressure-testen. Du übersetzt die Target Architecture in funktionierende Software. Wo sie auf Realität trifft und bricht, surfst d",
       "tags": [],
       "source": "Arbeitnow",
-      "posted": "2026-08-18T02:09:40.000Z",
-      "score": 85,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-fullstack-entwickler-java-angular-stuttgart-184739",
-      "title": "Senior Fullstack Entwickler Java / Angular (m/w/d)",
-      "company": "Rockstardevelopers GmbH",
-      "location": "Stuttgart",
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/senior-fullstack-entwickler-java-angular-stuttgart-184739",
-      "description": "Wer wir sind Rockstardevelopers, gegründet 2015 in Mannheim, weitere Büros in Stuttgart und München. Wir sind ein Software-Entwickler mit Erfahrung aus hunderten von individuellen Projekten für Enterprise- und Mittelstands-Kunden. Kurze Wege, ehrliches Feedback, keine politischen Spielchen. Keine Hierarchie-Ebenen zwischen dir und den Leuten, die Entscheidungen treffen. Deine Aufgaben Du arbeitest in Kundenprojekten bei großen Unternehmen und öffentlichen Auftraggebern, eingebettet in deren Teams, mit voller Verantwortung für deinen Bereich. Fullstack-Entwicklung in Enterprise- und regulierten Umgebungen Architektur mitgestalten, nicht nur umsetzen Code generieren, reviewen und refactoren mit Claude Code, Copilot oder Cursor Code Reviews und technisches Mentoring im Team Abstimmung mit Product Ownern, UX und DevOps Die meisten kommen ein bis zwei Tage die Woche in eins der Büros. Zwang ist das aber keiner. Beim Kunden vor Ort bist du nur für einzelne Termine alle paar Wochen. Wo du landest Je nach Projekt und deiner Erfahrung: Großkonzerne wie Deutsche Bahn / DB Systel (eisenbahnspezifische Domänen: Fahrplanmanagement, Vertrieb, Leit- und Sicherungstechnik) Öffentlicher Sektor / Be",
-      "tags": [
-        "Remote",
-        "Software Development"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T02:17:28.000Z",
-      "score": 85,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-robotics-london-429195",
-      "title": "Senior Software Engineer - Robotics",
-      "company": "Applied",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/applied/senior-software-engineer-robotics-london-429195",
-      "description": "Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the top 20 global automakers, as well as the United States military and its allies, trust the company’s solutions to deliver physical intelligence. Applied Intuition is headquartered in Sunnyvale, California, with offices in Washington, D.C.; San Diego; Ft. Walton Beach, Florida; Ann Arbor, Michigan; London; Stuttgart; Munich; Stockholm; Bangalore; Seoul; and Tokyo. Learn more at applied.co . We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home befor",
-      "tags": [
-        "Defense"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T21:40:11.000Z",
-      "score": 85,
-      "regions": [
-        "India",
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: India/Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-london-226925",
-      "title": "Senior Software Engineer",
-      "company": "Applied",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/applied/senior-software-engineer-london-226925",
-      "description": "Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the top 20 global automakers, as well as the United States military and its allies, trust the company’s solutions to deliver physical intelligence. Applied Intuition is headquartered in Sunnyvale, California, with offices in Washington, D.C.; San Diego; Ft. Walton Beach, Florida; Ann Arbor, Michigan; London; Stuttgart; Munich; Stockholm; Bangalore; Seoul; and Tokyo. Learn more at applied.co . We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home befor",
-      "tags": [
-        "Defense"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T21:40:11.000Z",
-      "score": 85,
-      "regions": [
-        "India",
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: India/Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-infrastructure-platform-london-8931",
-      "title": "Senior Software Engineer, Infrastructure Platform",
-      "company": "Geniussports",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/geniussports/senior-software-engineer-infrastructure-platform-london-8931",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;em&gt;By bringing together next-gen technology and the finest live data available, Genius Sports is enabling a new era of sports for fans worldwide, delivering experiences that are more immersive, interactive and personalized than ever before. &lt;/em&gt;&lt;a href=&quot;https://www.geniussports.com/about-us/&quot;&gt;&lt;em&gt;Learn more at &lt;/em&gt;&lt;/a&gt;&lt;a href=&quot;http://geniussports.com&quot;&gt;&lt;em&gt;geniussports.com&lt;/em&gt;&lt;/a&gt;&lt;a href=&quot;https://www.geniussports.com/about-us/&quot;&gt;&lt;em&gt;.&lt;/em&gt;&lt;/a&gt; &lt;/p&gt; &lt;h3&gt;&lt;span data-contrast=&quot;none&quot;&gt;&lt;span data-ccp-parastyle=&quot;heading 2&quot;&gt;&lt;br&gt;The Role - Senior Software Engineer - Infrastructure Platform&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;134245418&amp;quot;:true,&amp;quot;134245529&amp;quot;:true,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h3&gt; &lt",
-      "tags": [
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T12:55:26.000Z",
+      "posted": "2026-08-18T20:10:00.000Z",
       "score": 85,
       "regions": [
         "Europe",
@@ -269,45 +185,16 @@
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-price-comparison-portal-berlin-233707",
-      "title": "Software Engineer",
-      "company": "Preiswecker",
-      "location": "Berlin",
+      "id": "arbeitnow-senior-ai-native-fullstack-engineer-de-munchen-465431",
+      "title": "Senior AI-Native Fullstack Engineer (m/w/d)",
+      "company": "Zvoove",
+      "location": "DE | München",
       "remote": false,
-      "url": "https://www.preiswecker.com/",
-      "description": "Preiswecker is a price comparison portal in Germany, helping thousands of users find the best deals online every day. We are looking for a Software Engineer to join our team and help build our price comparison platform. We are currently offering the following position: Software Engineer - Price comparison portal Responsibilities Design, build, and maintain features for our price comparison platform Develop and optimize data pipelines that process merchant price feeds Work closely with Product and BI to ship reliable, scalable features Write clean, well-tested code and participate in code reviews Monitor and improve performance of our systems Qualifications completed degree in computer science or a related field, or equivalent experience solid experience with backend development and relational databases familiarity with modern software engineering practices (testing, CI/CD, version control) analytical mindset and a strong sense of ownership good German and English Benefits flexible working hours and remote work options flat hierarchies and short decision-making paths modern office in a central location training budget fair salary and growth opportunities We look forward to your appl",
-      "tags": [
-        "Software Engineering",
-        "E-Commerce"
-      ],
+      "url": "https://www.arbeitnow.com/jobs/companies/zvoove/senior-ai-native-fullstack-engineer-de-munchen-465431",
+      "description": "Job description We are building modern, customer-facing software for the temp-staffing industry, integrating capabilities from multiple ERP systems and countries into reliable applications, workflows, services, and reusable platform components. We are looking for a product-minded senior fullstack engineer who can turn ambiguous business requirements and complex existing systems into production-grade backend services, APIs, integrations, internal tools, and intuitive user interfaces. TypeScript is central to our technology landscape. Experience with .NET and C# is strongly valued, while engineers with a background in strongly typed languages such as Java are also welcome. Comfort working across different stacks and languages is essential. AI and LLM tooling are central to how we work. You should use AI-native workflows to explore faster, build in parallel, validate assumptions, and ship high-quality production solutions. You should care about correctness and maintainability, understand integration and business edge cases, choose simple and robust solutions, and own outcomes from exploration to production. Your tasks Fullstack Product Engineering: Build customer-facing applications, ",
+      "tags": [],
       "source": "Arbeitnow",
-      "posted": "2026-08-12T06:40:00.000Z",
-      "score": 70,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-ruby-golang-berlin-489336",
-      "title": "Senior Software Engineer (Ruby / GOlang)",
-      "company": "workato",
-      "location": "Berlin",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/workato/senior-software-engineer-ruby-golang-berlin-489336",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h1&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif;&quot;&gt;&lt;strong&gt;About Workato&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt; &lt;p&gt;Workato delivers enterprise infrastructure for the agentic era, redefining iPaaS and helping enterprises unify data, applications, processes, and AI into a single, governed platform. A leader in Enterprise MCP and trusted by 50% of the Fortune 500, Workato’s cloud-native architecture connects every application, data source, and process to power real-time orchestration at scale. With enterprise-grade security and continuous innovation at its core, Workato provides the trusted foundation for organizations to automate with confidence and operationalize AI across the business. To learn more, visit &lt;span&gt;&lt;a href=&quot;http://www.workato.com&quot; target=&quot;_blank&quot;&gt;www.workato.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt; &lt;h1&gt;&lt;strong&gt;Why join us?&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Ultimately, Workato believes in fostering a &lt;/span&gt;&lt;strong&gt;flexible, trust-oriented culture that empowers everyone to take full o",
-      "tags": [
-        "Product & Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T23:55:24.000Z",
+      "posted": "2026-08-18T23:09:15.000Z",
       "score": 70,
       "regions": [
         "Europe"
@@ -321,21 +208,18 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-software-engineer-data-ingestion-extraction-munchen-hq-353709",
-      "title": "Senior Software Engineer – Data Ingestion & Extraction (m/f/d)",
-      "company": "Certivity",
-      "location": "München - HQ",
+      "id": "arbeitnow-senior-crm-strategy-manager-reactivations-all-genders-berlin-berlin-12467",
+      "title": "Senior CRM Strategy Manager, Reactivations (all genders)",
+      "company": "hellofresh",
+      "location": "Berlin, Berlin",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/certivity/senior-software-engineer-data-ingestion-extraction-munchen-hq-353709",
-      "description": "Find more English Speaking Jobs in Germany on Arbeitnow",
+      "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/senior-crm-strategy-manager-reactivations-all-genders-berlin-berlin-12467",
+      "description": "&lt;h2&gt;&lt;strong&gt;The role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Are you passionate about re-engaging customers and driving growth through personalized marketing? As the &lt;strong&gt;Senior Audience Manager for Reactivations&lt;/strong&gt;, you will play a critical role in re-engaging the HelloFresh cancelled base globally. Between leveraging customer segmentation or overlooking market performance, you will be designing customer journeys that nurture and rebuild relationships with cancelled customers, while being accountable for driving reactivation results that contribute to Customer Lifetime Value (CLV).&lt;br&gt;&lt;br&gt;This role goes beyond crafting and optimizing campaigns, it’s about &lt;strong&gt;taking part in the development of the overarching reactivation strategy&lt;/strong&gt;, to help shape the vision for customer-centric journeys, and ensuring the delivery of industry-leading segmented campaigns that nurture, strengthen, and rebuild relationships with our canceled customer base.&lt;/p&gt; &lt;p&gt;You will create a seamless and impactful reactivation experience, collaborating closely with Creative, Marketing Analytics, CRM Operations, Pricing &amp;amp; Discounts",
       "tags": [
-        "Software engineering",
-        "python",
-        "Data ingestion",
-        "data extraction"
+        "Marketing"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-08-17T23:09:42.000Z",
+      "posted": "2026-08-18T17:55:23.000Z",
       "score": 70,
       "regions": [
         "Europe"
@@ -349,133 +233,18 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-software-engineer-ai-native-development-munchen-219674",
-      "title": "Senior Software Engineer (m/f/d): AI-Native Development",
-      "company": "Myra",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/myra/senior-software-engineer-ai-native-development-munchen-219674",
-      "description": "Find Jobs in Germany on Arbeitnow",
-      "tags": [
-        "AI Native Development",
-        "PHP",
-        "Symfony",
-        "React",
-        "GraphQL",
-        "Rust",
-        "Python",
-        "Go",
-        "Security by Design",
-        "CI/CD",
-        "Fullstack Development",
-        "Javascript"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T20:09:48.000Z",
-      "score": 70,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-berlin-21104",
-      "title": "Senior Software Engineer (m/f/x)",
-      "company": "Eye Security",
-      "location": "Berlin - hybrid",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/eye-security/senior-software-engineer-berlin-21104",
-      "description": "About Eye Security Eye Security is an international scale-up providing cyber security with embedded cyber insurance to SMBs in Europe. Our cyber security innovations, state-of-the-art automation and platforms are being built and maintained by our Product and Engineering Teams. Our engineers and product managers collaborate closely with cyber security experts to ensure that their hacker's mindset is embedded into our platform. Our platform is a proprietary Open XDR (eXtended Detection Response) system that brings in security data from several market leading cyber security products into our centralised repository. From here cyber security experts can work their magic. This makes sure that our hundreds of customers experience the same value via automated systems, allowing us to scale in Europe. About this role We're looking for a Senior Engineer to join one of our stream-aligned engineering teams. At Eye, we organise engineering around streams: mission-driven groups with a clear outcome to drive, not a product area or a section of the codebase. You'll work in a small, full-stack team of 2-3 engineers contributing to your stream's goal, working across whatever systems and layers are ne",
-      "tags": [
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T17:40:30.000Z",
-      "score": 70,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-london-490820",
-      "title": "Software Engineer",
-      "company": "Applied",
+      "id": "arbeitnow-senior-fullstack-engineer-flutter-nodejs-mobile-experience-london-458158",
+      "title": "Senior Fullstack Engineer (Flutter/Node.js) - Mobile Experience",
+      "company": "Kpler",
       "location": "London",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/applied/software-engineer-london-490820",
-      "description": "Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the top 20 global automakers, as well as the United States military and its allies, trust the company’s solutions to deliver physical intelligence. Applied Intuition is headquartered in Sunnyvale, California, with offices in Washington, D.C.; San Diego; Ft. Walton Beach, Florida; Ann Arbor, Michigan; London; Stuttgart; Munich; Stockholm; Bangalore; Seoul; and Tokyo. Learn more at applied.co . We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home befor",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/kpler/senior-fullstack-engineer-flutter-nodejs-mobile-experience-london-458158",
+      "description": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. &nbsp; Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries works tirelessly to transform intricate data into actionable strategies, ensuring our clients stay ahead in a dynamic market landscape. Join us to leverage cutting-edge innovation for impactful results and experience unparalleled support on your journey to success. &nbsp; As a Senior Flutter Engineer you will strengthen the delivery capacity of the Mobile Experience crew within Kpler’s Application Platform tribe. The role centers on delivering high-performance, critical features for the MarineTraffic and Kpler mobile applications—serving millions of users—using Flutter and Dart. This large-scale environment requires a sharp focus on performance across the entire stack while upholding Clean Architecture standards. ​You will join a pioneering squad at the forefront of",
       "tags": [
-        "Defense"
+        "Engineering Application Platform"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-08-17T21:40:11.000Z",
-      "score": 70,
-      "regions": [
-        "India",
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: India/Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-robotics-london-422651",
-      "title": "Software Engineer - Robotics",
-      "company": "Applied",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/applied/software-engineer-robotics-london-422651",
-      "description": "Applied Intuition, Inc. is powering the future of physical AI. Founded in 2017 and now valued at $15 billion, the Silicon Valley company is creating the digital infrastructure needed to bring intelligence to every moving machine on the planet. Applied Intuition services the automotive, defense, trucking, construction, mining and agriculture industries in three core areas: tools and infrastructure, operating systems, and autonomy. Eighteen of the top 20 global automakers, as well as the United States military and its allies, trust the company’s solutions to deliver physical intelligence. Applied Intuition is headquartered in Sunnyvale, California, with offices in Washington, D.C.; San Diego; Ft. Walton Beach, Florida; Ann Arbor, Michigan; London; Stuttgart; Munich; Stockholm; Bangalore; Seoul; and Tokyo. Learn more at applied.co . We are an in-office company, and our expectation is that full-time employees primarily work from their Applied Intuition office 5 days a week. However, we also recognize the importance of flexibility and trust our employees to manage their schedules responsibly. This may include occasional remote work, starting the day with morning meetings from home befor",
-      "tags": [
-        "Defense"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T21:40:11.000Z",
-      "score": 70,
-      "regions": [
-        "India",
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: India/Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-embedded-software-engineer-milton-keynes-united-kingdom-189203",
-      "title": "Senior Embedded Software Engineer",
-      "company": "CesiumAstro",
-      "location": "Milton Keynes, United Kingdom",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/cesiumastro/senior-embedded-software-engineer-milton-keynes-united-kingdom-189203",
-      "description": "At&nbsp; CesiumAstro , we are developers and pioneers of out-of-the-box communication systems for satellites, UAVs, launch vehicles, and other space and airborne platforms. We take pride in our dynamic and cross-functional work environment, which allows us to learn, develop, and engage across our organization. If you are looking for hands-on, interactive, and autonomous work, CesiumAstro is the place for you. We are actively seeking passionate, collaborative, energetic, and forward-thinking individuals to join our team. In this position, you will be responsible for low-level and high-level software in CesiumAstro’s products through all phases of the development process. Key projects will include Linux-based single-board computers and high-reliability microcontroller systems. CesiumAstro’s goal is to create an out-of-the-box hardware and software experience which enhances our customers’ ability to rapidly integrate our products into their systems. &nbsp; As a CesiumAstro software team member, you will be responsible for software designs from concept through production, including product roadmaps, block diagrams, detailed design and coding, analysis, test, qualification, and in-orbit",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T18:04:28.000Z",
+      "posted": "2026-08-19T00:05:29.000Z",
       "score": 70,
       "regions": [
         "Europe"
@@ -486,6 +255,32 @@
         "role in title",
         "seniority fit",
         "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-future-opportunities-london-292728",
+      "title": "Senior Software Engineer - Future Opportunities",
+      "company": "Baringa",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/baringa/senior-software-engineer-future-opportunities-london-292728",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;span style=&quot;color: rgb(0, 53, 142); font-family: helvetica, arial, sans-serif;&quot;&gt;About Baringa&amp;nbsp;&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;Baringa is a global consulting firm that partners with leaders to drive change and create value. With deep industry expertise, and enabled by advanced technology, the firm helps clients to deliver with greater confidence and certainty. With over 2,000 people across the UK, Europe, North America, Asia and Australia, the firm combines global insight with local understanding.&lt;/p&gt; &lt;p&gt;The firm works across energy and resources, financial services, government and public sector, consumer products and retail, pharmaceuticals and life sciences, manufacturing, and technology, media and telecoms, with capabilities spanning strategy, transformation and operational excellence – all powered by advanced technology, data, AI and digital innovation.&lt;/p&gt; &lt;p&gt;Clients value Baringa’s collaborative approach and the way its teams integrate seamlessly – all working with a shared understanding of what matters most. The firm is known for its kind, curious experts who listen closel",
+      "tags": [
+        "Power and Low Carbon Solutions"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-08-18T21:55:31.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Australia"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Australia"
       ]
     },
     {
@@ -527,68 +322,20 @@
       ]
     },
     {
-      "id": "remoteok-1136784",
-      "title": "ANALYST L3",
-      "company": "Wipro",
-      "location": "Pune Division,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-analyst-l3-wipro-1136784",
-      "description": "Job description: Job Description Í Í Í Í Mandatory Skills: IBM BAW . Â Experience: 3-5 Years . Â Reinvent your world. We are building a modern Wipro. We are an end-to-end digital transformation partner with the boldest ambitions. To realize them, we need people inspired by reinvention. Of yourself, your career, and your skills. We want to see the constant evolution of our business and our industry. It has always been in our DNA - as the world around us changes, so do we. Join a business powered by purpose and a place that empowers you to design your own reinvention. Please mention the word **FAV** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "tags": [
-        "infosec",
-        "javascript",
-        "technical",
-        "exec",
-        "sys admin",
-        "customer support",
-        "web dev",
-        "virtual assistant",
-        "video",
-        "api",
-        "ops",
-        "marketing"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-12T00:18:30+00:00",
-      "score": 65,
-      "regions": [
-        "India"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: India",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136447",
-      "title": "Staff Software Engineer",
-      "company": "Evolve",
-      "location": "Remote - US",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-evolve-1136447",
-      "description": "At Evolve, weâre on a mission to make vacation rental easy for everyone. Our high-performing, customer-obsessed team runs on curiosity, communication, and accountabilityâworking together to create exceptional experiences for our owners and guests. Whether solving big challenges, delivering outstanding results, or celebrating wins, we approach every day with purpose and passion. If youâre ready to join a mission-driven company where every teammate has the opportunity to thrive, Evolve might just be the place for you. Why this role We're looking for a highly motivated Staff Engineer to join our Engineering Team to help us build, secure, and scale the infrastructure that powers Evolve end-to-end. You will be a sought-out engineer for the most impactful and broad-ranging problems â from driving DevOps transformation and architecting secure, reliable systems to setting the standard for how we adopt and critically evaluate emerging AI tooling. This is a critical role where you will regularly influence the direction of platform architecture across multiple teams and domains, lead initiatives that tackle systemic tech debt, and ensure cross-functional dependencies and risks are wel",
-      "tags": [
-        "dev",
-        "design",
-        "embedded",
-        "sys admin",
-        "infosec",
-        "architecture",
-        "testing",
-        "devops",
-        "cloud",
-        "exec",
-        "engineer",
-        "digital nomad"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-12T00:00:23+00:00",
+      "id": "arbeitnow-principal-software-engineer-berlin-458483",
+      "title": "Principal Software Engineer (m/f/d)",
+      "company": "1KOMMA5°",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/1komma5/principal-software-engineer-berlin-458483",
+      "description": "1KOMMA5° At 1KOMMA5° , we pursue a clear vision: Living on wind and sunlight forever for free . To make this a reality, we are building the energy system of the future with Heartbeat AI. Want to be part of it? We bring together regional craftsmanship and scalable software: We don't think of solar, batteries, heat pumps, and e-mobility as isolated components, but control them as an intelligent, integrated overall system in our virtual power plant. Directly connected to the electricity market – in real time, fully automated. This way, energy is used when it is available from renewables and particularly cost-effective. By 2030, our goal is to transition 1.5 million households to renewable energies. Over 3,000 people are working towards this every day, at more than 80 locations worldwide, from Finland to Australia. Want to take responsibility and build solutions that truly matter? Apply now and help us shape the energy world of tomorrow. Learn more about our Product &amp; Tech team! Deine Position Shape the organisation's technical strategy and innovation efforts Accountable for consistent execution of technical decisions by setting clear direction and holding teams accountable for imp",
+      "tags": [],
+      "source": "Arbeitnow",
+      "posted": "2026-08-19T02:09:53.000Z",
       "score": 55,
       "regions": [
+        "Europe",
+        "Australia",
         "Remote"
       ],
       "sponsorshipFriendly": false,
@@ -596,45 +343,21 @@
       "reasons": [
         "role in title",
         "seniority mismatch",
-        "region: Remote",
+        "region: Europe/Australia/Remote",
         "remote"
       ]
     },
     {
-      "id": "arbeitnow-frontend-engineer-developer-bissendorf-garbsen-22111",
-      "title": "Frontend Engineer, Developer (M/W/D)",
-      "company": "INSIDE M2M GmbH",
-      "location": "Bissendorf / Garbsen, Niedersachsen, Deutschland",
+      "id": "arbeitnow-professor-of-software-engineering-potsdam-gisma-480295",
+      "title": "Professor (m/f/d) of Software Engineering",
+      "company": "Gus Germany",
+      "location": "Potsdam - Gisma",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/inside-m2m-gmbh/frontend-engineer-developer-bissendorf-garbsen-22111",
-      "description": "Was wir tun Als IoT Pioniere entwickeln wir mit mittlerweile über 40 Kollegen*innen an drei Standorten IoT-Komplettlösungen für unsere Kunden. Aktuell sind weltweit über 500.000 Geräte und Anlagen mit unseren Lösungen für Machine-to-Machine-Kommunikation ausgestattet. Unsere Kompetenz liegt in der Entwicklung kundenspezifischer IoT-Lösungen, basierend auf unserer Erfahrung, unseren&nbsp;erprobten Software-Bausteinen und einer Vielzahl von bereits realisierten Projekten. Unser Team Seit der Firmengründung im Jahr 2004 sind wir stetig gewachsen und haben uns in diesem Markt über die Jahre als starker Partner etabliert. Damit das auch so bleibt, erweitern wir kontinuierlich unser Team mit talentierten und&nbsp;qualifizierten Entwickler*innen. Durch vielseitige Weiterbildungsmöglichkeiten, Teilnahme an Konferenzen und Workshops&nbsp;sowie eine&nbsp;ausgeprägte Feedback-Kultur heben wir unser Team auf die nächste Stufe. Zur Verstärkung unseres Frontend-Teams suchen wir zum nächstmöglichen Zeitpunkt eine(n) Frontend Developer (M/W/D)&nbsp;an den Standorten GARBSEN (bei Hannover) und &nbsp; BISSENDORF (bei Osnabrück). Deine Aufgaben als Frontend Engineer Du planst und entwirfst Anwendunge",
-      "tags": [
-        "Entwicklung"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T02:30:06.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-react-ts-software-engineer-frontend-all-genders-berlin-berliner-strasse-80-13189-berlin-135471",
-      "title": "React/TS Software Engineer - Frontend (all genders)",
-      "company": "Cardmarket",
-      "location": "Berlin - Berliner Straße 80, 13189 Berlin",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/cardmarket/react-ts-software-engineer-frontend-all-genders-berlin-berliner-strasse-80-13189-berlin-135471",
-      "description": "Our Vision At Cardmarket, people come first. Our goal is to create a workplace where everyone feels safe, appreciated, and inspired. A place where you enjoy coming to work and feel good about heading home at the end of the day. Open communication is at the heart of our culture. Only by talking openly about challenges, big or small, can we find solutions together. Cardmarket connects people across continents, regardless of skin colour, origin, religion, nationality, gender, or sexual orientation. We treat everyone equally and expect the same from all applicants. Our strength lies in our diverse perspectives and the shared commitment to move forward together as an inclusive team. To strengthen our Technology Department, we're currently looking for a dedicated Frontend Developer (React/TypeScript) to join Cardmarket. In this role, you will develop and maintain modern frontend features across our web applications, creating responsive and user-friendly interfaces with React and TypeScript. Working closely with your team, you will improve existing functionality, deliver scalable solutions, and help ensure an excellent user experience for our users. Your Responsibilities Participate in th",
+      "url": "https://www.arbeitnow.com/jobs/companies/gus-germany/professor-of-software-engineering-potsdam-gisma-480295",
+      "description": "Find Jobs in Germany on Arbeitnow",
       "tags": [],
       "source": "Arbeitnow",
-      "posted": "2026-08-18T02:29:46.000Z",
+      "posted": "2026-08-19T02:09:40.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -647,139 +370,18 @@
       ]
     },
     {
-      "id": "arbeitnow-forward-deployed-engineer-software-engineer-germany-70994",
-      "title": "Forward Deployed Engineer - Software Engineer - Germany",
-      "company": "ElevenLabs",
-      "location": "Germany",
+      "id": "arbeitnow-remote-staff-software-engineer-37744",
+      "title": "Staff Software Engineer (m/w/d)",
+      "company": "Conceptboard",
+      "location": "Stuttgart / Remote",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/forward-deployed-engineer-software-engineer-germany-70994",
-      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
-      "tags": [
-        "Engineering & Product"
-      ],
+      "url": "https://www.arbeitnow.com/jobs/companies/conceptboard/remote-staff-software-engineer-37744",
+      "description": "Arbeitsort Stuttgart / remote Deine Aufgaben Your Mission Bei Conceptboard bauen wir ein Kollaborationsprodukt, auf das Enterprise-Kunden, öffentliche Institutionen und sicherheitskritische Organisationen täglich vertrauen. Damit die Teams, die dieses Produkt entwickeln, jederzeit auf voller Geschwindigkeit liefern können, brauchen sie eine Plattform, die ihnen aus dem Weg geht – nicht eine, die sie ausbremst. Als Platform Architect / Staff Engineer bist du Eigentümer der Core Platform Architecture – und du baust sie selbst, hands-on. Dein Design-Constraint Nummer eins: Die Plattform ist nie der Bottleneck. Du denkst in Self-Service-Capabilities, sauberen Contracts und klaren Boundaries – und du machst das Platform-Team zum Agentic-Engineering-Lighthouse der gesamten Organisation. Das hier ist keine Ivory-Tower-Rolle: Du setzt Richtung, indem du sie shippst. Your Responsibilities Target Architecture ownen. Du formulierst, validierst und entwickelst die Architecture der Core Platform – inklusive der make-or-break Entscheidungen dahinter. Du bist die primäre Ansprechperson für Architektur-Ownership auf Platform-Ebene und entlastest damit die bestehende Architektur-Verantwortung von e",
+      "tags": [],
       "source": "Arbeitnow",
-      "posted": "2026-08-17T23:40:19.000Z",
+      "posted": "2026-08-18T20:10:00.000Z",
       "score": 55,
       "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-ai-enabler-205619",
-      "title": "Senior Software Engineer / AI Enabler (m/f/d)",
-      "company": "autoscout24",
-      "location": "Not specified",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/autoscout24/senior-software-engineer-ai-enabler-205619",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;A career driven by you.&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt; Join AutoScout24 Group and experience life in the fast lane. We’re not just leading the market; we’re creating it. For a career that doesn’t stand still, where you can put your ideas in the driving seat and change the way the world moves, join our global community.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;335551550&amp;quot;:6,&amp;quot;335551620&amp;quot;:6}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;We’re hiring a strong &lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Software Engineer /&lt;/span&gt;&lt;/strong&gt; &lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;AI Enabler &lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;to multiply the impact of our Product &amp;amp; Technology organization. This role is for someone who is excited about GenAI’s boosting their own engineering performance and productivity and now wants to influence a large, ambitious organization—raising the bar for how software is delivered",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T20:56:01.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-web-development-germering-370582",
-      "title": "Software Engineer, Web Development",
-      "company": "Titanom Technologies",
-      "location": "Germering, Germany",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/titanom-technologies/software-engineer-web-development-germering-370582",
-      "description": "Titanom ist ein KI- und Softwareunternehmen mit Fokus auf digitale Produkte in Bildung, öffentlichem Sektor und angrenzenden Bereichen. Unsere Mission ist es Lösungen zu entwickeln, die nicht nur technisch funktionieren, sondern im Alltag bestehen – langfristig, sicher und nutzerorientiert. Deine Rolle als Software Engineer: Mit Code innovative Lösungen gestalten In unserem agilen Team entwickelst du moderne Webanwendungen und KI-Features. Du baust skalierbare Architekturen, integrierst Machine-Learning-APIs und schaffst intuitive User Experiences. Wir arbeiten hauptsächlich mit TypeScript, Next.js und React bzw. mit Python und FastAPI – aber neue Ideen und ein cooler TechStack sind immer willkommen. Dein Impact bei Titanom: Entwicklung &amp; Optimierung &nbsp;moderner &amp; nutzerzentrierter Web-Apps (Frontend &amp; Backend) mit Technologien wie z. B. Next.js, TypeScript und Python Integration von &nbsp; KI-Technologien &nbsp;zur Verbesserung der User Experience&nbsp;in enger Zusammenarbeit mit anderen Teams, um innovative Lösungen für reale Probleme zu entwickeln Optimierung von Webanwendungen &nbsp;für Skalierbarkeit, Geschwindigkeit und Performance und sichern der Codequalität ",
-      "tags": [
-        "Engineering",
-        "Computer Software",
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T20:20:39.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-core-marketing-platforms-edinburgh-284822",
-      "title": "Senior Software Engineer - Core Marketing Platforms",
-      "company": "Fanduel",
-      "location": "Edinburgh",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/senior-software-engineer-core-marketing-platforms-edinburgh-284822",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;THE POSITION&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Our roster has an opening with your name on it&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;We&#39;re&amp;nbsp;looking for a &lt;strong&gt;Senior Software Engineer &lt;/strong&gt;to join one of our &lt;strong&gt;Core Marketing Platforms teams&lt;/strong&gt;, where&amp;nbsp;you&#39;ll&amp;nbsp;build and&amp;nbsp;optimize&amp;nbsp;high-performance microservices that power FanDuel&#39;s marketing ecosystem.&amp;nbsp;You&#39;ll&amp;nbsp;work on systems enabling critical capabilities such as real-time customer communications, personalized promotions, and targeted campaign delivery.&lt;/span&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;span data-contrast=&quot;none&quot;&gt;Your work will focus on designing highly scalable, event-drive",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-edinburgh-58395",
-      "title": "Senior Software Engineer",
-      "company": "Fanduel",
-      "location": "Edinburgh",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/senior-software-engineer-edinburgh-58395",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;THE POSITION&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Our roster has an opening with your name on it&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;We&#39;re&amp;nbsp;looking for a&amp;nbsp;&lt;strong&gt;Senior Software Engineer&amp;nbsp;&lt;/strong&gt;to join one of our&amp;nbsp;&lt;strong&gt;Core Marketing Platforms teams&lt;/strong&gt;, where&amp;nbsp;you&#39;ll&amp;nbsp;build and&amp;nbsp;optimize&amp;nbsp;high-performance microservices that power FanDuel&#39;s marketing ecosystem.&amp;nbsp;You&#39;ll&amp;nbsp;work on systems enabling critical capabilities such as real-time customer communications, personalized promotions, and targeted campaign delivery.&lt;/span&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;span data-contrast=&quot;none&quot;&gt;Your work will focus on designing h",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-staff-software-engineer-integrations-edinburgh-182518",
-      "title": "Staff Software Engineer, Integrations",
-      "company": "Addepar1",
-      "location": "Edinburgh",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/addepar1/staff-software-engineer-integrations-edinburgh-182518",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Addepar is a global data and AI platform empowering investment professionals to turn complex financial information into actionable intelligence. Addepar unifies portfolio, market and client data in a total portfolio view and delivers AI-powered insights within investment and client workflows. More than 1,400 firms in nearly 60 countries use Addepar to manage and advise on nearly $9 trillion in assets. Its open platform integrates with nearly 650 software, data and consulting partners to power end-to-end investment operations across firms of all sizes and complexity. Addepar supports clients worldwide with offices in New York City, Salt Lake City, London, Edinburgh, Pune, Dubai, Geneva, Singapore and São Paulo.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt; &lt;p&gt;We are seeking a &lt;strong&gt;Staff Software Development Engineer&lt;/strong&gt; to join our &lt;strong&gt;Custodian and CRM In",
-      "tags": [
-        "Core Product Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T18:55:05.000Z",
-      "score": 55,
-      "regions": [
-        "India",
-        "UAE",
-        "Singapore",
         "Europe",
         "Remote"
       ],
@@ -788,8 +390,32 @@
       "reasons": [
         "role in title",
         "seniority mismatch",
-        "region: India/UAE/Singapore/Europe/Remote",
+        "region: Europe/Remote",
         "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-full-stack-engineer-security-analytics-berlin-400966",
+      "title": "Full Stack Engineer, Security Analytics",
+      "company": "RedMimicry GmbH",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/redmimicry-gmbh/full-stack-engineer-security-analytics-berlin-400966",
+      "description": "We are building a new capability that turns fragmented, noisy security logs into explainable, AI-powered threat analysis, delivered inside the RedMimicry platform. As a Full Stack Engineer at RedMimicry, you will take a leading role in developing a new security analytics capability within our platform. You will build the user interface and the application layer that connects the underlying components into a reliable workflow for security analysts. This is a fixed-term position running until 31 October 2027. Tasks Build Backend Services and APIs: Implement services and stable interfaces for ingestion, analysis, and reporting workflows. Design Domain Models: Define maintainable data models for security events, analysis results, and supporting evidence. Build Analyst Workflows: Develop complex, data-heavy interfaces that let analysts review results efficiently. Make Evidence Inspectable: Allow analysts to drill down from a conclusion to the exact source fields and log fragments behind it. Represent Uncertainty: Present confidence, ambiguity, and alternatives clearly rather than reducing complex results to a binary status. Implement Reporting: Build consistent JSON and PDF reporting pi",
+      "tags": [
+        "Software Development"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-08-18T18:00:38.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
       ]
     },
     {
@@ -942,7 +568,7 @@
       "location": "Sikar,",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-affiliate-knowledge-wave-india-1136791",
-      "description": "Company Description Knowledge Wave India is an education-focused organization committed to making high-quality learning more accessible and impactful. The company strives to leverage modern teaching methods, digital tools, and learner-centered approaches to support students and professionals in developing practical skills. Knowledge Wave India values integrity, continuous improvement, and collaboration, creating an environment where team members can grow their careers while contributing to meaningful educational outcomes. Joining the organization offers the opportunity to be part of an expanding education ecosystem that aims to positively influence learners across India and beyond. Qualification age 18+ only Smart phone and good internet connection Who can apply Students Working Professionals Housewife Please mention the word **CONGRATULATORY** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Company Description Knowledge Wave India is an education-focused organization committed to making high-quality learning more accessible and impactful. The company strives to leverage modern teaching methods, digital tools, and learner-centered approaches to support students and professionals in developing practical skills. Knowledge Wave India values integrity, continuous improvement, and collaboration, creating an environment where team members can grow their careers while contributing to meaningful educational outcomes. Joining the organization offers the opportunity to be part of an expanding education ecosystem that aims to positively influence learners across India and beyond. Qualification age 18+ only Smart phone and good internet connection Who can apply Students Working Professionals Housewife Please mention the word **CONGRATULATORY** and tag RMjAuNTUuOC42NA== when applying to show you read the job post completely (#RMjAuNTUuOC42NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "infosec",
         "javascript",
@@ -972,55 +598,18 @@
       ]
     },
     {
-      "id": "remoteok-1136788",
-      "title": "Valuer Gold Loan",
-      "company": "IDFC FIRST Bank",
-      "location": "Chittoor,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-valuer-gold-loan-idfc-first-bank-1136788",
-      "description": "Job Requirements About the Role The Valuer â Gold Loan plays a critical role in ensuring the accuracy and integrity of gold loan valuations across branches pan-India. This role involves assessing the purity and value of gold collateral, supporting disbursal processes, conducting audits, and training branch staff. The incumbent is expected to uphold the highest standards of ethics, confidentiality, and compliance while contributing to customer acquisition and operational efficiency. Key Responsibilities Primary Responsibilities Conduct gold loan valuations using standardized methods and tools. Perform thorough checks to assess the purity of gold collateral. Ensure timely disbursal of cases within defined turnaround times (TAT). Visit nearby branches for stock audits and valuation activities. Monitor delinquent cases and support branches in managing portfolio quality. Deliver training sessions to branch staff on gold loan valuation and fraud awareness. Maintain integrity and transparency in all transactions, avoiding any direct or indirect personal interest. Conduct customer reference checks with sincerity and professionalism. Uphold confidentiality of client information and ensure",
+      "id": "arbeitnow-senior-program-manager-professional-services-for-defense-and-intelligence-berlin-344014",
+      "title": "Senior Program Manager, Professional Services for Defense and Intelligence",
+      "company": "Planetlabs",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/planetlabs/senior-program-manager-professional-services-for-defense-and-intelligence-berlin-344014",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Welcome to Planet. We believe in using space to help life on Earth.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one.&lt;/p&gt; &lt;p&gt;Customers and users across the globe use Planet&#39;s data to develop new technologies, drive revenue, power research, and solve our world’s toughest obstacles.&lt;/p&gt; &lt;p&gt;As we control every component of hardware design, manufacturing, data processing, and software engineering, our office is a truly inspiring mix of experts from a variety of domains.&lt;/p&gt; &lt;p&gt;We have a people-centric approach toward culture and community and we strive to iterate in a way that puts our team members first and prepares our company for growth. Join Planet and be a part of our mission to change the way people see the world.&lt;/p&gt; &lt;p&gt;Pl",
       "tags": [
-        "infosec",
-        "javascript",
-        "technical",
-        "exec",
-        "sys admin",
-        "customer support",
-        "web dev",
-        "virtual assistant",
-        "video",
-        "api",
-        "ops",
-        "marketing"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T19:40:31+00:00",
-      "score": 50,
-      "regions": [
-        "India"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: India",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-remote-platform-boosters-backend-engineer-berlin-67421",
-      "title": "Platform Boosters - Backend Engineer (m/w/d)",
-      "company": "shopware AG",
-      "location": "Homeoffice",
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/shopware-ag/remote-platform-boosters-backend-engineer-berlin-67421",
-      "description": "Shopware ist ein führendes E-Commerce-System, das Unternehmen weltweit dabei unterstützt, im digitalen Handel schnell und effizient zu skalieren. Als wegweisende Open-Source-Lösung wird Shopware bereits von einigen der größten europäischen Marken, Händlern und Herstellern im B2C- und B2B-Umfeld eingesetzt. Wir bauen derzeit ein neues Team auf, das für den Produktbereich Shopware Pulse verantwortlich sein wird. Dieser umfasst alle Themen rund um das Management von Abonnements, Zahlungen und Übernutzungen (Overages) unserer Shopware Services. Als Backend Engineer verantwortest du zentrale Service-zu-Service-Infrastrukturen, Datenpipelines und APIs, die sowohl interne Abläufe als auch merchant-seitige Funktionen antreiben. Die Rolle richtet sich an Engineers mit Begeisterung für skalierbare, verteilte Systeme, API-getriebene Architekturen und Cloud-native Lösungen, die ihr Skillset perspektivisch in Richtung Full-Stack-Entwicklung erweitern möchten. Egal von wo aus du arbeitest, du bist ein fester Bestandteil des Teams. Daher suchen wir deutschlandweit/europaweit nach einem Backend Engineer (m/w/d) für unser Service Enablement Team! Entwurf, Entwicklung und kontinuierliche Weiterentwi",
-      "tags": [
-        "Product",
-        "Remote"
+        "Pre-Sales and Services"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-08-18T02:30:28.000Z",
+      "posted": "2026-08-19T02:55:04.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -1029,155 +618,33 @@
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "region: Europe",
-        "remote"
+        "seniority fit",
+        "region: Europe"
       ]
     },
     {
-      "id": "arbeitnow-data-engineer-edinburgh-318318",
-      "title": "Data Engineer",
-      "company": "Fanduel",
-      "location": "Edinburgh",
+      "id": "arbeitnow-staff-software-engineer-full-stack-london-257074",
+      "title": "Staff Software Engineer - Full-Stack",
+      "company": "Deliveroo",
+      "location": "London - The River Building HQ",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/data-engineer-edinburgh-318318",
-      "description": "&lt;p&gt;FanDuel Group is a world-class team of brands and products that deliver sports betting, gaming and entertainment to millions of US sports fans every day. That’s no easy task and wouldn&#39;t be possible without a fantastic team who have helped us pioneer new products and innovative features that make us a leader in the industry.&lt;br&gt;The company is based in New York with US offices in Los Angeles, Atlanta, and Jersey City, as well as global offices&amp;nbsp;in Canada and Scotland. The company’s affiliates have offices worldwide, including in Ireland, Portugal, Romania,&amp;nbsp;and Australia.&lt;br&gt;FanDuel Group is a subsidiary of Flutter Entertainment, the world&#39;s largest sports betting and gaming operator&amp;nbsp;with a portfolio of globally recognized brands and traded on the New York Stock Exchange (NYSE: FLUT).&lt;br&gt;&lt;br&gt;&lt;strong&gt;THE POSITION&lt;/strong&gt;&lt;br&gt;Our roster has an opening with your name on it&lt;br&gt;&lt;br&gt;We are looking for a Data API Engineer (Software Engineer with interest in Data applications) to join our&amp;nbsp;growing team and help build the Applications with REST API endpoints to provide recommendations base",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/staff-software-engineer-full-stack-london-257074",
+      "description": "Staff Software Engineer - Full Stack Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day. From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale. We’re looking for a Staff Software Engineer - Full Stack to join our London team (hybrid, 3 days from the office) . In this role, you’ll help us define technical solutions for critical business problems and lead the technical direction for complex, high-scale systems. Get to know our Engineering team — what drives us, how we work, and what you can expect. What You’ll Be Doing You’ll be joining a high-impact engineering group focused on solving unstructured and ambiguous challenges. You will act as a technical authority, aligning non-adjacent teams to deliver results that move the needle for the entire organisation. Here’s what your day-to-day might look like: Drive Techni",
       "tags": [
-        "Data Engineering"
+        "All Cost Centers"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 50,
+      "posted": "2026-08-18T21:40:17.000Z",
+      "score": 40,
       "regions": [
-        "Europe",
-        "Australia",
-        "Remote"
+        "Europe"
       ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe/Australia/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-remote-technical-lead-216574",
-      "title": "Technical Lead (f/m/d)",
-      "company": "Boardwise",
-      "location": "Remote",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/boardwise/remote-technical-lead-216574",
-      "description": "Find Jobs in United Kingdom on Arbeitnow",
-      "tags": [
-        "Tech Lead",
-        "ownership",
-        "Scope",
-        "estimate",
-        "AI",
-        "ASP.NET",
-        "TypeScript",
-        "React",
-        "SaaS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T18:30:04.000Z",
-      "score": 50,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-java-edinburgh-192814",
-      "title": "Software Engineer - Java",
-      "company": "Fanduel",
-      "location": "Edinburgh",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/software-engineer-java-edinburgh-192814",
-      "description": "&lt;p&gt;ABOUT FANDUEL&lt;br&gt;FanDuel Group (“FanDuel&quot;) is an innovative sports-tech entertainment company that is changing the way&amp;nbsp;consumers engage with their favorite sports, teams, and leagues. The premier gaming destination in the&amp;nbsp;United States, FanDuel consists of a portfolio of leading brands across gaming, sports betting, daily fantasy&amp;nbsp;sports, advance-deposit wagering, and TV/media.&amp;nbsp;FanDuel has a presence across all 50 states with approximately 17 million customers and 28 retail locations.&amp;nbsp;FanDuel is based in New York with offices in New Jersey , Georgia, California, Oregon, Canada and Scotland.&amp;nbsp;Its networks FanDuel TV and FanDuel+ are broadly distributed on linear cable television and through its relationships with leading direct-to-consumer over-the-top platforms.&lt;br&gt;FanDuel Group is a subsidiary of Flutter Entertainment plc, the world&#39;s largest sports betting and gaming&amp;nbsp;operator with a portfolio of globally recognized brands and traded on the New York Stock Exchange (NYSE:&amp;nbsp;FLUT).&lt;br&gt;&lt;br&gt;THE ROSTER&lt;br&gt;At FanDuel, we give fans a new and innovative way to interact with ",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-core-marketing-platforms-edinburgh-179760",
-      "title": "Software Engineer - Core Marketing Platforms",
-      "company": "Fanduel",
-      "location": "Edinburgh",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/software-engineer-core-marketing-platforms-edinburgh-179760",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;THE POSITION&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:276}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Our roster has an opening with your name on it&lt;/span&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;span data-contrast=&quot;auto&quot;&gt;We&#39;re looking for a&amp;nbsp;&lt;strong&gt;Software Engineer&lt;/strong&gt;&amp;nbsp;to join one of our &lt;strong&gt;Core Marketing Platforms teams&lt;/strong&gt;, where&amp;nbsp;you&#39;ll&amp;nbsp;build and&amp;nbsp;optimize&amp;nbsp;high-performance microservices that power FanDuel&#39;s marketing ecosystem.&amp;nbsp;You&#39;ll&amp;nbsp;work on systems enabling critical capabilities such as real-time customer communications, personalized promotions, and targeted campaign delivery.&lt;/span&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;span data-contrast=&quot;none&quot;&gt;Your work will focus on designing highly scalable, event-driven systems that process large volumes of real-time data, delivering intellige",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-edinburgh-477888",
-      "title": "Software Engineer",
-      "company": "Fanduel",
-      "location": "Edinburgh",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/software-engineer-edinburgh-477888",
-      "description": "&lt;p&gt;&lt;strong&gt;Our roster has an opening with your name on it&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;The Position&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We&#39;re looking for a Software Engineer for one of our Acquisitions team, working with a multitude of micro-services achieving various goals for our marketing partners such as real-time merchandising or promotion enrollment. Your work will focus on highly efficient systems dealing with large volumes of real time data, delivered to various&amp;nbsp;systems to enable targeted marketing.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Make existing systems simpler (e.g. by consolidating redundant systems, deleting unnecessary code, or&lt;br&gt;removing/updating out of date documentation).&lt;/li&gt; &lt;li&gt;Solve straightforward problems, seeking input and guidance from team members.&lt;/li&gt; &lt;li&gt;Take defined design and turn it into code and deliver it on schedule, applying appropriate technologies and&lt;br&gt;current software engineering best practices.&lt;/li&gt; &lt;li&gt;Write secure, stable, testable, maintainable code with minimal defects.&amp;nbsp;&lt;/li&gt; &lt;li&gt;Participate in team design, scoping and prioritizat",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-staff-software-engineer-market-making-484140",
-      "title": "Senior Staff Software Engineer - Market Making",
-      "company": "Fanduel",
-      "location": "Not specified",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/senior-staff-software-engineer-market-making-484140",
-      "description": "&lt;p&gt;&lt;strong&gt;THE POSITION&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Our roster has an opening with your name on it&lt;/p&gt; &lt;p&gt;We’re growing our Market Making Engineering team that works on some of the coolest software in the industry - the systems that quote, price, and manage risk in real time for high-volume, high-velocity sports markets. This work spans the full RFQ/quote lifecycle (request → quote → accept → outcome) in low-latency, event-driven services. The team you will join works with quantitative analysts and trading/risk stakeholders to implement and run market making strategies, while proactively identifying opportunities for technical innovation within the Risk and Trading organization. Our stakeholders are the people who establish prices and manage risk for the #1 sports book in America! We’re looking for a Senior Staff Software Engineer.&amp;nbsp;&lt;/p&gt; &lt;p&gt;As a Senior Staff Software Engineer, you will lead an empowered, multidisciplinary team, autonomously tackling complex challenges that provide the very best experiences and products for a growing community of millions of players. The ideal candidate will have the confidence to propose pragmatic s",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-18T00:55:21.000Z",
-      "score": 40,
-      "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "seniority fit",
-        "seniority mismatch"
+        "seniority mismatch",
+        "region: Europe"
       ]
     },
     {
@@ -1187,7 +654,7 @@
       "location": "Wideopen,",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-current-openings-mobiux-labs-uk-limited-formerly-vida-technologies-ltd-1136793",
-      "description": "403 / Security check Before you continue, please verify your request. We need to confirm that this request is coming from a real browser before we send you to Wellfound. Complete the security check below to continue. Verification successful. Waiting for wellfound.com to respond Enable JavaScript and cookies to continue Cloudflare Ray ID a2b81e2c28c2ebe7 Back to Wellfound Contact Support Please mention the word **COMPLEMENTS** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "403 / Security check Before you continue, please verify your request. We need to confirm that this request is coming from a real browser before we send you to Wellfound. Complete the security check below to continue. Verification successful. Waiting for wellfound.com to respond Enable JavaScript and cookies to continue Cloudflare Ray ID a2b81e2c28c2ebe7 Back to Wellfound Contact Support Please mention the word **COMPLEMENTS** and tag RMjAuNTUuOC42NA== when applying to show you read the job post completely (#RMjAuNTUuOC42NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "infosec",
         "customer support",
@@ -1211,7 +678,7 @@
       "location": "Nellore,",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-quality-checker-intechnative-1136776",
-      "description": "intechnative.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for intechnative.com to respond Enable JavaScript and cookies to continue Please mention the word **VALIANTLY** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "intechnative.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for intechnative.com to respond Enable JavaScript and cookies to continue Please mention the word **VALIANTLY** and tag RMjAuNTUuOC42NA== when applying to show you read the job post completely (#RMjAuNTUuOC42NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "infosec",
         "javascript"
@@ -1234,7 +701,7 @@
       "location": "æé½å¸,",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-test-req-1136783",
-      "description": "Responsibilities 1 Qualifications 1 Please mention the word **APPLAUD** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Responsibilities 1 Qualifications 1 Please mention the word **APPLAUD** and tag RMjAuNTUuOC42NA== when applying to show you read the job post completely (#RMjAuNTUuOC42NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "infosec",
         "javascript",
@@ -1267,7 +734,7 @@
       "location": "Dadra &amp; Nagar Haveli,",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-support-operations-aditya-birla-group-1136779",
-      "description": "Job Purpose Job Purpose Description Job Purpose Description To operate, set up, and maintain Horizontal Machining Centre (HMC) machines to manufacture dies, components, and precision parts as per drawings, quality standards, and production targets while ensuring safety and machine care. Ensure Zero Fatal accidents in the work area. Accident Frequency Rate &lt; 0.25, Accident Severity rate &lt;100 Near miss and abnormality identification and do corrective actions within 7 days. Ensure 100% adherence to safety training to new employees before assigning responsibilities Ensure 100% investigation of incidents / near miss within 48 hours in the unit Ensure that identified risks are reviewed on a monthly basis. Please mention the word **CLASSIC** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Job Purpose Job Purpose Description Job Purpose Description To operate, set up, and maintain Horizontal Machining Centre (HMC) machines to manufacture dies, components, and precision parts as per drawings, quality standards, and production targets while ensuring safety and machine care. Ensure Zero Fatal accidents in the work area. Accident Frequency Rate &lt; 0.25, Accident Severity rate &lt;100 Near miss and abnormality identification and do corrective actions within 7 days. Ensure 100% adherence to safety training to new employees before assigning responsibilities Ensure 100% investigation of incidents / near miss within 48 hours in the unit Ensure that identified risks are reviewed on a monthly basis. Please mention the word **CLASSIC** and tag RMjAuNTUuOC42NA== when applying to show you read the job post completely (#RMjAuNTUuOC42NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "infosec",
         "javascript",
@@ -1294,350 +761,115 @@
       ]
     },
     {
-      "id": "remoteok-1136555",
-      "title": "Artificial Intelligence Specialist",
-      "company": "Modi's Boutique",
-      "location": "Ranchi,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-artificial-intelligence-specialist-modis-boutique-1136555",
-      "description": "We need a Sincere, Dedicated &amp; Hardworking &nbsp;Employee Who can handle Back End Desk Job and is well versed with Artificial intelligence Kindly W hatsapp or Call on 88769-5073 for further details. Only serious candidates Looking for long time Job For a minimum 2 to 5 years apply, who are Sincere, Dedicated and Willing To work hard. Happy working. Please mention the word **BULLISH** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T20:06:27+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136390",
-      "title": "Loss Prevention Specialist",
-      "company": "The Home Depot Canada",
-      "location": "Brampton,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-loss-prevention-specialist-the-home-depot-canada-1136390",
-      "description": "Are you someone who thrives on helping others succeed, enjoys making an impact, and takes pride in guiding customers to the right solutions for their projects? If youâre also naturally curious and eager to keep learning, consider starting or growing your career with us at The Home Depot. The pay range for this position is between $22.00 - $24.00 In our commitment to efficiency, consistency, and a fair hiring experience for all candidates, The Home Depot Canada uses Artificial Intelligence (AI) technology to assist with the screening and assessment of applicants for this position. This technology is used to quickly and consistently identify candidates whose skills and experience are the strongest match for the role. Our process is designed to ensure human oversight is maintained throughout the selection process. Please mention the word **HARMLESS** and tag RNDguMjE0LjU0LjM0 when applying to show you read the job post completely (#RNDguMjE0LjU0LjM0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T19:04:09+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136602",
-      "title": "Jenni AI",
-      "company": "AI Supermarket",
-      "location": "Research,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-jenni-ai-ai-supermarket-1136602",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "dev",
-        "digital nomad",
-        "medical",
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "testing"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:51:03+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136391",
-      "title": "Typefully",
-      "company": "AI Supermarket",
-      "location": "Heartâs Content,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-typefully-ai-supermarket-1136391",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:50:57+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136554",
-      "title": "Apify",
-      "company": "AI Supermarket",
-      "location": "Ajmer,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-apify-ai-supermarket-1136554",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:50:41+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136388",
-      "title": "Aragon AI",
-      "company": "AI Supermarket",
-      "location": "Good Design,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-aragon-ai-ai-supermarket-1136388",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:50:40+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136389",
-      "title": "Beehiiv",
-      "company": "AI Supermarket",
-      "location": "Heartâs Content,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-beehiiv-ai-supermarket-1136389",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:50:33+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136386",
-      "title": "Meshy",
-      "company": "AI Supermarket",
-      "location": "Good Design,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-meshy-ai-supermarket-1136386",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:50:22+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136556",
-      "title": "GetResponse",
-      "company": "AI Supermarket",
-      "location": "Rajkot,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-getresponse-ai-supermarket-1136556",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing",
-        "web dev"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:49:47+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1136704",
-      "title": "AskYourPDF",
-      "company": "AI Supermarket",
-      "location": "Heartâs Content,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-askyourpdf-ai-supermarket-1136704",
-      "description": "Professional forex trading simulator that replays historical market data so traders can practise strategies risk-free. Test and backtest trading systems across years of tick-level data at any speed, then review statistics on win rate, drawdown and risk-reward. Used by aspiring and experienced traders to build discipline and refine their edge.Text-to-3D and image-to-3D AI platform that generates game-ready 3D models and textures in minutes. Simply describe what you want or upload a reference image and Meshy produces a fully textured, exportable 3D asset. Used by game developers, product designers and metaverse creators to accelerate 3D production pipelines.AI-powered call tracking and analytics platform that shows you exactly which marketing campaigns are generating phone calls and customers. Conversation Intelligence automatically transcribes calls, scores leads and identifies keywords that convert. Trusted by 200,000+ businesses to optimise marketing spend and improve sales performance.AI meeting assistant that automatically joins your calls, records, transcribes and summarises every conversation. Smart search lets you find any moment from past meetings in seconds, and AI creates ",
-      "tags": [
-        "golang",
-        "wordpress",
-        "vfx",
-        "teaching",
-        "education",
-        "game dev",
-        "full stack",
-        "writer",
-        "transcribing",
-        "dev",
-        "testing",
-        "marketing"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-08-11T16:49:39+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-ai-engineering-automation-specialist-on-site-berlin-215529",
-      "title": "AI Engineering & Automation Specialist (on-site)",
-      "company": "Cloover",
+      "id": "arbeitnow-data-engineer-berlin-153233",
+      "title": "Data Engineer",
+      "company": "Platoapp",
       "location": "Berlin",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/cloover/ai-engineering-automation-specialist-on-site-berlin-215529",
-      "description": "Deine Rolle Jedes interne Team bei Cloover, Ops, Energy, Sales, CS, Finance, hat Arbeit, die KI-Agenten schneller und besser erledigen können. Du baust die Systeme, die das real machen: agentische Pipelines, MCP-Server und interne Tools, die unseren Arbeitsalltag verändern, nicht irgendwann, sondern jetzt. Erfolg in dieser Rolle heißt: Kolleg:innen hören auf, die Arbeit zu machen, die du automatisiert hast, und konzentrieren sich auf das, was nur sie tun können. Du berichtest an Florent (Head of Operations &amp; Energy) und arbeitest in einem starken, eng vernetzten Team. Deine Aufgaben Konzipiere, baue und shippe end-to-end agentische Systeme, RAG-Pipelines, Embeddings, Retrieval, Prompt Engineering und Evaluation, die Cloovers volumenstärkste interne Workflows automatisieren. Entwickle und deploye eigene MCP-Server sowie Integrationen, die HubSpot, Slack, Notion, Aircall und weitere Tools verbinden, damit Daten dort landen, wo sie gebraucht werden, ohne manuelle Zwischenschritte. Schreibe Production-Code in Python und TypeScript mit sauberem Schema-Design, Security und Authorization, Code, der live geht und läuft, keine Prototypen, die liegen bleiben. Verantworte internes Tooling",
+      "url": "https://www.arbeitnow.com/jobs/companies/platoapp/data-engineer-berlin-153233",
+      "description": "Your responsibilities Joining our data team, you'll lead the build of Plato's real-time data platform, data warehouse, and the infrastructure behind our suite of data products. You'll work closely with data science, product, design, and engineering to build the data foundation that powers customer-facing analytics and ML models. What you'll actually do: Carry out the data modeling that powers real-time, customer-facing analytics and the data products inside our app Design flexible schemas that can absorb data from many different sources Partner with data consumers across Plato to understand usage patterns and design intuitive data models Write and deploy high-performance transformations within our data warehouse Own and configure our data platform (Databricks), working closely with product and engineering to ship data products the team actually uses Your qualifications Must-haves: 3+ years of experience in data engineering, building and owning ETLs/ELTs end to end Hands-on experience with SQL, data warehouses (e.g. Databricks or Snowflake), and data transformation workflows (e.g. dbt) Solid grounding in both software engineering practices and data engineering principles A strong an",
       "tags": [
-        "AI",
-        "artificial intelligence",
-        "renewal energy"
+        "startup",
+        "B2B",
+        "SaaS",
+        "Data Engineering",
+        "Databricks",
+        "Snowflake",
+        "dbt",
+        "Data Modeling",
+        "Starrocks",
+        "Python",
+        "Terraform",
+        "ETL"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-08-17T23:29:23.000Z",
+      "posted": "2026-08-19T02:30:15.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-werkstudentin-softwareentwicklung-it-support-digital-health-medizin-all-genders-hamburg-34066",
+      "title": "Werkstudent:in Softwareentwicklung & IT-Support (Digital Health / Medizin) (All genders)",
+      "company": "Kumi Health Gmbh",
+      "location": "Hamburg",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/kumi-health-gmbh/werkstudentin-softwareentwicklung-it-support-digital-health-medizin-all-genders-hamburg-34066",
+      "description": "Willkommen im Kumiverse Gestalte mit uns die digitale Zukunft von Krankenhäusern. Unsere AI-gestützte Hospital Performance Plattform unterstützt Verantwortliche in Krankenhäusern dabei, komplexe Abläufe transparenter, effizienter und zukunftsfähig zu steuern. Sie entlastet Personal spürbar, hilft, Ressourcen besser zu nutzen und sichert die Qualität der Versorgung in einem System unter Druck, dem AI gerade die größte Chance seit Langem eröffnet. Klingt spannend? Dann bewirb dich jetzt! Darum wird es gehen Als Werkstudent:in Softwareentwicklung &amp; IT-Support arbeitest du an der Schnittstelle zwischen Produktentwicklung und dem stabilen Betrieb unserer Plattform in echten Kliniken. Du bekommst tiefe Einblicke in beide Welten und übernimmst von Anfang an echte Verantwortung. Du übernimmst nicht nur Hilfsarbeiten, sondern arbeitest an Code und Systemen, die in der Patientenversorgung ankommen. Konkret unterstützt du uns dabei, UI-Komponenten unserer klinischen Webanwendung weiterzuentwickeln Server-APIs und Bot-Skripte zu entwickeln und zu pflegen Unit-Tests für Frontend, Server und Datenbank (CouchDB) zu schreiben und anzupassen HIS- und HL7-Schnittstellen sowie kundenspezifische K",
+      "tags": [
+        "Digital Health",
+        "Medizininformatik",
+        "Softwareentwicklung",
+        "IT Support",
+        "Krankenhaus IT"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-08-19T02:09:54.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-product-manager-agents-berlin-399444",
+      "title": "Product Manager, Agents",
+      "company": "Peec AI",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/peec-ai/product-manager-agents-berlin-399444",
+      "description": "About Peec AI Peec AI is the visibility platform for the age of AI search. The way people discover brands is being rewritten. ChatGPT, Claude, Google AI Mode and Copilot now sit between companies and their customers, and most brands have no idea what those models say about them. We built the platform marketing teams use to measure, understand and improve how they show up inside AI answers. We went from 0 to $10M ARR in 16 months. We're around 80 people, based in Berlin with a growing presence in New York, and we're moving fast enough that the people joining now are writing the playbook everyone after them will run. Measuring the problem is only the first half. The second half is software that acts: agents that watch what a brand is doing across AI search, surface what matters, and then do the work. We're building that agent layer from the ground up, and this PM will define and own it. What You'll Do Own the agentic product surface at Peec AI, from the harness itself to the experience built around it Build agents that act proactively on customer data, alongside a pod of data scientists, AI engineers and a frontend engineer Work directly with our largest agency and brand customers, b",
+      "tags": [
+        "Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-08-18T20:40:04.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-junior-ai-go-to-market-engineer-munchen-336609",
+      "title": "(Junior) AI Go-to-Market Engineer (w/m/d)",
+      "company": "FTAPI GmbH",
+      "location": "München",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/ftapi-gmbh/junior-ai-go-to-market-engineer-munchen-336609",
+      "description": "Deine Aufgaben Du gestaltest die AI- und Automatisierungsschicht unseres Go-to-Market von Anfang an mit. Was du baust, geht in Produktion und wird von Sales, Marketing und Customer Success täglich genutzt. Du entwickelst AI-Workflows für unser Go-to-Market. Aktuell auf unserer Roadmap: AI-gestütztes Outreach mit Clay-Enrichment, automatisierte Win/Loss-Analyse aus Gong-Calls und ein Churn-Early-Warning-Model Durch Automatisierungen ( CRM-Hygiene, Handovers, Reporting-Handarbeit ) machst du unser Go-to-Market effizienter Du setzt ein Signal-basiertes Outbound auf indem du Intent-Signale anbindest, Scoring und Waterfall-Enrichment umsetzt und Sequenzen orchestrierst Dein Spielfeld ist der komplette Customer Lifecycle. Du pitchst deine Ideen und baust Prototypen Mit den ausgewerteten Daten aus Metabase und Claude baust du Dashboards für Teams und Leadership. Deine Learnings fließen in die nächste Iteration, auch wenn das heißt: verwerfen und neu bauen Dein Profil Du hast nachweislich bereits eigene Automatisierungen, Workflows und AI-Projekte im Job oder während dem Studium/Praktikum umgesetzt Du blickst auf 1 bis 3 Jahre Erfahrung in Revenue Operations, Sales/Marketing Operations ode",
+      "tags": [
+        "AI",
+        "AI Engineering",
+        "RevOps",
+        "Revenue Engineering",
+        "Sales Engineering",
+        "Sales Operations",
+        "Marketing Operations",
+        "GTM Engineering",
+        "GTM",
+        "Software Engineering",
+        "KI"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-08-18T20:10:02.000Z",
       "score": 35,
       "regions": [
         "Europe"
@@ -1681,18 +913,18 @@
       ]
     },
     {
-      "id": "arbeitnow-head-of-data-engineering-london-441668",
-      "title": "Head of Data Engineering",
-      "company": "Quantum",
-      "location": "London (hybrid)",
+      "id": "arbeitnow-regional-director-sales-ceur-417702",
+      "title": "Regional Director Sales - CEUR",
+      "company": "Chainguard",
+      "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/quantum/head-of-data-engineering-london-441668",
-      "description": "Our Company At Quantum, we connect global brands with high-intent consumers. We turn intent into action and complexity into clarity. Our Mission is clear, to help smarter, faster buying decisions. Our vision, to be the world’s most used digital comparison service, delivering value and simplicity to millions. We drive growth through data-driven affiliate marketing built for performance from day one. Every campaign is measurable, optimised in real time, and designed to scale. With in-house tech, full-stack analytics, and a compliance-first mindset, we give our partners an edge. We drive confident decisions and growth in regulated and high-growth sectors. We’ve helped ambitious brands grow faster, smarter, and globally. The Role Our Data Engineering team is growing! We're looking for a Head of Data Engineering to join our team in London. In this role you will lead the data engineering team that powers the Quantum Platform, own the technical strategy and delivery roadmap for our data infrastructure, and turn business ambition into intelligence that scales. Key Responsibilities Build, lead and develop a high-performing data engineering team, recruiting and retaining engineers who take p",
+      "url": "https://www.arbeitnow.com/jobs/companies/chainguard/regional-director-sales-ceur-417702",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk.&amp;nbsp;&lt;br&gt;&lt;br&gt;Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. &lt;br&gt;&lt;br&gt;Chainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;We are looking for a Director of Sales to join our rapidly growing team and manage a team of 5-7 Account Executives.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Report directly to the AVP of Sales and manage a team of 5-7 Account Executives&lt;/li&gt; &lt;li&gt;Drives, manages and executes the business and revenue of their sales team&lt;/li&gt; &lt;li&gt;Build a collaborative environment where your ",
       "tags": [
-        "Technology"
+        "International Sales"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-08-17T21:40:23.000Z",
+      "posted": "2026-08-19T02:55:20.000Z",
       "score": 20,
       "regions": [
         "Europe"
@@ -1703,27 +935,6 @@
         "role in description",
         "seniority mismatch",
         "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-development-engineer-142298",
-      "title": "Software Development Engineer",
-      "company": "beyondtrust",
-      "location": "Not specified",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/beyondtrust/software-development-engineer-142298",
-      "description": "&lt;p&gt;BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio.&lt;/p&gt; &lt;p&gt;Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself.&lt;/p&gt; &lt;p&gt;&lt;u&gt;The Role&lt;/u&gt;&lt;/p&gt; &lt;p&gt;You&#39;ll work on the Endpoint Privilege Management software that protects organisations from identity-based attacks. Our stack is Java and Spring Boot on the backend with Angular and TypeScript on the front end, deployed to cloud infrastructure at enterprise scale.&lt;/p&gt; &lt;p&gt;We are an AI-first engineering organisation. AI tooling is a core part of how we design, build and ship, and every engineer is provisioned with Claude Code and Copilot from day one.&lt;/p&gt; &lt;p&gt;Teams here form around problems rather than fixed components, so you&#39;ll get exposure across the product rather than ownership of one narrow area.&lt;/p&gt; &lt;p&gt;&lt;u&gt;What You’ll Do&lt;/u&gt;",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-08-17T15:55:49.000Z",
-      "score": 20,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description"
       ]
     }
   ]
