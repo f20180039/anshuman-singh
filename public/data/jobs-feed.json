@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T08:23:43.891Z",
-  "count": 41,
+  "generatedAt": "2026-09-19T08:11:28.669Z",
+  "count": 21,
   "sourcesLive": 3,
   "jobs": [
     {
@@ -42,19 +42,18 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-typescript-developer-cologne-108968",
-      "title": "Senior Typescript Developer (f/m/d)",
-      "company": "Sidestream",
-      "location": "Cologne",
-      "remote": true,
-      "url": "https://www.arbeitnow.com/jobs/companies/sidestream/senior-typescript-developer-cologne-108968",
-      "description": "Why Join Sidestream? At Sidestream, we’re building a team of committed, explorative and witty individuals who love pushing boundaries while having fun. Here’s what you can expect: Impactful Work: Contribute to projects that matter, whether it’s digitalizing leading companies, developing open-source tool or innovating with blockchain and AI. Learning &#x26; Growth: Gain mentoring from experienced professionals and access to proven processes that prepare you for success in a fast-paced tech environment. Our Culture of Excellence: Embrace modern systems like the Entrepreneurial Operating System (EOS) to deliver outstanding performance and achieve ambitious goals. Collaboration &#x26; Fun: Be part of a driven team that values humor, creativity and shared experiences, with regular team events and occasional meetups. Flexibility: Work remotely, from our modern office in Cologne, or a mix of both—whatever helps you thrive. Tasks Your Responsibilities Fullstack Development: Build robust applications using TypeScript, Nuxt3 and Vue. Lead Projects: Collaborate with product managers to conceptualize, architect, and implement projects in agile teams. Mentor and Guide: Help junior developers le",
+      "id": "arbeitnow-senior-frontend-engineer-react-remote-friendly-berlin-484204",
+      "title": "Senior Frontend Engineer (React) - Remote friendly",
+      "company": "Qonto",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/qonto/senior-frontend-engineer-react-remote-friendly-berlin-484204",
+      "description": "Our mission and customers: We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.8 on Trustpilot , &nbsp; based on 55,000+ reviews. Our culture &nbsp; puts customer satisfaction at the core of what we do, as proven by our Net Promoter Score of 75 (more about our culture here ). Our journey:&nbsp; Founded in 2017 by &nbsp; Alexandre and Steve , Qonto has grown to 1,600+ Qontoers serving over 600,000+ customers across 8 European countries. We have been profitable since 2023, and we are just getting started. Our beliefs: We hire for skills and potential. With 80+ nationalities, 45% women, of which 56% of women in our leadership team, diversity isn't a program; It's who we are. We've built a discrimination-free hiring process because the best teams are built on merit. AI at Qonto: AI is deeply embedded in how we work ( here ) &nbsp;- Every Qontoer gets unlimited access to the best AI tools. We want people who experiment without waiting for permission, push AI beyond the obvious, know when to trust it, and when to question it. ------------------------------------",
       "tags": [
-        "Remote",
-        "Software Development"
+        "Web"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T06:30:35.000Z",
+      "posted": "2026-09-19T05:04:34.000Z",
       "score": 85,
       "regions": [
         "Europe",
@@ -112,7 +111,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387",
-      "description": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMTcyLjE4Mi4yMTEuMjQ= when applying to show you read the job post completely (#RMTcyLjE4Mi4yMTEuMjQ=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMjAuMTY5LjY2Ljg0 when applying to show you read the job post completely (#RMjAuMTY5LjY2Ljg0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "golang",
         "dev",
@@ -123,14 +122,13 @@
       "posted": "2026-09-12T14:00:03+00:00",
       "score": 70,
       "regions": [
-        "Europe",
         "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "region: Europe/Remote",
+        "region: Remote",
         "remote"
       ]
     },
@@ -171,55 +169,30 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-fullstack-developer-business-automation-hamburg-426065",
-      "title": "Senior Fullstack Developer – Business Automation (m/w/d)",
-      "company": "Metergrid",
-      "location": "Hamburg",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/metergrid/senior-fullstack-developer-business-automation-hamburg-426065",
-      "description": "Deine Aufgaben Wir verantworten u.a. das zentrale CRM HubSpot, über das alle Prozesse unserer Wertschöpfungskette laufen. Interne Software-Produkte integrieren sich genauso in unsere CRM-Infrastruktur wie spezifische Apps, z.B. zur Terminbuchung bei einer Kundenanfrage. Der nächste Skalierungs-Schritt erfordert einen noch stärkeren Fokus auf technisches Enablement unserer eigenen Organisation sowie den Ausbau und die Verbesserung unseres eigenen technischen Verantwortungsbereichs. Du übernimmst dabei eine gewachsene, produktive Automatisierungslandschaft: Ein Teil unserer Geschäftslogik läuft heute als Custom Code direkt in HubSpot-Workflows, ein Teil in eigenen Backend-Services. Beides gehört dir – und du gestaltest aktiv mit, wohin sich diese Architektur entwickelt. Softwareentwicklung Entwicklung TypeScript-basierter Automatisierungen und Services entlang unserer gesamten Wertschöpfungskette im HubSpot CRM Entwicklung von HubSpot-Apps und UI Extensions (React) für unsere internen Teams – von CRM-Cards bis Workflow-Actions Verwaltung von Scopes, Token-Rotation, App-Versionierung und Deployments (CI/CD) Automatisierungen &amp; Workflows Entwicklung und Betrieb von Custom-Code-Auto",
+      "id": "remotive-2091129",
+      "title": "Senior Data Scientist",
+      "company": "Lemon.io",
+      "location": "Northern America, LATAM, Europe, APAC",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
+      "description": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Requirements — Data Scientist: 4+ years of commercial experience as a Data Scientist 3+ years of commercial experience with Python is a must 3+ years of commercial experience with Databricks Experience with RAG and LLM is a must Strong technical skills: as a Senior Data Scientist, you are expected to be ab",
       "tags": [
-        "Typescript",
-        "API Integration",
-        "Hubspot",
-        "Automation",
-        "CRM",
-        "SaaS",
-        "Erneuerbare Energien",
-        "Tenant Electricity",
-        "Energiewende",
-        "Mieterstrom",
-        "StartUp",
-        "ScaleUp"
+        ".Net",
+        "android",
+        "C",
+        "C#",
+        "C++",
+        "golang",
+        "ios",
+        "java",
+        "javascript",
+        "node.js",
+        "php",
+        "python"
       ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T05:09:37.000Z",
-      "score": 70,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-front-end-web-specialist-12-month-fixed-term-contract-london-100854",
-      "title": "Front-End Web Specialist (12-month fixed term contract)",
-      "company": "Perk",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/perk/front-end-web-specialist-12-month-fixed-term-contract-london-100854",
-      "description": "About Us Perk (formerly TravelPerk) is the intelligent platform for travel and spend management. Built to tackle the time-consuming, manual work that gets in the way of real work, our tools automate everything from travel bookings to expenses, invoice processing, and more. By eliminating this shadow work that wastes hours, erodes morale, and saps innovation, we're on a mission to power real work, with real impact. We're trusted by more than 12,000 companies worldwide, including Bolt, GoCardless, and Fabletics, and we're tackling the 7 hours of lost productivity per employee each week, a $1.7 trillion problem . Founded in 2015, Perk has grown into a global company of more than 1,800 people across 12 offices globally, with headquarters in London and Boston. We combine innovation, control, and simplicity to transform how businesses work and how people feel at work. At Perk, we're driven by our values, like being an owner, delivering a 7-star experience, and working as one team. We value curiosity, purpose, and mindset, not just knowledge, to unlock the power in your potential. Our talent team brings together leading minds from the travel, fintech, and SaaS industries, representing ove",
-      "tags": [
-        "Marketing"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T06:40:05.000Z",
-      "score": 70,
+      "source": "Remotive",
+      "posted": "2026-09-16T12:35:28",
+      "score": 65,
       "regions": [
         "Europe",
         "Remote"
@@ -227,35 +200,8 @@
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in title",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-staff-frontend-engineer-react-remote-friendly-paris-473326",
-      "title": "Senior/Staff Frontend Engineer (React) - Remote Friendly",
-      "company": "Qonto",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/qonto/senior-staff-frontend-engineer-react-remote-friendly-paris-473326",
-      "description": "Our mission and customers: We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.8 on Trustpilot , &nbsp; based on 55,000+ reviews. Our culture &nbsp; puts customer satisfaction at the core of what we do, as proven by our Net Promoter Score of 75&nbsp; (more about our culture here ). Our journey:&nbsp; Founded in 2017 by &nbsp; Alexandre and Steve , Qonto has grown to 1,600+ Qontoers serving over 600,000+ customers across 8 European countries. We have been profitable since 2023, and we are just getting started. Our beliefs: We hire for skills and potential. With 80+ nationalities, 45% women, of which 56% of women in our leadership team, diversity isn't a program; It's who we are. We've built a discrimination-free hiring process because the best teams are built on merit. AI at Qonto: AI is deeply embedded in how we work ( here ) &nbsp;- Every Qontoer gets unlimited access to the best AI tools. We want people who experiment without waiting for permission, push AI beyond the obvious, know when to trust it, and when to question it. ------------------------------",
-      "tags": [
-        "Web"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T01:25:06.000Z",
-      "score": 70,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
+        "role in description",
         "seniority fit",
-        "seniority mismatch",
         "region: Europe/Remote",
         "remote"
       ]
@@ -339,74 +285,18 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-staff-software-engineer-agentic-platform-berlin-482739",
-      "title": "Senior Staff Software Engineer, Agentic Platform",
-      "company": "tide",
-      "location": "Berlin",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/tide/senior-staff-software-engineer-agentic-platform-berlin-482739",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;strong&gt;BOUT TIDE&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.&lt;/p&gt; &lt;p&gt;Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.&lt;/p&gt; &lt;p&gt;Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Tide facts:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Tide is available for UK, Indian, German and French SMEs&lt;/li&gt; &lt;li&gt;Over 2 million members across UK and India&lt;/li&gt; &lt;li&gt;Over $300 million raised in funding&lt;/li&gt; &lt;li&gt;Over 2,800 Tideans globally&lt;/li&gt; &lt;li&gt;",
-      "tags": [
-        "One Platform"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T05:55:20.000Z",
-      "score": 55,
-      "regions": [
-        "India",
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: India/Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-frontend-engineer-munich-120556",
-      "title": "Senior Frontend Engineer",
-      "company": "Emidat GmbH",
+      "id": "arbeitnow-software-engineer-simulation-platform-munich-424378",
+      "title": "Software Engineer - Simulation Platform",
+      "company": "Proxima Fusion GmbH",
       "location": "Munich",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/emidat-gmbh/senior-frontend-engineer-munich-120556",
-      "description": "👷🏻‍♀️ What we do 👷🏻‍♀️ At Emidat, we are building the first climate-native product management system for building material manufacturers. We aim to decarbonise building materials, which make up 11% of global GHG emissions. We collect data from physical production processes, generate a digital product passport with verified environmental data and make it usable along the value chain. In short: One solution to assess, design, buy, sell and manage products - with environmental impact at the core. With this, we are building the digital infrastructure to make it faster, easier, and more sustainable to build the world around us. Find out more about us, the team and our values here. What you will work on Your mission You will be our first full-time Frontend Engineer and set the technical direction for the entire frontend codebase and architecture.You will build a basis upon which all other team members can do high-quality frontend contributions, at scale. You will leverage your experience in web development to teach and mentor your peers, becoming the go-to person for all frontend-related topics. You will bring perspective how agentic user interfaces will influence web development, an",
+      "url": "https://www.arbeitnow.com/jobs/companies/proxima-fusion-gmbh/software-engineer-simulation-platform-munich-424378",
+      "description": "WHO WE ARE Proxima Fusion is Europe’s fastest-growing fusion company and the continent’s best-funded fusion player, as well as the first spin-out from the Max Planck Institute for Plasma Physics (IPP). Backed by over €650M and powered by a growing team across Munich, Zurich, and Oxford, we are developing the hardware and infrastructure needed to deliver the world’s first commercial stellarator fusion power plant. Our concept advances the most mature fusion technology out there, the Wendelstein 7-X stellarator, through two next-generation machines: Alpha and Stellaris. Our work combines stellarator optimization, advanced computation, machine learning, and high-temperature superconducting magnets to unlock higher-performance designs that were previously out of reach. Turning these designs into a functioning fusion power plant requires excellence and ownership across every discipline, from physics and engineering to software, manufacturing, law, and business functions. WHY JOIN PROXIMA FUSION You will get to work on some of the most complex tech challenges to bring abundant, safe, clean energy to the world. You'll get to join and learn from an exceptional selection of accomplished and",
       "tags": [
-        "Tech"
+        "Dev Platform"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T05:40:10.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-junior-fullstack-developer-hamburg-150145",
-      "title": "Junior Fullstack Developer (m/w/d)",
-      "company": "Metergrid",
-      "location": "Hamburg",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/metergrid/junior-fullstack-developer-hamburg-150145",
-      "description": "Deine Aufgaben Du wirst Teil des Teams, das die Software baut, die ein Mieterstromprojekt von der ersten Anfrage bis zum laufenden Betrieb begleitet. Das Team wächst gerade in zwei Bereichen: Go-to-Market: Von der ersten Anfrage bis zum unterschriebenen Projekt. Anfragefunnel, Wirtschaftlichkeitsrechnung und das Partnerportal für Solarteure und Elektriker. Projektumsetzung : Von der Unterschrift bis zum Produktivbetrieb. Ein neues Portal, das Messkonzept, Anmeldungen, Inbetriebnahme und erste Abrechnung aus Tabellen und E-Mail-Schleifen in eine App holt. Die erste Version wird gerade entworfen, du wärst von Anfang an dabei. Du steigst in einem der beiden Bereiche ein. Welcher zu dir passt, klären wir im Gespräch. Aufbau und Weiterentwicklung eines Produkts: Du übernimmst von Anfang an einen eigenen, überschaubaren Bereich unserer Software und wächst mit ihm Enge, direkte Zusammenarbeit mit erfahrenen Entwicklern, Product und Design; in den ersten Monaten begleitet dich ein fester Buddy Entwicklung von TypeScript-basierten Front- und Backends (React &amp; NestJS) Umsetzung von Features end-to-end – vom Ticket über die erste Zeile Code bis zum produktiven Einsatz, mit Review und Spar",
-      "tags": [
-        "ScaleUp",
-        "StartUp",
-        "Mieterstrom",
-        "Tenant Electricity",
-        "Software",
-        "Engineering",
-        "Entwickler",
-        "Fullstack"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T05:09:37.000Z",
+      "posted": "2026-09-19T05:40:07.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -419,73 +309,18 @@
       ]
     },
     {
-      "id": "arbeitnow-fullstack-developer-hamburg-9926",
-      "title": "Fullstack Developer (m/w/d)",
-      "company": "Metergrid",
-      "location": "Hamburg",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/metergrid/fullstack-developer-hamburg-9926",
-      "description": "Deine Aufgaben Du wirst Teil des Teams, das die Software baut, die ein Mieterstromprojekt von der ersten Anfrage bis zum laufenden Betrieb begleitet. Das Team wächst gerade in zwei Bereichen: Go-to-Market: Von der ersten Anfrage bis zum unterschriebenen Projekt. Anfragefunnel, Wirtschaftlichkeitsrechnung und das Partnerportal für Solarteure und Elektriker. Projektumsetzung : Von der Unterschrift bis zum Produktivbetrieb. Ein neues Portal, das Messkonzept, Anmeldungen, Inbetriebnahme und erste Abrechnung aus Tabellen und E-Mail-Schleifen in eine App holt. Die erste Version wird gerade entworfen, du wärst von Anfang an dabei. Du steigst in einem der beiden Bereiche ein. Welcher zu dir passt, klären wir im Gespräch. Aufbau und Weiterentwicklung eines Produkts: Du verantwortest einen eigenen Bereich unserer Software, von der Roadmap mit Product bis zur Qualität in Produktion Enge, direkte Zusammenarbeit mit Product, Design und anderen Entwicklern; du klärst fachliche Anforderungen selbst und übersetzt sie in saubere Lösungen Entwicklung von TypeScript-basierten Front- und Backends (React &amp; NestJS) Umsetzung von Features end-to-end – vom Konzept über die erste Zeile Code bis zum pro",
-      "tags": [
-        "ScaleUp",
-        "StartUp",
-        "Mieterstrom",
-        "Tenant Electricity",
-        "Software",
-        "Engineering",
-        "Entwickler",
-        "Fullstack"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T05:09:37.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-london-316847",
-      "title": "Software Engineer",
-      "company": "BLP Digital AG",
-      "location": "UK",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/blp-digital-ag/software-engineer-london-316847",
-      "description": "Join BLP Digital — The #1 Solution for ERP Automation BLP Digital is redefining ERP automation with agentic AI. Spun out of ETH Zurich and HSG, we build AI agents that automate finance, procurement, logistics, sales, and more for some of the world's largest enterprises. We solve real enterprise problems with cutting-edge technology and a strong sense of ownership. Our solution is live in 40+ countries, used by 550+ customers, and automates 70,000+ processes every day, including for Fortune 500 companies. As one of Switzerland's fastest-growing SaaS scale-ups, our success stems from deep expertise in technology and business processes, delivering a product with outstanding product-market fit, proven by a growing global customer base. We've recently welcomed Goldman Sachs Alternatives as a growth investor, and we're now expanding into the UK and USA. We are just getting started. Ready to build the future? Join BLP Digital today. About the role At blp, we create cutting-edge products for automated document processing. We have dedicated engineering teams for each product. The teams fully own their product, that means we understand the business problem that our product solves and own the",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T06:40:06.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-london-451043",
-      "title": "Software Engineer",
-      "company": "Prima",
+      "id": "arbeitnow-front-end-design-engineer-london-209587",
+      "title": "Front End Design Engineer",
+      "company": "Seamflow",
       "location": "London",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/software-engineer-london-451043",
-      "description": "Are you looking for a new challenge? Fancy helping us shape the future of motor insurance? Prima could be the place for you.&nbsp; Since 2015, we’ve been using our love of data and tech to rethink motor insurance and bring drivers a great experience at a great price.&nbsp;Our story began in Italy, where we’ve quickly become the number one online motor insurance provider. In fact, we’re trusted by over 5 million drivers. And now we’re expanding to help millions more drivers in the UK and Spain. To help fuel that growth, we need a Software Engineer to join our Engineering teams .&nbsp; &nbsp; This team is the beating heart of Prima.&nbsp; &nbsp; You’ll be joining over +350 engineers across software development, infrastructure, operations and security. Fueled by curiosity, experimentation and collaboration, you’ll help deliver scalable, impactful solutions that shape the future of insurance. Excited to make an impact? Here are the details What you’ll do Architect, design, develop, and maintain scalable and consistent services, writing reusable, modular, and maintainable code aligned with industry best practices. Collaborate closely with stakeholders, product managers, and engineering ",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/seamflow/front-end-design-engineer-london-209587",
+      "description": "About Seamflow Every plane, medical device, lift, battery and building has to be tested, inspected and certified before it reaches the world. It's the invisible layer that keeps the physical economy safe, and it still runs on Word documents, PDFs, spreadsheets and email. Seamflow is the software layer for that industry. We build AI-powered workflows for certification bodies, notified bodies and inspection companies: scheduling and resource planning, technical review, conformity assessment, field inspection, and document intelligence over messy real-world files. Where we are: Live in production inside some of the largest enterprises in the industry $4.5M seed, 14x oversubscribed, co-led by Northzone and Initialized Capital, the funds behind Spotify, Klarna, Coinbase and Reddit. Angels include Charlie Songhurst and Mario Götze. Demand is outstripping what we can build. That's the reason this role exists. The team Most of our engineers were olympiad medallists in maths, physics or informatics before they were engineers. The team has come to us from Google, Amazon, X, Yandex, McKinsey and Bain, and from founding-engineer seats at startups that went on to multi-billion-dollar valuations",
       "tags": [
         "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T03:24:08.000Z",
+      "posted": "2026-09-19T03:40:11.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -498,142 +333,18 @@
       ]
     },
     {
-      "id": "arbeitnow-data-software-engineer-london-456019",
-      "title": "Data Software Engineer",
-      "company": "Prima",
-      "location": "London",
+      "id": "arbeitnow-software-engineer-future-hiring-west-midlands-england-142258",
+      "title": "Software Engineer (Future Hiring)",
+      "company": "SugarCRM",
+      "location": "West Midlands, England",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/data-software-engineer-london-456019",
-      "description": "Are you looking for a new challenge? Fancy helping us shape the future of motor insurance? Prima could be the place for you.&nbsp; Since 2015, we’ve been using our love of data and tech to rethink motor insurance and bring drivers a great experience at a great price.&nbsp;Our story began in Italy, where we’ve quickly become the number one online motor insurance provider. In fact, we’re trusted by over 5 million drivers. And now we’re expanding to help millions more drivers in the UK and Spain. To help fuel that growth, we need a&nbsp; Data Software Engineer &nbsp;to join our&nbsp; Claims&nbsp; team.&nbsp; &nbsp; This team is the beating heart of Prima.&nbsp; &nbsp; You’ll be joining over 200 engineers across software development, infrastructure, operations and security. Fueled by curiosity, experimentation and collaboration, you’ll help deliver scalable, impactful solutions that shape the future of insurance. &nbsp; Excited to make an impact? Here are the details What you’ll do Shaping the architecture of data products designed for data analytics and data science, specifically focusing on use cases like forecasting, feature engineering,&nbsp; and integration of new data sources. Le",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/sugarcrm/software-engineer-future-hiring-west-midlands-england-142258",
+      "description": "About SugarAI UK Limited SugarAI is redefining CRM for the age of AI. We’re delivering on the original promise of CRM—turning fragmented customer and revenue signals into clear, prioritized action. Instead of more dashboards or surface-level insights, we help teams focus on what matters most and know exactly what to do next. More than two decades after our founding, we’re entering a new chapter with clarity and momentum—building intelligent, intuitive solutions that work within the flow of how teams actually sell and serve. We’re focused on solving complex, real-world challenges where relationships, context, and precision make all the difference. Our global team is united by a shared commitment to impact, ownership, and continuous growth. We create an environment where thoughtful ideas move quickly, where people are trusted to lead, and where flexibility supports how great work gets done. If you’re excited to help shape what’s next in AI-driven CRM—and build technology that drives real outcomes—we’d love to meet you. Where You Fit In: &nbsp; SugarAI ships AI-powered selling and sales intelligence products in a market that moves faster every day. We are focused on quality, functiona",
       "tags": [
         "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T03:24:08.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-lead-software-engineer-paris-9th-arrondissement-of-paris-75009-paris-426472",
-      "title": "Lead Software Engineer - Paris",
-      "company": "Artefactlinkedin",
-      "location": "9th arrondissement of Paris, 75009, Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/artefactlinkedin/lead-software-engineer-paris-9th-arrondissement-of-paris-75009-paris-426472",
-      "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;&lt;strong&gt;Lead&lt;/strong&gt;&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;&lt;strong&gt;Hybride et Mobile&lt;/strong&gt;&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;&lt;strong&gt;Package: 83-93k€&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;em&gt;Qui sommes-nous ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Artefact est un leader européen du conseil en Data et IA. Présents dans 24 pays avec 1 800 collaborateurs dont 200 profils techniques à Paris, nous déployons des solutions techniques sur-mesure pour de grands groupes mondiaux dans tous les secteurs clés de l’économie – industrie, retail, luxe, grande consommation, santé, finance. Pionniers engagés, nous favorisons l&#39;IA éthique via notre Centre de Recherche à Paris et Shanghai.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Pourquoi nous rejoindre ?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;em&gt;Vous avez envie d’être au cœur de la révolution IA en cours et ne voulez pas rater la vague.&lt;/em&gt;&lt;/strong&gt;",
-      "tags": [
-        "Data Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:55:19.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-staff-software-engineer-paris-office-490250",
-      "title": "Staff Software Engineer",
-      "company": "Aircall",
-      "location": "Paris Office",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/aircall/staff-software-engineer-paris-office-490250",
-      "description": "Aircall is a unicorn, AI-powered customer communications platform used by 22,000+ companies worldwide to drive revenue, resolve issues faster, and scale customer-facing teams. We’re redefining customer communications by bringing voice, SMS, WhatsApp, and AI together into one seamless workspace. Our momentum comes from a simple idea: help teams work smarter, not harder. Aircall’s AI Voice Agent automates routine calls, AI Assist streamlines post-call work, and AI Assist Pro delivers real-time guidance so people can do their best work. The result is higher revenue, faster resolutions, and teams that scale with confidence. Aircall is headquartered in Paris, our European HQ, with a strong North American presence anchored in Seattle, our North American HQ, and teams across Madrid, London, Berlin, San Francisco, New York City, Sydney, and Mexico City. We’ve built a product customers love and a business that’s scaling quickly, backed by world-class investors and driven by rapid AI innovation across multiple product lines. At Aircall, you’ll join a company in motion. We’re ambitious, product-driven, and execution-focused, with visible impact, fast decisions, and real growth. How we work at",
-      "tags": [
-        "13001 - Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T01:24:57.000Z",
-      "score": 55,
-      "regions": [
-        "Europe",
-        "Australia",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority mismatch",
-        "region: Europe/Australia/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-ai-software-engineer-ai-lab-lyon-77330",
-      "title": "AI Software Engineer (AI Lab)",
-      "company": "Agicap",
-      "location": "Lyon 🇫🇷",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/agicap/ai-software-engineer-ai-lab-lyon-77330",
-      "description": "About Agicap Créée à Lyon en 2016 par trois entrepreneurs français, Agicap est l'une des scale-ups avec la plus forte croissance d’Europe, avec plus de 8 000 clients, 600 employés et une croissance rapide du chiffre d'affaires (multiplié par 7 entre 2021 et 2024). Agicap fait partie du French Tech 120, qui récompense les startups les plus prometteuses de France. Agicap permet aux directions financières des entreprises de taille intermédiaire de gérer et de prévoir efficacement leur trésorerie, de payer leurs fournisseurs et de se faire payer. En combinant un système de gestion de trésorerie avec des solutions de gestion des comptes fournisseurs et des comptes clients sur une seule plateforme, Agicap ambitionne de devenir la nouvelle référence en matière de gestion de trésorerie pour les entreprises de taille intermédiaire. Nous avons levé 145 millions d’euros depuis notre création, auprès de fonds de capital-risque prestigieux tels qu’AVP, Greenoaks, Partech et BlackFin, avec un dernier tour en novembre 2024. Ces ressources supplémentaires alimentent encore davantage notre innovation produit, nous permettant de croître significativement et d’accélérer notre expansion internationale",
-      "tags": [
-        "Software developer"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-17T22:25:08.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-platform-lyon-france-27378",
-      "title": "Software Engineer, Platform - Lyon, France",
-      "company": "speechify",
-      "location": "Lyon",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/speechify/software-engineer-platform-lyon-france-27378",
-      "description": "&lt;p&gt;The mission of Speechify is to make sure that reading is never a barrier to learning.&lt;/p&gt; &lt;p&gt;Over 50 million people use Speechify’s text-to-speech products to turn whatever they’re reading – PDFs, books, Google Docs, news articles, websites – into audio, so they can read faster, read more, and remember more. Speechify’s text-to-speech reading products include its iOS app, Android App, Mac App, Chrome Extension, and Web App.&amp;nbsp;Google recently named Speechify the Chrome Extension of the Year and Apple named Speechify its 2025 Design Award winner for Inclusivity.&amp;nbsp;&amp;nbsp;&lt;/p&gt; &lt;p&gt;Today, nearly 200 people around the globe work on Speechify in a 100% distributed setting – Speechify has no office.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt; &lt;p style=&quot;text-align: left;&quot; data-speechify-sentence=&quot;&quot;&gt;The Platform team owns the backend behind everything Speechify ships: the public TTS API,&amp;nbsp;payments, subscriptions, auth, consumption tracking, and analytics — serving over 50&amp;nbsp;million users across iOS, Android, Mac, Chrome, and web.&lt;/p&gt; &lt;p style=&quot;text-align: ",
-      "tags": [
-        "Global"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-17T19:55:07.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-lead-software-engineer-paris-9th-arrondissement-of-paris-75009-paris-285971",
-      "title": "Lead Software Engineer - Paris",
-      "company": "Artefactjobs",
-      "location": "9th arrondissement of Paris, 75009, Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/artefactjobs/lead-software-engineer-paris-9th-arrondissement-of-paris-75009-paris-285971",
-      "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;table&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt; &lt;p&gt;&lt;strong&gt;Lead&lt;/strong&gt;&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;&lt;strong&gt;Hybride et Mobile&lt;/strong&gt;&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p&gt;&lt;strong&gt;Package: 83-93k€&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;em&gt;Qui sommes-nous ?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Artefact est un leader européen du conseil en Data et IA. Présents dans 24 pays avec 1 800 collaborateurs dont 200 profils techniques à Paris, nous déployons des solutions techniques sur-mesure pour de grands groupes mondiaux dans tous les secteurs clés de l’économie – industrie, retail, luxe, grande consommation, santé, finance. Pionniers engagés, nous favorisons l&#39;IA éthique via notre Centre de Recherche à Paris et Shanghai.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Pourquoi nous rejoindre ?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;em&gt;Vous avez envie d’être au cœur de la révolution IA en cours et ne voulez pas rater la vague.&lt;/em&gt;&lt;/strong&gt;",
-      "tags": [
-        "Data Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-17T16:55:35.000Z",
+      "posted": "2026-09-19T03:24:14.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -688,7 +399,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
-      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others on AI capabilities to help them perform. Requirements Experience building agents that run on their own and do meaningful work Strong with Grok, Claude, OpenAI, and open source Comfortable in Go, TypeScript, GraphQL, Postgres, GCP Writes clearly in English Compensation Salary: $150,000â$250,000 USD $20,000 signing bonus 4 weeks vacation + country-specific holidays Fully remote Please mention the word **HUMOUR** and tag RMTcyLjE4Mi4yMTEuMjQ= when applying to show you read the job post completely (#RMTcyLjE4Mi4yMTEuMjQ=). This is a beta feature to avoid spam applicants. Companies can search th",
+      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others on AI capabilities to help them perform. Requirements Experience building agents that run on their own and do meaningful work Strong with Grok, Claude, OpenAI, and open source Comfortable in Go, TypeScript, GraphQL, Postgres, GCP Writes clearly in English Compensation Salary: $150,000â$250,000 USD $20,000 signing bonus 4 weeks vacation + country-specific holidays Fully remote Please mention the word **HUMOUR** and tag RMjAuMTY5LjY2Ljg0 when applying to show you read the job post completely (#RMjAuMTY5LjY2Ljg0). This is a beta feature to avoid spam applicants. Companies can search these word",
       "tags": [
         "ai",
         "golang",
@@ -699,14 +410,13 @@
       "posted": "2026-09-16T12:44:27+00:00",
       "score": 50,
       "regions": [
-        "Europe",
         "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "region: Europe/Remote",
+        "region: Remote",
         "remote"
       ]
     },
@@ -747,44 +457,43 @@
       ]
     },
     {
-      "id": "arbeitnow-staff-software-engineer-agentic-platform-berlin-382459",
-      "title": "Staff Software Engineer, Agentic Platform",
-      "company": "tide",
-      "location": "Berlin",
+      "id": "arbeitnow-langfuse-senior-product-engineer-germany-165284",
+      "title": "Langfuse - Senior Product Engineer",
+      "company": "Clickhouse",
+      "location": "Germany",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/tide/staff-software-engineer-agentic-platform-berlin-382459",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;strong&gt;BOUT TIDE&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.&lt;/p&gt; &lt;p&gt;Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.&lt;/p&gt; &lt;p&gt;Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Tide facts:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Tide is available for UK, Indian, German and French SMEs&lt;/li&gt; &lt;li&gt;Over 2 million members across UK and India&lt;/li&gt; &lt;li&gt;Over $300 million raised in funding&lt;/li&gt; &lt;li&gt;Over 2,800 Tideans globally&lt;/li&gt; &lt;li&gt;",
+      "url": "https://www.arbeitnow.com/jobs/companies/clickhouse/langfuse-senior-product-engineer-germany-165284",
+      "description": "Why Product Engineering at Langfuse Your work will have an outsized impact. Everything you build is open source (MIT-licensed) and immediately visible. Langfuse has 21,900+ GitHub stars and our SDKs are downloaded 23M+ times per month. When you ship a new feature the community notices in GitHub issues, on X, and in our community channels. Product engineers at Langfuse are the people who deliver new features end-to-end to our users. You own the product thinking from understanding the user problem to deciding what to build to shipping the solution. You will also have direct exposure to how cutting-edge LLM applications are built. The users you serve are some of the best and most ambitious software engineers leveraging Langfuse to improve their applications. Deeply understanding the problems they solve will help you design the best possible product and along the way makes you an expert on LLM engineering yourself. You will grow at Langfuse by Own features end-to-end : from talking to users, to writing the spec, to shipping the code and docs, to writing the changelog post with your name on it. To give you a sense: recent features a single engineer owned include the Langfuse for Agents ",
       "tags": [
-        "One Platform"
+        "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T05:55:20.000Z",
-      "score": 40,
+      "posted": "2026-09-18T23:40:13.000Z",
+      "score": 50,
       "regions": [
-        "India",
         "Europe"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in title",
-        "seniority mismatch",
-        "region: India/Europe"
+        "role in description",
+        "seniority fit",
+        "region: Europe"
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-backend-behavioral-security-products-256373",
-      "title": "Software Engineer - Backend - Behavioral Security Products",
-      "company": "Abnormalsecurity",
-      "location": "Not specified",
+      "id": "arbeitnow-front-end-engineer-manchester-66098",
+      "title": "Front-end Engineer",
+      "company": "wppmedia",
+      "location": "Manchester",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/abnormalsecurity/software-engineer-backend-behavioral-security-products-256373",
-      "description": "&lt;p&gt;At Abnormal AI, we protect our customers against nefarious adversaries who are constantly evolving their techniques and tactics to outwit and undermine the traditional approaches to Security.&lt;/p&gt; &lt;p&gt;Abnormal is recognized as a top cybersecurity startup (Leader in the 2025 Gartner Magic Quadrant for Email Security Platforms), securing a Series D funding of $250 million at a $5.1 billion valuation in August 2024.&lt;/p&gt; &lt;h2&gt;About The Team&lt;/h2&gt; &lt;p&gt;This team owns the end-to-end development and operation of the infrastructure, ML models, AI agents, customer-facing APIs, and internal tools that power Abnormal&#39;s Identity Threat Protection (ITP) product. Our work is central to detecting malicious behavior and protecting customers from advanced identity-based attacks — including account takeover, identity spoofing, data leakage, and other high-impact threats.&lt;/p&gt; &lt;h2&gt;About The Role&lt;/h2&gt; &lt;p&gt;We are looking for a Software Engineer to help build and evolve our platform as it scales to meet expanding product requirements. This role blends hands-on backend systems development with growing ownership of features and production sy",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/wppmedia/front-end-engineer-manchester-66098",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About WPP Media&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;WPP is the trusted growth partner for the world’s leading brands. With exceptional talent, trusted data and intelligence, and world-class partnerships – all united by our pioneering agentic marketing platform, WPP Open – we help clients navigate change, capture opportunity, and deliver transformational growth. &lt;/p&gt; &lt;p&gt;WPP Media is WPP&#39;s AI-driven media operating unit, bringing together media, data, and partnerships to deliver creative personalisation at scale. Connected through WPP Open and powered by Open Intelligence, clients see exactly where, how, and why their media investment is working.&lt;/p&gt; &lt;p&gt;For more information, visit &lt;a href=&quot;wppmedia.com&quot;&gt;wppmedia.com&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;3058 - Manager, Front-end Engineer - Manchester&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Role Summary and Impact&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&l",
       "tags": [
-        "Behavioral Security Products"
+        "Technology & Data"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T00:55:35.000Z",
+      "posted": "2026-09-19T00:55:11.000Z",
       "score": 40,
       "regions": [],
       "sponsorshipFriendly": false,
@@ -794,243 +503,64 @@
       ]
     },
     {
-      "id": "arbeitnow-staff-software-engineer-paris-449090",
-      "title": "Staff Software Engineer",
-      "company": "Malt",
-      "location": "Paris",
+      "id": "arbeitnow-security-engineer-hamburg-144460",
+      "title": "Security Engineer",
+      "company": "freiheit.com technologies",
+      "location": "Hamburg",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/malt/staff-software-engineer-paris-449090",
-      "description": "🪐&nbsp;Discover our galaxy &nbsp; Join the Future of Work ! Malt is Europe's leading freelance marketplace, connecting over 1,000,000 talented freelancers with 100,000+ companies. Founded in 2013, we're transforming how work gets done through our tech-powered, human-centered platform. What makes us different: &nbsp; - A diverse team of 600 Malters across 6 European countries - A culture that champions equality (50% of our Comex are women) and inclusive growth - Backed by top investors including ISAI, Serena Capital, Eurazeo Growth, Goldman Sachs, and BPI - A mission to give everyone the freedom to work differently &nbsp; Ready to help shape the future of work? Your next chapter starts here! 🪐 &nbsp; At Malt we believe that Ambition is the Way, so all lists of missions and responsibilities are non-exhaustive. Explore your future career&nbsp;&nbsp; As a Staff Software Engineer at Malt, you play a pivotal role in shaping the company's technical direction, architecture, and execution. &nbsp; Staff Engineers are technical leaders who innovate to build solutions that will support the company's growth. &nbsp; This is achieved through individual contributions, applying technical skills t",
+      "url": "https://www.arbeitnow.com/jobs/companies/freiheitcom-technologies/security-engineer-hamburg-144460",
+      "description": "ÜBER UNSERE COMPANY freiheit.com wurde 1999 in Hamburg gegründet und entwickelt seitdem custom large-scale Softwareprodukte. Unsere Mission ist: “Ship great software”. In mehr als zwei Jahrzehnten haben wir immer das ausgeliefert, was wir versprochen haben – “always on time, on budget, on target and on quality”. 85% unserer Members sind Software Engineers mit Abschlüssen in Informatik, Physik oder Mathematik, viele auch mit fundierten Kenntnissen in Maschinellem Lernen und Künstlicher Intelligenz.&nbsp; Seit über einem Vierteljahrhundert arbeiten wir für das „Who’s Who“ der deutschen und europäischen Industrie- und Handelsunternehmen. Retail, Automotive, E-Commerce, Healthcare und mehr. Unsere large-scale Softwareprodukte werden täglich von Millionen von Benutzern verwendet und sind entscheidend für den wirtschaftlichen Erfolg unserer Kunden. Jedes Produkt ist somit geschäftskritisch und ist von strategischer Relevanz.&nbsp; Gemeinsam machen wir “mission impossible possible”.&nbsp; Unser Team besteht aus 300+ Members aus der ganzen Welt. In unseren Büros in Hamburg und Lissabon bauen wir gemeinsam Produkte, die noch nie jemand zuvor entwickelt hat. Unsere Teams arbeiten datengetrie",
       "tags": [
-        "Software Engineers"
+        "Security"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-17T22:24:24.000Z",
-      "score": 40,
+      "posted": "2026-09-19T02:05:06.000Z",
+      "score": 35,
       "regions": [
         "Europe"
       ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-principal-software-engineer-search-infra-elasticsearch-164281",
+      "title": "Principal Software Engineer - Search Infra - Elasticsearch",
+      "company": "Elastic",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/elastic/principal-software-engineer-search-infra-elasticsearch-164281",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data — securing and protecting private information more effectively — Elastic’s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;What is The Role:&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;We&#39;re looking for a Principal Software Engineer to join the Elasticsearch - Search Infra team.&amp;nbsp; This globally-distributed team of experienced engineers focuses on delivering a robust and feature-rich search experience, including contributing to improving the search experience in Lucene. This is a principle software engineering role that entail",
+      "tags": [
+        "Platform - Elasticsearch"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-19T06:55:05.000Z",
+      "score": 25,
+      "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "seniority mismatch",
-        "region: Europe"
+        "seniority mismatch"
       ]
     },
     {
-      "id": "arbeitnow-product-engineer-software-builder-regensburg-735",
-      "title": "Product Engineer / Software Builder (m/w/d)",
-      "company": "321 MED GmbH",
-      "location": "Regensburg",
+      "id": "arbeitnow-electrician-stuttgart-434696",
+      "title": "Electrician (m/f/d)",
+      "company": "Sereact GmbH",
+      "location": "Stuttgart Schockenriedstr. 17",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/321-med-gmbh/product-engineer-software-builder-regensburg-735",
-      "description": "Werde Teil von 321 MED! Die 321 MED GmbH ist ein innovatives und aufstrebendes E-Health-Unternehmen. Mit unserer Online-Rezeption unterstützen wir bereits 3.500+ Ärzte, Praxen und Kliniken in ganz Deutschland und betreuen mehr als 5.000.000 Patienten. Unser Ziel ist es, die beste Lösung für digitale Patientenbetreuung auf dem Markt zu werden. Zur Verstärkung unseres Entwicklerteams suchen wir erfahrene und innovative Full-Stack-Entwickler (m/w/x), die bereit sind, sich neuen Herausforderungen zu stellen und aktiv an der Entwicklung moderner Webanwendungen mitzuwirken. Wenn du in einer Umgebung arbeiten möchtest, in der schnelle Implementierung und direkte Auswirkungen deiner Arbeit sichtbar sind, bist du bei uns genau richtig. Aufgaben End-to-End Ownership: Du bist nicht nur für Code verantwortlich, sondern für das Ergebnis. Du begleitest Features von der ersten Idee über die Architektur bis hin zum Live-Gang. Vibe-Coding &#x26; AI-Leverage: Du nutzt moderne KI-Tools (Cursor, Copilot, CodeRabbit) als deine Sparringspartner, um rasend schnell Prototypen und produktionsreifen Code zu generieren. Think out of the Box: Du nimmst Vorgaben nicht einfach hin, sondern hinterfragst technisc",
-      "tags": [
-        "Software Development"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T07:30:38.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-engineering-manager-core-team-hamburg-394890",
-      "title": "Engineering Manager (m/w/d) – Core Team",
-      "company": "Metergrid",
-      "location": "Hamburg",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/metergrid/engineering-manager-core-team-hamburg-394890",
-      "description": "Deine Aufgaben Wir bauen die Software, mit der Mieterstromprojekte laufen: Zählerdaten rein, Abrechnung raus, und alles dazwischen. Das Core Team verantwortet das Betreiberportal, das Produkt, auf dem der laufende Betrieb unserer Kunden steht. Es ist unser fachlich tiefstes Team, und es wächst. Das Betreiberportal ist kein generisches SaaS. Es bildet die Energiewirtschaft ab: Messstellenbetrieb, Marktkommunikation, Netzentgelte, Umlagen, Abrechnung nach Regeln, die der Gesetzgeber schreibt und regelmäßig ändert. Wer hier priorisiert, muss verstehen, was eine Anforderung für den Betreiber wirtschaftlich bedeutet und was passiert, wenn sie falsch umgesetzt wird. Dafür suchen wir eine Person, die das Team führt und das Geschäft dahinter versteht. Nicht als Durchreiche für Tickets und nicht als Architekt, der alles selbst entscheidet, sondern als jemand, der Business-Anforderungen in technische Entscheidungen übersetzt und dafür sorgt, dass gute Entwickler gute Arbeit machen können: klare Ziele, wenig Reibung, ehrliches Feedback, verlässliche Lieferung. Der Weg dahin ist bewusst gewählt: Du startest für rund sechs Monate als Entwickler im Core Team. Du baust Features, machst Reviews un",
-      "tags": [
-        "Mieterstrom",
-        "Tenant Electricity",
-        "Software",
-        "Core Team",
-        "Energiewirtschaft",
-        "Django",
-        "React"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T05:09:37.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-machine-learning-engineer-london-204988",
-      "title": "Software / Machine Learning Engineer",
-      "company": "Prima",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/software-machine-learning-engineer-london-204988",
-      "description": "Are you looking for a new challenge? Fancy helping us shape the future of motor insurance? Prima could be the place for you.&nbsp; Since 2015, we’ve been using our love of data and tech to rethink motor insurance and bring drivers a great experience at a great price.&nbsp;Our story began in Italy, where we’ve quickly become the number one online motor insurance provider. In fact, we’re trusted by over 5 million drivers. And now we’re expanding to help millions more drivers in the UK and Spain. To help fuel that growth, we need a Software Engineer- Machine Learning to join our Engineering team. &nbsp; This team is the beating heart of Prima.&nbsp; &nbsp; You’ll be joining over +350 engineers across software development, infrastructure, operations and security. Fueled by curiosity, experimentation and collaboration, you’ll help deliver scalable, impactful solutions that shape the future of insurance. &nbsp; Excited to make an impact? Here are the details The team mission is to exploit the power of machine learning to revolutionize the insurance claims process. To help fuel that growth, we need a Software Engineer to join our Claims Machine Learning team. What you’ll do Leverage Machi",
+      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/electrician-stuttgart-434696",
+      "description": "Who We Are: We build the intelligence that lets robots sense, reason, and act in the real world—moving beyond the lab and into everyday industrial settings like warehouses and factories. Our technology closes the automation gaps that traditional systems can’t solve. We are on a mission to redefine how physical work gets done, and we’re looking for curious, bold thinkers to help shape the future of robotics with us. Overview: We are looking for a hands-on electrician or automation technician to support the build, installation, and optimization of our robotic systems. You will be responsible for wiring, testing, and commissioning electrical components both in our lab and on-site. You will collaborate closely with mechanical and software teams to ensure seamless system integration, resolve technical issues, and implement improvements across new and existing systems. Your Responsibilities: Installation &amp; Integration Build and wire electrical systems for robotic applications, including cabinets and field wiring. Support system commissioning in the robotics lab and at customer locations. Work closely with mechanical and software engineers to ensure correct system integration. Impleme",
       "tags": [
         "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T03:24:08.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-data-analytics-manager-9th-arrondissement-of-paris-75009-paris-127625",
-      "title": "Data Analytics Manager",
-      "company": "Artefactlinkedin",
-      "location": "9th arrondissement of Paris, 75009, Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/artefactlinkedin/data-analytics-manager-9th-arrondissement-of-paris-75009-paris-127625",
-      "description": "&lt;div&gt; &lt;h3&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;Artefact is a French consulting and engineering firm specializing in data and AI, and a leader in Europe. Headquartered in Paris, we are now present in 23 countries across all continents, with a team of 1,700 employees.&lt;/p&gt; &lt;p&gt;Our mission is to help businesses unlock the full potential of AI and data by developing tailor-made solutions that address their specific industry challenges. As pioneers in this field, we combine technological expertise with operational excellence, working alongside the world&#39;s leading market players. Our clients span all key economic sectors - industry, retail, luxury, consumer goods, healthcare, and finance - and include major international corporations.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;The Data Analytics Team&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;You will join our Data Analytics Chapter, a team of 60 professionals with expertise across dashboarding, analytics engineering, marketing measurement, and low-code data science. We are one of three technical teams at Artefact (alongside Software Engineering and Data Science), forming a tech community of 160 people. De",
-      "tags": [
-        "Data Analytics"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:55:19.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-data-analytics-manager-9th-arrondissement-of-paris-75009-paris-306901",
-      "title": "Data Analytics Manager",
-      "company": "Artefactjobs",
-      "location": "9th arrondissement of Paris, 75009, Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/artefactjobs/data-analytics-manager-9th-arrondissement-of-paris-75009-paris-306901",
-      "description": "&lt;div&gt; &lt;h3&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;Artefact is a French consulting and engineering firm specializing in data and AI, and a leader in Europe. Headquartered in Paris, we are now present in 23 countries across all continents, with a team of 1,700 employees.&lt;/p&gt; &lt;p&gt;Our mission is to help businesses unlock the full potential of AI and data by developing tailor-made solutions that address their specific industry challenges. As pioneers in this field, we combine technological expertise with operational excellence, working alongside the world&#39;s leading market players. Our clients span all key economic sectors - industry, retail, luxury, consumer goods, healthcare, and finance - and include major international corporations.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;The Data Analytics Team&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;You will join our Data Analytics Chapter, a team of 60 professionals with expertise across dashboarding, analytics engineering, marketing measurement, and low-code data science. We are one of three technical teams at Artefact (alongside Software Engineering and Data Science), forming a tech community of 160 people. De",
-      "tags": [
-        "Data Analytics"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-17T16:55:35.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-internship-hr-talent-acquisition-specialist-massy-435950",
-      "title": "Internship - Hr & Talent Acquisition Specialist",
-      "company": "Quandela",
-      "location": "Massy, France",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/quandela/internship-hr-talent-acquisition-specialist-massy-435950",
-      "description": "Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges. Learn more at: Quandela | Leading Photonic Quantum Computing Solutions . We’re seeking a HR &amp; Talent Acquisition Specialist Intern to join our vibrant team and help us attract the best talents as we continue to expand in the quantum computing sector, ideally to start in October. Alongside recruitment, you’ll also play a pivotal role in managing and developing our campus presence, fostering connections with top universities and s",
-      "tags": [
-        "Computer Hardware",
-        "General & Administration"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T07:20:18.000Z",
-      "score": 20,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-seller-onboarding-and-support-intern-paris-481272",
-      "title": "Seller Onboarding and Support Intern",
-      "company": "Backmarket",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/seller-onboarding-and-support-intern-paris-481272",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: Join Back Market's dynamic Seller Success team as the driving force behind our seller ecosystem! As Europe's leading refurbished electronics marketplace, we're revolutionizing how businesses connect with millions of customers across the EU, the UK and the US. As a Seller Activation Intern (Onboarding &amp; Seller Support) , you'll be at the heart of our growth strategy, transforming thousands of potential sellers into thriving Back Market partners. You'll master the art of business pr",
-      "tags": [
-        "INTERNSHIPS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
-      "score": 20,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-crm-engagement-intern-paris-19939",
-      "title": "CRM Engagement Intern",
-      "company": "Backmarket",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/crm-engagement-intern-paris-19939",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: We are looking for an amazing intern to join our marketing team! Report to Hera, our Senior CRM Manager in Paris. The CRM team works together with other experts from the brand &amp; marketing team but also with Business, Product and Engineering teams. We are responsible for delivering the right message, to the right person, at the right moment, through different channels like emails, push notifications and in-apps. As a Customer Relationship Management (CRM) Intern, you will support t",
-      "tags": [
-        "INTERNSHIPS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
-      "score": 20,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch"
-      ]
-    },
-    {
-      "id": "arbeitnow-product-manager-apprentice-checkout-paris-84960",
-      "title": "Product Manager Apprentice, Checkout",
-      "company": "Backmarket",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/product-manager-apprentice-checkout-paris-84960",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? We are looking for a passionate and motivated Product Manager Apprentice to join our Customer Journey Team as part of the Checkout Squad. This apprenticeship offers a unique opportunity to improve our shopping funnel on web and app, ensuring it’s as seamless and delightful an experience as possible. You will do so by helping to run AB tests on the user interface to uncover the most impactful features. You will work closely with cross-functional teams, including other Product Managers in the customer t",
-      "tags": [
-        "INTERNSHIPS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
+      "posted": "2026-09-19T05:40:15.000Z",
       "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
@@ -1040,18 +570,18 @@
       ]
     },
     {
-      "id": "arbeitnow-user-research-ux-apprentice-bordeaux-189663",
-      "title": "User Research UX Apprentice",
-      "company": "Backmarket",
-      "location": "Bordeaux",
+      "id": "arbeitnow-maintenance-technician-erith-17052",
+      "title": "Maintenance Technician",
+      "company": "ocadogroup",
+      "location": "Erith",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/user-research-ux-apprentice-bordeaux-189663",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: The User Research team’s mission is to help everybody at Back Market get to know and love our users so that we can create great experiences for them. We gather insights about what users need through a range of qualitative and quantitative techniques and translate them into valuable information for the product and design team. As an User Research (UX) Apprentice, you will work on the e-commerce experience Back Market provides to its customers, using insights to provide actionable recom",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/maintenance-technician-erith-17052",
+      "description": "&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We are Ocado Group, and we&#39;re bringing world-class automation to online grocery. Our Ocado Smart Platform (OSP) combines cutting-edge robotics, AI, and IoT within our advanced CFCs (Customer Fulfilment Centres). We&#39;ve mastered the single pick, transforming online delivery for our global partners. Join us and be part of a team pushing the boundaries of retail technology.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;About the Role&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As an Engineering Maintenance Technician, you will play an imperative part in supporting the pre-planned and reactive maintenance within our state-of-the-art automated fulfilment centre in Erith.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you will be doing&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;carry out maintenance on production equipment in an accurate, timely and safe manner.&amp;nbsp;&lt;/li&gt; &lt;li&gt;Diagnose equipment breakdowns, resolving issues and action repairs where possible.&lt;/li&gt; &lt;li&gt;Update engineering records, including all work carried out,&amp;nbsp; as well as supporting the identification of root cau",
       "tags": [
-        "INTERNSHIPS"
+        "London Operating Region EngOps"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
+      "posted": "2026-09-19T00:55:19.000Z",
       "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
@@ -1061,68 +591,24 @@
       ]
     },
     {
-      "id": "arbeitnow-accounting-apprentice-paris-188008",
-      "title": "Accounting Apprentice",
-      "company": "Backmarket",
+      "id": "arbeitnow-technical-project-manager-engineering-delivery-paris-138918",
+      "title": "Technical Project Manager - Engineering Delivery",
+      "company": "Diabolocom",
       "location": "Paris",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/accounting-apprentice-paris-188008",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? Back Market's Finance team is at the core of our growth engine, ensuring the financial integrity of a rapidly scaling global marketplace. As part of the Accounting team, you will report directly to the Head of Accounting and play an active role in our day-to-day accounting operations and continuous process improvement. As an Accountant Apprentice, you will get hands-on exposure to accounts payable, monthly closings, and financial tools management in a fast-paced, international environment. You will co",
+      "url": "https://www.arbeitnow.fr/jobs/companies/diabolocom/technical-project-manager-engineering-delivery-paris-138918",
+      "description": "Diabolocom is looking for a Technical Project Manager to coordinate engineering delivery across our organization and work closely with the Head of Software Engineering on roadmap execution. You will work across Engineering, Product, Infrastructure and Project teams to keep delivery on track, manage dependencies, identify risks early, and help turn delivery challenges into clear actions and decisions. We are looking for someone with a software engineering background who has moved into technical leadership and genuinely enjoys the operational side of engineering. The role Our engineering organization includes around 90 engineers across 12 teams , working on a complex global product and multiple parallel initiatives. This role combines ownership of our engineering delivery processes with hands-on execution . You will be responsible not only for running these processes, but also for continuously improving how we plan, coordinate and track delivery across the organization. Process ownership You will own and continuously improve: engineering delivery planning processes delivery tracking and reporting cross-team coordination and dependency management. You will build on our existing practi",
       "tags": [
-        "INTERNSHIPS"
+        "Software Development"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
+      "posted": "2026-09-19T01:04:48.000Z",
       "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description"
-      ]
-    },
-    {
-      "id": "arbeitnow-business-analyst-intern-trade-in-paris-475270",
-      "title": "Business Analyst Intern, Trade-In",
-      "company": "Backmarket",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/business-analyst-intern-trade-in-paris-475270",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? Back Market is on a mission to make refurbished tech the new norm. Within the Trade-In team, data is a key lever to improve circularity performance, operational excellence, and business growth. From pricing and customer lifecycle to customer satisfaction and automation, the team uses data to monitor performance, identify opportunities, and drive high-impact decisions across the business. As a Business Analyst Intern in the Trade-In team, you will support both strategic analysis and day-to-day operatio",
-      "tags": [
-        "INTERNSHIPS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
-      "score": 5,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority mismatch"
-      ]
-    },
-    {
-      "id": "arbeitnow-ux-content-designer-intern-ux-copywriter-paris-494948",
-      "title": "UX Content Designer Intern (UX copywriter)",
-      "company": "Backmarket",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/ux-content-designer-intern-ux-copywriter-paris-494948",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? The Design Team at Back Market is passionate about informing and building interfaces with the user as our focus. We zoom out to see the bigger picture, but also understand that the devil is in the details. We do this because we want to make the world a better place. Our goal is to offer more than just an alternative avenue to buy tech products; we want to do e-commerce differently. As part of our world-class Content Design Team, you’ll work closely with product managers, product designers, researchers",
-      "tags": [
-        "INTERNSHIPS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-18T04:40:11.000Z",
-      "score": 5,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority mismatch"
       ]
     }
   ]
