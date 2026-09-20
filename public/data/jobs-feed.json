@@ -1,8 +1,46 @@
 {
-  "generatedAt": "2026-09-19T08:11:28.669Z",
-  "count": 21,
+  "generatedAt": "2026-09-20T08:44:23.394Z",
+  "count": 27,
   "sourcesLive": 3,
   "jobs": [
+    {
+      "id": "remotive-2091130",
+      "title": "Senior .NET Full-stack Developer",
+      "company": "Lemon.io",
+      "location": "Northern America, LATAM, Europe, APAC",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
+      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. We will support you from the time you submit the application throughout all cooperation stages. Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Through our community, we will connect you with the best developers from more than 75 countries. Currently, we have multiple requests for Senior .NET Developers, including C# &amp; .NET, .NET &amp; React, and Angular &amp; .NET. Requirements - .NET &amp; React: 4+ years of commercial e",
+      "tags": [
+        ".Net",
+        "android",
+        "C",
+        "C#",
+        "C++",
+        "data science",
+        "fullstack",
+        "golang",
+        "ios",
+        "java",
+        "javascript",
+        "node.js"
+      ],
+      "source": "Remotive",
+      "posted": "2026-09-17T13:22:05",
+      "score": 85,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
     {
       "id": "remotive-2091101",
       "title": "Senior React Full-stack Developer",
@@ -27,33 +65,6 @@
       ],
       "source": "Remotive",
       "posted": "2026-08-27T14:36:09",
-      "score": 85,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-frontend-engineer-react-remote-friendly-berlin-484204",
-      "title": "Senior Frontend Engineer (React) - Remote friendly",
-      "company": "Qonto",
-      "location": "Berlin",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/qonto/senior-frontend-engineer-react-remote-friendly-berlin-484204",
-      "description": "Our mission and customers: We are creating the freedom for SMEs to succeed by delivering Europe's leading finance workspace with banking at its core, augmented by financial tools. We are proud to be rated 4.8 on Trustpilot , &nbsp; based on 55,000+ reviews. Our culture &nbsp; puts customer satisfaction at the core of what we do, as proven by our Net Promoter Score of 75 (more about our culture here ). Our journey:&nbsp; Founded in 2017 by &nbsp; Alexandre and Steve , Qonto has grown to 1,600+ Qontoers serving over 600,000+ customers across 8 European countries. We have been profitable since 2023, and we are just getting started. Our beliefs: We hire for skills and potential. With 80+ nationalities, 45% women, of which 56% of women in our leadership team, diversity isn't a program; It's who we are. We've built a discrimination-free hiring process because the best teams are built on merit. AI at Qonto: AI is deeply embedded in how we work ( here ) &nbsp;- Every Qontoer gets unlimited access to the best AI tools. We want people who experiment without waiting for permission, push AI beyond the obvious, know when to trust it, and when to question it. ------------------------------------",
-      "tags": [
-        "Web"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-19T05:04:34.000Z",
       "score": 85,
       "regions": [
         "Europe",
@@ -111,7 +122,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387",
-      "description": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMjAuMTY5LjY2Ljg0 when applying to show you read the job post completely (#RMjAuMTY5LjY2Ljg0). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMTQ1LjEzMi4xMDMuNjc= when applying to show you read the job post completely (#RMTQ1LjEzMi4xMDMuNjc=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "golang",
         "dev",
@@ -245,34 +256,24 @@
       ]
     },
     {
-      "id": "remotive-2091098",
-      "title": "Senior Golang Developer",
-      "company": "Lemon.io",
-      "location": "Europe, USA, UK, Canada, Australia, Singapore",
+      "id": "remoteok-1137405",
+      "title": "Senior Shopify Developer",
+      "company": "Sanctuary Computer",
+      "location": "Remote",
       "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/senior-golang-developer-2091098",
-      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. We are currently seeking a Senior Software Engineer for our client — a research-driven artificial intelligence company. The client’s mission is to cut the cost of modern AI by co-designing hardware, software, algorithms, and models — with the goal of making AI’s benefits accessible to society. They’re active contributors to open-source AI research and are looking for researchers and engineers to help build the next generation of AI infrastructure.Cooperation: This starts as contract work via our platform. If it goes well, you’ll transition to a direct hire, with equity, health insurance, and other competitive benefits. Locations: the EU, the US, Canada, the UK, Australia, Singapore About the role: You’d build the Go-based platform that lets research and inference teams provision, scale, repair, and tear down GPU clusters through an API - instead of filing tickets. You’d own the product end to end : shaping internal platforms, improving developer exper",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405",
+      "description": "We are hiring aÂ contract-based Senior Shopify Developer Â to contribute to our Design and Development Team. Original Job posting link here ð About garden3d We are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions. Our client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, Parsons, Mozilla, The Nobel Prize, MIT, Gnosis, Etsy &amp; Gagosian. Weâre the software team behind innovative products like The Light Phone &amp; Mill, and we operate a global, decentralized community space collective called Index Space. We think of our garden3d as collective for creative people, prioritizing a happy, talented, and diverse studio culture. We work on projects that bring value to our world, and we balance deep care for the work we do with a genuine curiosity about life outside of our jobs. Sanctuary Computer Â â Development At Sanctuary Computer weâre building a different type of technology shop â one that prioritizes close coll",
       "tags": [
-        ".Net",
-        "android",
-        "C",
-        "C#",
-        "C++",
-        "data science",
-        "golang",
-        "ios",
-        "java",
-        "javascript",
-        "kubernetes",
-        "node.js"
+        "dev",
+        "engineer",
+        "senior",
+        "front end",
+        "shopify"
       ],
-      "source": "Remotive",
-      "posted": "2026-08-20T13:30:47",
+      "source": "RemoteOK",
+      "posted": "2026-09-18T13:29:53+00:00",
       "score": 65,
       "regions": [
-        "Singapore",
-        "Europe",
-        "Australia",
         "Remote"
       ],
       "sponsorshipFriendly": false,
@@ -280,71 +281,23 @@
       "reasons": [
         "role in description",
         "seniority fit",
-        "region: Singapore/Europe/Australia/Remote",
+        "region: Remote",
         "remote"
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-simulation-platform-munich-424378",
-      "title": "Software Engineer - Simulation Platform",
-      "company": "Proxima Fusion GmbH",
-      "location": "Munich",
+      "id": "arbeitnow-ingenieure-de-recherche-en-reactive-synthesis-cdd-12-mois-palaiseau-354078",
+      "title": "Ingénieur·e de recherche en Reactive Synthesis - CDD - 12 mois",
+      "company": "Institut Mines-Télécom",
+      "location": "Palaiseau, Île-de-France, France",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/proxima-fusion-gmbh/software-engineer-simulation-platform-munich-424378",
-      "description": "WHO WE ARE Proxima Fusion is Europe’s fastest-growing fusion company and the continent’s best-funded fusion player, as well as the first spin-out from the Max Planck Institute for Plasma Physics (IPP). Backed by over €650M and powered by a growing team across Munich, Zurich, and Oxford, we are developing the hardware and infrastructure needed to deliver the world’s first commercial stellarator fusion power plant. Our concept advances the most mature fusion technology out there, the Wendelstein 7-X stellarator, through two next-generation machines: Alpha and Stellaris. Our work combines stellarator optimization, advanced computation, machine learning, and high-temperature superconducting magnets to unlock higher-performance designs that were previously out of reach. Turning these designs into a functioning fusion power plant requires excellence and ownership across every discipline, from physics and engineering to software, manufacturing, law, and business functions. WHY JOIN PROXIMA FUSION You will get to work on some of the most complex tech challenges to bring abundant, safe, clean energy to the world. You'll get to join and learn from an exceptional selection of accomplished and",
+      "url": "https://www.arbeitnow.fr/jobs/companies/institut-mines-telecom/ingenieure-de-recherche-en-reactive-synthesis-cdd-12-mois-palaiseau-354078",
+      "description": "Présentation de Télécom SudParis : Télécom SudParis est une grande école publique d'ingénieurs reconnue au meilleur niveau des sciences et technologies du numérique. La qualité de ses formations est basée sur l’excellence scientifique de son corps professoral et une pédagogie mettant l’accent sur les projets d’équipes, l’innovation de rupture et l’entreprenariat. Télécom SudParis compte 1 000 étudiantes et étudiants dont 700 élèves ingénieurs et environ de 150 doctorantes et doctorants. Télécom SudParis fait partie de l’Institut Mines-Télécom, premier groupe d’école d’ingénieurs en France, et partage son campus avec Institut Mines-Télécom Business School. Télécom SudParis est co- fondatrice de l'Institut Polytechnique de Paris (IP Paris), Institut de Sciences et Technologies à vocation mondiale avec l’École polytechnique, l’ENSTA Paris, l’ENSAE Paris, l'ENPC et Télécom Paris. Vidéo présentation de Télécom SudParis À propos de l'Institut Mines-Télécom : L'Institut Mines-Télécom (IMT) est un établissement public dédié à l'enseignement supérieur et la recherche pour l'innovation dans les domaines de l'ingénierie et du numérique. À l’écoute permanente du monde économique, l'IMT conjugu",
       "tags": [
-        "Dev Platform"
+        "Informatique et Système d'information"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T05:40:07.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-front-end-design-engineer-london-209587",
-      "title": "Front End Design Engineer",
-      "company": "Seamflow",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/seamflow/front-end-design-engineer-london-209587",
-      "description": "About Seamflow Every plane, medical device, lift, battery and building has to be tested, inspected and certified before it reaches the world. It's the invisible layer that keeps the physical economy safe, and it still runs on Word documents, PDFs, spreadsheets and email. Seamflow is the software layer for that industry. We build AI-powered workflows for certification bodies, notified bodies and inspection companies: scheduling and resource planning, technical review, conformity assessment, field inspection, and document intelligence over messy real-world files. Where we are: Live in production inside some of the largest enterprises in the industry $4.5M seed, 14x oversubscribed, co-led by Northzone and Initialized Capital, the funds behind Spotify, Klarna, Coinbase and Reddit. Angels include Charlie Songhurst and Mario Götze. Demand is outstripping what we can build. That's the reason this role exists. The team Most of our engineers were olympiad medallists in maths, physics or informatics before they were engineers. The team has come to us from Google, Amazon, X, Yandex, McKinsey and Bain, and from founding-engineer seats at startups that went on to multi-billion-dollar valuations",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-19T03:40:11.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-future-hiring-west-midlands-england-142258",
-      "title": "Software Engineer (Future Hiring)",
-      "company": "SugarCRM",
-      "location": "West Midlands, England",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/sugarcrm/software-engineer-future-hiring-west-midlands-england-142258",
-      "description": "About SugarAI UK Limited SugarAI is redefining CRM for the age of AI. We’re delivering on the original promise of CRM—turning fragmented customer and revenue signals into clear, prioritized action. Instead of more dashboards or surface-level insights, we help teams focus on what matters most and know exactly what to do next. More than two decades after our founding, we’re entering a new chapter with clarity and momentum—building intelligent, intuitive solutions that work within the flow of how teams actually sell and serve. We’re focused on solving complex, real-world challenges where relationships, context, and precision make all the difference. Our global team is united by a shared commitment to impact, ownership, and continuous growth. We create an environment where thoughtful ideas move quickly, where people are trusted to lead, and where flexibility supports how great work gets done. If you’re excited to help shape what’s next in AI-driven CRM—and build technology that drives real outcomes—we’d love to meet you. Where You Fit In: &nbsp; SugarAI ships AI-powered selling and sales intelligence products in a market that moves faster every day. We are focused on quality, functiona",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-19T03:24:14.000Z",
+      "posted": "2026-09-19T22:30:11.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -399,7 +352,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
-      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others on AI capabilities to help them perform. Requirements Experience building agents that run on their own and do meaningful work Strong with Grok, Claude, OpenAI, and open source Comfortable in Go, TypeScript, GraphQL, Postgres, GCP Writes clearly in English Compensation Salary: $150,000â$250,000 USD $20,000 signing bonus 4 weeks vacation + country-specific holidays Fully remote Please mention the word **HUMOUR** and tag RMjAuMTY5LjY2Ljg0 when applying to show you read the job post completely (#RMjAuMTY5LjY2Ljg0). This is a beta feature to avoid spam applicants. Companies can search these word",
+      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others on AI capabilities to help them perform. Requirements Experience building agents that run on their own and do meaningful work Strong with Grok, Claude, OpenAI, and open source Comfortable in Go, TypeScript, GraphQL, Postgres, GCP Writes clearly in English Compensation Salary: $150,000â$250,000 USD $20,000 signing bonus 4 weeks vacation + country-specific holidays Fully remote Please mention the word **HUMOUR** and tag RMTQ1LjEzMi4xMDMuNjc= when applying to show you read the job post completely (#RMTQ1LjEzMi4xMDMuNjc=). This is a beta feature to avoid spam applicants. Companies can search th",
       "tags": [
         "ai",
         "golang",
@@ -457,18 +410,16 @@
       ]
     },
     {
-      "id": "arbeitnow-langfuse-senior-product-engineer-germany-165284",
-      "title": "Langfuse - Senior Product Engineer",
-      "company": "Clickhouse",
-      "location": "Germany",
+      "id": "arbeitnow-senior-backend-engineer-agentic-systems-munchen-308647",
+      "title": "Senior Backend Engineer – Agentic Systems (m/f/d)",
+      "company": "Ommax",
+      "location": "München",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/clickhouse/langfuse-senior-product-engineer-germany-165284",
-      "description": "Why Product Engineering at Langfuse Your work will have an outsized impact. Everything you build is open source (MIT-licensed) and immediately visible. Langfuse has 21,900+ GitHub stars and our SDKs are downloaded 23M+ times per month. When you ship a new feature the community notices in GitHub issues, on X, and in our community channels. Product engineers at Langfuse are the people who deliver new features end-to-end to our users. You own the product thinking from understanding the user problem to deciding what to build to shipping the solution. You will also have direct exposure to how cutting-edge LLM applications are built. The users you serve are some of the best and most ambitious software engineers leveraging Langfuse to improve their applications. Deeply understanding the problems they solve will help you design the best possible product and along the way makes you an expert on LLM engineering yourself. You will grow at Langfuse by Own features end-to-end : from talking to users, to writing the spec, to shipping the code and docs, to writing the changelog post with your name on it. To give you a sense: recent features a single engineer owned include the Langfuse for Agents ",
-      "tags": [
-        "Engineering"
-      ],
+      "url": "https://www.arbeitnow.com/jobs/companies/ommax/senior-backend-engineer-agentic-systems-munchen-308647",
+      "description": "What we look for: You build the production backbone that enables our Forward Deployed AI Engineers (FDEs) to turn agentic workflows into secure, reliable, measurable, and reusable customer solutions. You design and develop scalable backend services, APIs, asynchronous workflows, queues, databases, and distributed systems using Python, TypeScript, or comparable technologies. You create robust orchestration patterns for agentic systems, including tool calling, stateful workflows, routing, retries, human approvals, and context management. You build and maintain integrations with enterprise systems and SaaS applications, including OAuth, webhooks, SDKs, API clients, and data ingestion pipelines. You ensure production reliability through resilient error handling, idempotent design, rate-limit management, fallbacks, audit logs, and effective incident debugging. You develop evaluation and observability capabilities, including test datasets, trace capture, quality metrics, structured logging, workflow-level dashboards, and cost and latency monitoring. You establish shared platform primitives, templates, security standards, and governance patterns that accelerate each new FDE deployment whi",
+      "tags": [],
       "source": "Arbeitnow",
-      "posted": "2026-09-18T23:40:13.000Z",
+      "posted": "2026-09-20T08:09:27.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -482,18 +433,90 @@
       ]
     },
     {
-      "id": "arbeitnow-front-end-engineer-manchester-66098",
-      "title": "Front-end Engineer",
-      "company": "wppmedia",
-      "location": "Manchester",
+      "id": "arbeitnow-senior-engineer-on-site-vollzeit-munchen-19080",
+      "title": "Senior Engineer (m/w/d) — On-Site & Vollzeit",
+      "company": "Fulfin",
+      "location": "München",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/wppmedia/front-end-engineer-manchester-66098",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About WPP Media&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;WPP is the trusted growth partner for the world’s leading brands. With exceptional talent, trusted data and intelligence, and world-class partnerships – all united by our pioneering agentic marketing platform, WPP Open – we help clients navigate change, capture opportunity, and deliver transformational growth. &lt;/p&gt; &lt;p&gt;WPP Media is WPP&#39;s AI-driven media operating unit, bringing together media, data, and partnerships to deliver creative personalisation at scale. Connected through WPP Open and powered by Open Intelligence, clients see exactly where, how, and why their media investment is working.&lt;/p&gt; &lt;p&gt;For more information, visit &lt;a href=&quot;wppmedia.com&quot;&gt;wppmedia.com&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;3058 - Manager, Front-end Engineer - Manchester&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Role Summary and Impact&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&l",
+      "url": "https://www.arbeitnow.com/jobs/companies/fulfin/senior-engineer-on-site-vollzeit-munchen-19080",
+      "description": "Intro Wir machen Unternehmensfinanzierung einfacher: digital, schnell und mit zunehmend intelligenten Lösungen. Mehr als 7.500 Unternehmerinnen und Unternehmer nutzen fulfin bereits. Zur Verstärkung unseres Tech Teams suchen zum sofortigen Start einen Senior Engineer. Du wirst Teil eines kleinen, erfahrenen Teams und übernimmst weitreichende Verantwortung für geschäftskritische Lösungen. Deine Aufgaben Du entwickelst und betreibst zuverlässige, wartbare Software. Du übernimmst wichtige Projekte von der Problemdefinition bis zur Umsetzung und zum laufenden Betrieb. Du hinterfragst Annahmen, erkennst Risiken und übersetzt geschäftliche und produktbezogene Anforderungen in wirkungsvolle, pragmatische technische Lösungen. Du arbeitest eng mit unserem Produktteam, der Geschäftsführung sowie internen und externen Stakeholdern zusammen. Du unterstützt andere Entwickler und hilfst dabei, unsere technischen Standards und Arbeitsweisen weiterzuentwickeln. Dein Profil Anforderungen: Du kommunizierst ausgezeichnet auf Englisch und kannst komplexe Themen technischen wie nicht-technischen Zielgruppen klar vermitteln. Du zeigst Eigeninitiative, denkst kritisch, setzt klare Prioritäten und treibst",
       "tags": [
-        "Technology & Data"
+        "Senior Software Engineer",
+        "On-Site",
+        "Vollzeit",
+        "Architecture Design",
+        "Stakeholder Management"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T00:55:11.000Z",
+      "posted": "2026-09-20T05:09:30.000Z",
+      "score": 50,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-java-engineer-munchen-40956",
+      "title": "Senior Java Engineer (m/f/d)",
+      "company": "Xempus AG",
+      "location": "München",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/xempus-ag/senior-java-engineer-munchen-40956",
+      "description": "Who we are Xempus is the leading European group pension, life and health insurance platform. We seamlessly connect insurers, insurance agents, corporates and their systems in an automated and customer-centric manner. Using standardized interfaces and structured data, we operate the central infrastructure for all customer-centric processes and enable agentic AI across pension, life and health insurance. Since 2007, we have been constantly working to drive the digitalization of the insurance industry. Here at Xempus, we believe that together we can make a difference – no matter where we are! Whether from one of our offices or from home – join us and together we create a more secure future for everyone! The role We're on the lookout for a Senior Java Engineer (m/f/d) with a passion for software architecture and a talent for navigating complexity. If you are an expert who not only writes excellent code but also excels at understanding, managing, and evolving large, mature codebases, this is the perfect opportunity for you. You will be instrumental in shaping the future of our software landscape. Responsibilities: Take ownership of core components of our Java-based platform Dive deep in",
+      "tags": [
+        "Java",
+        "Software Engineer",
+        "SQL",
+        "developer",
+        "engineer",
+        "senior",
+        "architecture",
+        "java 17"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T02:09:44.000Z",
+      "score": 50,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-fullstack-software-engineer-munchen-15638",
+      "title": "Fullstack Software Engineer (m/w/d)",
+      "company": "Rhein Nadel Automation Gmbh",
+      "location": "München",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/rhein-nadel-automation-gmbh/fullstack-software-engineer-munchen-15638",
+      "description": "Wer wir sind RNA Digital Solutions wurde 2016 als Industrial Tech Startup gegründet. Unsere Expertise liegt im Digitalen Maschinenbau und wir beschäftigen uns insbesondere mit der digitalen Auslegung und Herstellung automatisierter Zuführlösungen. In 2021 erfolgte der Anschluss des Startups an den Weltmarktführer in der Zuführtechnik, der Rhein-Nadel-Automation GmbH. Unser Fokus liegt zu 100% auf der Softwareentwicklung. Unsere Software-Teams verteilen sich auf die Standorte München und Aachen. In München entwickeln wir unsere Dienste für Künstliche Intelligenz und Simulation. In Aachen nutzen wir die Nähe zum Shop Floor für Sonder-Digitalisierungsprojekte und Shop Floor-bezogene Software. Die Kombination von jahrzehntelanger Erfahrung im Bereich Zuführtechnik gepaart mit modernsten Technologien im Bereich der künstlichen Intelligenz ermöglicht es uns, die Zuführtechnik von Morgen zu entwickeln. Zur Verstärkung unseres Entwicklungsteams suchen wir einen erfahrenen Fullstack Software Engineer (m/w/d) mit Sitz im Raum München. Die Arbeit erfolgt größtenteils mobil, jedoch ist eine regelmäßige Anwesenheit im Office in München vorgesehen (ca. 1 Mal pro Woche). Deine Aufgaben Entwicklun",
+      "tags": [
+        "Python",
+        "Django",
+        "ORM-Tools",
+        "SQL",
+        "Javascript",
+        "React",
+        "Softwareentwickler",
+        "Software Developer",
+        "Prozessdigitalisierung",
+        "KI",
+        "Künstliche Intelligenz",
+        "AI"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T05:09:57.000Z",
       "score": 40,
       "regions": [],
       "sponsorshipFriendly": false,
@@ -503,18 +526,80 @@
       ]
     },
     {
-      "id": "arbeitnow-security-engineer-hamburg-144460",
-      "title": "Security Engineer",
-      "company": "freiheit.com technologies",
-      "location": "Hamburg",
+      "id": "arbeitnow-software-engineer-all-genders-munchen-111870",
+      "title": "Software Engineer (all genders)",
+      "company": "Raysono",
+      "location": "München",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/freiheitcom-technologies/security-engineer-hamburg-144460",
-      "description": "ÜBER UNSERE COMPANY freiheit.com wurde 1999 in Hamburg gegründet und entwickelt seitdem custom large-scale Softwareprodukte. Unsere Mission ist: “Ship great software”. In mehr als zwei Jahrzehnten haben wir immer das ausgeliefert, was wir versprochen haben – “always on time, on budget, on target and on quality”. 85% unserer Members sind Software Engineers mit Abschlüssen in Informatik, Physik oder Mathematik, viele auch mit fundierten Kenntnissen in Maschinellem Lernen und Künstlicher Intelligenz.&nbsp; Seit über einem Vierteljahrhundert arbeiten wir für das „Who’s Who“ der deutschen und europäischen Industrie- und Handelsunternehmen. Retail, Automotive, E-Commerce, Healthcare und mehr. Unsere large-scale Softwareprodukte werden täglich von Millionen von Benutzern verwendet und sind entscheidend für den wirtschaftlichen Erfolg unserer Kunden. Jedes Produkt ist somit geschäftskritisch und ist von strategischer Relevanz.&nbsp; Gemeinsam machen wir “mission impossible possible”.&nbsp; Unser Team besteht aus 300+ Members aus der ganzen Welt. In unseren Büros in Hamburg und Lissabon bauen wir gemeinsam Produkte, die noch nie jemand zuvor entwickelt hat. Unsere Teams arbeiten datengetrie",
+      "url": "https://www.arbeitnow.com/jobs/companies/raysono/software-engineer-all-genders-munchen-111870",
+      "description": "Digital transformation support As part of our agile teams, you set new standards and celebrate real successes with your colleagues. Our projects are as wide-ranging and diverse as the challenges our customers face: from strategic experience design and digital communication to software development – we make digitalization tangible and effective. You can look forward to exciting projects and a work culture that combines professionalism and respect with the joy of collaborating with people who share your passion. We’ll support you in developing your skills and encourage you to think strategically, develop innovative approaches, and play an active role in shaping the digital future of our customers. Our creative solutions and customized strategies have stood for digital excellence since 1992. With over 140 dedicated employees, we design user experiences that work reliably and create lasting enthusiasm – from the initial idea to successful implementation. Your responsibilities As a Software Engineer (all genders), you build reliable, high-performing and maintainable digital solutions. You independently manage defined areas and make decisions, risks and results transparent. Your impact i",
+      "tags": [],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T05:09:20.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-full-stack-software-engineer-munich-hybrid-185960",
+      "title": "Full-Stack Software Engineer (m/f/d)",
+      "company": "TWAICE",
+      "location": "Munich, Hybrid",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/twaice/full-stack-software-engineer-munich-hybrid-185960",
+      "description": "About the role As renewable energy reshapes the global power system, batteries are taking center stage. Making them safe, reliable, and bankable at scale is a defining challenge of the energy transition. At TWAICE, our software turns battery data into insights - so decisions are made with confidence, not guesswork. We're accelerating the transition into a new energy era and we're looking for those who want to move fast with us. As a Full-Stack Software Engineer , you will be working in our product teams to create customer value at a high pace. This includes taking part in the full product development cycle, from understanding user problems and shaping solutions to building and iterating on them. You will work in a team with backgrounds in Software and Battery Engineering – creating solutions to get our projects from definition to customer value quickly while making sure we deliver robust, scalable, and extensible software products. Together, we will push our battery analytics to the next level. Your daily business will involve Contribute to and help shape the feature set of our SaaS product in incremental and result-oriented steps Implement new software components across the stack,",
       "tags": [
-        "Security"
+        "Battery",
+        "Energy",
+        "SaaS",
+        "Backend",
+        "Frontend",
+        "Startup",
+        "Tech",
+        "AWS",
+        "Batteries",
+        "Software Development",
+        "BESS",
+        "Green Energy"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T02:05:06.000Z",
+      "posted": "2026-09-20T02:09:50.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-ios-entwickler-karlsruhe-395372",
+      "title": "iOS Entwickler (m/w/d)",
+      "company": "Skalbach GmbH",
+      "location": "Karlsruhe",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/skalbach-gmbh/ios-entwickler-karlsruhe-395372",
+      "description": "Firmenprofil Unser Mandant entwickelt moderne digitale Lösungen, die von namhaften Kunden aus unterschiedlichen Branchen genutzt werden. Das Unternehmen verbindet technologische Exzellenz mit einer offenen, entwicklerfreundlichen Unternehmenskultur und legt großen Wert auf nachhaltige Softwarearchitekturen, moderne Entwicklungsprozesse und die kontinuierliche Weiterentwicklung seiner Teams. Hier erwartet Sie kein Umfeld, in dem Features „einfach nur ausgeliefert“ werden. Stattdessen arbeiten Sie gemeinsam mit erfahrenen Software Engineers, Product Ownern und UX-Experten an hochwertigen mobilen Anwendungen, die echten Mehrwert schaffen und von Beginn an technisch durchdacht werden. Ihre Aufgaben Entwicklung und kontinuierliche Weiterentwicklung nativer iOS-Applikationen mit Fokus auf Performance, Stabilität und Benutzerfreundlichkeit Konzeption und Implementierung moderner Softwarearchitekturen sowie technischer Lösungen für komplexe fachliche Anforderungen Enge Zusammenarbeit mit Produktmanagement, UX/UI Design und Backend-Teams innerhalb agiler Entwicklungsprozesse Durchführung von Code Reviews sowie aktive Mitgestaltung von Best Practices, Coding Standards und Entwicklungsrichtli",
+      "tags": [
+        "ios Entwicklung",
+        "ios",
+        "ios Karlsruhe",
+        "Softwareentwickler",
+        "Software Developer",
+        "Softwareentwickler Karlsruhe",
+        "Softwareentwickler Jobs Karlsruhe",
+        "Softwareentwickler Stellen Karlsruhe",
+        "ios Stellen Karlsruhe",
+        "ios Jobs Karlsruhe",
+        "Vollzeit",
+        "unbefristet"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T08:09:04.000Z",
       "score": 35,
       "regions": [
         "Europe"
@@ -527,88 +612,198 @@
       ]
     },
     {
-      "id": "arbeitnow-principal-software-engineer-search-infra-elasticsearch-164281",
-      "title": "Principal Software Engineer - Search Infra - Elasticsearch",
-      "company": "Elastic",
-      "location": "Not specified",
+      "id": "arbeitnow-freiberufliche-r-trainerin-ausbilderin-fachinformatik-fur-anwendungsentwicklung-vor-ort-berlin-2736",
+      "title": "Freiberufliche/r TrainerIn/ AusbilderIn (w/m/d) Fachinformatik für Anwendungsentwicklung - vor Ort",
+      "company": "Comhard Gesellschaft für Bildung und Personalentwicklung mbH",
+      "location": "Berlin, Berlin, Deutschland",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/elastic/principal-software-engineer-search-infra-elasticsearch-164281",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data — securing and protecting private information more effectively — Elastic’s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;strong&gt;What is The Role:&lt;/strong&gt;&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;We&#39;re looking for a Principal Software Engineer to join the Elasticsearch - Search Infra team.&amp;nbsp; This globally-distributed team of experienced engineers focuses on delivering a robust and feature-rich search experience, including contributing to improving the search experience in Lucene. This is a principle software engineering role that entail",
+      "url": "https://www.arbeitnow.com/jobs/companies/comhard-gesellschaft-fur-bildung-und-personalentwicklung-mbh/freiberufliche-r-trainerin-ausbilderin-fachinformatik-fur-anwendungsentwicklung-vor-ort-berlin-2736",
+      "description": "Passionierte, freiberufliche IT-Lehrkräfte gesucht! Engagieren Sie sich in der Fortbildung Erwachsener mit Freiraum für kreative Lehrmethoden. Fördern Sie zukünftige Fachinformatikerinnen und Fachinformatiker und werden Sie Teil unseres qualitätsbewussten Teams. Ihre Expertise zählt! &nbsp; Ihre Aufgaben: Sie unterrichten die Module: „ Objektorientierte Programmierung mit Java “ und „ Dynamische Webentwicklung “ Gestaltung von lebendigem, anschaulichem Unterricht Intensive Vorbereitung auf die Abschlussprüfung vor der IHK Berlin Erarbeitung und Leitung praxisnaher Projekte nach beiden Modulen Erstellung von Lehrmaterialien und Weiterentwicklung unserer E-Learning-Plattform Ihr Profil: Fundierte Kenntnisse der Fachinformatikerausbildungsverordnung, des KHK-Rahmenlehrplans und des Leitfadens der IHK Berlin Tiefgehendes Wissen über moderne Webtechnologien und deren praxisnahe Nutzung Sicherer Umgang mit JavaScript&nbsp;sowie gängigen Bibliotheken und Frameworks (z. B. React, Vue oder Angular) Umfassende Erfahrung in der serverseitigen Webentwicklung,&nbsp;insbesondere mit PHP und Python Sehr gute Kenntnisse relationaler Datenbanken,&nbsp;vorrangig SQL unter MariaDB Sicherer Umgang mit",
       "tags": [
-        "Platform - Elasticsearch"
+        "Team*Bildung"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T06:55:05.000Z",
-      "score": 25,
-      "regions": [],
+      "posted": "2026-09-20T02:30:03.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in title",
-        "seniority mismatch"
+        "role in description",
+        "region: Europe"
       ]
     },
     {
-      "id": "arbeitnow-electrician-stuttgart-434696",
-      "title": "Electrician (m/f/d)",
-      "company": "Sereact GmbH",
-      "location": "Stuttgart Schockenriedstr. 17",
+      "id": "arbeitnow-engineering-manager-munchen-285372",
+      "title": "Engineering Manager (m/w/d)",
+      "company": "Xempus AG",
+      "location": "München",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/electrician-stuttgart-434696",
-      "description": "Who We Are: We build the intelligence that lets robots sense, reason, and act in the real world—moving beyond the lab and into everyday industrial settings like warehouses and factories. Our technology closes the automation gaps that traditional systems can’t solve. We are on a mission to redefine how physical work gets done, and we’re looking for curious, bold thinkers to help shape the future of robotics with us. Overview: We are looking for a hands-on electrician or automation technician to support the build, installation, and optimization of our robotic systems. You will be responsible for wiring, testing, and commissioning electrical components both in our lab and on-site. You will collaborate closely with mechanical and software teams to ensure seamless system integration, resolve technical issues, and implement improvements across new and existing systems. Your Responsibilities: Installation &amp; Integration Build and wire electrical systems for robotic applications, including cabinets and field wiring. Support system commissioning in the robotics lab and at customer locations. Work closely with mechanical and software engineers to ensure correct system integration. Impleme",
+      "url": "https://www.arbeitnow.com/jobs/companies/xempus-ag/engineering-manager-munchen-285372",
+      "description": "Wer wir sind Wir sind Xempus, Deutschlands führende unabhängige Software-as-Service (SaaS)-Plattform für den Vertrieb und die Verwaltung betrieblicher Vorsorgelösungen. Unsere Mission: Betriebliche Vorsorge digital und verständlich, effizient und für jeden zugänglich zu machen. Seit 2007 arbeiten wir stetig daran, die Digitalisierung der Versicherungsbranche voranzutreiben. Wir bei Xempus sind davon überzeugt, dass wir alle gemeinsam etwas bewirken können – egal von wo! Ob von einem unserer Büros oder von zu Hause ­– Komm zu uns und lass uns gemeinsam eine sicherere Zukunft für alle schaffen! Was Dich erwartet Du führst unsere Software Engineers disziplinarisch und fachlich. Dabei arbeitest du eng mit mehreren cross-funktionalen Teams zusammen und unterstützt sie bei ihrer persönlichen und fachlichen Entwicklung. Du stellst sicher, dass unsere Engineering-Aktivitäten mit der Unternehmensvision und den strategischen Produktzielen von Xempus im Einklang stehen. Du verantwortest technische Initiativen von der Konzeption bis zum produktiven Betrieb – einschließlich technischer Planung, Architektur, Qualitätssicherung und Weiterentwicklung. Gemeinsam mit Product Ownern priorisierst du t",
       "tags": [
-        "Engineering"
+        "Tech Lead",
+        "Engineering Lead",
+        "Java",
+        "Leitung Engineering",
+        "Tech People Lead",
+        "Softwareengineering",
+        "Technical Manager",
+        "Technologieentwicklung"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T05:40:15.000Z",
-      "score": 20,
-      "regions": [],
+      "posted": "2026-09-20T02:09:44.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in description"
+        "role in description",
+        "region: Europe"
       ]
     },
     {
-      "id": "arbeitnow-maintenance-technician-erith-17052",
-      "title": "Maintenance Technician",
-      "company": "ocadogroup",
-      "location": "Erith",
+      "id": "arbeitnow-engineering-manager-munchen-97746",
+      "title": "Engineering Manager (m/f/d)",
+      "company": "Xempus AG",
+      "location": "München",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/ocadogroup/maintenance-technician-erith-17052",
-      "description": "&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We are Ocado Group, and we&#39;re bringing world-class automation to online grocery. Our Ocado Smart Platform (OSP) combines cutting-edge robotics, AI, and IoT within our advanced CFCs (Customer Fulfilment Centres). We&#39;ve mastered the single pick, transforming online delivery for our global partners. Join us and be part of a team pushing the boundaries of retail technology.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;About the Role&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As an Engineering Maintenance Technician, you will play an imperative part in supporting the pre-planned and reactive maintenance within our state-of-the-art automated fulfilment centre in Erith.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you will be doing&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;carry out maintenance on production equipment in an accurate, timely and safe manner.&amp;nbsp;&lt;/li&gt; &lt;li&gt;Diagnose equipment breakdowns, resolving issues and action repairs where possible.&lt;/li&gt; &lt;li&gt;Update engineering records, including all work carried out,&amp;nbsp; as well as supporting the identification of root cau",
+      "url": "https://www.arbeitnow.com/jobs/companies/xempus-ag/engineering-manager-munchen-97746",
+      "description": "Who we are Xempus is the leading European group pension, life and health insurance platform. We seamlessly connect insurers, insurance agents, corporates and their systems in an automated and customer-centric manner. Using standardized interfaces and structured data, we operate the central infrastructure for all customer-centric processes and enable agentic AI across pension, life and health insurance. Since 2007, we have been constantly working to drive the digitalization of the insurance industry. Here at Xempus, we believe that together we can make a difference – no matter where we are! Whether from one of our offices or from home – join us and together we create a more secure future for everyone! The role You provide both disciplinary and technical leadership to our Software Engineers. You work closely with several cross-functional teams and support their personal and professional development. You ensure that our engineering activities are aligned with Xempus’s company vision and strategic product goals. You own technical initiatives from initial concept through to production, including technical planning, architecture, quality assurance, and ongoing development. Together with ",
       "tags": [
-        "London Operating Region EngOps"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-19T00:55:19.000Z",
-      "score": 20,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description"
-      ]
-    },
-    {
-      "id": "arbeitnow-technical-project-manager-engineering-delivery-paris-138918",
-      "title": "Technical Project Manager - Engineering Delivery",
-      "company": "Diabolocom",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/diabolocom/technical-project-manager-engineering-delivery-paris-138918",
-      "description": "Diabolocom is looking for a Technical Project Manager to coordinate engineering delivery across our organization and work closely with the Head of Software Engineering on roadmap execution. You will work across Engineering, Product, Infrastructure and Project teams to keep delivery on track, manage dependencies, identify risks early, and help turn delivery challenges into clear actions and decisions. We are looking for someone with a software engineering background who has moved into technical leadership and genuinely enjoys the operational side of engineering. The role Our engineering organization includes around 90 engineers across 12 teams , working on a complex global product and multiple parallel initiatives. This role combines ownership of our engineering delivery processes with hands-on execution . You will be responsible not only for running these processes, but also for continuously improving how we plan, coordinate and track delivery across the organization. Process ownership You will own and continuously improve: engineering delivery planning processes delivery tracking and reporting cross-team coordination and dependency management. You will build on our existing practi",
-      "tags": [
+        "Tech Lead",
+        "Engineering Lead",
+        "Java",
+        "Head of Engineering",
+        "Technical Manager",
+        "People Lead Engineering",
         "Software Development"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T01:04:48.000Z",
+      "posted": "2026-09-20T02:09:44.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-product-operations-management-apprentice-bordeaux-404289",
+      "title": "Product & Operations Management Apprentice",
+      "company": "Backmarket",
+      "location": "Bordeaux",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/product-operations-management-apprentice-bordeaux-404289",
+      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: We are looking for a passionate and motivated Product &amp; Ops Manager Apprentice to join our Telco team. This apprenticeship offers a unique opportunity to contribute to the Telco team’s mission, which is to empower millions of customers across Europe and the US to make smarter, greener, and more affordable choices when buying devices and mobile plans, both online and in-store. We build seamless customer journeys and scalable operations to bring refurbished devices and connectivity ",
+      "tags": [
+        "INTERNSHIPS"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T07:40:09.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-enterprise-sales-engineer-france-373143",
+      "title": "Enterprise Sales Engineer - France",
+      "company": "chainguard",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/chainguard/enterprise-sales-engineer-france-373143",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk.&amp;nbsp;&lt;br&gt;&lt;br&gt;Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. &lt;br&gt;&lt;br&gt;Chainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;p-rich_text_section&quot;&gt;&lt;strong&gt;The role, in a nutshell:&lt;/strong&gt;&lt;br&gt;You will assess a prospect’s technical requirements and apply extensive knowledge of Chainguard products to illustrate how a deal will satisfy the client’s unmet needs. You will cultivate relationships with decision-makers at all levels of an organization and negotiate the competing needs of multiple stakeholders within an organization. You will se",
+      "tags": [
+        "International Sales Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T04:55:13.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-events-operations-apprentice-paris-436294",
+      "title": "Events Operations Apprentice",
+      "company": "Backmarket",
+      "location": "Paris",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/events-operations-apprentice-paris-436294",
+      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: As the Events &amp; Brand experience team, we design and execute Back Market’s most creative campaigns and physical activations across the globe. From large-scale events like BackForum to limited-budget campaigns, we bring Back Market’s voice to life both offline and online. To support this mission, we’re looking for an Events Operations Apprentice to join our fast-paced team. YOUR MISSION (IF YOU ACCEPT IT): 🥇 🎯 1. Event Production &amp; Operations Assist in organizing external eve",
+      "tags": [
+        "INTERNSHIPS"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T07:40:09.000Z",
       "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description"
+      ]
+    },
+    {
+      "id": "arbeitnow-partner-sales-engineer-487401",
+      "title": "Partner Sales Engineer",
+      "company": "chainguard",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/chainguard/partner-sales-engineer-487401",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk.&amp;nbsp;&lt;br&gt;&lt;br&gt;Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. &lt;br&gt;&lt;br&gt;Chainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Partner Sales Engineer (PSE)&lt;/strong&gt;&lt;/h1&gt; &lt;h2&gt;About Chainguard&lt;/h2&gt; &lt;p&gt;Chainguard is building the future of secure software supply chains by delivering secure-by-default container images, helm charts and language libraries alongside developer tools that eliminate vulnerabilities before software reaches production.&lt;/p&gt; &lt;p&gt;We partner with cloud providers, VARs/SIs, and technology platforms to h",
+      "tags": [
+        "International Sales Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T04:55:13.000Z",
+      "score": 20,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description"
+      ]
+    },
+    {
+      "id": "arbeitnow-intern-ai-data-engineering-munchen-263792",
+      "title": "Intern AI & Data Engineering (m/f/d)",
+      "company": "Ommax",
+      "location": "München",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/ommax/intern-ai-data-engineering-munchen-263792",
+      "description": "What we look for: You support client projects in turning AI opportunities into practical, valuable, and scalable solutions. You contribute to the development and implementation of AI and automation use cases, from the initial idea to technical prototypes. You help build software components, interfaces, and prototypes for concrete client applications. You prepare, integrate, and process data for AI applications and support the connection of different data sources. You contribute to the development and continuous improvement of data pipelines and technical foundations for scalable solutions. You work closely with AI specialists, data scientists, engineers, and consultants in interdisciplinary client projects. You evaluate new AI tools, models, and methods, assess their potential for relevant use cases, and document your findings. What we require: You are currently pursuing a degree in Computer Science, Data Science, Artificial Intelligence, Software Engineering, or a related field with excellent academic performance. You have gained initial hands-on experience in software development, ideally with Python. You have a strong interest in generative AI, machine learning, data engineering",
+      "tags": [],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T08:09:27.000Z",
+      "score": 5,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority mismatch"
       ]
     }
   ]
