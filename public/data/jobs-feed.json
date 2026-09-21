@@ -1,8 +1,47 @@
 {
-  "generatedAt": "2026-09-20T08:44:23.394Z",
-  "count": 27,
+  "generatedAt": "2026-09-21T09:10:28.807Z",
+  "count": 49,
   "sourcesLive": 3,
   "jobs": [
+    {
+      "id": "remoteok-1137411",
+      "title": "Senior .NET Software Engineer",
+      "company": "OkWhen",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411",
+      "description": "Please note. Directly emailing us will result in immediate disqualification. Use the application form to apply. About OkWhen OkWhen builds technology that powers live, virtual, and hybrid events. Our platform supports conference management, registration, payments, mobile apps, content libraries, webinars, LMS functionality, CEU tracking, sponsor management, and operational workflows. We are hiring a Senior .NET Software Engineer to help us improve, maintain, and extend a production platform used to run complex events. The Outcome Weâre Hiring For You will own meaningful parts of our application and consistently deliver reliable software without requiring constant supervision. You will improve system performance, reduce technical debt, and turn operational problems into simple, maintainable products. This is not a ticket-taking role. We need an engineer who can understand the existing system, make sound technical decisions, and follow work through from discovery to production. Responsibilities Design, build, test, deploy, and maintain production software Develop backend services and APIs usingÂ C# and ASP.NET/.NET Build and maintain web applications usingÂ Angular Design, optimize",
+      "tags": [
+        "dev",
+        "design",
+        "c sharp",
+        "saas",
+        "sys admin",
+        "infosec",
+        "education",
+        "technical",
+        "testing",
+        "web dev",
+        "xamarin",
+        "c"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-09-20T00:00:31+00:00",
+      "score": 95,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": true,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote",
+        "sponsorship/relocation mentioned"
+      ]
+    },
     {
       "id": "remotive-2091130",
       "title": "Senior .NET Full-stack Developer",
@@ -80,6 +119,42 @@
       ]
     },
     {
+      "id": "remotive-2091141",
+      "title": "Frontend Web Application Developer",
+      "company": "KoboToolbox",
+      "location": "USA, Canada, Argentina, Mexico, Peru",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/design/frontend-web-application-developer-2091141",
+      "description": "Location: Remote Availability: 35-40 hours per week Working hours: US East business hours Reporting to: Lead developer KoboToolbox has an immediate opening for a Frontend Web Application Developer to fill a full-time position of approximately 35-40 hours per week, for a commitment of at least 1 year. As a member of our team, you will share in the challenge and excitement of writing code used by over 32,000 organizations around the world. These organizations create data-driven change through the collection and analysis of more than 20 million surveys per month. Only candidates who already have experience working on large web applications will be considered. Beyond technical acumen, we are seeking a team member who demonstrates curiosity, initiative, and a cooperative approach to problem solving and decision-making. If you're passionate about leveraging technology to make a positive impact, we want to hear from you! Responsibilities Searching and reading an extensive, long-lived code base to understand existing behavior and conventions. Recognizing when existing conventions may no longer be the best approach and suggesting improvements aligned with contemporary best practices. Writin",
+      "tags": [
+        "api",
+        "django",
+        "docker",
+        "frontend",
+        "git",
+        "python",
+        "react",
+        "security",
+        "video",
+        "AI/ML",
+        "documentation",
+        "Typescript"
+      ],
+      "source": "Remotive",
+      "posted": "2026-09-18T16:43:22",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
       "id": "remotive-2069746",
       "title": "Tech Lead Full-Stack Rails Engineer",
       "company": "Mitre Media",
@@ -116,13 +191,78 @@
       ]
     },
     {
+      "id": "remoteok-1137410",
+      "title": "Frontend Engineer",
+      "company": "Bjak",
+      "location": "Ireland",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137410",
+      "description": "About ActAI There are over 5 billion users using basic applications today such email, notes, tasks, calendar and they're not AI-native. Our mission is to build proactive applications for anyone in the world, who are not used to complex prompting. We aim to bring intelligence to conversations, errands, organising and workflows, with minimal to no prompting. Our application focuses on achieving high reliability for long-running workflows, persistent context, and real-world task completion. We believe products will greatly reduce hallucinations Our objective is to organise anyone's life. Â Role As a Web Frontend Engineer, you will build the core web experiences, including Chat, Notes, Calendar, Docs and Sheets. You will own complex, highly interactive product surfaces from architecture through implementation, working closely with product, design, backend and AI engineers to make AI a native part of how users communicate, write, organise and work. Â What You'll Own Build major web experiences across Chat, Notes, Calendar, Docs, and Sheets. Develop complex interactions including real-time messaging, collaborative editing, rich-text editing, scheduling, tables, and spreadsheets. Build re",
+      "tags": [
+        "front end",
+        "design",
+        "react",
+        "graphql",
+        "react.js",
+        "technical",
+        "web dev",
+        "javascript",
+        "css",
+        "chatbot",
+        "html",
+        "typescript"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-09-20T00:00:25+00:00",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137409",
+      "title": "Backend Software Engineer",
+      "company": "Airspace Link",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-backend-software-engineer-airspace-link-1137409",
+      "description": "Remote - Throughout history, transformative advancements in infrastructure have propelled humanity forwardâfrom Vanderbiltâs railroads to Edisonâs electrical grid and Eisenhowerâs highways. Today, we stand at another pivotal infrastructure moment with Airspace Linkâs d... Please mention the word **AMIABLE** and tag RMTMyLjE5Ni44MC4yMDk= when applying to show you read the job post completely (#RMTMyLjE5Ni44MC4yMDk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "tags": [
+        "golang",
+        "dev",
+        "engineer",
+        "backend",
+        "digital nomad"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-09-19T20:00:01+00:00",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
       "id": "remoteok-1137387",
       "title": "Software Engineer",
       "company": "Mirantis",
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387",
-      "description": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMTQ1LjEzMi4xMDMuNjc= when applying to show you read the job post completely (#RMTQ1LjEzMi4xMDMuNjc=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** and tag RMTMyLjE5Ni44MC4yMDk= when applying to show you read the job post completely (#RMTMyLjE5Ni44MC4yMDk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "golang",
         "dev",
@@ -144,38 +284,380 @@
       ]
     },
     {
-      "id": "remoteok-1137062",
-      "title": "DESARROLLADOR FULL STACK",
-      "company": "Kruger NearShore LLC - Rekluti",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062",
-      "description": "Desarrollador/a Full Stack â Python / Angular / Go En Rekluti , consultora especializada en talento tecnolÃ³gico en LATAM, buscamos un/a Desarrollador/a Full Stack para integrarse a proyectos de alta complejidad y participar en el desarrollo de soluciones web escalables. Buscamos un perfil con sÃ³lida experiencia en Python, Angular y Go , capaz de desenvolverse de manera autÃ³noma, aportar en decisiones tÃ©cnicas y colaborar con equipos multidisciplinarios. ð¯ Principales responsabilidades DiseÃ±ar, desarrollar y mantener aplicaciones Full Stack, participando en frontend y backend. Desarrollar servicios y APIs REST utilizando principalmente Python y Go. Construir y mantener interfaces web modernas con Angular . Participar en el diseÃ±o de arquitecturas y definiciÃ³n de soluciones tÃ©cnicas. Integrar servicios, APIs y diferentes componentes de la plataforma. Desarrollar cÃ³digo limpio, mantenible, escalable y de alta calidad. Participar en revisiones de cÃ³digo, testing y resoluciÃ³n de incidencias. Colaborar con equipos de Producto, QA, DevOps y otros perfiles tÃ©cnicos. Contribuir a la mejora continua de procesos y buenas prÃ¡cticas de desarrollo. Trabajar con servicios cloud ",
+      "id": "arbeitnow-senior-software-engineer-berlin-461462",
+      "title": "Senior Software Engineer",
+      "company": "HiveMQ GmbH",
+      "location": "Germany",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/hivemq-gmbh/senior-software-engineer-berlin-461462",
+      "description": "HiveMQ is the Industrial AI Platform helping enterprises move from connected devices to intelligent operations. Built on the MQTT standard and a distributed edge-to-cloud architecture, HiveMQ connects and governs industrial data in real time, enabling global leaders like Audi, BMW, Eli Lilly, and Siemens to operationalize AI and drive innovation at scale. At HiveMQ, our culture is Effortless → Empowered → Relentless. We make the complex simple, act with confidence and ownership, and never stop pushing the boundaries of what’s possible. Join us to power the future of intelligent industry. HiveMQ’s Vision for this role The HiveMQ Dev team is dedicated to ensuring application resiliency and delivering the HiveMQ software platform in the highest quality. As a member of the HiveMQ development team, you will design, develop, and deliver solutions that enhance the scalability, availability, and efficiency of the HiveMQ software portfolio. We work with agile principles and believe ruthless automation and smart use of AI tools enables us to move fast while continuously meriting the trust that our customers place in us. You will… Architect, build, and maintain the HiveMQ platform software fo",
       "tags": [
-        "full stack",
-        "front end",
-        "python",
-        "dev",
-        "testing",
-        "web dev",
-        "quality assurance",
-        "devops",
-        "c",
-        "cloud",
-        "nosql",
-        "git"
+        "Product and Engineering"
       ],
-      "source": "RemoteOK",
-      "posted": "2026-08-22T00:00:12+00:00",
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:40:11.000Z",
       "score": 70,
       "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-go-engineer-full-stack-berlin-germany-453843",
+      "title": "Senior Go Engineer, Full Stack",
+      "company": "Topi",
+      "location": "Berlin, Germany",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/topi/senior-go-engineer-full-stack-berlin-germany-453843",
+      "description": "Your mission We're looking for product-minded engineers to join our diverse and driven team. We really value collaboration, making an impact, and continuous learning. Our product development team is based in Berlin, but we have folks working all over Europe, and you'll work closely with an experienced and supportive team. Your profile We are looking for a Senior Fullstack Engineer with deep expertise in Go to join a diverse, product-minded team that values collaboration, impact, and continuous learning. We're a distributed engineering team working across Europe (within +/- 1 hour of CET); topi is headquartered in Berlin. Engineers are expected to be comfortable navigating the entire stack (both Frontend and Backend). In this role, you will be architecting features from the database to the browser. Your center of gravity is the Go backend , APIs, data models, system design, but you'll move into the React/TypeScript frontend whenever the feature requires it. You'll join an experienced and supportive team where you'll have a significant voice in shaping both our technical direction and the product itself. About You This is a role for an engineer who lives in the backend but enjoys rea",
+      "tags": [
+        "react",
+        "fullstack",
+        "golang",
+        "typescript",
+        "go"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:09:48.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-fullstack-engineer-london-432829",
+      "title": "Senior Fullstack Engineer",
+      "company": "Spotify",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/spotify/senior-fullstack-engineer-london-432829",
+      "description": "The Platform team creates the technology that enables Spotify to learn quickly and scale easily, enabling rapid growth in our users and our business around the globe. Spanning many disciplines, we work to make the business work, creating the infrastructure, tooling, frameworks, and capabilities needed to welcome a billion customers. Our team builds Groove, a platform that helps thousands of employees plan, coordinate, and deliver work across Spotify. From initiative tracking to dependency management and collaborative planning, Groove helps teams stay aligned and execute with confidence. We're a small, cross-functional engineering team focused on building thoughtful tools that reduce friction and help people do their best work. We move quickly, learn from user feedback, and continuously improve the experiences we build. What You'll Do: Build and evolve Groove, a fullstack platform that supports planning, collaboration, and execution across Spotify. Design and deliver features including initiative tracking, planning workflows, and dependency management. Work across the stack using React, TypeScript, Java, GraphQL, PostgreSQL, and Google Kubernetes Engine (GKE) to build end-to-end sol",
+      "tags": [
+        "Platform"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T06:25:06.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-bristol-319178",
+      "title": "Software Engineer",
+      "company": "Ping Identity",
+      "location": "Bristol, England, United Kingdom",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/ping-identity/software-engineer-bristol-319178",
+      "description": "About Ping Identity:&nbsp; At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built on digital freedom. They come to cultivate it.&nbsp; Our intelligent, cloud identity platform lets people shop, work, bank, and interact wherever and however they want. Without friction. Without fear.&nbsp; While protecting digital identities is at the core of our technology, protecting individual identities is at the core of our culture.&nbsp; We champion every identity. One of our core values, Respect Individuality, reminds us to celebrate differences so you are empowered to bring your authentic self to work.&nbsp; We're headquartered in Denver, Colorado and we have offices and employees around the globe. We serve the largest, most demanding enterprises worldwide, including more than half of the Fortune 100. At Ping Identity, we're changing the way people and businesses think about cybersecurity, digital experiences, and identity and access management.&nbsp; I",
+      "tags": [],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T00:45:28.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
         "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-ii-full-stack-london-345363",
+      "title": "Software Engineer II - Full-Stack",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-ii-full-stack-london-345363",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why Deliveroo?&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;We&#39;re building the definitive online food company, transforming the way the world eats by making hyper-local food more convenient and accessible. We obsess about building the future of food, whilst using our network as a force for good. We&#39;re at the forefront of an industry, powered by our market-leading technology and unrivalled network to bring incredible convenience and selection to our customers.&lt;/p&gt;&lt;p&gt;Working at Deliveroo is the perfect environment to build a definitive career, motivated by impact. Firstly, the impact that working here will have on your development, allowing you to grow faster than you might elsewhere; secondly, the impact that you can have on Deliver",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-proactive-security-london-352517",
+      "title": "Senior Software Engineer, Proactive Security",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-proactive-security-london-352517",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a Senior Software Engineer, Proactive Security to join our London (Hybrid - 3 days from the office) team. In this role, you will be a part of our inclusive, collaborati",
+      "tags": [
+        "Security Engineering (Information Securi"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-ios-london-283195",
+      "title": "Senior Software Engineer - iOS",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-ios-london-283195",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Senior Software Engineer - iOS&lt;/h2&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Senior Software Engineer - iOS&lt;/strong&gt; to join our &lt;strong&gt;London&lt;/strong&gt; team. In this role, you’ll help us evolve our mobile architecture",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-full-stack-london-384272",
+      "title": "Senior Software Engineer - Full-Stack",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-full-stack-london-384272",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Senior Software Engineer - Full Stack&lt;/h2&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Senior Software Engineer - Full Stack&lt;/strong&gt; to join our &lt;strong&gt;London&lt;/strong&gt; team. In this role, you’ll help us build and scale ",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-event-streaming-systems-london-489315",
+      "title": "Senior Software Engineer, Event Streaming Systems",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-event-streaming-systems-london-489315",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Senior Software Engineer, Event Streaming Systems&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a Senior Software Engineer to join our team. This is a hybrid role. In this role, you’ll help us build and operate the event st",
+      "tags": [
+        "Engineering (Infra)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-android-sdui-london-79443",
+      "title": "Senior Software Engineer, Android SDUI",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-android-sdui-london-79443",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Senior Android Engineer&lt;/strong&gt; to join our SDUI team. In this role, you’ll help us build and scale our server-driven UI (&lt;strong&gt;SDUI&lt;/strong&gt;) platform, enabling teams to build a UI once an",
+      "tags": [
+        "Engineering (Infra)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-android-london-348577",
+      "title": "Senior Software Engineer - Android",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-android-london-348577",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Senior Software Engineer - Android&lt;/h2&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Senior Software Engineer - Android&lt;/strong&gt; to join our &lt;strong&gt;London&lt;/strong&gt; team. In this role, you’ll help us build and scale our wo",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-london-138199",
+      "title": "Senior Software Engineer",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/senior-software-engineer-london-138199",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Senior Software Engineer&lt;/h2&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Senior Software Engineer&lt;/strong&gt; to join our &lt;strong&gt;London (Hybrid - 3 days from the office)&lt;/strong&gt; team. In this role, you’ll help us improve ",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "remotive-2091140",
+      "title": "Senior Shopify Developer",
+      "company": "Sanctuary Computer Inc",
+      "location": "Worldwide",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
+      "description": "We are hiring a contract-based Senior Shopify Developer to contribute to our Design and Development Team. Original Job posting link here 🌎 About garden3d We are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions. Our client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, Parsons, Mozilla, The Nobel Prize, MIT, Gnosis, Etsy &amp; Gagosian. We’re the software team behind innovative products like The Light Phone &amp; Mill, and we operate a global, decentralized community space collective called Index Space. We think of our garden3d as collective for creative people, prioritizing a happy, talented, and diverse studio culture. We work on projects that bring value to our world, and we balance deep care for the work we do with a genuine curiosity about life outside of our jobs. Sanctuary Computer — Development At Sanctuary Computer we’re building a different type of technology shop – one that prioritizes close collaboration betwe",
+      "tags": [
+        "admin",
+        "api",
+        "backend",
+        "CSS",
+        "frontend",
+        "fullstack",
+        "graphql",
+        "node.js",
+        "postgresql",
+        "redux",
+        "seo",
+        "shopify"
+      ],
+      "source": "Remotive",
+      "posted": "2026-09-18T15:10:28",
+      "score": 65,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority fit",
         "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remotive-2091131",
+      "title": "Senior AI Engineer",
+      "company": "Lemon.io",
+      "location": "Northern America, LATAM, Europe, APAC",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
+      "description": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Through our community, we will connect you with the best developers from more than 75 countries. We have several AI-related roles: AI Engineer, AI Agent Architect, AI Automation Architect. Requirements - AI Engineer: 3+ years of commercial experience applying AI to practical technology solutions A solid under",
+      "tags": [
+        ".Net",
+        "android",
+        "C",
+        "C#",
+        "C++",
+        "data science",
+        "golang",
+        "ios",
+        "java",
+        "javascript",
+        "node.js",
+        "php"
+      ],
+      "source": "Remotive",
+      "posted": "2026-09-18T12:23:56",
+      "score": 65,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority fit",
+        "region: Europe/Remote",
         "remote"
       ]
     },
@@ -286,18 +768,238 @@
       ]
     },
     {
-      "id": "arbeitnow-ingenieure-de-recherche-en-reactive-synthesis-cdd-12-mois-palaiseau-354078",
-      "title": "Ingénieur·e de recherche en Reactive Synthesis - CDD - 12 mois",
-      "company": "Institut Mines-Télécom",
-      "location": "Palaiseau, Île-de-France, France",
+      "id": "arbeitnow-program-manager-reactor-darmstadt-211920",
+      "title": "Program Manager - Reactor (f/m/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/institut-mines-telecom/ingenieure-de-recherche-en-reactive-synthesis-cdd-12-mois-palaiseau-354078",
-      "description": "Présentation de Télécom SudParis : Télécom SudParis est une grande école publique d'ingénieurs reconnue au meilleur niveau des sciences et technologies du numérique. La qualité de ses formations est basée sur l’excellence scientifique de son corps professoral et une pédagogie mettant l’accent sur les projets d’équipes, l’innovation de rupture et l’entreprenariat. Télécom SudParis compte 1 000 étudiantes et étudiants dont 700 élèves ingénieurs et environ de 150 doctorantes et doctorants. Télécom SudParis fait partie de l’Institut Mines-Télécom, premier groupe d’école d’ingénieurs en France, et partage son campus avec Institut Mines-Télécom Business School. Télécom SudParis est co- fondatrice de l'Institut Polytechnique de Paris (IP Paris), Institut de Sciences et Technologies à vocation mondiale avec l’École polytechnique, l’ENSTA Paris, l’ENSAE Paris, l'ENPC et Télécom Paris. Vidéo présentation de Télécom SudParis À propos de l'Institut Mines-Télécom : L'Institut Mines-Télécom (IMT) est un établissement public dédié à l'enseignement supérieur et la recherche pour l'innovation dans les domaines de l'ingénierie et du numérique. À l’écoute permanente du monde économique, l'IMT conjugu",
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/program-manager-reactor-darmstadt-211920",
+      "description": "About Focused Energy Focused Energy is building the future of clean energy through laser-driven inertial fusion. Backed by our $240M Series A - the largest fully secured Series A in the global fusion industry we are scaling rapidly across multiple geographies. Based in Germany and the US, we have brought together the top scientific and engineering minds using proven technologies to unlock fusion power at commercial scale. Focused Energy is working to realize game-changing scientific innovation that promises to deliver a clean, sustainable and abundant source of power globally. Your Role As a Program Manager - Reactor you will be responsible for managing the reactor department projects and coordinate with other departments and aligning with company wide PM efforts. What You'll Do Plan and track projects, translating strategic goals into clear tasks, schedules, and milestones with particular emphasis on long-horizon, high-consequence programs such as the fusion island wall design, procurement and commissioning. Track budget and personnel capacity to ensure efficient resource allocation across multi-year reactor programs. Maintain project plans, schedules, and workflows in Jira, Jira ",
       "tags": [
-        "Informatique et Système d'information"
+        "IFE Reactor"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-19T22:30:11.000Z",
+      "posted": "2026-09-21T05:40:08.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-systems-engineer-architect-for-the-reactor-system-darmstadt-303253",
+      "title": "Systems Engineer / Architect for the Reactor System (f/m/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/systems-engineer-architect-for-the-reactor-system-darmstadt-303253",
+      "description": "About Focused Energy Focused Energy is building the future of clean energy through laser-driven inertial fusion. Backed by our $240M Series A - the largest fully secured Series A in the global fusion industry we are scaling rapidly across multiple geographies. Based in Germany and the US, we have brought together the top scientific and engineering minds using proven technologies to unlock fusion power at commercial scale. Focused Energy is working to realize game-changing scientific innovation that promises to deliver a clean, sustainable and abundant source of power globally. Your Role As Systems Engineer / Architect for the Reactor System, you will lead the architecture, integrated design, analysis, and development of the fusion island across the full engineering lifecycle — from concept and preliminary design through detailed design, commissioning support, and operations readiness. Working at the interface of multiple engineering disciplines, you will ensure that plant systems are safe, reliable, fully integrated, and compliant with regulatory requirements. You will oversee reactor and fusion island activities with a focus on technical interdependencies, alignment with key desig",
+      "tags": [
+        "IFE Reactor"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:40:08.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-full-stack-software-engineer-in-berlin-or-konstanz-430838",
+      "title": "Full-Stack Software Engineer (m/f/d) in Berlin or Konstanz",
+      "company": "KNIME AG",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/knime-ag/full-stack-software-engineer-in-berlin-or-konstanz-430838",
+      "description": "Mission Join KNIME in developing a state-of-the-art end-to-end AI and data science platform that helps thousands of professionals around the world to answer their data questions via one of the most reliable and transparent computation frameworks – KNIME workflows. Role Overview As a Full-Stack Software Engineer in the user-facing Sleek UX team, you will provide meaningful contributions to enhance the day-to-day experience of the people who build with KNIME. Together with a team of outstanding engineers, you will be involved in designing and implementing cross-stack features within KNIME’s family of products, written in Java and Vue. You will be working closely together with our product managers and designers to make the user experience frictionless, enjoyable, and consistent. Responsibilities Build and maintain end-to-end features that provide value to the many people building their data workflows with KNIME. Design and implement robust backend business logic to ensure reliable application performance. Partner with stakeholders to translate product requirements into intuitive user experiences. Leverage AI-assisted coding tools to accelerate development workflows while maintaining s",
+      "tags": [
+        "full-stack",
+        "full stack",
+        "software engineering",
+        "software developement"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:09:37.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-all-levels-core-technology-london-342178",
+      "title": "Software Engineer (all levels) - Core Technology",
+      "company": "Aisi",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/aisi/software-engineer-all-levels-core-technology-london-342178",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2&gt;About the AI Security Institute&lt;/h2&gt; &lt;p&gt;The AI Security Institute is the world&#39;s largest and best-funded team dedicated to understanding advanced AI risks and translating that knowledge into action. We’re in the heart of the UK government with direct lines to No. 10 (the Prime Minister&#39;s office), and we work with frontier developers and governments globally.&lt;/p&gt; &lt;p&gt;We’re here because governments are critical for advanced AI going well, and UK AISI is uniquely positioned to mobilise them. With our resources, unique agility and international influence, this is the best place to shape both AI development and government action.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;vac_display_field&quot;&gt; &lt;div class=&quot;vac_display_field_value&quot;&gt; &lt;div class=&quot;vac_display_field&quot;&gt; &lt;div class=&quot;vac_display_field_value&quot;&gt; &lt;h2&gt;Role Description&lt;/h2&gt; &lt;p&gt;&lt;span class=&quot;TextRun SCXW156930224 BCX0&quot; lang=&quot;EN-US&quot; data-contrast=&quot;auto&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW156930224 BCX0&quot;&gt;The AI Security Institute&#39;s Resea",
+      "tags": [
+        "Core Technology Team"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:25.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-c-java-289718",
+      "title": "Senior Software Engineer - C# / Java",
+      "company": "Threecolts",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/threecolts/senior-software-engineer-c-java-289718",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h4&gt;&lt;strong&gt;About Threecolts&lt;/strong&gt;&lt;/h4&gt; &lt;p&gt;Threecolts is the leading software suite for online &amp;amp; offline consumer brands (Amazon, Walmart, Target, Shopify, eBay, etc.). We’ve built a powerful ecosystem of software solutions to help businesses grow smarter — from revenue recovery and retail finance, to multichannel operations and pricing optimization. With over 500 employees globally and strong backing, we’re scaling fast across new markets and new partner channels.&lt;/p&gt; &lt;h4&gt;&lt;strong&gt;Who We Are&amp;nbsp;&lt;/strong&gt;&lt;/h4&gt; &lt;p&gt;We’re a global team built for speed, trust, and impact. As an AI enabled company, AI is integrated across Threecolts from development through to operations, empowering teams to move faster, build better, improve quality, and make more informed decisions. We hire exceptional people from all backgrounds and give them the autonomy to move fast and the accountability to deliver, where you will wear multiple hats, take ownership of challenges, and proactively solve problems beyond your immediate scope. Change is constant, ambiguity is part of the deal, an",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:10.000Z",
+      "score": 55,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-dev-environments-london-267926",
+      "title": "Staff Software Engineer, Dev Environments",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/staff-software-engineer-dev-environments-london-267926",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;The Dev Environments team sits within DoorDash&#39;s Foundations group (Platform Engineering). We own the local and remote developer experience across the DoorDash group of companies supporting over 5000 engineers. Our mission is to enable engineering velocity, quality, and efficiency at significant scale by removing friction from the day-to-day developer loop: spinning up a working environment, getting code building, and getting feedback fast, whether the &quot;developer&quot; is a human or an AI agent.&lt;/p&gt;&lt;h2&gt;&lt;/h2&gt;&lt;p&gt;As a Staff Engineer on Dev Environments, you&#39;ll be recognised as an expert across the dev environments space, covering both local and remote dev flows, devcontainers, IDE/remote backends, and how they all fit t",
+      "tags": [
+        "Engineering (Infra)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 55,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-new-grad-london-363",
+      "title": "Software Engineer, New Grad",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-new-grad-london-363",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Software Engineer, New Grad&lt;/h2&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Software Engineer&lt;/strong&gt; to join our &lt;strong&gt;London&lt;/strong&gt; team. In this role, you’ll help us build the future of on-demand delivery, contri",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-genai-platform-london-481615",
+      "title": "Software Engineer, GenAI Platform",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-genai-platform-london-481615",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Software Engineer, GenAI Platform&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;h2&gt;&lt;strong&gt;About the Team&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;Deliveroo&#39;s GenAI Platform team sits within Machine Learning Platform and builds the shared infrastructure that helps DoorDash, Wolt, and Deliveroo teams safely bring GenAI-powered products, agents, automation, and personalization to production. Our mission is to increase the velocity of business impact from GenAI. A central pillar of that work is running frontier open-weight LLMs and VLMs (such as GLM, Qwen, Kimi, and DeepSeek) ourselves — real-time GPU serving, high-throughput batch inference, and fine-tuning on autoscaling GPUs — delivering large cost and latency wins (for example, a",
+      "tags": [
+        "Engineering (Data Platform)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-backend-bi-platform-london-345210",
+      "title": "Software Engineer, Backend (BI Platform)",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-backend-bi-platform-london-345210",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Software Engineer, Backend&lt;/strong&gt; to join our &lt;strong&gt;London&lt;/strong&gt; team. This role is based in our London office with a &lt;strong&gt;hybrid&lt;/strong&gt; setup, typically 3 days in the ",
+      "tags": [
+        "Engineering (Data Platform)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-london-116718",
+      "title": "Software Engineer",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-london-116718",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Engineering the future of customer support — at global scale&lt;/em&gt; 🌍&lt;/p&gt;&lt;p&gt;We believe exceptional customer service is more than just a feature, it’s a fundamental part of who we are. That’s why we’ve built our own internal support tooling from the ground up, tailored to help our customer, courier, and merchant support teams shine in every interaction.&lt;/p&gt;&lt;p&gt;As we scale our operations from 30 to 60 countries, supporting millions of users and partners, our internal tools need to scale with us. The Support Engineering group is at the heart of this mission. We build high-performance admin applications and core operational tools that empower our support team",
+      "tags": [
+        "Engineering (Trust)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -352,7 +1054,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
-      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others on AI capabilities to help them perform. Requirements Experience building agents that run on their own and do meaningful work Strong with Grok, Claude, OpenAI, and open source Comfortable in Go, TypeScript, GraphQL, Postgres, GCP Writes clearly in English Compensation Salary: $150,000â$250,000 USD $20,000 signing bonus 4 weeks vacation + country-specific holidays Fully remote Please mention the word **HUMOUR** and tag RMTQ1LjEzMi4xMDMuNjc= when applying to show you read the job post completely (#RMTQ1LjEzMi4xMDMuNjc=). This is a beta feature to avoid spam applicants. Companies can search th",
+      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others on AI capabilities to help them perform. Requirements Experience building agents that run on their own and do meaningful work Strong with Grok, Claude, OpenAI, and open source Comfortable in Go, TypeScript, GraphQL, Postgres, GCP Writes clearly in English Compensation Salary: $150,000â$250,000 USD $20,000 signing bonus 4 weeks vacation + country-specific holidays Fully remote Please mention the word **HUMOUR** and tag RMTMyLjE5Ni44MC4yMDk= when applying to show you read the job post completely (#RMTMyLjE5Ni44MC4yMDk=). This is a beta feature to avoid spam applicants. Companies can search th",
       "tags": [
         "ai",
         "golang",
@@ -410,329 +1112,89 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-backend-engineer-agentic-systems-munchen-308647",
-      "title": "Senior Backend Engineer – Agentic Systems (m/f/d)",
-      "company": "Ommax",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/ommax/senior-backend-engineer-agentic-systems-munchen-308647",
-      "description": "What we look for: You build the production backbone that enables our Forward Deployed AI Engineers (FDEs) to turn agentic workflows into secure, reliable, measurable, and reusable customer solutions. You design and develop scalable backend services, APIs, asynchronous workflows, queues, databases, and distributed systems using Python, TypeScript, or comparable technologies. You create robust orchestration patterns for agentic systems, including tool calling, stateful workflows, routing, retries, human approvals, and context management. You build and maintain integrations with enterprise systems and SaaS applications, including OAuth, webhooks, SDKs, API clients, and data ingestion pipelines. You ensure production reliability through resilient error handling, idempotent design, rate-limit management, fallbacks, audit logs, and effective incident debugging. You develop evaluation and observability capabilities, including test datasets, trace capture, quality metrics, structured logging, workflow-level dashboards, and cost and latency monitoring. You establish shared platform primitives, templates, security standards, and governance patterns that accelerate each new FDE deployment whi",
-      "tags": [],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T08:09:27.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-engineer-on-site-vollzeit-munchen-19080",
-      "title": "Senior Engineer (m/w/d) — On-Site & Vollzeit",
-      "company": "Fulfin",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/fulfin/senior-engineer-on-site-vollzeit-munchen-19080",
-      "description": "Intro Wir machen Unternehmensfinanzierung einfacher: digital, schnell und mit zunehmend intelligenten Lösungen. Mehr als 7.500 Unternehmerinnen und Unternehmer nutzen fulfin bereits. Zur Verstärkung unseres Tech Teams suchen zum sofortigen Start einen Senior Engineer. Du wirst Teil eines kleinen, erfahrenen Teams und übernimmst weitreichende Verantwortung für geschäftskritische Lösungen. Deine Aufgaben Du entwickelst und betreibst zuverlässige, wartbare Software. Du übernimmst wichtige Projekte von der Problemdefinition bis zur Umsetzung und zum laufenden Betrieb. Du hinterfragst Annahmen, erkennst Risiken und übersetzt geschäftliche und produktbezogene Anforderungen in wirkungsvolle, pragmatische technische Lösungen. Du arbeitest eng mit unserem Produktteam, der Geschäftsführung sowie internen und externen Stakeholdern zusammen. Du unterstützt andere Entwickler und hilfst dabei, unsere technischen Standards und Arbeitsweisen weiterzuentwickeln. Dein Profil Anforderungen: Du kommunizierst ausgezeichnet auf Englisch und kannst komplexe Themen technischen wie nicht-technischen Zielgruppen klar vermitteln. Du zeigst Eigeninitiative, denkst kritisch, setzt klare Prioritäten und treibst",
-      "tags": [
-        "Senior Software Engineer",
-        "On-Site",
-        "Vollzeit",
-        "Architecture Design",
-        "Stakeholder Management"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T05:09:30.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-java-engineer-munchen-40956",
-      "title": "Senior Java Engineer (m/f/d)",
-      "company": "Xempus AG",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/xempus-ag/senior-java-engineer-munchen-40956",
-      "description": "Who we are Xempus is the leading European group pension, life and health insurance platform. We seamlessly connect insurers, insurance agents, corporates and their systems in an automated and customer-centric manner. Using standardized interfaces and structured data, we operate the central infrastructure for all customer-centric processes and enable agentic AI across pension, life and health insurance. Since 2007, we have been constantly working to drive the digitalization of the insurance industry. Here at Xempus, we believe that together we can make a difference – no matter where we are! Whether from one of our offices or from home – join us and together we create a more secure future for everyone! The role We're on the lookout for a Senior Java Engineer (m/f/d) with a passion for software architecture and a talent for navigating complexity. If you are an expert who not only writes excellent code but also excels at understanding, managing, and evolving large, mature codebases, this is the perfect opportunity for you. You will be instrumental in shaping the future of our software landscape. Responsibilities: Take ownership of core components of our Java-based platform Dive deep in",
-      "tags": [
-        "Java",
-        "Software Engineer",
-        "SQL",
-        "developer",
-        "engineer",
-        "senior",
-        "architecture",
-        "java 17"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T02:09:44.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-fullstack-software-engineer-munchen-15638",
-      "title": "Fullstack Software Engineer (m/w/d)",
-      "company": "Rhein Nadel Automation Gmbh",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/rhein-nadel-automation-gmbh/fullstack-software-engineer-munchen-15638",
-      "description": "Wer wir sind RNA Digital Solutions wurde 2016 als Industrial Tech Startup gegründet. Unsere Expertise liegt im Digitalen Maschinenbau und wir beschäftigen uns insbesondere mit der digitalen Auslegung und Herstellung automatisierter Zuführlösungen. In 2021 erfolgte der Anschluss des Startups an den Weltmarktführer in der Zuführtechnik, der Rhein-Nadel-Automation GmbH. Unser Fokus liegt zu 100% auf der Softwareentwicklung. Unsere Software-Teams verteilen sich auf die Standorte München und Aachen. In München entwickeln wir unsere Dienste für Künstliche Intelligenz und Simulation. In Aachen nutzen wir die Nähe zum Shop Floor für Sonder-Digitalisierungsprojekte und Shop Floor-bezogene Software. Die Kombination von jahrzehntelanger Erfahrung im Bereich Zuführtechnik gepaart mit modernsten Technologien im Bereich der künstlichen Intelligenz ermöglicht es uns, die Zuführtechnik von Morgen zu entwickeln. Zur Verstärkung unseres Entwicklungsteams suchen wir einen erfahrenen Fullstack Software Engineer (m/w/d) mit Sitz im Raum München. Die Arbeit erfolgt größtenteils mobil, jedoch ist eine regelmäßige Anwesenheit im Office in München vorgesehen (ca. 1 Mal pro Woche). Deine Aufgaben Entwicklun",
-      "tags": [
-        "Python",
-        "Django",
-        "ORM-Tools",
-        "SQL",
-        "Javascript",
-        "React",
-        "Softwareentwickler",
-        "Software Developer",
-        "Prozessdigitalisierung",
-        "KI",
-        "Künstliche Intelligenz",
-        "AI"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T05:09:57.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-all-genders-munchen-111870",
-      "title": "Software Engineer (all genders)",
-      "company": "Raysono",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/raysono/software-engineer-all-genders-munchen-111870",
-      "description": "Digital transformation support As part of our agile teams, you set new standards and celebrate real successes with your colleagues. Our projects are as wide-ranging and diverse as the challenges our customers face: from strategic experience design and digital communication to software development – we make digitalization tangible and effective. You can look forward to exciting projects and a work culture that combines professionalism and respect with the joy of collaborating with people who share your passion. We’ll support you in developing your skills and encourage you to think strategically, develop innovative approaches, and play an active role in shaping the digital future of our customers. Our creative solutions and customized strategies have stood for digital excellence since 1992. With over 140 dedicated employees, we design user experiences that work reliably and create lasting enthusiasm – from the initial idea to successful implementation. Your responsibilities As a Software Engineer (all genders), you build reliable, high-performing and maintainable digital solutions. You independently manage defined areas and make decisions, risks and results transparent. Your impact i",
-      "tags": [],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T05:09:20.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-full-stack-software-engineer-munich-hybrid-185960",
-      "title": "Full-Stack Software Engineer (m/f/d)",
-      "company": "TWAICE",
-      "location": "Munich, Hybrid",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/twaice/full-stack-software-engineer-munich-hybrid-185960",
-      "description": "About the role As renewable energy reshapes the global power system, batteries are taking center stage. Making them safe, reliable, and bankable at scale is a defining challenge of the energy transition. At TWAICE, our software turns battery data into insights - so decisions are made with confidence, not guesswork. We're accelerating the transition into a new energy era and we're looking for those who want to move fast with us. As a Full-Stack Software Engineer , you will be working in our product teams to create customer value at a high pace. This includes taking part in the full product development cycle, from understanding user problems and shaping solutions to building and iterating on them. You will work in a team with backgrounds in Software and Battery Engineering – creating solutions to get our projects from definition to customer value quickly while making sure we deliver robust, scalable, and extensible software products. Together, we will push our battery analytics to the next level. Your daily business will involve Contribute to and help shape the feature set of our SaaS product in incremental and result-oriented steps Implement new software components across the stack,",
-      "tags": [
-        "Battery",
-        "Energy",
-        "SaaS",
-        "Backend",
-        "Frontend",
-        "Startup",
-        "Tech",
-        "AWS",
-        "Batteries",
-        "Software Development",
-        "BESS",
-        "Green Energy"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T02:09:50.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-ios-entwickler-karlsruhe-395372",
-      "title": "iOS Entwickler (m/w/d)",
-      "company": "Skalbach GmbH",
-      "location": "Karlsruhe",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/skalbach-gmbh/ios-entwickler-karlsruhe-395372",
-      "description": "Firmenprofil Unser Mandant entwickelt moderne digitale Lösungen, die von namhaften Kunden aus unterschiedlichen Branchen genutzt werden. Das Unternehmen verbindet technologische Exzellenz mit einer offenen, entwicklerfreundlichen Unternehmenskultur und legt großen Wert auf nachhaltige Softwarearchitekturen, moderne Entwicklungsprozesse und die kontinuierliche Weiterentwicklung seiner Teams. Hier erwartet Sie kein Umfeld, in dem Features „einfach nur ausgeliefert“ werden. Stattdessen arbeiten Sie gemeinsam mit erfahrenen Software Engineers, Product Ownern und UX-Experten an hochwertigen mobilen Anwendungen, die echten Mehrwert schaffen und von Beginn an technisch durchdacht werden. Ihre Aufgaben Entwicklung und kontinuierliche Weiterentwicklung nativer iOS-Applikationen mit Fokus auf Performance, Stabilität und Benutzerfreundlichkeit Konzeption und Implementierung moderner Softwarearchitekturen sowie technischer Lösungen für komplexe fachliche Anforderungen Enge Zusammenarbeit mit Produktmanagement, UX/UI Design und Backend-Teams innerhalb agiler Entwicklungsprozesse Durchführung von Code Reviews sowie aktive Mitgestaltung von Best Practices, Coding Standards und Entwicklungsrichtli",
-      "tags": [
-        "ios Entwicklung",
-        "ios",
-        "ios Karlsruhe",
-        "Softwareentwickler",
-        "Software Developer",
-        "Softwareentwickler Karlsruhe",
-        "Softwareentwickler Jobs Karlsruhe",
-        "Softwareentwickler Stellen Karlsruhe",
-        "ios Stellen Karlsruhe",
-        "ios Jobs Karlsruhe",
-        "Vollzeit",
-        "unbefristet"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T08:09:04.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-freiberufliche-r-trainerin-ausbilderin-fachinformatik-fur-anwendungsentwicklung-vor-ort-berlin-2736",
-      "title": "Freiberufliche/r TrainerIn/ AusbilderIn (w/m/d) Fachinformatik für Anwendungsentwicklung - vor Ort",
-      "company": "Comhard Gesellschaft für Bildung und Personalentwicklung mbH",
-      "location": "Berlin, Berlin, Deutschland",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/comhard-gesellschaft-fur-bildung-und-personalentwicklung-mbh/freiberufliche-r-trainerin-ausbilderin-fachinformatik-fur-anwendungsentwicklung-vor-ort-berlin-2736",
-      "description": "Passionierte, freiberufliche IT-Lehrkräfte gesucht! Engagieren Sie sich in der Fortbildung Erwachsener mit Freiraum für kreative Lehrmethoden. Fördern Sie zukünftige Fachinformatikerinnen und Fachinformatiker und werden Sie Teil unseres qualitätsbewussten Teams. Ihre Expertise zählt! &nbsp; Ihre Aufgaben: Sie unterrichten die Module: „ Objektorientierte Programmierung mit Java “ und „ Dynamische Webentwicklung “ Gestaltung von lebendigem, anschaulichem Unterricht Intensive Vorbereitung auf die Abschlussprüfung vor der IHK Berlin Erarbeitung und Leitung praxisnaher Projekte nach beiden Modulen Erstellung von Lehrmaterialien und Weiterentwicklung unserer E-Learning-Plattform Ihr Profil: Fundierte Kenntnisse der Fachinformatikerausbildungsverordnung, des KHK-Rahmenlehrplans und des Leitfadens der IHK Berlin Tiefgehendes Wissen über moderne Webtechnologien und deren praxisnahe Nutzung Sicherer Umgang mit JavaScript&nbsp;sowie gängigen Bibliotheken und Frameworks (z. B. React, Vue oder Angular) Umfassende Erfahrung in der serverseitigen Webentwicklung,&nbsp;insbesondere mit PHP und Python Sehr gute Kenntnisse relationaler Datenbanken,&nbsp;vorrangig SQL unter MariaDB Sicherer Umgang mit",
-      "tags": [
-        "Team*Bildung"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T02:30:03.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-engineering-manager-munchen-285372",
-      "title": "Engineering Manager (m/w/d)",
-      "company": "Xempus AG",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/xempus-ag/engineering-manager-munchen-285372",
-      "description": "Wer wir sind Wir sind Xempus, Deutschlands führende unabhängige Software-as-Service (SaaS)-Plattform für den Vertrieb und die Verwaltung betrieblicher Vorsorgelösungen. Unsere Mission: Betriebliche Vorsorge digital und verständlich, effizient und für jeden zugänglich zu machen. Seit 2007 arbeiten wir stetig daran, die Digitalisierung der Versicherungsbranche voranzutreiben. Wir bei Xempus sind davon überzeugt, dass wir alle gemeinsam etwas bewirken können – egal von wo! Ob von einem unserer Büros oder von zu Hause ­– Komm zu uns und lass uns gemeinsam eine sicherere Zukunft für alle schaffen! Was Dich erwartet Du führst unsere Software Engineers disziplinarisch und fachlich. Dabei arbeitest du eng mit mehreren cross-funktionalen Teams zusammen und unterstützt sie bei ihrer persönlichen und fachlichen Entwicklung. Du stellst sicher, dass unsere Engineering-Aktivitäten mit der Unternehmensvision und den strategischen Produktzielen von Xempus im Einklang stehen. Du verantwortest technische Initiativen von der Konzeption bis zum produktiven Betrieb – einschließlich technischer Planung, Architektur, Qualitätssicherung und Weiterentwicklung. Gemeinsam mit Product Ownern priorisierst du t",
-      "tags": [
-        "Tech Lead",
-        "Engineering Lead",
-        "Java",
-        "Leitung Engineering",
-        "Tech People Lead",
-        "Softwareengineering",
-        "Technical Manager",
-        "Technologieentwicklung"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T02:09:44.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-engineering-manager-munchen-97746",
-      "title": "Engineering Manager (m/f/d)",
-      "company": "Xempus AG",
-      "location": "München",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/xempus-ag/engineering-manager-munchen-97746",
-      "description": "Who we are Xempus is the leading European group pension, life and health insurance platform. We seamlessly connect insurers, insurance agents, corporates and their systems in an automated and customer-centric manner. Using standardized interfaces and structured data, we operate the central infrastructure for all customer-centric processes and enable agentic AI across pension, life and health insurance. Since 2007, we have been constantly working to drive the digitalization of the insurance industry. Here at Xempus, we believe that together we can make a difference – no matter where we are! Whether from one of our offices or from home – join us and together we create a more secure future for everyone! The role You provide both disciplinary and technical leadership to our Software Engineers. You work closely with several cross-functional teams and support their personal and professional development. You ensure that our engineering activities are aligned with Xempus’s company vision and strategic product goals. You own technical initiatives from initial concept through to production, including technical planning, architecture, quality assurance, and ongoing development. Together with ",
-      "tags": [
-        "Tech Lead",
-        "Engineering Lead",
-        "Java",
-        "Head of Engineering",
-        "Technical Manager",
-        "People Lead Engineering",
-        "Software Development"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T02:09:44.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-product-operations-management-apprentice-bordeaux-404289",
-      "title": "Product & Operations Management Apprentice",
-      "company": "Backmarket",
-      "location": "Bordeaux",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/product-operations-management-apprentice-bordeaux-404289",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: We are looking for a passionate and motivated Product &amp; Ops Manager Apprentice to join our Telco team. This apprenticeship offers a unique opportunity to contribute to the Telco team’s mission, which is to empower millions of customers across Europe and the US to make smarter, greener, and more affordable choices when buying devices and mobile plans, both online and in-store. We build seamless customer journeys and scalable operations to bring refurbished devices and connectivity ",
-      "tags": [
-        "INTERNSHIPS"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-09-20T07:40:09.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-enterprise-sales-engineer-france-373143",
-      "title": "Enterprise Sales Engineer - France",
-      "company": "chainguard",
+      "id": "arbeitnow-full-stack-engineer-contract-218844",
+      "title": "Full Stack Engineer, Contract",
+      "company": "66Degrees",
       "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/chainguard/enterprise-sales-engineer-france-373143",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk.&amp;nbsp;&lt;br&gt;&lt;br&gt;Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. &lt;br&gt;&lt;br&gt;Chainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;p-rich_text_section&quot;&gt;&lt;strong&gt;The role, in a nutshell:&lt;/strong&gt;&lt;br&gt;You will assess a prospect’s technical requirements and apply extensive knowledge of Chainguard products to illustrate how a deal will satisfy the client’s unmet needs. You will cultivate relationships with decision-makers at all levels of an organization and negotiate the competing needs of multiple stakeholders within an organization. You will se",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/66degrees/full-stack-engineer-contract-218844",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;img style=&quot;max-width: 100%;&quot; src=&quot;https://66degrees.com/wp-content/uploads/2025/03/JobPosting-Cover.jpg&quot; alt=&quot;&quot; width=&quot;1400&quot;&gt;&lt;/p&gt; &lt;h2&gt;Overview of 66degrees&lt;/h2&gt; &lt;p&gt;66degrees is an end-to-end AI transformation partner that guides enterprises from complex business challenges to clear, quantifiable outcomes. Our company is the culmination of several successful firms, each a leader in its own right in cloud, artificial intelligence, and data. This convergence of talent and expertise is how we help businesses reach their own &quot;inflection point,&quot; where chaotic data becomes a strategic asset, complexity becomes clarity, and AI becomes an engine for growth. Our ultimate vision is to be the catalyst for a future where every business operates as an intelligent enterprise, with autonomous systems unlocking human potential.&lt;/p&gt; &lt;p&gt;At 66degrees, we believe in thriving through challenges and winning together. These values not only guide us in achieving our goals as a company but also for our people. We are dedicated to creating a significant impact for o",
       "tags": [
-        "International Sales Engineering"
+        "Professional Services Delivery"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-20T04:55:13.000Z",
+      "posted": "2026-09-20T15:55:15.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-full-stack-london-336044",
+      "title": "Staff Software Engineer - Full-Stack",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/staff-software-engineer-full-stack-london-336044",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;Staff Software Engineer - Full Stack&lt;/h1&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Staff Software Engineer - Full Stack&lt;/strong&gt; to join our &lt;strong&gt;London&lt;/strong&gt; team&lt;strong&gt; (hybrid, 3 days from the office)&l",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 40,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-london-37797",
+      "title": "Staff Software Engineer",
+      "company": "Deliveroo",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/staff-software-engineer-london-37797",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;Our Global Structure&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;br&gt;Deliveroo is now part of DoorDash, bringing together teams with even greater reach, scale, and ambition. Depending on your role, you may collaborate with teammates, systems, and leaders across DoorDash and Wolt. Together, we’re unlocking new possibilities as one global team.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Staff Software Engineer&lt;/h2&gt;&lt;p&gt;Join us in our mission to transform the way people shop and eat, where impact, innovation and growth drive everything we do. Our Engineering teams tackle complex technical challenges across a global, three-sided marketplace, building and scaling systems that serve millions of customers, riders and partners every day.&lt;/p&gt;&lt;p&gt;From real-time logistics to resilient infrastructure and marketplace optimisation, we design, build and operate technology that powers Deliveroo’s growth at scale.&lt;/p&gt;&lt;p&gt;We’re looking for a &lt;strong&gt;Staff Software Engineer&lt;/strong&gt; to join our &lt;strong&gt;London, UK - Hybrid (3 days from the office)&lt;/strong&gt; team. In this role, you’ll help us define",
+      "tags": [
+        "Engineering (Ads)"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T12:55:05.000Z",
+      "score": 40,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-fuel-cycle-fuel-recycling-lead-darmstadt-326585",
+      "title": "Fuel Cycle Fuel Recycling Lead (f/m/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/fuel-cycle-fuel-recycling-lead-darmstadt-326585",
+      "description": "About Focused Energy Focused Energy is building the future of clean energy through laser-driven inertial fusion. Backed by our $240M Series A - the largest fully secured Series A in the global fusion industry we are scaling rapidly across multiple geographies. Based in Germany and the US, we have brought together the top scientific and engineering minds using proven technologies to unlock fusion power at commercial scale. Focused Energy is working to realize game-changing scientific innovation that promises to deliver a clean, sustainable and abundant source of power globally. Your Role As a Fuel Cycle Fuel Recycling system lead, you will be responsible for guiding the design of tritium extraction from the chamber, breeding blanket, and wall, from early concept development through detailed design, licensing, and handover to construction and commissioning. The role combines deep technical expertise with organizational leadership to ensure technical excellence and effective cross-functional coordination throughout the project lifecycle. What You'll Do End-to-end accountability for the Fuel Cycle Fuel Recycling design. Technical Leadership. Define and govern the overall Fuel Cycle Fue",
+      "tags": [
+        "IFE Reactor"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:40:08.000Z",
       "score": 35,
       "regions": [
         "Europe"
@@ -745,65 +1207,171 @@
       ]
     },
     {
-      "id": "arbeitnow-events-operations-apprentice-paris-436294",
-      "title": "Events Operations Apprentice",
-      "company": "Backmarket",
-      "location": "Paris",
+      "id": "arbeitnow-fusion-island-breeding-blanket-lead-darmstadt-18020",
+      "title": "Fusion Island Breeding Blanket Lead (f/m/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/backmarket/events-operations-apprentice-paris-436294",
-      "description": "Hi, we’re Back Market. We’re here to help make tech reliable, affordable, and better than new . We're a global marketplace for refurbished devices, helping lower our collective environmental impact by providing trustworthy, affordable tech with 92% less carbon emissions than new. Yep, you read that right. Turns out refurbished tech is way better for the planet than new. In fact, With every device purchased on Back Market, our positive impact on the planet grows. From our Customer Care representatives to our software engineer, every individual at Back Market cuts the planet — and consumers — a break. Our mission is simple: to do more with what we already have. Are you ready to join us? JOB DESCRIPTION: As the Events &amp; Brand experience team, we design and execute Back Market’s most creative campaigns and physical activations across the globe. From large-scale events like BackForum to limited-budget campaigns, we bring Back Market’s voice to life both offline and online. To support this mission, we’re looking for an Events Operations Apprentice to join our fast-paced team. YOUR MISSION (IF YOU ACCEPT IT): 🥇 🎯 1. Event Production &amp; Operations Assist in organizing external eve",
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/fusion-island-breeding-blanket-lead-darmstadt-18020",
+      "description": "About Focused Energy Focused Energy is building the future of clean energy through laser-driven inertial fusion. Backed by our $240M Series A - the largest fully secured Series A in the global fusion industry we are scaling rapidly across multiple geographies. Based in Germany and the US, we have brought together the top scientific and engineering minds using proven technologies to unlock fusion power at commercial scale. Focused Energy is working to realize game-changing scientific innovation that promises to deliver a clean, sustainable and abundant source of power globally. Your Role As a Fusion Island Breeding Blanket Lead, you would be responsible for leading the design and development of the Breeding Blanket within the Fusion Island. The position oversees all key aspects of the system, including the cooling concept, tritium breeding and extraction, and structural and mechanical integrity, from early-stage concept development through detailed design, licensing, and handover to construction and commissioning. The role requires deep technical expertise as well as the ability to provide cross-functional coordination and technical leadership across the relevant engineering interfa",
       "tags": [
-        "INTERNSHIPS"
+        "IFE Reactor"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-20T07:40:09.000Z",
-      "score": 20,
-      "regions": [],
+      "posted": "2026-09-21T05:40:08.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in description"
+        "role in description",
+        "region: Europe"
       ]
     },
     {
-      "id": "arbeitnow-partner-sales-engineer-487401",
-      "title": "Partner Sales Engineer",
-      "company": "chainguard",
-      "location": "Not specified",
+      "id": "arbeitnow-fusion-island-group-leader-darmstadt-402651",
+      "title": "Fusion Island Group Leader (f/m/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/chainguard/partner-sales-engineer-487401",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and eliminate risk.&amp;nbsp;&lt;br&gt;&lt;br&gt;Our customers include Fortune 500 enterprises and global industry leaders, including Anduril, Canva, Fortinet, Hewlett Packard Enterprise, OpenAI, Snap Inc., and Snowflake. &lt;br&gt;&lt;br&gt;Chainguard is venture-backed by leading investors, including Amplify, IVP, Kleiner Perkins, Lightspeed Venture Partners, Mantis VC, Redpoint Ventures, Sequoia Capital, and Spark Capital.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;Partner Sales Engineer (PSE)&lt;/strong&gt;&lt;/h1&gt; &lt;h2&gt;About Chainguard&lt;/h2&gt; &lt;p&gt;Chainguard is building the future of secure software supply chains by delivering secure-by-default container images, helm charts and language libraries alongside developer tools that eliminate vulnerabilities before software reaches production.&lt;/p&gt; &lt;p&gt;We partner with cloud providers, VARs/SIs, and technology platforms to h",
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/fusion-island-group-leader-darmstadt-402651",
+      "description": "About Focused Energy Focused Energy is an international deep-tech company based in Germany and the US, working to commercialize laser-driven nuclear fusion. Our mission is to provide clean, safe, and virtually unlimited energy to the world. We are rapidly scaling and looking for talented individuals who thrive in building clarity and structure within fast-growing environments. Your Role The Fusion Island Group Lead is responsible for overseeing the integrated design of the complete plant system, with a focus on the fusion island, from early concept development through detailed design, licensing, and handover to construction and commissioning. The position provides both technical and organizational leadership, with overall accountability for engineering activities within the group and authority for key design and delivery decisions. What You'll Do End-to-end accountability for the fusion island design. Technical Leadership &amp; Design Authority. Define and govern the overall systems design architecture, including plant configuration, major design parameters, and fundamental safety approach. Lead critical design reviews, independent assessments, and design verification activities. R",
       "tags": [
-        "International Sales Engineering"
+        "IFE Reactor"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-09-20T04:55:13.000Z",
-      "score": 20,
-      "regions": [],
+      "posted": "2026-09-21T05:40:08.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in description"
+        "role in description",
+        "region: Europe"
       ]
     },
     {
-      "id": "arbeitnow-intern-ai-data-engineering-munchen-263792",
-      "title": "Intern AI & Data Engineering (m/f/d)",
-      "company": "Ommax",
+      "id": "arbeitnow-fusion-island-power-cycle-lead-darmstadt-54291",
+      "title": "Fusion Island Power Cycle Lead (m/f/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/fusion-island-power-cycle-lead-darmstadt-54291",
+      "description": "About Focused Energy Focused Energy is an international deep-tech company based in Germany and the US, working to commercialize laser-driven nuclear fusion. Our mission is to provide clean, safe, and virtually unlimited energy to the world. We are rapidly scaling and looking for talented individuals who thrive in building clarity and structure within fast-growing environments. Role Overview: As the Fusion Island Power Cycle Lead – Reactor , you will lead the design and development of the Fusion Island power cycle, including the cooling system, thermodynamic cycle, and primary heat exchanger. You will oversee the system from concept through detailed design, licensing, construction, and commissioning, while ensuring safe, efficient, and integrated solutions across the reactor plant. This is a key technical leadership role requiring deep engineering expertise and the ability to lead multidisciplinary teams and complex design decisions. Key Responsibilities: End-to-end accountability for the fuel cycle power cycle design. Technical Leadership. Define and govern the overall power cycle design architecture, including configuration, major design parameters, and fundamental safety approach",
+      "tags": [
+        "IFE Reactor"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:40:08.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-fuel-cycle-conditioning-lead-darmstadt-70109",
+      "title": "Fuel Cycle Conditioning Lead (f/m/d)",
+      "company": "Focused",
+      "location": "Darmstadt, DE",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/focused/fuel-cycle-conditioning-lead-darmstadt-70109",
+      "description": "About Focused Energy Focused Energy is an international deep-tech company based in Germany and the US, working to commercialize laser-driven nuclear fusion. Our mission is to provide clean, safe, and virtually unlimited energy to the world. We are rapidly scaling and looking for talented individuals who thrive in building clarity and structure within fast-growing environments. Role Overview: The Fuel Cycle Conditioning Lead is responsible for the design and development of fuel cycle conditioning systems, including chamber conditioning and tritium processing systems. Reporting to the Fuel Cycle Group Leader, this role leads the development of key fuel cycle components and ensures their integration within the wider reactor and plant design. As a critical member of the Fuel Cycle team, the position supports the conceptual and technical development of one of the plant's core systems, working closely with Fuel Recycling and Fuel Storage teams to deliver a safe, efficient, and integrated fuel cycle solution. Key Responsibilities: End-to-end accountability for the Fuel Cycle Conditioning design. Provide technical leadership for Fuel Cycle Conditioning activities. Define and govern the ove",
+      "tags": [
+        "IFE Reactor"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T05:40:08.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-engineering-project-manager-munchen-128368",
+      "title": "Senior Engineering Project Manager (m/w/d)",
+      "company": "Idealworks",
       "location": "München",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/ommax/intern-ai-data-engineering-munchen-263792",
-      "description": "What we look for: You support client projects in turning AI opportunities into practical, valuable, and scalable solutions. You contribute to the development and implementation of AI and automation use cases, from the initial idea to technical prototypes. You help build software components, interfaces, and prototypes for concrete client applications. You prepare, integrate, and process data for AI applications and support the connection of different data sources. You contribute to the development and continuous improvement of data pipelines and technical foundations for scalable solutions. You work closely with AI specialists, data scientists, engineers, and consultants in interdisciplinary client projects. You evaluate new AI tools, models, and methods, assess their potential for relevant use cases, and document your findings. What we require: You are currently pursuing a degree in Computer Science, Data Science, Artificial Intelligence, Software Engineering, or a related field with excellent academic performance. You have gained initial hands-on experience in software development, ideally with Python. You have a strong interest in generative AI, machine learning, data engineering",
-      "tags": [],
+      "url": "https://www.arbeitnow.com/jobs/companies/idealworks/senior-engineering-project-manager-munchen-128368",
+      "description": "The Role: What to expect Idealworks builds industrial automation as a coordinated system — mobile robots, orchestration software, simulation, and increasingly humanoids and physical AI, working together in real production environments rather than as isolated pilots. Since our founding within BMW Group and our integration into Agile Robots SE, we've grown from a Munich-based robotics team into a global player. As physical AI and humanoid robotics move from research into industrial deployment, our project landscape is expanding: today's programs span classic mobile robot fleets, next-generation humanoid platforms, and the simulation environments used to develop and validate both. We're looking for a Senior Engineering Project Manager to lead this kind of work end to end - technically credible enough to sit with R&amp;D and hardware/software engineering, and organized enough to keep shareholders, partners, and customers aligned as programs move from concept to production. Role Responsibilities: What you will do Project &amp; Program Delivery Manage complex engineering projects across the full lifecycle — from scoping and planning through execution, integration, testing, and handover —",
+      "tags": [
+        "Project Managment",
+        "Robotics",
+        "Munich"
+      ],
       "source": "Arbeitnow",
-      "posted": "2026-09-20T08:09:27.000Z",
-      "score": 5,
+      "posted": "2026-09-21T05:09:23.000Z",
+      "score": 35,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "seniority mismatch"
+        "seniority fit"
+      ]
+    },
+    {
+      "id": "arbeitnow-sales-development-representative-uk-london-239983",
+      "title": "Sales Development Representative (UK)",
+      "company": "Artemis",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/artemis/sales-development-representative-uk-london-239983",
+      "description": "Artemis is building the future of AI-driven defense – helping companies detect and defend themselves effectively in an era where AI is fighting AI on the cyber battlefield. We're backed by First Round Capital, Brightmind, and a group of the cybersecurity industry's most prominent Operators. Our founders, Shachar (ex-Palo Alto Networks, AWS, Demisto) and Dan (ex-Abnormal Security, Twitter) have previously built, launched, and scaled cybersecurity products loved and trusted by tens of thousands of customers, and have the customer, technology, and security know-hows to deliver this vision. Our exceptionally strong team includes software engineers, AI researchers, security engineers, and product designers hailing from Google, Abnormal AI, Wiz, Meta, AWS, and SentinelOne. We are growing our team and looking for passionate builders to join us and support our expanding customer base. The Role As an SDR at Artemis, you'll be the first point of contact for prospects. You'll research target accounts, run outbound campaigns, qualify inbound leads, and set meetings for our Account Executives. You'll work with a small but sharp sales team to build pipeline and help close enterprise security dea",
+      "tags": [
+        "GTM"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-21T03:40:06.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-customer-engineer-emea-73703",
+      "title": "Customer Engineer EMEA",
+      "company": "Nebius",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/nebius/customer-engineer-emea-73703",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;amp;D.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;The role&lt;/span&gt;&lt;/strong&gt;&lt;/h3&gt; &lt;p data-renderer-start-pos=&quot;8453&quot; data-local-id=&quot;6fc2bda22561&quot;&gt;We are looking for a &lt;strong data-renderer-mark=&quot;true&quot;&g",
+      "tags": [
+        "Post Sales"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-09-20T13:55:08.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
       ]
     }
   ]
