@@ -1,33 +1,18 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import { FaImage } from "react-icons/fa";
 import { caseStudyPath, type Project } from "../../data/projects";
+import ImagePlaceholder from "./ImagePlaceholder";
 import PrivateCodeBadge from "./PrivateCodeBadge";
 import ProjectLinks from "./ProjectLinks";
 import StatusBadge from "./StatusBadge";
 
-/**
- * Image slot. Without a screenshot it shows a labelled placeholder (not an
- * `<img>`), so the test and assistive tech can tell "no image yet" from a
- * broken one.
- */
+/** Image slot; without a screenshot it shows the shared labelled placeholder. */
 function CardImage({ image }: { image: Project["image"] }) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   if (!image) {
-    return (
-      <div
-        role="img"
-        aria-label="No screenshot available"
-        className="ans-flex ans-h-48 ans-w-full ans-items-center ans-justify-center ans-rounded ans-bg-th-muted"
-      >
-        <FaImage
-          aria-hidden="true"
-          className="ans-text-10 ans-text-th-muted-fg"
-        />
-      </div>
-    );
+    return <ImagePlaceholder className="ans-h-48" />;
   }
 
   return (
