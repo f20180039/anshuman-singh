@@ -32,6 +32,22 @@ describe("SEO page entries", () => {
     }
   });
 
+  it("/projects entry describes the recent work without overclaiming", () => {
+    const entry = getPageSeo("/projects");
+    expect(entry.path).toBe("/projects");
+    expect(entry.title.length).toBeLessThanOrEqual(60);
+    expect(entry.description.length).toBeLessThanOrEqual(160);
+    // The pre-case-study copy led with the Instagram clone; the page now
+    // leads with the recent work.
+    expect(entry.description).not.toMatch(/Instagram clone/);
+    expect(entry.description).toMatch(/Android/);
+    expect(entry.description).toMatch(/manga/);
+    expect(entry.description).toMatch(/hackathon/);
+    expect(`${entry.title} ${entry.description}`).not.toMatch(
+      /launched|on (the )?Play Store|live on|Prathamesh|alok2569|\bAlok\b|TradingAgents/i,
+    );
+  });
+
   it("unknown case-study slug falls back to the non-indexable 404 entry", () => {
     expect(getPageSeo("/projects/does-not-exist").indexable).toBe(false);
   });
