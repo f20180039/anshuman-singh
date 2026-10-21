@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt, FaImage, FaLock } from "react-icons/fa";
+import { FaImage } from "react-icons/fa";
 import { caseStudyPath, type Project } from "../../data/projects";
+import PrivateCodeBadge from "./PrivateCodeBadge";
+import ProjectLinks from "./ProjectLinks";
 import StatusBadge from "./StatusBadge";
-
-const BUTTON_CLASSES =
-  "ans-flex ans-items-center ans-gap-2 ans-px-4 ans-py-2 ans-rounded-lg ans-text-White";
 
 /**
  * Image slot. Without a screenshot it shows a labelled placeholder (not an
@@ -157,59 +156,11 @@ export default function ProjectCard({
       {(project.status || project.repo.visibility === "private") && (
         <div className="ans-flex ans-flex-wrap ans-items-center ans-justify-center ans-gap-2">
           {project.status && <StatusBadge status={project.status} />}
-          {project.repo.visibility === "private" && (
-            <span className="ans-inline-flex ans-items-center ans-gap-1 ans-rounded-full ans-bg-th-muted ans-px-3 ans-py-1 ans-text-xs ans-font-inter-1 ans-text-th-muted-fg">
-              <FaLock aria-hidden="true" />
-              Private code
-            </span>
-          )}
+          {project.repo.visibility === "private" && <PrivateCodeBadge />}
         </div>
       )}
 
-      {(project.repo.visibility === "public" ||
-        project.links.length > 0 ||
-        project.internalPath) && (
-        <div className="ans-flex ans-flex-wrap ans-gap-4 ans-justify-center ans-mt-auto">
-          {project.repo.visibility === "public" && (
-            <motion.a
-              href={project.repo.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${BUTTON_CLASSES} ans-bg-th-accent`}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <FaGithub aria-hidden="true" />
-              GitHub
-            </motion.a>
-          )}
-          {project.links.map((link) => (
-            <motion.a
-              key={link.href}
-              href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${BUTTON_CLASSES} ans-bg-th-success`}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <FaExternalLinkAlt aria-hidden="true" />
-              {link.label}
-            </motion.a>
-          ))}
-          {project.internalPath && (
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Link
-                to={project.internalPath}
-                className={`${BUTTON_CLASSES} ans-bg-th-success`}
-              >
-                <FaExternalLinkAlt aria-hidden="true" />
-                Live demo
-              </Link>
-            </motion.div>
-          )}
-        </div>
-      )}
+      <ProjectLinks project={project} className="ans-mt-auto" />
     </motion.div>
   );
 }
