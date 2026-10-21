@@ -29,9 +29,16 @@ export interface ProjectLink {
   href: string;
 }
 
-/** Private repos never get a URL: the UI shows a "Private code" badge instead. */
+/**
+ * - `public`: links to the repo.
+ * - `private`: closed source; the UI shows a "Private code" badge, never a URL.
+ * - `unlinked`: older projects that simply have no GitHub link today — no
+ *   badge, no link.
+ */
 export type RepoInfo =
-  { visibility: "public"; url: string } | { visibility: "private" };
+  | { visibility: "public"; url: string }
+  | { visibility: "private" }
+  | { visibility: "unlinked" };
 
 export interface CaseStudy {
   problem: string;
@@ -94,7 +101,7 @@ export const PROJECTS: Project[] = [
       alt: "Screenshot of the Exploding Production browser game showing its gameplay board and score panel",
     },
     tech: [SiReact, SiJavascript],
-    repo: { visibility: "private" },
+    repo: { visibility: "unlinked" },
     links: [
       { label: "Live demo", href: "https://exploding-production.onrender.com" },
     ],
@@ -106,7 +113,7 @@ export const PROJECTS: Project[] = [
     description:
       "Multiplayer browser game platform using real-time game-room flows and WebSocket-style state synchronization.",
     tech: [SiReact, SiJavascript],
-    repo: { visibility: "private" },
+    repo: { visibility: "unlinked" },
     links: [
       {
         label: "Live demo",
@@ -142,7 +149,7 @@ export const PROJECTS: Project[] = [
       alt: "Guess Game interface with a number input, score counter and remaining attempts",
     },
     tech: [SiJavascript],
-    repo: { visibility: "private" },
+    repo: { visibility: "unlinked" },
     links: [],
     internalPath: PROJECT_ROUTES.guessGame,
   },

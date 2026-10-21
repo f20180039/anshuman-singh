@@ -35,6 +35,16 @@ describe("projects data", () => {
       (project) => project.title === "Guess Game",
     );
     expect(guessGame?.internalPath).toBe("/guess-game");
+
+    // Older projects that never had a GitHub link: no badge, no repo link.
+    for (const title of [
+      "Exploding Production Game",
+      "Multiplayer Game Hub",
+      "Guess Game",
+    ]) {
+      const project = PROJECTS.find((candidate) => candidate.title === title);
+      expect(project?.repo).toEqual({ visibility: "unlinked" });
+    }
   });
 
   it("getProjectBySlug only resolves case studies", () => {
