@@ -48,19 +48,36 @@ function BulletList({ items }: { items: string[] }) {
   );
 }
 
+/**
+ * Never wider than the file itself: the card images are encoded at 640 px
+ * (the store tile at 440), and stretching them across the 768 px column only
+ * blurs them. `width`/`height` give the browser the aspect ratio up front, so
+ * the box is reserved before the bytes arrive.
+ */
 function Hero({ image }: { image: ProjectImage }) {
   return (
-    <div className="ans-overflow-hidden ans-rounded-lg ans-bg-th-surface ans-shadow-md">
+    <div
+      className="ans-mx-auto ans-w-full ans-overflow-hidden ans-rounded-lg ans-bg-th-surface ans-shadow-md"
+      style={{ maxWidth: image.width }}
+    >
       <img
         src={image.src}
         alt={image.alt}
-        className="ans-max-h-[32rem] ans-w-full ans-object-contain"
+        width={image.width}
+        height={image.height}
+        className="ans-block ans-h-auto ans-w-full"
         decoding="async"
       />
     </div>
   );
 }
 
+/**
+ * A horizontal strip at a fixed height; each image keeps its own aspect ratio
+ * (`w-auto` + intrinsic `width`/`height`), so a portrait phone screenshot sits
+ * tall and narrow beside a landscape console capture instead of being cropped
+ * or squeezed into a common box.
+ */
 function Gallery({ images }: { images: ProjectImage[] }) {
   return (
     <ul
@@ -69,11 +86,13 @@ function Gallery({ images }: { images: ProjectImage[] }) {
     >
       {images.map((image) => (
         <li key={image.src} className="ans-shrink-0">
-          <figure className="ans-m-0 ans-w-64 ans-overflow-hidden ans-rounded-lg ans-bg-th-surface ans-shadow-md sm:ans-w-80">
+          <figure className="ans-m-0 ans-overflow-hidden ans-rounded-lg ans-bg-th-surface ans-shadow-md">
             <img
               src={image.src}
               alt={image.alt}
-              className="ans-h-48 ans-w-full ans-object-contain"
+              width={image.width}
+              height={image.height}
+              className="ans-block ans-h-56 ans-w-auto ans-max-w-none sm:ans-h-72"
               loading="lazy"
               decoding="async"
             />

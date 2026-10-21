@@ -20,11 +20,31 @@ import {
   SiUpstash,
   SiVite,
 } from "react-icons/si";
-// WebP outputs from `npm run gen:images`; the PNG sources stay in the repo but
-// are deliberately not imported, so they never reach the bundle.
+// WebP outputs from `npm run gen:images`; the PNG/JPEG sources are deleted once
+// converted (see scripts/optimize-images.js), so only the .webp is committed.
 import SnapgramImage from "../assets/snapgram.webp";
 import ExplodingProductionImage from "../assets/exploding-production.webp";
 import GuessGame from "../assets/GuessGame.webp";
+import ShaantiCard from "../assets/projects/shaanti-card.webp";
+import Shaanti1 from "../assets/projects/shaanti-1.webp";
+import Shaanti2 from "../assets/projects/shaanti-2.webp";
+import Shaanti3 from "../assets/projects/shaanti-3.webp";
+import Shaanti4 from "../assets/projects/shaanti-4.webp";
+import Shaanti5 from "../assets/projects/shaanti-5.webp";
+import Shaanti6 from "../assets/projects/shaanti-6.webp";
+import SignalDeskCard from "../assets/projects/signal-desk-card.webp";
+import SignalDesk1 from "../assets/projects/signal-desk-1.webp";
+import SignalDesk2 from "../assets/projects/signal-desk-2.webp";
+import SignalDesk3 from "../assets/projects/signal-desk-3.webp";
+import SolarfileReelsCard from "../assets/projects/solarfile-reels-card.webp";
+import SolarfileReels1 from "../assets/projects/solarfile-reels-1.webp";
+import SolarfileReels2 from "../assets/projects/solarfile-reels-2.webp";
+import SolarfileReels3 from "../assets/projects/solarfile-reels-3.webp";
+import ToodlerCard from "../assets/projects/toodler-card.webp";
+import Toodler1 from "../assets/projects/toodler-1.webp";
+import Toodler2 from "../assets/projects/toodler-2.webp";
+import Toodler3 from "../assets/projects/toodler-3.webp";
+import QuizWizzCard from "../assets/projects/quiz-wizz-card.webp";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "../common/constants";
 
 export type StatusKind = "live" | "in-progress" | "build";
@@ -37,6 +57,14 @@ export interface ProjectImage {
    * the name twice learns nothing the second time.
    */
   alt: string;
+  /**
+   * Intrinsic pixel size of `src` (the WebP as encoded), passed straight to
+   * `<img width height>` so the browser reserves the box before the file
+   * arrives and nothing below it moves. Guarded against the file on disk by
+   * projects.images.test.ts.
+   */
+  width: number;
+  height: number;
 }
 
 export interface ProjectLink {
@@ -97,6 +125,12 @@ export const PROJECTS: Project[] = [
       "Airplane mode for one app: a timed internet cut-off for chosen Android apps",
     description:
       "Android focus app that cuts the internet for the apps you choose during a timed session while the rest of the phone keeps working. Named after my grandmother.",
+    image: {
+      src: ShaantiCard,
+      alt: 'Shaanti feature graphic: a hushing face wearing headphones beside the line "Take any app offline. Everything else keeps working."',
+      width: 640,
+      height: 313,
+    },
     tech: [SiKotlin, SiJetpackcompose, SiAndroid],
     repo: { visibility: "private" },
     links: [
@@ -137,7 +171,44 @@ export const PROJECTS: Project[] = [
         "3 subscription plans (3 / 6 / 12 months), each with a 14-day trial",
         "3 themes",
       ],
-      gallery: [],
+      gallery: [
+        {
+          src: Shaanti1,
+          alt: "Shaanti home screen with Chrome, Gmail and YouTube picked to go quiet, a duration chooser set to 1 hour, and a Start button",
+          width: 720,
+          height: 1280,
+        },
+        {
+          src: Shaanti2,
+          alt: 'A running Shaanti session with a 59:26 countdown, the three blocked apps listed and "Phone calls ring as usual"',
+          width: 720,
+          height: 1280,
+        },
+        {
+          src: Shaanti3,
+          alt: "Shaanti Plans screen with two scheduled plans, Focus on weekdays and Sleep every night, each with an on/off switch",
+          width: 720,
+          height: 1280,
+        },
+        {
+          src: Shaanti4,
+          alt: "Shaanti New plan editor with a 10:00 am start, 2 h length and weekday repeat chips",
+          width: 720,
+          height: 1280,
+        },
+        {
+          src: Shaanti5,
+          alt: 'Shaanti session summary card reading "You were offline for 8 min. Nothing tried to reach you." above the ready-to-start card',
+          width: 720,
+          height: 1280,
+        },
+        {
+          src: Shaanti6,
+          alt: 'Shaanti settings screen with the "Block phone calls during sessions" switch on and plan-overlap options below',
+          width: 720,
+          height: 1280,
+        },
+      ],
     },
   },
   {
@@ -147,6 +218,12 @@ export const PROJECTS: Project[] = [
       "Agentic ops intelligence for enterprise commute, built at the MoveInSync hackathon",
     description:
       "Rules compute PASS / WATCH / CONCERN / BREACH findings with evidence SQL; the LLM only writes the prose and never computes a number. Built with a teammate at the MoveInSync hackathon (5 Sep 2026).",
+    image: {
+      src: SignalDeskCard,
+      alt: "Signal Desk overview for a transport manager: four metric cards (on-time arrival, on-time departure, no-show rate, cost per km) graded Pass or Concern, above a Breach priority action for marshal compliance",
+      width: 640,
+      height: 400,
+    },
     tech: [SiPython, SiFastapi, SiDuckdb, SiReact],
     repo: {
       visibility: "public",
@@ -176,7 +253,26 @@ export const PROJECTS: Project[] = [
         "~₹0.13–0.77 per brief",
       ],
       credit: "Built with a teammate",
-      gallery: [],
+      gallery: [
+        {
+          src: SignalDesk1,
+          alt: "Signal Desk overview for a transport manager: four metric cards graded Pass or Concern above a Breach priority action for marshal compliance",
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: SignalDesk2,
+          alt: "Signal Desk alerts list: marshal-compliance Breach cards with the reason, impact and SLA comparison, each offering Investigate, Escalate and Dismiss",
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: SignalDesk3,
+          alt: "Signal Desk data-health table showing rows loaded, quarantined, unmatched and a confidence percentage for each of the five feeds",
+          width: 1280,
+          height: 800,
+        },
+      ],
     },
   },
   {
@@ -268,6 +364,12 @@ export const PROJECTS: Project[] = [
       "Topic to finished 1080×1920 reel: script, voice, stock footage, word-timed captions",
     description:
       "Pipeline that turns a topic into a script, a voice track, stock footage and word-timed captions, rendered as a 1080×1920 reel, with a Next.js studio for reviewing the script and swapping clips.",
+    image: {
+      src: SolarfileReelsCard,
+      alt: 'SolarFile public gallery: the site intro "Automated space-weather shorts" above one published reel card, a captioned octopus clip titled "Octopuses Have Three Hearts"',
+      width: 640,
+      height: 400,
+    },
     tech: [SiPython, SiFastapi, SiFfmpeg, SiNextdotjs, SiSupabase],
     repo: { visibility: "private" },
     links: [],
@@ -297,7 +399,26 @@ export const PROJECTS: Project[] = [
       ],
       numbers: ["1080×1920 output"],
       credit: "Seeded from a friend's open-source reels-generator",
-      gallery: [],
+      gallery: [
+        {
+          src: SolarfileReels1,
+          alt: 'SolarFile public gallery: the site intro above one published reel card, a captioned octopus clip titled "Octopuses Have Three Hearts"',
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: SolarfileReels2,
+          alt: 'SolarFile "How it works" page with an architecture diagram linking Browser, Vercel/Next.js, Supabase, Backblaze B2 and the Mac worker, followed by the five-step pipeline',
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: SolarfileReels3,
+          alt: 'A frame from a generated 1080×1920 reel: green aurora over a rocky shoreline with the word-timed caption "disabled the Apollo 16", the current word highlighted in yellow',
+          width: 720,
+          height: 1280,
+        },
+      ],
     },
   },
   {
@@ -307,6 +428,12 @@ export const PROJECTS: Project[] = [
       "Clickable admissions workflow-builder prototype, a Round-2 take-home for Toddle",
     description:
       "Built for Toddle's Round-2 take-home: an admissions workflow builder with stages, Branch and Parallel nodes, a config panel, undo/redo and URL-linkable state, alongside a written spec and competitor research.",
+    image: {
+      src: ToodlerCard,
+      alt: "Toodler workflow builder showing the Application acknowledgement flow: a Trigger node feeding a Parallel node that fans out into two Send email steps, with the node palette on the left and the trigger's config panel on the right",
+      width: 640,
+      height: 400,
+    },
     tech: [SiReact, SiTypescript, SiVite],
     repo: { visibility: "public", url: "https://github.com/f20180039/toodler" },
     links: [
@@ -337,7 +464,26 @@ export const PROJECTS: Project[] = [
         "197 config panels",
         "47 tests pinning tree invariants",
       ],
-      gallery: [],
+      gallery: [
+        {
+          src: Toodler1,
+          alt: "Toodler workflow builder showing the Application acknowledgement flow: a Trigger node feeding a Parallel node that fans out into two Send email steps, with the node palette and config panel either side",
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: Toodler2,
+          alt: 'The same Application flow with a Branch node selected: the right-hand panel lists its two paths, "Yes" when status is not Under review and "No" as the fallback',
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: Toodler3,
+          alt: "Concession application flow with a four-path Branch on fee concession, each path leading to its own Create task, Adjust fee or Update status step",
+          width: 1280,
+          height: 800,
+        },
+      ],
     },
   },
   {
@@ -347,6 +493,14 @@ export const PROJECTS: Project[] = [
       "Chrome MV3 extension: OCR on canvas-rendered questions, multi-model consensus answers",
     description:
       "A practice aid for quiz pages that render as canvas: Tesseract OCR reads the question, a ranked queue of LLMs answers it with two-model consensus voting, and a shared Upstash Redis cache remembers what has already been answered. v1.3.2, shared privately.",
+    // Store promo tile; the extension has no capturable UI of its own, so
+    // there is no gallery.
+    image: {
+      src: QuizWizzCard,
+      alt: 'Quiz Wizz store promo tile: a blue light-bulb app icon beside the name and the word "Automator" on a dark background',
+      width: 440,
+      height: 280,
+    },
     tech: [SiGooglechrome, SiGooglegemini, SiUpstash],
     repo: { visibility: "private" },
     links: [],
@@ -406,6 +560,8 @@ export const PROJECTS: Project[] = [
     image: {
       src: ExplodingProductionImage,
       alt: "Screenshot of the Exploding Production browser game showing its gameplay board and score panel",
+      width: 640,
+      height: 571,
     },
     tech: [SiReact, SiJavascript],
     repo: { visibility: "unlinked" },
@@ -437,6 +593,8 @@ export const PROJECTS: Project[] = [
     image: {
       src: SnapgramImage,
       alt: "Snapgram login screen beside a collage of user posts from the feed",
+      width: 640,
+      height: 310,
     },
     tech: [SiReact, SiTypescript, SiTailwindcss],
     repo: {
@@ -454,6 +612,8 @@ export const PROJECTS: Project[] = [
     image: {
       src: GuessGame,
       alt: "Guess Game interface with a number input, score counter and remaining attempts",
+      width: 640,
+      height: 136,
     },
     tech: [SiJavascript],
     repo: { visibility: "unlinked" },

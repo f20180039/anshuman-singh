@@ -28,8 +28,8 @@ function CardImage({ image }: { image: Project["image"] }) {
       <motion.img
         src={image.src}
         alt={image.alt}
-        width={640}
-        height={384}
+        width={image.width}
+        height={image.height}
         className={`ans-relative ans-h-48 ans-w-full ans-object-scale-down ans-transition-opacity ans-duration-300 ${
           imageLoaded ? "ans-opacity-100" : "ans-opacity-0"
         }`}

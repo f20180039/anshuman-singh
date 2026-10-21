@@ -38,8 +38,8 @@ function FeaturedCard({ project, index }: { project: Project; index: number }) {
           <img
             src={project.image.src}
             alt={project.image.alt}
-            width={640}
-            height={384}
+            width={project.image.width}
+            height={project.image.height}
             loading="lazy"
             decoding="async"
             className="ans-h-36 ans-w-full ans-rounded ans-bg-th-muted ans-object-cover"

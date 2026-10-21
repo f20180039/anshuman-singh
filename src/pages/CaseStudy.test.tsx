@@ -173,12 +173,24 @@ describe("CaseStudy page", () => {
       image: {
         src: "/hero.webp",
         alt: "Shaanti home screen with a session timer",
+        width: 640,
+        height: 400,
       },
       caseStudy: {
         ...project("shaanti").caseStudy!,
         gallery: [
-          { src: "/g1.webp", alt: "Quick Settings tile toggled on" },
-          { src: "/g2.webp", alt: "Scheduled Plans list" },
+          {
+            src: "/g1.webp",
+            alt: "Quick Settings tile toggled on",
+            width: 720,
+            height: 1280,
+          },
+          {
+            src: "/g2.webp",
+            alt: "Scheduled Plans list",
+            width: 1280,
+            height: 800,
+          },
         ],
       },
     };
@@ -194,6 +206,16 @@ describe("CaseStudy page", () => {
       }),
     ).toBeInTheDocument();
     const gallery = screen.getByRole("list", { name: "Screenshots" });
-    expect(within(gallery).getAllByRole("img")).toHaveLength(2);
+    const shots = within(gallery).getAllByRole("img");
+    expect(shots).toHaveLength(2);
+    // Intrinsic size on every <img>, so the strip is laid out before the
+    // files load and a portrait shot keeps its own ratio.
+    expect(shots[0]).toHaveAttribute("width", "720");
+    expect(shots[0]).toHaveAttribute("height", "1280");
+    expect(
+      screen.getByRole("img", {
+        name: "Shaanti home screen with a session timer",
+      }),
+    ).toHaveAttribute("width", "640");
   });
 });
