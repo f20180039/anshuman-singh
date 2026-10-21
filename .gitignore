@@ -36,3 +36,6 @@ server/node_modules
 # the tree dirty after every local build.
 public/robots.txt
 public/sitemap.xml
+
+# Brainstorm mockups (visual companion)
+.superpowers/
