@@ -5,6 +5,8 @@ export const EAPP_ROUTES = {
   about: "/about",
   experience: "/experience",
   projects: "/projects",
+  /** Route pattern; build a concrete path with `caseStudyPath(slug)`. */
+  caseStudy: "/projects/:slug",
   certificates: "/certificates",
   contact: "/contact",
   resumePreview: "/resume",
@@ -55,7 +57,9 @@ export const C_RESUME_SINGLE_COL_URL = `${import.meta.env.BASE_URL}resume/Anshum
  * copy is obviously an old copy. Only the alternate layout is labelled — the
  * default download should not carry jargon that means nothing to the reader.
  */
-export function resumeDownloadName(layout: "single" | "multi" = "multi"): string {
+export function resumeDownloadName(
+  layout: "single" | "multi" = "multi",
+): string {
   const month = resumeMeta.updatedAt.slice(0, 7); // YYYY-MM
   const variant = layout === "single" ? "-Single-Column" : "";
   return `Anshuman-Singh-Frontend-Engineer-Resume${variant}-${month}.pdf`;

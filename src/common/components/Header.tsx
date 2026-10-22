@@ -20,6 +20,16 @@ const THEME_ICONS: Record<Theme, ReactElement> = {
   cyberpunk: <FaBolt />,
 };
 
+/**
+ * A nav item is active on its own page and on any page nested under it
+ * (`/projects` stays lit on `/projects/shaanti`). Home is the exception: as a
+ * prefix of everything it only matches exactly.
+ */
+function isNavActive(pathname: string, path: string): boolean {
+  if (path === "/") return pathname === path;
+  return pathname === path || pathname.startsWith(`${path}/`);
+}
+
 const THEME_SWATCHES: Record<Theme, string> = {
   dark: "linear-gradient(135deg, #050b16 0%, #10223a 52%, #5eead4 100%)",
   light: "linear-gradient(135deg, #f8fbff 0%, #dbeafe 48%, #fde68a 100%)",
@@ -60,134 +70,143 @@ export default function Header() {
           </h1>
 
           <nav className="ans-hidden ans-items-center ans-gap-5 sm:ans-flex">
-          <ul className="ans-flex ans-items-center ans-gap-2 ans-rounded-lg ans-border ans-border-White/10 ans-bg-White/[0.04] ans-p-1.5 ans-shadow-sm">
-            {NAV_LINKS.map(({ name, path }) => (
+            <ul className="ans-flex ans-items-center ans-gap-2 ans-rounded-lg ans-border ans-border-White/10 ans-bg-White/[0.04] ans-p-1.5 ans-shadow-sm">
+              {NAV_LINKS.map(({ name, path }) => {
+                const active = isNavActive(location.pathname, path);
+                return (
+                  <li key={path}>
+                    <Link
+                      to={path}
+                      aria-current={active ? "page" : undefined}
+                      className={`ans-relative ans-block ans-rounded-md ans-px-4 ans-py-2.5 ans-text-[15px] ans-font-inter-2 ans-transition-all ans-duration-200 ${
+                        active
+                          ? "nav-link-active ans-bg-th-accent/15 ans-shadow-[0_0_18px_rgb(var(--th-accent)/0.22)]"
+                          : "nav-link-muted hover:ans-bg-White/10"
+                      }`}
+                    >
+                      {name}
+                      {active && (
+                        <span className="ans-absolute ans-bottom-1 ans-left-3 ans-right-3 ans-h-[2px] ans-rounded-full ans-bg-th-accent ans-shadow-[0_0_12px_rgb(var(--th-accent)/0.8)]" />
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+
+            <div ref={themeRef} className="ans-relative">
+              <button
+                onClick={() => setThemeOpen(!themeOpen)}
+                className="nav-control ans-flex ans-items-center ans-gap-2.5 ans-rounded-lg ans-border ans-border-White/15 ans-bg-White/10 ans-px-4 ans-py-2.5 ans-shadow-[0_0_20px_rgb(var(--th-accent)/0.14)] ans-transition-all ans-duration-200 hover:ans-border-th-accent/50 hover:ans-bg-White/15"
+                aria-label="Open theme picker"
+              >
+                <span
+                  className="ans-grid ans-h-6 ans-w-6 ans-place-items-center ans-rounded-full ans-border ans-border-White/40 ans-shadow-[0_0_14px_rgb(var(--th-accent)/0.5)]"
+                  style={{ background: THEME_SWATCHES[theme] }}
+                />
+                <span className="ans-text-[14px] ans-font-inter-2">
+                  {activeTheme.label}
+                </span>
+                <FaChevronDown
+                  className={`ans-text-[12px] ans-transition-transform ${
+                    themeOpen ? "ans-rotate-180" : ""
+                  }`}
+                />
+              </button>
+
+              {themeOpen && (
+                <ThemePanel
+                  selectedTheme={theme}
+                  onSelect={(nextTheme) => {
+                    setTheme(nextTheme);
+                    setThemeOpen(false);
+                  }}
+                  columns="ans-grid-cols-4"
+                  className="ans-right-0 ans-w-72"
+                />
+              )}
+            </div>
+          </nav>
+
+          <div className="ans-flex ans-items-center ans-gap-3 sm:ans-hidden">
+            <div ref={mobileThemeRef} className="ans-relative">
+              <button
+                onClick={() => setThemeOpen(!themeOpen)}
+                className="nav-control ans-rounded-lg ans-border ans-border-White/15 ans-bg-White/10 ans-p-2.5"
+                aria-label="Open theme picker"
+              >
+                <span
+                  className="ans-block ans-h-6 ans-w-6 ans-rounded-full ans-border ans-border-White/50"
+                  style={{ background: THEME_SWATCHES[theme] }}
+                />
+              </button>
+
+              {themeOpen && (
+                <ThemePanel
+                  selectedTheme={theme}
+                  onSelect={(nextTheme) => {
+                    setTheme(nextTheme);
+                    setThemeOpen(false);
+                  }}
+                  columns="ans-grid-cols-3"
+                  className="ans-right-0 ans-w-64"
+                />
+              )}
+            </div>
+
+            <button
+              className="nav-control ans-grid ans-h-11 ans-w-11 ans-place-items-center ans-rounded-lg ans-border ans-border-White/15 ans-bg-White/10 ans-text-[18px] focus:ans-outline-none"
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle navigation menu"
+            >
+              {menuOpen ? <FaTimes /> : <FaBars />}
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Mobile menu overlay and nav - outside header to avoid clipping */}
+      <div
+        className={`ans-fixed ans-inset-0 ans-z-[10] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 sm:ans-hidden ${
+          menuOpen
+            ? "ans-pointer-events-auto ans-opacity-100"
+            : "ans-pointer-events-none ans-opacity-0"
+        }`}
+        onClick={() => setMenuOpen(false)}
+      />
+
+      <nav
+        className={`ans-fixed ans-right-0 ans-top-0 ans-z-[10] ans-h-full ans-w-64 ans-transform ans-border-l ans-border-th-accent/30 ans-bg-th-surface ans-shadow-2xl ans-backdrop-blur-md ans-transition-transform ans-duration-300 sm:ans-hidden ${
+          menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
+        }`}
+        style={{
+          background:
+            "linear-gradient(135deg, rgb(var(--th-surface)), rgb(var(--th-surface-alt)))",
+        }}
+      >
+        <ul className="ans-flex ans-flex-col ans-gap-1 ans-p-3 ans-pt-16">
+          {NAV_LINKS.map(({ name, path }) => {
+            const active = isNavActive(location.pathname, path);
+            return (
               <li key={path}>
                 <Link
                   to={path}
-                  className={`ans-relative ans-block ans-rounded-md ans-px-4 ans-py-2.5 ans-text-[15px] ans-font-inter-2 ans-transition-all ans-duration-200 ${
-                    location.pathname === path
-                      ? "nav-link-active ans-bg-th-accent/15 ans-shadow-[0_0_18px_rgb(var(--th-accent)/0.22)]"
-                      : "nav-link-muted hover:ans-bg-White/10"
+                  aria-current={active ? "page" : undefined}
+                  className={`ans-flex ans-w-full ans-rounded-lg ans-px-4 ans-py-3 ans-text-[15px] ans-font-inter-2 ans-transition-colors ans-duration-150 ${
+                    active
+                      ? "ans-bg-th-accent/20 ans-text-th-accent"
+                      : "ans-text-th-fg hover:ans-bg-th-muted"
                   }`}
+                  onClick={() => setMenuOpen(false)}
                 >
                   {name}
-                  {location.pathname === path && (
-                    <span className="ans-absolute ans-bottom-1 ans-left-3 ans-right-3 ans-h-[2px] ans-rounded-full ans-bg-th-accent ans-shadow-[0_0_12px_rgb(var(--th-accent)/0.8)]" />
-                  )}
                 </Link>
               </li>
-            ))}
-          </ul>
-
-          <div ref={themeRef} className="ans-relative">
-            <button
-              onClick={() => setThemeOpen(!themeOpen)}
-              className="nav-control ans-flex ans-items-center ans-gap-2.5 ans-rounded-lg ans-border ans-border-White/15 ans-bg-White/10 ans-px-4 ans-py-2.5 ans-shadow-[0_0_20px_rgb(var(--th-accent)/0.14)] ans-transition-all ans-duration-200 hover:ans-border-th-accent/50 hover:ans-bg-White/15"
-              aria-label="Open theme picker"
-            >
-              <span
-                className="ans-grid ans-h-6 ans-w-6 ans-place-items-center ans-rounded-full ans-border ans-border-White/40 ans-shadow-[0_0_14px_rgb(var(--th-accent)/0.5)]"
-                style={{ background: THEME_SWATCHES[theme] }}
-              />
-              <span className="ans-text-[14px] ans-font-inter-2">
-                {activeTheme.label}
-              </span>
-              <FaChevronDown
-                className={`ans-text-[12px] ans-transition-transform ${
-                  themeOpen ? "ans-rotate-180" : ""
-                }`}
-              />
-            </button>
-
-            {themeOpen && (
-              <ThemePanel
-                selectedTheme={theme}
-                onSelect={(nextTheme) => {
-                  setTheme(nextTheme);
-                  setThemeOpen(false);
-                }}
-                columns="ans-grid-cols-4"
-                className="ans-right-0 ans-w-72"
-              />
-            )}
-          </div>
-        </nav>
-
-        <div className="ans-flex ans-items-center ans-gap-3 sm:ans-hidden">
-          <div ref={mobileThemeRef} className="ans-relative">
-            <button
-              onClick={() => setThemeOpen(!themeOpen)}
-              className="nav-control ans-rounded-lg ans-border ans-border-White/15 ans-bg-White/10 ans-p-2.5"
-              aria-label="Open theme picker"
-            >
-              <span
-                className="ans-block ans-h-6 ans-w-6 ans-rounded-full ans-border ans-border-White/50"
-                style={{ background: THEME_SWATCHES[theme] }}
-              />
-            </button>
-
-            {themeOpen && (
-              <ThemePanel
-                selectedTheme={theme}
-                onSelect={(nextTheme) => {
-                  setTheme(nextTheme);
-                  setThemeOpen(false);
-                }}
-                columns="ans-grid-cols-3"
-                className="ans-right-0 ans-w-64"
-              />
-            )}
-          </div>
-
-          <button
-            className="nav-control ans-grid ans-h-11 ans-w-11 ans-place-items-center ans-rounded-lg ans-border ans-border-White/15 ans-bg-White/10 ans-text-[18px] focus:ans-outline-none"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle navigation menu"
-          >
-            {menuOpen ? <FaTimes /> : <FaBars />}
-          </button>
-        </div>
-      </div>
-    </header>
-
-    {/* Mobile menu overlay and nav - outside header to avoid clipping */}
-    <div
-      className={`ans-fixed ans-inset-0 ans-z-[10] ans-bg-Black/50 ans-backdrop-blur-sm ans-transition-opacity ans-duration-300 sm:ans-hidden ${
-        menuOpen
-          ? "ans-pointer-events-auto ans-opacity-100"
-          : "ans-pointer-events-none ans-opacity-0"
-      }`}
-      onClick={() => setMenuOpen(false)}
-    />
-
-    <nav
-      className={`ans-fixed ans-right-0 ans-top-0 ans-z-[10] ans-h-full ans-w-64 ans-transform ans-border-l ans-border-th-accent/30 ans-bg-th-surface ans-shadow-2xl ans-backdrop-blur-md ans-transition-transform ans-duration-300 sm:ans-hidden ${
-        menuOpen ? "ans-translate-x-0" : "ans-translate-x-full"
-      }`}
-      style={{
-        background: 'linear-gradient(135deg, rgb(var(--th-surface)), rgb(var(--th-surface-alt)))'
-      }}
-    >
-      <ul className="ans-flex ans-flex-col ans-gap-1 ans-p-3 ans-pt-16">
-        {NAV_LINKS.map(({ name, path }) => (
-          <li key={path}>
-            <Link
-              to={path}
-              className={`ans-flex ans-w-full ans-rounded-lg ans-px-4 ans-py-3 ans-text-[15px] ans-font-inter-2 ans-transition-colors ans-duration-150 ${
-                location.pathname === path
-                  ? "ans-bg-th-accent/20 ans-text-th-accent"
-                  : "ans-text-th-fg hover:ans-bg-th-muted"
-              }`}
-              onClick={() => setMenuOpen(false)}
-            >
-              {name}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  </>
+            );
+          })}
+        </ul>
+      </nav>
+    </>
   );
 }
 

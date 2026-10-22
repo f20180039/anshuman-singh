@@ -15,6 +15,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useState } from "react";
 import BackgroundManager from "../common/components/backgrounds/BackgroundManager";
 import { trackEvent } from "../common/analytics/analytics";
+import FeaturedWork from "../features/projects/FeaturedWork";
 
 const HIGHLIGHTS = [
   { value: `${getYearsOfExperience()}+`, label: "Years shipping frontend" },
@@ -183,7 +184,9 @@ const Home = () => {
             <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
               <Link
                 to={EAPP_ROUTES.projects}
-                onClick={() => trackEvent("hero_cta_click", { action: "projects" })}
+                onClick={() =>
+                  trackEvent("hero_cta_click", { action: "projects" })
+                }
                 className="ans-flex ans-min-h-[48px] ans-w-full ans-items-center ans-justify-center ans-gap-2 ans-rounded-lg ans-bg-th-accent ans-px-6 ans-py-3 ans-text-3 ans-font-inter-2 ans-text-White ans-shadow-md hover:ans-bg-th-accent-hover sm:ans-w-auto"
               >
                 View my work
@@ -193,7 +196,9 @@ const Home = () => {
             <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
               <Link
                 to={EAPP_ROUTES.contact}
-                onClick={() => trackEvent("hero_cta_click", { action: "contact" })}
+                onClick={() =>
+                  trackEvent("hero_cta_click", { action: "contact" })
+                }
                 className="ans-flex ans-min-h-[48px] ans-w-full ans-items-center ans-justify-center ans-rounded-lg ans-border ans-border-th-accent/45 ans-px-6 ans-py-3 ans-text-3 ans-font-inter-1 ans-text-th-accent hover:ans-bg-th-accent/10 sm:ans-w-auto"
               >
                 Get in touch
@@ -205,7 +210,9 @@ const Home = () => {
           <div className="ans-flex ans-flex-wrap ans-items-center ans-justify-center ans-gap-x-5 ans-gap-y-2 lg:ans-justify-start">
             <Link
               to={EAPP_ROUTES.resumePreview}
-              onClick={() => trackEvent("hero_cta_click", { action: "resume_preview" })}
+              onClick={() =>
+                trackEvent("hero_cta_click", { action: "resume_preview" })
+              }
               className="ans-text-2 ans-text-th-secondary-fg ans-underline-offset-4 hover:ans-text-th-accent hover:ans-underline"
             >
               Preview resume
@@ -213,7 +220,9 @@ const Home = () => {
             <a
               href={C_RESUME_MULTI_COL_URL}
               download={resumeDownloadName("multi")}
-              onClick={() => trackEvent("hero_cta_click", { action: "resume_download" })}
+              onClick={() =>
+                trackEvent("hero_cta_click", { action: "resume_download" })
+              }
               className="ans-flex ans-items-center ans-gap-2 ans-text-2 ans-text-th-secondary-fg ans-underline-offset-4 hover:ans-text-th-accent hover:ans-underline"
             >
               <FaDownload aria-hidden="true" />
@@ -244,6 +253,9 @@ const Home = () => {
           </dl>
         </motion.div>
       </section>
+
+      {/* Below the fold by design: the hero stays a complete pitch on its own. */}
+      <FeaturedWork />
     </BackgroundManager>
   );
 };

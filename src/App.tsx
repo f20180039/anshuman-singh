@@ -15,6 +15,7 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Experience = lazy(() => import("./pages/Experience"));
 const Projects = lazy(() => import("./pages/Projects"));
+const CaseStudy = lazy(() => import("./pages/CaseStudy"));
 const Certificates = lazy(() => import("./pages/Certificates"));
 const Contact = lazy(() => import("./pages/Contact"));
 const ResumePreview = lazy(() => import("./pages/ResumePreview"));
@@ -57,9 +58,16 @@ const App = () => {
               <Route path={EAPP_ROUTES.about} element={<About />} />
               <Route path={EAPP_ROUTES.experience} element={<Experience />} />
               <Route path={EAPP_ROUTES.projects} element={<Projects />} />
-              <Route path={EAPP_ROUTES.certificates} element={<Certificates />} />
+              <Route path={EAPP_ROUTES.caseStudy} element={<CaseStudy />} />
+              <Route
+                path={EAPP_ROUTES.certificates}
+                element={<Certificates />}
+              />
               <Route path={EAPP_ROUTES.contact} element={<Contact />} />
-              <Route path={EAPP_ROUTES.resumePreview} element={<ResumePreview />} />
+              <Route
+                path={EAPP_ROUTES.resumePreview}
+                element={<ResumePreview />}
+              />
               <Route path={EAPP_ROUTES.test3d} element={<Test3D />} />
               <Route path={EAPP_ROUTES.jobs} element={<Jobs />} />
               <Route path={EAPP_ROUTES.thankYou} element={<ThankYou />} />
@@ -82,8 +90,14 @@ const App = () => {
 
         {/* AI Chat - lazy-loaded for better initial page performance */}
         <Suspense fallback={null}>
-          <AIChatButton onClick={() => setIsChatOpen(true)} isOpen={isChatOpen} />
-          <AIChatWindow isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
+          <AIChatButton
+            onClick={() => setIsChatOpen(true)}
+            isOpen={isChatOpen}
+          />
+          <AIChatWindow
+            isOpen={isChatOpen}
+            onClose={() => setIsChatOpen(false)}
+          />
         </Suspense>
       </div>
     </Router>

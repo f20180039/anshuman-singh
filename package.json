@@ -18,6 +18,7 @@
     "lint:format": "eslint --fix",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "type-check": "tsc --noEmit",
+    "test": "vitest run",
     "preview": "vite preview",
     "format": "eslint --fix",
     "prepare": "husky",
@@ -37,6 +38,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.3.0",
     "@types/node": "^20.19.43",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
@@ -55,6 +58,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "husky": "^9.0.11",
+    "jsdom": "26.1.0",
     "lint-staged": "^15.2.2",
     "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.5.11",
@@ -63,6 +67,7 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0",
-    "vite-tsconfig-paths": "^4.3.2"
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "3.2.7"
   }
 }

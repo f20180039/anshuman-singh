@@ -27,10 +27,66 @@
     },
     {
       "path": "/projects",
-      "title": "Projects — React & TypeScript Builds | Anshuman Singh",
-      "description": "Selected side projects with live demos and source: a full-stack Instagram clone, multiplayer browser games, and this AI-assisted portfolio itself.",
+      "title": "Projects — Apps, AI tools & side projects | Anshuman Singh",
+      "description": "Case studies of recent work: an Android focus app, an AI manga colouriser that keeps the line art, a hackathon ops-intelligence build, plus older side projects.",
       "indexable": true,
       "priority": 0.9,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/shaanti",
+      "title": "Shaanti — Android focus app | Anshuman Singh",
+      "description": "Case study: an Android focus app that cuts the internet for chosen apps during a timed session while the rest of the phone keeps working. Kotlin and Compose.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/signal-desk",
+      "title": "Signal Desk — Agentic ops intelligence | Anshuman Singh",
+      "description": "Case study: ops intelligence for enterprise commute. Rules grade PASS / WATCH / CONCERN / BREACH with evidence SQL; the LLM only writes prose. Hackathon build.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/mangakahue",
+      "title": "MangakaHue — AI manga colouriser | Anshuman Singh",
+      "description": "Case study: an AI manga colouriser that keeps the original line art, with character recognition, a chapter reader and a public library. Next.js and ComfyUI.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/satya-aahar",
+      "title": "Satya Aahar — Food-label warnings engine | Anshuman Singh",
+      "description": "Case study: photograph a packaged-food label and get HIGH SUGAR / SALT / FAT warnings against ICMR-NIN 2024, in English and Hindi. Pure rules engine on FastAPI.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/solarfile-reels",
+      "title": "SolarFile Reels — Topic-to-reel pipeline | Anshuman Singh",
+      "description": "Case study: a pipeline that turns a topic into a script, voice track, stock footage and word-timed captions, rendered as a 1080×1920 reel, plus a review studio.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/toodler",
+      "title": "Toodler — Admissions workflow builder | Anshuman Singh",
+      "description": "Case study: a clickable admissions workflow-builder prototype with Branch and Parallel nodes, undo/redo and URL-linkable state. Toddle's Round-2 take-home.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/quiz-wizz",
+      "title": "Quiz Wizz — OCR + multi-model consensus | Anshuman Singh",
+      "description": "Case study: a Chrome MV3 practice aid that reads canvas-rendered quiz questions with Tesseract OCR and answers by two-model consensus voting and a shared cache.",
+      "indexable": true,
+      "priority": 0.6,
       "changefreq": "monthly"
     },
     {
