@@ -20,18 +20,32 @@ function renderCard(target: Project) {
 }
 
 describe("ProjectCard", () => {
-  it("case-study card links to its page", () => {
+  it("case-study card links to its page, named by the title first", () => {
     renderCard(project("shaanti"));
 
-    const caseStudyLink = screen.getByRole("link", { name: /Shaanti/ });
+    // The link's name leads with the title: the screenshot inside it is
+    // decorative (alt=""), so a screen reader is not read the whole image
+    // description before learning which project the link opens.
+    const caseStudyLink = screen.getByRole("link", { name: /^Shaanti/ });
     expect(caseStudyLink).toHaveAttribute("href", "/projects/shaanti");
+    const img = caseStudyLink.querySelector("img");
+    expect(img).toHaveAttribute("alt", "");
+    expect(img).toHaveAttribute("width");
+    expect(img).toHaveAttribute("height");
+    // The tech icons are SVGs with an img role of their own; the screenshot
+    // itself must not be one.
+    expect(
+      within(caseStudyLink)
+        .queryAllByRole("img")
+        .filter((el) => el.tagName === "IMG"),
+    ).toHaveLength(0);
 
     expect(screen.queryByRole("link", { name: /GitHub/ })).toBeNull();
     expect(screen.getByText("Private code")).toBeInTheDocument();
     expect(screen.getByText("Play Store release pending")).toBeInTheDocument();
   });
 
-  it("public card shows GitHub link with safe rel", () => {
+  it("public card shows GitHub link with safe rel in a centred row", () => {
     renderCard(project("signal-desk"));
 
     const github = screen.getByRole("link", { name: /GitHub/ });
@@ -42,6 +56,8 @@ describe("ProjectCard", () => {
     expect(github).toHaveAttribute("target", "_blank");
     expect(github).toHaveAttribute("rel", "noopener noreferrer");
     expect(screen.queryByText("Private code")).toBeNull();
+    // Cards keep the default centred row; the case-study page asks for start.
+    expect(github.parentElement?.className).toMatch(/ans-justify-center/);
   });
 
   it("older project keeps its behaviour", () => {

@@ -7,8 +7,21 @@ import PrivateCodeBadge from "./PrivateCodeBadge";
 import ProjectLinks from "./ProjectLinks";
 import StatusBadge from "./StatusBadge";
 
-/** Image slot; without a screenshot it shows the shared labelled placeholder. */
-function CardImage({ image }: { image: Project["image"] }) {
+/**
+ * Image slot; without a screenshot it shows the shared labelled placeholder.
+ *
+ * Inside the case-study link the screenshot is `decorative` (alt=""): the
+ * link already has the title and description as text, and a descriptive alt
+ * there would be read out before the title on every card. The case-study
+ * page carries the descriptive alt instead.
+ */
+function CardImage({
+  image,
+  decorative = false,
+}: {
+  image: Project["image"];
+  decorative?: boolean;
+}) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   if (!image) {
@@ -27,7 +40,7 @@ function CardImage({ image }: { image: Project["image"] }) {
       )}
       <motion.img
         src={image.src}
-        alt={image.alt}
+        alt={decorative ? "" : image.alt}
         width={image.width}
         height={image.height}
         className={`ans-relative ans-h-48 ans-w-full ans-object-scale-down ans-transition-opacity ans-duration-300 ${
@@ -45,10 +58,16 @@ function CardImage({ image }: { image: Project["image"] }) {
 }
 
 /** Title, description and tech icons — the part a case-study card turns into one link. */
-function CardBody({ project }: { project: Project }) {
+function CardBody({
+  project,
+  linked = false,
+}: {
+  project: Project;
+  linked?: boolean;
+}) {
   return (
     <>
-      <CardImage image={project.image} />
+      <CardImage image={project.image} decorative={linked} />
       <h3 className="ans-text-3 ans-font-inter-0 ans-text-th-fg">
         {project.title}
       </h3>
@@ -132,7 +151,7 @@ export default function ProjectCard({
           to={caseStudyPath(project.slug)}
           className="ans-flex ans-flex-col ans-gap-medium ans-rounded focus-visible:ans-outline focus-visible:ans-outline-2 focus-visible:ans-outline-offset-4 focus-visible:ans-outline-th-accent"
         >
-          <CardBody project={project} />
+          <CardBody project={project} linked />
         </Link>
       ) : (
         <CardBody project={project} />

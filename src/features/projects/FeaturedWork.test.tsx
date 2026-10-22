@@ -59,15 +59,37 @@ describe("FeaturedWork", () => {
       within(shaanti).getByText("Play Store release pending"),
     ).toBeInTheDocument();
 
-    // Either a real screenshot or the labelled placeholder, both role="img":
-    // the assertion holds before and after the screenshots land.
+    // Either a real screenshot (decorative inside the link, so the link's
+    // name leads with the title) or the labelled placeholder: the assertion
+    // holds before and after the screenshots land.
     for (const link of caseStudyLinks()) {
-      expect(within(link).getAllByRole("img").length).toBeGreaterThan(0);
+      const img = link.querySelector("img");
+      if (img) {
+        expect(img).toHaveAttribute("alt", "");
+        expect(img).toHaveAttribute("width");
+        expect(img).toHaveAttribute("height");
+        // Whole graphic visible, never cropped to the slot.
+        expect(img.className).toMatch(/ans-object-contain/);
+        expect(img.className).not.toMatch(/ans-object-cover/);
+      } else {
+        expect(
+          within(link).getByRole("img", { name: "No screenshot available" }),
+        ).toBeInTheDocument();
+      }
     }
     // No nested interactive elements inside the card link.
     for (const link of caseStudyLinks()) {
       expect(within(link).queryAllByRole("link")).toHaveLength(0);
     }
+  });
+
+  it("link names start with the project title", () => {
+    renderFeatured();
+
+    const [shaanti, signalDesk, mangakahue] = caseStudyLinks();
+    expect(shaanti).toHaveAccessibleName(/^Shaanti/);
+    expect(signalDesk).toHaveAccessibleName(/^Signal Desk/);
+    expect(mangakahue).toHaveAccessibleName(/^MangakaHue/);
   });
 
   it("fires featured_project_click with the slug on click", () => {

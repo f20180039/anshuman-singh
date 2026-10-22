@@ -35,14 +35,20 @@ function FeaturedCard({ project, index }: { project: Project; index: number }) {
         className="ans-flex ans-w-full ans-flex-col ans-gap-3 ans-rounded-lg ans-bg-th-surface ans-p-4 ans-text-left ans-shadow-md ans-transition-transform ans-duration-300 hover:-ans-translate-y-1 hover:ans-shadow-lg focus-visible:ans-outline focus-visible:ans-outline-2 focus-visible:ans-outline-offset-4 focus-visible:ans-outline-th-accent"
       >
         {project.image ? (
+          // Decorative inside the link (alt=""): the title and tagline beside
+          // it name the link, so the link's accessible name leads with the
+          // title instead of the image description. The case-study page
+          // carries the descriptive alt. `object-contain` on the card's own
+          // surface colour shows the whole graphic — the before/after
+          // captions and tile edges would otherwise be cropped to the slot.
           <img
             src={project.image.src}
-            alt={project.image.alt}
+            alt=""
             width={project.image.width}
             height={project.image.height}
             loading="lazy"
             decoding="async"
-            className="ans-h-36 ans-w-full ans-rounded ans-bg-th-muted ans-object-cover"
+            className="ans-h-36 ans-w-full ans-rounded ans-bg-th-surface ans-object-contain"
           />
         ) : (
           <ImagePlaceholder className="ans-h-36" />
