@@ -1,42 +1,238 @@
 {
-  "generatedAt": "2026-07-31T17:52:39.357Z",
-  "count": 27,
-  "sourcesLive": 2,
+  "generatedAt": "2026-10-21T08:45:29.695Z",
+  "count": 51,
+  "sourcesLive": 3,
   "jobs": [
     {
-      "id": "remotive-2091062",
-      "title": "Senior Product Engineer (Fullstack)",
-      "company": "Clipster",
-      "location": "Europe, UK, Germany, France, European timezones",
+      "id": "remotive-2091133",
+      "title": "Senior React Full-stack Developer",
+      "company": "Lemon.io",
+      "location": "Europe, USA, Canada, APAC",
       "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/senior-product-engineer-fullstack-2091062",
-      "description": "About Clipster Clipster is where brands and creators connect to turn views into profits. Clippers (Creators) clip, remix, and post branded content on TikTok, YouTube, Instagram, X, and beyond — earning money for every view they deliver. Brands get a significantly better influencer marketing experience thanks to scale, simplicity, and reliable performance tracking. We started as an influencer marketing agency. While clients loved our results, delivering them was a pain. So we started automating everything we did — and it paid off. 2025 was a great year for us: We launched our platform in early 2025 We grew our team to 35 members We scaled from 0 to more than 100,000 creators and paid out more than $5M to them We acquired more than 120 clients solely through word of mouth. Our growth has been 100% organic We ran campaigns for companies such as Telegram, UFC, Universal Music Group and artists such as Elton John, Ed Sheeran, Playboi Carti, and Kendrick Lamar We're profitable and have secured our first investor The role We are looking for a Backend-Heavy Senior Engineer who isn't afraid to touch the full stack. While your primary domain will be our Golang services and distributed archit",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
+      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah? We will support you from the time you submit the application throughout all cooperation stages. Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Requirements for the Senior React &amp; Python Position: 4+ years of software development experience",
       "tags": [
-        "backend",
-        "frontend",
+        ".Net",
+        "android",
+        "AWS",
+        "azure",
+        "C",
+        "C#",
+        "C++",
+        "data science",
         "fullstack",
         "golang",
-        "postgresql",
-        "react",
-        "AI/ML",
-        "documentation",
-        "youtube",
-        "Redis",
-        "distributed systems",
-        "GCP"
+        "ios",
+        "java"
       ],
       "source": "Remotive",
-      "posted": "2026-07-13T07:05:10",
+      "posted": "2026-10-02T13:30:06",
       "score": 85,
       "regions": [
-        "Europe"
+        "Europe",
+        "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
         "seniority fit",
-        "region: Europe",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137545",
+      "title": "Senior Software Engineer",
+      "company": "Sothebyâs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
+      "description": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RMTM1LjIzMi4yMjUuMTk= when applying to show you read the job post completely (#RMTM1LjIzMi4yMjUuMTk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "tags": [
+        "golang",
+        "dev",
+        "senior",
+        "sales",
+        "engineer",
+        "digital nomad"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-10-18T19:00:02+00:00",
+      "score": 85,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137527",
+      "title": "Senior Software Engineer II Applied AI",
+      "company": "Wrapbook",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ii-applied-ai-wrapbook-1137527",
+      "description": "About Us: Wrapbook is the AI platform for production finance. Weâre building a system of action that puts finance teams in control of their whole production, from payroll, to spend, to accounting. Built for feature films, TV, and commercials, Wrapbook is trusted by teams at Netflix, Paramount, Anonymous Content, and more. With backing from Andreessen Horowitz, Bessemer Venture Partners, and Jeffrey Katzenberg's WndrCo, our team of 350+ is using AI to transform how finance teams work and empower them to do more with less. The Opportunity: Senior Software Engineer II, Applied AI (Remote - USA / Canada) We are looking for a Senior Software Engineer II, Applied AI to join our Agentic Systems team, where you'll build AI agents that automate workflows for teams across Wrapbook. You'll partner directly with internal teams like Marketing, Sales, Support, Operations and Finance to find high-leverage processes, then design, ship and iterate on agents that take real work off their plates. This is a chance to define how a 400+ person company runs on AI. You'll see the impact of your work every day, while shaping the patterns, tools and standards for how we build agents at Wrapbook. What Youâ",
+      "tags": [
+        "dev",
+        "design",
+        "amazon",
+        "sys admin",
+        "backend",
+        "infosec",
+        "python",
+        "education",
+        "technical",
+        "customer support",
+        "accounting",
+        "payroll"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-10-15T16:00:03+00:00",
+      "score": 85,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137475",
+      "title": "Senior React Full stack Developer",
+      "company": "Lemon.io",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-react-full-stack-developer-lemon-io-1137475",
+      "description": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io â the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates â let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. Itâs possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah? We will support you from the time you submit the application throughout all cooperation stages. Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Through our community, we will connect you with the best developers from more than 75 countrie",
+      "tags": [
+        "dev",
+        "engineer",
+        "remote",
+        "python",
+        "aws",
+        "gcp",
+        "javascript",
+        "react",
+        "node",
+        "ruby",
+        "typescript",
+        "full time"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-10-09T13:09:18+00:00",
+      "score": 85,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-full-stack-developer-ai-team-101278",
+      "title": "Senior Full Stack Developer - AI Team",
+      "company": "Think Cell",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/think-cell/senior-full-stack-developer-ai-team-101278",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;About The Role&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;At thinkcell, we are continuously improving how professionals create business presentations by introducing smarter automation and assistance features into our product. In this role, you will help turn new ideas and early AI-driven concepts into reliable features used by more than 1.3 million users worldwide.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;201341983&amp;quot;:0,&amp;quot;335551550&amp;quot;:1,&amp;quot;335551620&amp;quot;:1,&amp;quot;335559685&amp;quot;:0,&amp;quot;335559737&amp;quot;:0,&amp;quot;335559738&amp;quot;:240,&amp;quot;335559739&amp;quot;:240,&amp;quot;335559740&amp;quot;:279}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;You will build production-ready systems th",
+      "tags": [
+        "Product Development"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:55:17.000Z",
+      "score": 85,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-python-django-cdi-paris-476080",
+      "title": "Senior Software Engineer (Python/Django) - (F/H/X) - CDI",
+      "company": "Kraken",
+      "location": "Paris, France",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/kraken/senior-software-engineer-python-django-cdi-paris-476080",
+      "description": "Help us use technology to make a big green dent in the universe! Kraken powers some of the most innovative global developments in energy. We create the technology that redefines utilities and unlocks a new energy system of the future. By optimising renewable generation, building a more intelligent grid, and empowering utilities to deliver an exceptional customer experience, our operating system is transforming the industry worldwide. It’s an incredibly exciting time to work in energy. Join us on our mission to improve the lives of ONE BILLION humans within the decade and shape a cleaner, better future for everyone. 🏠 Where you'll fit in: Kraken’s technology is written and maintained by a multi-discipline engineering team of around 1,400 people globally, which includes server-side, client-side, and mobile engineers. We follow an agile way of working, where individual teams are given the freedom to choose the tools that are most appropriate for managing their work. Kraken is a great place to learn, work with talented engineers and level-up your skills. Some of our coding conventions are open-source. Our technology Our backend developers use Python. Most of our websites are powered b",
+      "tags": [
+        "Tech Development"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T20:40:17.000Z",
+      "score": 85,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remotive-2091158",
+      "title": "Software Engineer, AI Coding Tasks",
+      "company": "Askable",
+      "location": "Worldwide",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
+      "description": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. O",
+      "tags": [
+        "C++",
+        "docker",
+        "git",
+        "go",
+        "java",
+        "python",
+        "security",
+        "AI/ML",
+        "rust",
+        "Typescript",
+        "distributed systems",
+        "SOLID"
+      ],
+      "source": "Remotive",
+      "posted": "2026-10-17T16:04:29",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
         "remote"
       ]
     },
@@ -63,7 +259,7 @@
         "ruby/rails"
       ],
       "source": "Remotive",
-      "posted": "2026-07-14T20:34:15",
+      "posted": "2026-10-14T20:33:44",
       "score": 70,
       "regions": [
         "Europe"
@@ -77,253 +273,87 @@
       ]
     },
     {
-      "id": "remotive-2091056",
-      "title": "Staff Software Engineer, Product (Belo Horizonte)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2091056",
-      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiative",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:45:43",
-      "score": 70,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091058",
-      "title": "Staff Software Engineer, Product (Montevideo)",
-      "company": "LawnStarter",
-      "location": "Uruguay",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-montevideo-2091058",
-      "description": "This is a remote role for candidates located in Montevideo, Uruguay. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. ",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:43:46",
-      "score": 70,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091055",
-      "title": "Staff Software Engineer, Product (São Paulo)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2091055",
-      "description": "This is a remote role for candidates located in São Paulo, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. Yo",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:41:32",
-      "score": 70,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091050",
-      "title": "Staff Software Engineer, Product (Mexico City)",
-      "company": "LawnStarter",
-      "location": "Mexico",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-mexico-city-2091050",
-      "description": "This is a remote role for candidates located in Mexico City, Mexico. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. ",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:40:42",
-      "score": 70,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091049",
-      "title": "Staff Software Engineer, Product (Campinas)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2091049",
-      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:39:55",
-      "score": 70,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091059",
-      "title": "Staff Software Engineer, Product (Florianópolis)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2091059",
-      "description": "This is a remote role for candidates located in Florianópolis, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:39:06",
-      "score": 70,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135634",
-      "title": "Software Engineer GO",
-      "company": "Wakacje.pl",
+      "id": "remoteok-1137538",
+      "title": "Software Engineer AI Coding Tasks",
+      "company": "Askable",
       "location": "Remote",
       "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-go-wakacje-pl-1135634",
-      "description": "Remote - Market-leading travel agency (part of an international holding) working with numerous tour operator partners is looking for a Golang Developers to join our core backend engineering team. Our developers focus heavily on building robust API integrations between our inter... Please mention the word **HEARTFELT** and tag RMTAxLjAuNjMuMTk5 when applying to show you read the job post completely (#RMTAxLjAuNjMuMTk5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137538",
+      "description": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. O",
+      "tags": [
+        "dev",
+        "python",
+        "javascript",
+        "typescript",
+        "golang",
+        "java",
+        "c plus plus"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-10-17T01:09:20+00:00",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137523",
+      "title": "Sr REACT NATIVE",
+      "company": "Somnio Software",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523",
+      "description": "QuÃ© es Deazy Deazy es una plataforma/marketplace de UK que conecta empresas que necesitan desarrollo de software con agencias de desarrollo en todo el mundo. Ellos consiguen el cliente, definen el proyecto y luego lo asignan a una agencia como Somnio para ejecutarlo. BÃ¡sicamente son un intermediario entre el cliente final y nosotros. CÃ³mo funciona el modelo Deazy factura al cliente final a su propia tarifa (en este caso estÃ¡n hablando de EUR 47/h, aunque todavÃ­a hay que confirmar si ese es el rate al cliente o lo que pagan al proveedor). Nosotros le facturamos a Deazy a un rate mÃ¡s bajo, y la diferencia es su margen. Por eso la tarifa introductoria que les estamos ofreciendo es USD 45/h - USD 40/h â pensada para que Deazy tenga margen cÃ³modo y nos priorice y abrir la cuenta Si la relaciÃ³n funciona, Deazy nos puede asignar proyectos de forma recurrente sin que nosotros tengamos que salir a conseguirlos. Es un canal de ventas indirecto, ellos traen el cliente, nosotros entregamos. El volumen potencial es importante si nos posicionamos bien con ellos. Deazy nos conoce principalmente como agencia Flutter. El trabajo ahora es mostrarles que tambiÃ©n somos fuertes en React Nati",
+      "tags": [
+        "react native",
+        "react",
+        "dev",
+        "python",
+        "javascript",
+        "c",
+        "flutter",
+        "node",
+        "node.js",
+        "digital nomad"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-10-15T00:00:19+00:00",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137427",
+      "title": "Software Engineer",
+      "company": "Prenosis",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427",
+      "description": "Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunixâ¢ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We've created and validated the fi... Please mention the word **STELLARLY** and tag RMTM1LjIzMi4yMjUuMTk= when applying to show you read the job post completely (#RMTM1LjIzMi4yMjUuMTk=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "golang",
         "dev",
-        "travel",
-        "api",
-        "golang",
         "engineer",
-        "backend",
         "digital nomad"
       ],
       "source": "RemoteOK",
-      "posted": "2026-07-29T20:00:01+00:00",
+      "posted": "2026-09-23T14:00:02+00:00",
       "score": 70,
       "regions": [
         "Remote"
@@ -337,13 +367,266 @@
       ]
     },
     {
-      "id": "remotive-2091081",
-      "title": "Senior Graphic Designer",
-      "company": "Lemon.io",
-      "location": "Americas, Europe, Asia, Africa, Oceania",
+      "id": "arbeitnow-senior-frontend-engineer-react-berlin-463681",
+      "title": "Senior Frontend Engineer - React",
+      "company": "Researchgate",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/researchgate/senior-frontend-engineer-react-berlin-463681",
+      "description": "ResearchGate is the professional network for scientists and researchers. From climate change and emerging diseases to food security and the responsible development of AI, the challenges facing our world are complex. Still, we’re optimistic about the power of millions of scientists working together to tackle them. We provide scientists with the help and support they need by connecting them to the world’s most active scientific community. We've built a platform that gives the world's scientists the tools and services they need to connect, collaborate, and advance their research. Over 25 million members from 193 countries use ResearchGate to share, discover, and discuss research. Objective of the role We're looking for an enthusiastic frontend engineer with the skills and ability to turn great ideas into reality. You should have an in-depth understanding of current web technologies and front-end development, and be passionate about creating a great user experience. Your input will help us grow and maintain our React front-end. Join a team that encourages you to explore, learn, and go beyond, while seeing your work lead to actionable results. Put your creative problem-solving and devel",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T23:09:42.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-full-stack-engineer-elevenmusic-401054",
+      "title": "Full-Stack Engineer - ElevenMusic",
+      "company": "ElevenLabs",
+      "location": "Remote",
       "remote": true,
-      "url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
-      "description": "Are you a talented Senior Designer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers &amp; designers . No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Sounds good, yeah? Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Requirements: 5+ years of experience in Graphic Design 5+ years of commercial experience with Adobe Creative Suite &amp; Adobe Illustrator Other requirements: Strong design craft — as a Senior Designer, you're expected to build polished, production-ready work from scratch, with a solid grasp of design systems, component arc",
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-elevenmusic-401054",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
+      "tags": [
+        "Engineering & Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T17:40:41.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-full-stack-engineer-backend-leaning-coremusic-118556",
+      "title": "Full-Stack Engineer (Backend Leaning) - CoreMusic",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-coremusic-118556",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
+      "tags": [
+        "Engineering & Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T17:40:41.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-platform-london-408536",
+      "title": "Senior Software Engineer | Platform",
+      "company": "Arq",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/arq/senior-software-engineer-platform-london-408536",
+      "description": "About ARQ ARQ is one of the fastest-growing fintechs in the world. Our mission is to redefine how people interact with money across borders, building the infrastructure to move value seamlessly. We’re still early in our journey, which means every person who joins shapes the future of our product, culture, and growth. If you’re excited by big challenges, global impact, and the chance to grow fast with a world-class team, ARQ is the place to do it. What we're looking for We’re looking for a world-class, hands-on Senior Software Engineer to join our Platform team who takes a software engineer’s approach to architecting and building engineering infrastructure. Our engineering culture is focused on fully type-safe, declarative &amp; testable infrastructure as code and we’re looking for like-minded engineers who also value these properties to join us. The ideal candidate will have a raw passion for programming, a broad knowledge base and the ability to dig deeply into any technical area required to enable our product engineering team to deliver the best product on the market for managing modern finances. We architect extreme-quality, automated systems to orchestrate hundreds of backend s",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:40:13.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-infrastructure-software-engineer-apps-platform-london-61137",
+      "title": "Senior Infrastructure Software Engineer, Apps Platform",
+      "company": "scaleai",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/scaleai/senior-infrastructure-software-engineer-apps-platform-london-61137",
+      "description": "&lt;p&gt;Senior Infrastructure Software Engineer, Apps Platform, London&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;As an Infrastructure Engineer on the Apps Platform Infrastructure team, you&#39;ll help build and evolve our platform’s deployment and observability layers across multiple cloud providers and on-premises, for both internal and customer-managed environments. This is a role for someone who cares about building cloud-agnostic infrastructure and deployment pipelines.&lt;/p&gt; &lt;p&gt;You&#39;ll partner closely with internal teams to understand how they use and deploy the platform, debug their issues, and shape a roadmap that balances immediate needs with long-term architecture.&lt;/p&gt; &lt;h3&gt;You will:&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Expand the deployment footprint of our platform to cover both on-premise, all major cloud platforms and beyond&lt;/li&gt; &lt;li&gt;Ensure fast, secure, and reproducible deployments across all supported CSPs and on-prem&amp;nbsp;&amp;nbsp;&lt;/li&gt; &lt;li&gt;Expand the observability of the platform so that forward deployed infrastructure teams can easily and efficiently operate customer deployments&lt;/li&gt; &lt;li&gt;Partner c",
+      "tags": [
+        "Applications Platform Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T02:55:16.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-fullstack-web-developer-zurich-298773",
+      "title": "Fullstack Web Developer",
+      "company": "Auterion",
+      "location": "Zurich",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/auterion/fullstack-web-developer-zurich-298773",
+      "description": "&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We are looking for a hands-on Fullstack Web Developer to join our Web Apps team, in our Zürich office. In this role you will have the opportunity to drive development of new features, have a say in architecture and design decisions and have real impact across all the team’s projects.&lt;/p&gt; &lt;p&gt;The web apps team plays a central role at Auterion and owns the systems that add connectivity and remote interfaces for fleet management and operations. Our services are responsible for ingesting and analyzing flight telemetry data, managing and updating the fleet as well as integrating with other systems across the stack.&amp;nbsp;&lt;/p&gt; &lt;p&gt;The ideal candidate is someone who’s a self-starter, can work independently, can work with ambiguity, can take decisions on their own and not be afraid to drive and push towards getting the project across the finish line.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities and Duties&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Take ownership and drive the development of new features across all the team’s web based projects&lt;/li&gt; &lt;li&gt;Deliver clean, readable and ",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:55:16.000Z",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-system-software-engineer-zurich-335780",
+      "title": "(Senior) System software engineer",
+      "company": "CDDS AG",
+      "location": "Zürich",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/cdds-ag/senior-system-software-engineer-zurich-335780",
+      "description": "You want to help build Europe's resilience. You want to protect people and critical infrastructure - ultimately saving the lives of thousands. You want to work at the frontier of high-performance autonomous systems. At CDDS, you'll build the software platform that connects our next-generation interceptor drones with sensors and operators, the nervous system of a counter-drone defense network protecting critical infrastructure and, ultimately, saving lives. We're looking for a strong all-around software engineer to: Build the platform that fuses radar, sensors, and third-party data into a single, real-time operational picture Integrate our drones with external systems at low latency, under conditions where reliability isn't optional Design fleet-management tooling to monitor, configure, and coordinate drones operating in the field This is real-time, safety-critical software with actual physical stakes. You'll work close to hardware, close to operators, and close to the mission. We move fast and priorities shift as the threat landscape does. Tasks What you will own Architect the ground-segment platform that fuses radar and multi-sensor data into a real-time operational picture, under",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T16:30:52.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-full-stack-blockchain-engineer-for-rwa-market-zug-393337",
+      "title": "Full Stack Blockchain Engineer for RWA market",
+      "company": "Blockvora",
+      "location": "Zug",
+      "remote": true,
+      "url": "https://www.arbeitnow.ch/jobs/companies/blockvora/full-stack-blockchain-engineer-for-rwa-market-zug-393337",
+      "description": "About Blockvora Blockvora is scaling its engineering capacity with 5 new Full Stack Blockchain Engineer positions for the real-world asset (RWA) market. Operating as a fully remote team across the globe, we build infrastructure that bridges traditional finance and decentralized ledgers. Your responsibilities You will design, develop, and maintain decentralized applications and smart contracts that power our RWA marketplace. Write secure, gas-optimized smart contracts for asset tokenization. Build responsive front-end interfaces using modern web frameworks. Integrate blockchain networks with backend services and APIs. Audit and test codebase security to protect user assets and transactions. Collaborate with product and design teams to ship new protocol features. Requirements Proven professional experience in full stack software development and blockchain engineering. Strong proficiency in Solidity and JavaScript or TypeScript. Deep understanding of token standards, DeFi protocols, and Web3 libraries. Experience with modern front-end frameworks like React or Next.js. Familiarity with secure smart contract development practices and automated testing tools. Your first months at Blockvo",
+      "tags": [
+        "Remote",
+        "Software Development"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T16:01:05.000Z",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-front-end-consultant-angular-utrecht-49787",
+      "title": "Senior Front End Consultant (Angular)",
+      "company": "Conflux",
+      "location": "Utrecht, Utrecht, Nederland",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/conflux/senior-front-end-consultant-angular-utrecht-49787",
+      "description": "Leid complexe Angular-omgevingen naar een hoger niveau Als Senior Front-end Development Consultant bij Divotion ben jij inhoudelijk richtinggevend binnen Angular-trajecten. Je helpt organisaties met complexe front-end vraagstukken en tilt architectuur, schaalbaarheid en codekwaliteit naar enterprise-niveau. Je combineert technische diepgang met adviesvaardigheden en neemt eigenaarschap in klantomgevingen waar kwaliteit en lange termijn onderhoud centraal staan. Wat ga je doen? Je werkt aan strategische Angular-trajecten bij klanten waar performance, schaalbaarheid en onderhoudbaarheid cruciaal zijn. Je fungeert als technisch sparringpartner voor zowel developers als stakeholders. Concreet: Ontwerpen en realiseren van enterprise-grade Angular architecturen Opzetten en bewaken van front-end standaarden en design systems Adviseren over tooling, CI/CD, testingstrategie en performance-optimalisatie Reviewen van code en coachen van collega-developers Samenwerken met backend, UX en DevOps op architectuurniveau Actief bijdragen aan knowledge sharing binnen Divotion (kennissessies, events) Wie ben jij? Je past goed bij deze rol als je jezelf herkent in (een deel van) het onderstaande profie",
+      "tags": [
+        "Divotion"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:31:36.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-front-end-consultant-react-utrecht-76711",
+      "title": "Senior Front End Consultant (React)",
+      "company": "Conflux",
+      "location": "Utrecht, Utrecht, Nederland",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/conflux/senior-front-end-consultant-react-utrecht-76711",
+      "description": "Leid complexe React-omgevingen naar een hoger niveau. Als Senior Front-end Development Consultant bij Divotion ben jij inhoudelijk richtinggevend binnen React-trajecten. Je helpt organisaties met complexe front-end vraagstukken en tilt architectuur, schaalbaarheid en codekwaliteit naar enterprise-niveau. Je combineert technische diepgang met adviesvaardigheden en neemt eigenaarschap in klantomgevingen waar performance, maintainability en lange termijn doorontwikkeling centraal staan. Wat ga je doen? Je werkt aan strategische React-trajecten bij klanten waar schaalbaarheid, performance en stabiliteit cruciaal zijn. Je fungeert als technisch sparringpartner voor zowel developers als stakeholders. Concreet: Ontwerpen en realiseren van enterprise-grade React-architecturen Opzetten en bewaken van front-end standaarden en design systems Implementeren van schaalbare state management-oplossingen (Redux, Zustand, etc.) Adviseren over tooling, CI/CD, testingstrategie en performance-optimalisatie Reviewen van code en coachen van collega-developers Samenwerken met backend, UX en DevOps op architectuurniveau Actief bijdragen aan knowledge sharing binnen Divotion (kennissessies, events) Je past ",
+      "tags": [
+        "Divotion"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:31:36.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "remotive-2091132",
+      "title": "Senior back-end Engineer",
+      "company": "Lemon.io",
+      "location": "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway",
+      "remote": true,
+      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
+      "description": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe — no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI — co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python &amp; LLM Developer, Senior Back-end Engineer (Python) Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operating at the frontier of the field. Locations: the UK, Singapore, the US, and Canada. Requirements for Senior Back-end Developers: 5+ years of software development experience 3+ years of experience with Golang and/or Python 2+ years of experience with Kubernetes 2+ years of experience with AI agent development Not your stack? We're pla",
       "tags": [
         ".Net",
         "android",
@@ -352,17 +635,19 @@
         "C++",
         "data science",
         "golang",
-        "illustrator",
         "ios",
         "java",
         "javascript",
+        "kubernetes",
         "node.js"
       ],
       "source": "Remotive",
-      "posted": "2026-07-28T14:23:05",
+      "posted": "2026-09-30T13:15:26",
       "score": 65,
       "regions": [
+        "Singapore",
         "Europe",
+        "Australia",
         "Remote"
       ],
       "sponsorshipFriendly": false,
@@ -370,116 +655,324 @@
       "reasons": [
         "role in description",
         "seniority fit",
-        "region: Europe/Remote",
+        "region: Singapore/Europe/Australia/Remote",
         "remote"
       ]
     },
     {
-      "id": "remotive-2091067",
-      "title": "Senior DevOps Engineer",
-      "company": "Lemon.io",
-      "location": "Americas, Europe, Asia, Africa, Oceania",
+      "id": "remoteok-1137540",
+      "title": "Technical Account Manager",
+      "company": "Yuno",
+      "location": "Brazil",
       "remote": true,
-      "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091067",
-      "description": "Are you a talented Senior DevOps looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah? Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Requirements: 4+ years of experience as a DevOps Engineer At least 3 years of experience with Python or Bash 3+ years of experience with AWS/GCP/Microsoft Azure/Azure DevOps is required Experience in at least 2 commercial projects using Terraform, Kubernetes or SQL is required Strong technical skills: ",
+      "url": "https://remoteOK.com/remote-jobs/remote-technical-account-manager-yuno-1137540",
+      "description": "Remote, Brazil, Full Time, Individual Contributor, +3 years of experience Who We Are At Yuno, we are building the payment infrastructure that allows all companies to participate in the global market. Founded by seasoned experts from the payments and tech industries, our technology provides access to leading payment capabilities, enabling companies to engage customers confidently and maintain global operations through seamless integrations. We empower high-performing teams at brands like InDrive, McDonald's, Rappi, and Viva Aerobus to integrate over 1,000 payment methods via a single API. By leveraging advanced AI and the latest technologies, we orchestrate smart routing and fraud prevention across 80+ countries. &nbsp; About The Role We are orchestrating the best high-performing team! We are looking for a Technical Account Manager to own and elevate Yuno's technical customer relationships across Latin America. This is a leadership position for someone who combines deep technical expertise with the ability to inspire a team, build trust with customers, and drive outcomes that matter. You will be the senior technical voice for our most strategic accounts in the region â and the per",
       "tags": [
-        ".Net",
-        "android",
-        "AWS",
-        "azure",
-        "C",
-        "C#",
-        "C++",
-        "data science",
-        "golang",
-        "ios",
-        "java",
-        "javascript"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-14T14:14:46",
-      "score": 65,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2090986",
-      "title": "Senior AI Engineer",
-      "company": "Lemon.io",
-      "location": "Northern America, LATAM, Europe, APAC",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2090986",
-      "description": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. Sounds good, yeah? Most of our projects involve working in a fast-paced startup environment. We hope you like it as much as we do. Requirements: 3+ years of commercial experience applying AI to practical technology solutions A solid understanding of Python is a must; experience with other programming languages commonly used in AI is a plus Experience with Vector Databases, Pinecone or Weaviate is required 2+ years of experien",
-      "tags": [
-        ".Net",
-        "android",
-        "C",
-        "C#",
-        "C++",
-        "data science",
-        "golang",
-        "ios",
-        "java",
-        "javascript",
-        "node.js",
-        "php"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-02T11:45:47",
-      "score": 65,
-      "regions": [
-        "Europe",
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135607",
-      "title": "Video Editor Reacts",
-      "company": "MrBeast",
-      "location": "Greenville, Greenville, North Carolina, United States",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-video-editor-reacts-mrbeast-1135607",
-      "description": "About Us Beast Industries is a multifaceted media and entertainment company founded by Jimmy Donaldson, popularly known as MrBeast, the most watched person in the world. Renowned for revolutionizing digital content creation, Beast Industries encompasses a diverse portfolio of ventures that extend far beyond its origins on YouTube. With a mission to entertain, inspire, and create significant social impact, Beast Industries operates across various domains including digital media, philanthropy, consumer products, and innovative business initiatives. At Beast Industries, we believe in the transformative power of digital media and its potential to entertain, educate, and effect positive change. Our commitment to innovation, creativity, and philanthropy drives us to explore new frontiers, create unforgettable experiences, and build a legacy that inspires future generations. About the Role MrBeast is looking for a data-driven, creative, and fast-paced Video Editor to join our Content &amp; Post-Production team working on the MrBeast Reacts channel. This role is for a master-level editor who lives and breathes YouTube culture, capable of transforming raw multi-cam reaction feeds into hyper",
-      "tags": [
-        "design",
-        "music",
-        "technical",
-        "travel",
-        "speech",
-        "video",
         "exec",
-        "content writing",
-        "medical",
-        "engineer",
-        "digital nomad"
+        "design",
+        "hr",
+        "python",
+        "technical",
+        "customer support",
+        "marketing",
+        "web dev",
+        "speech",
+        "javascript",
+        "finance",
+        "css"
       ],
       "source": "RemoteOK",
-      "posted": "2026-07-28T15:45:05+00:00",
+      "posted": "2026-10-17T08:00:32+00:00",
+      "score": 65,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority fit",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "remoteok-1137474",
+      "title": "Product Design Lead",
+      "company": "Fuel50",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474",
+      "description": "Fuel50 is a workforce transformation platform helping organisations understand workforce capability, build skills and enable internal mobility in an AI-driven world. Our products combine skills intelligence, talent marketplace experiences and responsible AI to help people and organisations take their next step.Â We are looking for a Product Design Lead to shape the next chapter of our product experience and design organisation.Â This is a senior player-coach role. You will lead and develop our product design team while staying close to the work, setting direction, shaping product strategy, prototyping ideas and helping teams ship high-quality experiences.Â You will work closely with Product and Engineering as a leadership trio, influencing decisions across the organisation and helping Fuel50 build products that are simple, trusted and valuable.Â If youâre a strategic design leader who still loves getting close to the work, developing people and shipping real product, weâd love to hear from you!Â What you'll do: Lead, manage and coach our product designers, supporting their growth and helping them reach their next level.Â Set and communicate a clear product design vision across ",
+      "tags": [
+        "design",
+        "saas",
+        "sys admin",
+        "front end",
+        "technical",
+        "marketing",
+        "dev",
+        "virtual assistant",
+        "javascript",
+        "css",
+        "html",
+        "microsoft"
+      ],
+      "source": "RemoteOK",
+      "posted": "2026-10-09T08:00:04+00:00",
+      "score": 65,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "seniority fit",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-munich-212401",
+      "title": "Senior Software Engineer",
+      "company": "Auterion",
+      "location": "Munich",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/auterion/senior-software-engineer-munich-212401",
+      "description": "&lt;p&gt;We are looking for a hands-on Autonomous Drone Software Engineer to join a swarming programme. As an engineer on a lean, high-impact team, you will have the opportunity to drive development of new features, have a say in architecture and design decisions and have real impact across all the team’s projects.&amp;nbsp;&lt;/p&gt; &lt;p&gt;You will not be siloed; this role spans the entire autonomy lifecycle, from developing autonomy capabilities to investigating real-world flight-test data.&amp;nbsp;&lt;/p&gt; &lt;p&gt;The ideal candidate is someone who’s a self-starter, can work independently, can work with ambiguity, can take decisions on their own and not be afraid to drive and push towards getting the project across the finish line.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Responsibilities and Duties&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Take ownership and drive the development of new features across the autonomy stack and partner integrations&lt;/li&gt; &lt;li&gt;Collaborate closely with hardware engineers, product managers, and external partners to define system requirements and translate them into robust software architecture&lt;/li&gt; &lt;li&gt;Design and implement ro",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:55:15.000Z",
       "score": 55,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
+        "seniority fit"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-london-419560",
+      "title": "Software Engineer",
+      "company": "Axle Careers",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/axle-careers/software-engineer-london-419560",
+      "description": "About Us At Axle Energy, we’re building the infrastructure that will underpin the decarbonised energy system. Our software moves energy usage to times when electricity is cheap and green, by controlling vehicle charging, heating systems, and home batteries. We control hundreds of thousands of energy assets. We’re building in a legacy industry and moving gigawatt-hours of electrons in the real world, but we operate at lightning speed, and we’re growing the team to meet customer demand. We’re proud to be supported by world-leading investors, including Energize Capital and Accel. Read more about what we’re building here . About the role Software Engineers at Axle build the core infrastructure for connecting to distributed energy devices, orchestrating them, and allowing them to participate in electricity markets. This is a generalist Software Engineering role, encompassing product-engineering, devops, and data engineering. We encourage engineers to own as much of the problem-space as they can: you’ll spend time talking to clients, getting feedback from users, and working closely with market operators. At Axle, we work in a deliberately flat structure. That means fewer layers, faster d",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:40:13.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-infrastructure-software-engineer-apps-platform-london-135089",
+      "title": "Infrastructure Software Engineer, Apps Platform",
+      "company": "scaleai",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/scaleai/infrastructure-software-engineer-apps-platform-london-135089",
+      "description": "&lt;p&gt;Infrastructure Software Engineer, Apps Platform, London&lt;/p&gt; &lt;p&gt;As an Infrastructure Engineer on the Apps Platform Infrastructure team, you&#39;ll help build and evolve our platform’s deployment and observability layers across multiple cloud providers and on-premises, for both internal and customer-managed environments. This is a role for someone who cares about building cloud-agnostic infrastructure and deployment pipelines.&lt;/p&gt; &lt;p&gt;You&#39;ll partner closely with internal teams to understand how they use and deploy the platform, debug their issues, and shape a roadmap that balances immediate needs with long-term architecture.&lt;/p&gt; &lt;h3&gt;You will:&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Expand the deployment footprint of our platform to cover both on-premise, all major cloud platforms and beyond&lt;/li&gt; &lt;li&gt;Ensure fast, secure, and reproducible deployments across all supported CSPs and on-prem&amp;nbsp;&amp;nbsp;&lt;/li&gt; &lt;li&gt;Expand the observability of the platform so that forward deployed infrastructure teams can easily and efficiently operate customer deployments&lt;/li&gt; &lt;li&gt;Partner closely with internal teams deploying ",
+      "tags": [
+        "Applications Platform Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T02:55:16.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-summer-intern-ai-compute-libraries-performance-2027-bristol-155946",
+      "title": "Software Engineer Summer Intern, AI Compute Libraries & Performance 2027",
+      "company": "Graphcore",
+      "location": "Bristol",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/graphcore/software-engineer-summer-intern-ai-compute-libraries-performance-2027-bristol-155946",
+      "description": "&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Bristol, UK&lt;br&gt;&lt;strong&gt;Salary: &lt;/strong&gt;£2500 per month&lt;br&gt;&lt;strong&gt;Start date: &lt;/strong&gt;June 2027&lt;br&gt;&lt;strong&gt;Application deadline&lt;/strong&gt;: Midnight, 29th November 2026&amp;nbsp;&lt;br&gt;&lt;em&gt;We encourage you to apply early, as we may close applications before the advertised deadline.&lt;/em&gt;&lt;/p&gt; &lt;h3&gt;The Internship Programme at Graphcore&lt;/h3&gt; &lt;p&gt;Explore a career at Graphcore through a 12-week summer internship, gaining hands-on experience on real projects. You’ll bring fresh ideas, put your learning into practice and help shape what we’re creating. Along the way, you’ll tackle challenging problems with a team who welcome your questions and support you as you build your skills and confidence.&lt;/p&gt; &lt;h3&gt;What you’ll work on&lt;/h3&gt; &lt;p&gt;Use your programming skills and curiosity to help AI models run efficiently on next-generation Graphcore hardware.&amp;nbsp;&lt;/p&gt; &lt;p&gt;In AI Compute Libraries &amp;amp; Performance, you’ll contribute to C++ libraries and compute kernels for machine learning workloads. Your work will include:&am",
+      "tags": [
+        "Core"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T23:55:22.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "seniority mismatch",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineering-summer-intern-drivers-and-utilities-2027-bristol-117203",
+      "title": "Software Engineering Summer Intern, Drivers and Utilities 2027",
+      "company": "Graphcore",
+      "location": "Bristol",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/graphcore/software-engineering-summer-intern-drivers-and-utilities-2027-bristol-117203",
+      "description": "&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Bristol, UK&amp;nbsp;&lt;br&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Duration:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt; 12 weeks&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:360}&quot;&gt; &lt;br&gt;&lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Salary:&lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt; £2500 per month&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:360}&quot;&gt; &lt;br&gt;&lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Start date: &lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;June 2027&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:360}&quot;&gt; &lt;br&gt;&lt;/span&gt;&lt;strong&gt;&lt;span data-contrast=&quot;none&quot;&gt;Application deadline: Midnight 29th November &lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp",
+      "tags": [
+        "SW Device"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T23:55:22.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "seniority mismatch",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-data-full-stack-paris-france-marseille-france-bordeaux-france-biarritz-france-brussels-belgium-307314",
+      "title": "Data Full Stack",
+      "company": "Alan",
+      "location": "Paris, France; Marseille, France; Bordeaux, France; Biarritz, France; Brussels, Belgium",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/alan/data-full-stack-paris-france-marseille-france-bordeaux-france-biarritz-france-brussels-belgium-307314",
+      "description": "Health can’t wait . Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t. Alan exists to end the wait. Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way. So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience. We are on an incredible journey to build a global leading company, with a unique culture . We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR. Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond. ⭐️ The Data Team Being part of Alan's data team means you'll have a posi",
+      "tags": [
+        "Data"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T02:40:14.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-head-of-software-engineering-lausanne-192376",
+      "title": "Head of Software Engineering",
+      "company": "Adaptyv",
+      "location": "Lausanne / Hybrid / Remote",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/adaptyv/head-of-software-engineering-lausanne-192376",
+      "description": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world. We are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today. Our automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development. We’re growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentatio",
+      "tags": [
+        "Software"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T11:40:19.000Z",
+      "score": 55,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Remote",
         "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-full-stack-engineer-amsterdam-329815",
+      "title": "Full Stack Engineer",
+      "company": "Mytomorrows",
+      "location": "Amsterdam HQ",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/mytomorrows/full-stack-engineer-amsterdam-329815",
+      "description": "About myTomorrows myTomorrows is a global health tech company dedicated to breaking down barriers for patients seeking treatment options. We strive to enable earlier and better treatment access by bridging the gap between those searching for possible options, and the companies who develop them. We work closely with patients, healthcare professionals, trial sites, patient advocacy groups, and BioPharma – connecting key stakeholders in the drug development ecosystem. We’ve developed a cutting-edge AI-powered technology platform that simplifies and streamlines access to drugs in development. To support our users and clients, we have a range of industry-expert specialized teams ready to help. Our services include clinical trial patient recruitment, Expanded Access Program management and Real-World Data collection. With a global footprint spanning 134 countries, to date we’ve supported over 17,000 patients, 3,000 physicians and 350 sites, earning the trust of 60+ BioPharma companies. In October 2025, we closed a €25M investment with Avego Healthcare Capital to fuel our global ambitions and scale the business. Join us in shaping the future of treatment access - making tomorrow’s therapie",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T17:40:44.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-frontend-developer-customer-lifecycle-utrecht-485033",
+      "title": "Senior Frontend Developer (Customer Lifecycle)",
+      "company": "Rentman",
+      "location": "Utrecht",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/rentman/senior-frontend-developer-customer-lifecycle-utrecht-485033",
+      "description": "About us Rentman is a B2B SaaS scale-up building a smart, powerful operations management platform to support event and media production teams. Our users plan everything from small shoots to massive festivals in 70+ countries, and they all rely on Rentman to keep their gear, people, and timing perfectly in sync. We’re based in Utrecht (NL) with a second office in Toronto (CA), and our 100+ team members work in a culture that’s open, flat, and inclusive, where curiosity drives us, ownership matters, and everyone has the freedom to challenge ideas and make an impact. Check out our public roadmap to see what’s coming next! Mission of this role As our Senior Frontend Developer in the Customer Lifecycle Team you get new customers to the value of Rentman as quickly and enjoyably as possible. You own the journey from \"I just created my account\" to daily reliance, making sure that within a tight window (a customer's first big event might be two weeks out), users go from first login to confidently running their operations in the software. Success means customers don't just use Rentman; they rely on it. You focus on ease-of-use, fast implementation, and engagement, so that getting started fee",
+      "tags": [
+        "R&D"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T17:40:43.000Z",
+      "score": 55,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit"
+      ]
+    },
+    {
+      "id": "arbeitnow-plc-software-engineer-the-netherlands-enschede-370473",
+      "title": "PLC Software Engineer - The Netherlands",
+      "company": "HoSt Group Bioenergy Systems",
+      "location": "Enschede, Overijssel, Netherlands",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/host-group-bioenergy-systems/plc-software-engineer-the-netherlands-enschede-370473",
+      "description": "Ready to build the software behind real-world renewable energy installations? At Bright Renewables, your PLC software doesn’t stay behind a desk. You’ll see it come to life in complex industrial installations for renewable gas and CO₂ technologies. As a PLC Software Engineer , you’ll be involved in the complete automation lifecycle - from software design and programming to testing, commissioning, troubleshooting, and optimization. You’ll have the opportunity to contribute to technical decisions, help shape our automation standards, and work alongside experienced colleagues as part of an international software engineering team of around 10 engineers. Together, you’ll collaborate across the Netherlands, Latvia, and Poland to develop and deliver reliable, innovative automation solutions. Why this role? You’ll get the opportunity to: Own your solutions - contribute to software solutions throughout the project lifecycle, from design and programming to testing and commissioning; Work on real installations - solve automation challenges in complex renewable energy plants; Have technical influence - contribute to software standards, templates, concepts, and ways of working, within a team th",
+      "tags": [
+        "Bright Renewables"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T05:51:28.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
       ]
     },
     {
@@ -505,7 +998,7 @@
         "MySQL"
       ],
       "source": "Remotive",
-      "posted": "2026-07-11T20:18:11",
+      "posted": "2026-10-11T20:17:27",
       "score": 50,
       "regions": [
         "Remote"
@@ -519,245 +1012,85 @@
       ]
     },
     {
-      "id": "remotive-2091057",
-      "title": "Staff Product Engineer (Mexico City)",
-      "company": "LawnStarter",
-      "location": "Mexico",
+      "id": "remoteok-1137537",
+      "title": "Head of Technology",
+      "company": "Sanctuary Computer",
+      "location": "Remote",
       "remote": true,
-      "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-mexico-city-2091057",
-      "description": "This is a remote role for candidates located in Mexico City, Mexico. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. ",
+      "url": "https://remoteOK.com/remote-jobs/remote-head-of-technology-sanctuary-computer-1137537",
+      "description": "We are hiring a Head of Technology for the garden3d creative collective, to lead engineering at Sanctuary Computer and garden3d in the era of agentic computer code. Original job posting link About garden3d We are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions. Our client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, Parsons, Mozilla, The Nobel Prize, MIT, Gnosis, Etsy &amp; Gagosian. Weâre the software team behind innovative products like The Light Phone &amp; Mill, and we operate a global, decentralized community space collective called Index Space. We think of our garden3d as collective for creative people, prioritizing a happy, talented, and diverse studio culture. We work on projects that bring value to our world, and we balance deep care for the work we do with a genuine curiosity about life outside of our jobs. Sanctuary Computer - Development At Sanctuary Computer weâre building a different type of technolog",
       "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:32:14",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091054",
-      "title": "Staff Product Engineer (Montevideo)",
-      "company": "LawnStarter",
-      "location": "Uruguay",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-montevideo-2091054",
-      "description": "This is a remote role for candidates located in Montevideo, Uruguay. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. ",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:30:17",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091053",
-      "title": "Staff Product Engineer (Campinas)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2091053",
-      "description": "This is a remote role for candidates located in Campinas, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives. You",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:28:36",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091052",
-      "title": "Staff Product Engineer (Belo Horizonte)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2091052",
-      "description": "This is a remote role for candidates located in Belo Horizonte, Brazil. About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiative",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:26:20",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remotive-2091051",
-      "title": "Staff Product Engineer (Florianópolis)",
-      "company": "LawnStarter",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2091051",
-      "description": "This is a remote role for candidates located in Florianópolis, Brazil About LawnStarter LawnStarter is the nation's leading on-demand marketplace for lawn care and outdoor services, with over $100M in annual bookings. We're expanding beyond lawn care to become the one-stop shop for all home services — operating across three brands (LawnStarter, Lawn Love, Home Gnome) on a single shared platform. About Engineering at LawnStarter We build in small, focused initiative teams: a Product Engineer working alongside a PM and a designer, supported by an Engineering Manager who helps you grow. You'll also work shoulder-to-shoulder with engineering peers across initiatives in a shared codebase. The whole team owns whether the work moves its metric. AI coding agents are a force multiplier here — they give a small, senior team the leverage to ship more, faster, and at a higher bar for quality. We hire engineers who are wired for ownership and energized by shipping to a real marketplace with customers and pros on both sides. The Role You're the engineering anchor of an initiative — working as part of a tight team with your PM and designer, and alongside engineering peers on adjacent initiatives.",
-      "tags": [
-        "AWS",
-        "backend",
-        "frontend",
-        "php",
-        "react",
-        "security",
-        "UI/UX",
-        "AI/ML",
-        "jira",
-        "react native",
-        "documentation",
-        "laravel"
-      ],
-      "source": "Remotive",
-      "posted": "2026-07-09T14:24:28",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135629",
-      "title": "Lean Practitioner",
-      "company": "KaizenworldAI",
-      "location": "Sydney,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-lean-practitioner-kaizenworldai-1135629",
-      "description": "au.seek.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for au.seek.com to respond Enable JavaScript and cookies to continue Please mention the word **WILLINGNESS** and tag RMTAxLjAuNjMuMTk5 when applying to show you read the job post completely (#RMTAxLjAuNjMuMTk5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "tags": [
-        "infosec",
-        "javascript"
+        "dev",
+        "engineer",
+        "senior",
+        "full stack",
+        "front end"
       ],
       "source": "RemoteOK",
-      "posted": "2026-07-29T15:10:30+00:00",
+      "posted": "2026-10-16T17:55:35+00:00",
       "score": 50,
       "regions": [
-        "Australia"
+        "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "region: Australia",
+        "seniority fit",
+        "seniority mismatch",
+        "region: Remote",
         "remote"
       ]
     },
     {
-      "id": "remoteok-1135639",
-      "title": "TÃ©lÃ©travail Professeur Particulier",
-      "company": "TUS Media",
-      "location": "Nice, Nice, Provence-Alpes-CÃ´te dâAzur, France",
+      "id": "remoteok-1137478",
+      "title": "Product Engineering Lead",
+      "company": "Tether Operations Limited",
+      "location": "Remote",
       "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-teletravail-professeur-particulier-tus-media-1135639",
-      "description": "Vous Ãªtes Ã la recherche d'un job Ã©tudiant ? Devenez professeur avec Voscours. Partagez vos connaissances avec nos Ã©lÃ¨ves: Soutien scolaire, musique, sports, langues, technologieâ¦ Acceptez le dÃ©fi et commencez dÃ¨s maintenant! DÃTAILS DE L'OFFRE Horaires de travail flexibles Lieu de travail : toute la France / Ã distance RÃ©munÃ©ration de 12 Ã 28â¬/h AVANTAGES MaÃ®trisez votre emploi du temps TÃ©lÃ©travail / Ã distance / Ã domicile Vous pourrez fixer le prix de vos cours Vous ferez partie de la plus grande communautÃ© de professeurs particuliers Please mention the word **ROMANTICIZE** and tag RMTAxLjAuNjMuMTk5 when applying to show you read the job post completely (#RMTAxLjAuNjMuMTk5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478",
+      "description": "Join Tether and Shape the Future of Digital Finance At Tether, weâre not just building products, weâre pioneering a global financial revolution. Our cutting-edge solutions empower businessesâfrom exchanges and wallets to payment processors and ATMsâto seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction. Innovate with Tether Tether Finance: Our innovative product suite features the worldâs most trusted stablecoin, USDT , relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services. But thatâs just the beginning: Tether Power: Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities. Tether Data: Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like KEET , o",
       "tags": [
         "design",
-        "python",
+        "bitcoin",
+        "react",
+        "exec",
+        "technical",
+        "recruiter",
+        "marketing",
         "dev",
+        "virtual assistant",
         "javascript",
-        "node",
-        "node.js",
-        "ruby",
-        "sys admin",
-        "engineer",
-        "full time",
-        "part time",
-        "digital nomad"
+        "finance",
+        "education"
       ],
       "source": "RemoteOK",
-      "posted": "2026-07-29T12:14:39+00:00",
+      "posted": "2026-10-10T00:00:05+00:00",
+      "score": 50,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-backend-engineer-mwd-java-kotlin-aws-kafka-berlin-150345",
+      "title": "Senior Backend Engineer (m|w|d) - Java/Kotlin, AWS, Kafka",
+      "company": "idealo internet GmbH",
+      "location": "Berlin, Berlin, Deutschland",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/senior-backend-engineer-mwd-java-kotlin-aws-kafka-berlin-150345",
+      "description": "Team CRM Tech is responsible for delivering the technical infrastructure that enables idealo's CRM campaigns. They build and maintain systems that handle identity resolution, subscriptions, data flows, and message delivery, while ensuring GDPR compliance and supporting personalized user experiences. &nbsp; About your new role &nbsp; Design, implement, and maintain reliable and scalable software systems and data flows for CRM and user engagement use cases.&nbsp; Collaborate with Software Engineers, Data Engineers, Product Managers, and other stakeholders to deliver robust solutions that integrate across domains and teams.&nbsp; Contribute to the team’s architecture and technical decision-making, ensuring high code quality and operational excellence.&nbsp; Take ownership of services throughout their lifecycle, from design and implementation to monitoring and improvement.&nbsp; Ensure best practices for testing, CI/CD, and cloud infrastructure are applied and continuously improved.&nbsp; Support and mentor less experienced engineers by sharing knowledge, conducting code reviews, and fostering a collaborative team culture.&nbsp; Explore and adopt new tools and technologies to improve d",
+      "tags": [
+        "Technology & Data"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:31:34.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -766,188 +1099,310 @@
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "region: Europe",
-        "remote"
+        "seniority fit",
+        "region: Europe"
       ]
     },
     {
-      "id": "remoteok-1135688",
-      "title": "Healthcare Virtual Assistant Athena EMR Experience",
-      "company": "Snapscale Philippines",
-      "location": "Davao,",
+      "id": "remoteok-1137508",
+      "title": "Principal Software Engineer",
+      "company": "Vytalize Health",
+      "location": "Kansas",
       "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-healthcare-virtual-assistant-athena-emr-experience-snapscale-philippines-1135688",
-      "description": "Overview Snapscale is seeking a highly skilled Healthcare Virtual Assistant to support day-to-day U.S. clinic operations in a remote setup and ensure a seamless patient experience. This role requires strong communication skills, attention to detail, and hands-on experience in U.S. healthcare processes. The ideal candidate must have proven expertise in EMR systems, specifically Athena EMR , and the ability to manage multiple clinical and administrative tasks efficiently while working remotely. Key Responsibilities Verify patient benefits and insurance coverage accurately and efficiently Reactivate past patients and maintain engagement through consistent follow-ups Handle inbound calls and assist patients with inquiries professionally and empathetically Conduct appointment confirmations, reminders, and outbound follow-ups Schedule and reschedule patient appointments using Athena EMR Maintain and update patient records in Athena EMR (required) Perform medical chart scrubbing to ensure accuracy and completeness of patient data Process and manage prior authorizations following payer and clinic guidelines Handle prescription refills in accordance with clinic protocols Audit laboratory re",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-software-engineer-vytalize-health-1137508",
+      "description": "Your Opportunity As a Principal Engineer , you will help design, build, and operate the clinical decision support and API-driven data delivery platform that enables Vytalize Health to embed timely, actionable clinical insights directly into provider workflows. Working cross-functionally with Data Engineering, Product, Clinical Operations, and EMR partners, your solutions will transform how clinicians access dataâmoving from external tools and workarounds to seamless, in-workflow decision support via CDS Hooks and real-time APIs. You will own the technical foundation for Clinical Decision Support (CDS) Hooks, REST APIs, and the architectural patterns that ensure clinical data is accessible, trustworthy, and performant at the moment of care. This role sits at the intersection of healthcare interoperability standards, modern API design, and operational excellence. You will establish reliability metrics and SLAs that ensure CDS Hooks and APIs serve clinician workflows with consistent quality and performance. You will be part of a small, high-performing healthcare engineering team where engineers support each other's growth through mentorship and tight collaboration. Primary Responsib",
       "tags": [
-        "virtual assistant",
-        "coordinator",
-        "customer support",
-        "marketing",
-        "ops",
-        "medical",
-        "non tech",
         "dev",
-        "video",
-        "cloud",
-        "microsoft",
-        "exec"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-07-29T10:25:22+00:00",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135673",
-      "title": "Junior Data Analyst",
-      "company": "HiredBuddy",
-      "location": "California, California, United States",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-junior-data-analyst-hiredbuddy-1135673",
-      "description": "About HiredBuddy At HiredBuddy , we connect domain specialists and subject-matter experts with leading AI research labs to shape and train the next generation of artificial intelligence. We focus on high-quality data annotation, RLHF (Reinforcement Learning from Human Feedback), and model evaluation across various domains, ranging from STEM and software engineering to linguistics and data science. Position Overview We are seeking a detail-oriented, highly analytical Junior Data Analyst based in the United States to join our growing remote team. In this role, you will play a crucial part in monitoring dataset quality, analyzing annotator performance metrics, optimizing labeling pipelines, and delivering insights that improve our AI training data pipelines. This is an ideal role for an early-career analyst passionate about the intersection of data, machine learning, and AI operations. Key Responsibilities Data Quality Assurance: Audit, clean, and validate large datasets generated by our network of AI trainers and domain experts to ensure high precision and adherence to guidelines. Performance &amp; Metrics Tracking: Analyze annotator accuracy, turnaround times, and throughput using S",
-      "tags": [
-        "testing",
-        "education",
-        "exec",
-        "content writing",
-        "marketing",
-        "part time",
         "design",
-        "technical",
-        "coordinator",
-        "customer support",
-        "travel",
-        "microsoft"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-07-28T20:34:39+00:00",
-      "score": 50,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135632",
-      "title": "Postuler chez nous",
-      "company": "Jubin FrÃ¨res",
-      "location": "Chez Nous,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-postuler-chez-nous-jubin-freres-1135632",
-      "description": "Formulaire de postulation Remplissez le formulaire ci-dessous afin de nous faire part de votre postulation et CV ComplÃ©ter 0% 1 Vos coordonnÃ©es 2 Postulation Poste * PrÃ©nom * Nom * Adresse NPA LocalitÃ© TÃ©lÃ©phone * Adresse courriel * PrÃ©cÃ©dent Suivant ComplÃ©ter 50% 1 Vos coordonnÃ©es 2 Postulation Type de poste * Select Bureau Shop Autre Votre dossier de candidature *Maximum 10Mo Glisser-dÃ©poser des fichiers ici Parcourir les Fichiers Message * Envoyer PrÃ©cÃ©dent Suivant Please mention the word **RECTIFYING** and tag RMTAxLjAuNjMuMTk5 when applying to show you read the job post completely (#RMTAxLjAuNjMuMTk5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "tags": [
         "infosec",
-        "javascript",
-        "exec",
-        "recruiter",
-        "c"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-07-29T18:34:23+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135630",
-      "title": "Continuous Improvement Lead",
-      "company": "KaizenworldAI",
-      "location": "Adelaide Lead,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-continuous-improvement-lead-kaizenworldai-1135630",
-      "description": "au.seek.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for au.seek.com to respond Enable JavaScript and cookies to continue Please mention the word **UNSELFISH** and tag RMTAxLjAuNjMuMTk5 when applying to show you read the job post completely (#RMTAxLjAuNjMuMTk5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "tags": [
-        "infosec",
-        "javascript",
-        "exec"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-07-29T15:09:16+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135631",
-      "title": "AWESOME LIFE",
-      "company": "Awesome Entertainment",
-      "location": "Recruit,",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-awesome-life-awesome-entertainment-1135631",
-      "description": "Join us, and create something truly AWESOME! ì´ì¸ìí°íì¸ë¨¼í¸ë ì¬ëë¤ìê² ì§ì, ê°ë, ì¦ê±°ìì ì ê³µíë©°, **âì¸ìì ì´ë¡­ê², ì¬ëì ì¦ê²ê²â**ë¼ë ë¹ì  ìë, ì½íì¸ ë¡ ì¸ìì ê¸ì ì ì¸ ë³íë¥¼ ì´ëì´ ê°ëë¤. ì°ë¦¬ë ê°ë¥ì±ì íê³ë¥¼ ë°ì´ëì´ ë ëì ìì´ëì´ì ì½íì¸ ë¥¼ ëììì´ íêµ¬íë©°, ëª¨ëê° ê³µê°íê³ ì¦ê¸¸ ì ìë ì¸ìì ë§ë¤ì´ê°ê³ ì í©ëë¤. ì¦ê²ê³ ìë¯¸ ìë ì½íì¸ ê° ì¼ìì´ ëë ì¸ì, í¨ê»íì¸ì. About Us ABOUT TEAM ì´ì¸ CULTURE BEHIND THE SCENES HOW DO WE WORK? Benefits BENEFITS &amp; WORK ENVIRONMENT DREAM JOIN THE CREW RECRUITMENT JOURNEY ì´ì¸ìí°íì¸ë¨¼í¸ì ììì ëì¹ì§ ë§ì¸ì! ì´ì¸ìí°íì¸ë¨¼í¸ì ìì ë¯¸ëì´ë¥¼ íë¡ì°íë©´ ì í¬ íì´ ì¼íë ëª¨ìµì ì¿ë³´ê³ , ë¹íì¸ë ì¤í ë¦¬ë¥¼ ë¤ì ì ììµëë¤. ìµì ë´ì¤ì ì´ë²¤í¸ ììë ë°ìë³´ì¸ì! íë¡ì°íê¸° â ì±ì©ì ê´ë ¨ë ë¬¸ìì¬í­ì´ ìë¤ë©´ ì¸ì ë ìë ì´ë©ì¼ë¡ ì°ë½ ì£¼ì¸ì. ì´ë©ì¼ : recruit@awesomeent.kr Please mention the word **PRETTILY** and tag RMTAxLjAuNjMuMTk5 when applying to show you ",
-      "tags": [
-        "infosec",
-        "javascript",
-        "exec",
-        "recruiter"
-      ],
-      "source": "RemoteOK",
-      "posted": "2026-07-28T13:44:48+00:00",
-      "score": 35,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "remote"
-      ]
-    },
-    {
-      "id": "remoteok-1135638",
-      "title": "LLM Engineer Freelancer",
-      "company": "Monterail",
-      "location": "KrakÃ³w, KrakÃ³w, Woj. MaÅopolskie, Polska",
-      "remote": true,
-      "url": "https://remoteOK.com/remote-jobs/remote-llm-engineer-freelancer-monterail-1135638",
-      "description": "We're building a network of LLM Engineers who can design, build, and integrate practical AI features into existing products. We're looking for people to collaborate with on a freelance basis - part-time or full-time, depending on project needs. This role is focused on delivery, not ML research. What matters most is your engineering foundation and your ability to integrate AI into real production systems using Python, Node.js, or Ruby codebases. Requirements What we're looking for Strong software engineering background - Python, Node.js, or Ruby Hands-on experience integrating LLM APIs into production systems (OpenAI, Anthropic, or similar) Ability to design pragmatic AI solutions within existing architectures Experience building RAG pipelines, embeddings, and vector search Understanding of cost, latency, and reliability constraints of AI systems Ability to work independently with clients and set realistic expectations Background in big data or data pipelines is a big plus English B2/C1 Availability part-time or full-time (B2B contract) What You'll Do Add AI functionality into existing Python, Node.js, and Ruby codebases Build LLM-powered features: chat, summaries, classification, s",
-      "tags": [
-        "design",
         "python",
-        "dev",
-        "javascript",
-        "node",
-        "node.js",
-        "ruby",
-        "sys admin",
-        "engineer",
-        "full time",
-        "part time",
-        "digital nomad"
+        "docker",
+        "technical",
+        "recruiter",
+        "customer support",
+        "testing",
+        "marketing",
+        "quality assurance",
+        "finance"
       ],
       "source": "RemoteOK",
-      "posted": "2026-07-28T13:19:20+00:00",
+      "posted": "2026-10-13T00:00:18+00:00",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-ui-software-engineer-80-100-schlieren-311928",
+      "title": "UI Software Engineer (f/m/d) - 80-100%",
+      "company": "Tethys Robotics AG",
+      "location": "Schlieren",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/tethys-robotics-ag/ui-software-engineer-80-100-schlieren-311928",
+      "description": "Tethys Robotics develops innovative robotic solutions for subsea inspection & investigation operations in challenging conditions. We serve governmental organizations, large asset operators and industrial service providers operating in high-demand and mission-critical environments. As an ETH Zürich spin-off, we are a fast-growing pioneer in underwater robotics, rooted in Switzerland. As we scale from individual systems towards the production and delivery of multiple robots in parallel, we are looking for a hands-on UI Software Engineer to help develop, industrialize and continuously improve our robotic platforms. Tasks Develop and integrate complex UI modules, connecting disparate systems and data streams. Implement sophisticated real-time data visualizations. Implement core user interactions with robotic systems and web applications. Perform functional verification tests and troubleshoot issues. Support user interviews and help translate requirements into design input criteria. Work with the development team to refine the visual and interaction layer. Create technical documentation for user interaction and implementation. Requirements 2+ years of experience with Unity (C# and uGUI)",
+      "tags": [
+        "Web Development"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T06:30:51.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-lab-automation-lausanne-308317",
+      "title": "Software Engineer, Lab Automation",
+      "company": "Adaptyv",
+      "location": "Lausanne",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/adaptyv/software-engineer-lab-automation-lausanne-308317",
+      "description": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world. We are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today. Our automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development. We’re growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentatio",
+      "tags": [
+        "Automation"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T11:40:19.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-backend-lausanne-154704",
+      "title": "Software Engineer, Backend",
+      "company": "Adaptyv",
+      "location": "Lausanne",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/adaptyv/software-engineer-backend-lausanne-154704",
+      "description": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world. We are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today. Our automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development. We’re growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentatio",
+      "tags": [
+        "Software"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T11:40:19.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-product-lausanne-88457",
+      "title": "Software Engineer, Product",
+      "company": "Adaptyv",
+      "location": "Lausanne",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/adaptyv/software-engineer-product-lausanne-88457",
+      "description": "Adaptyv is building an automated lab that lets AI agents run biology experiments. We're entering the era of agentic science where AI models can now design novel proteins, propose hypotheses, and iterate on experimental results. But they can't run the experiments themselves - that's still a manual, months-long process. We're building the infrastructure that gives AI agents access to the physical world. We are one of the fastest growing biotech companies, trusted by leading biopharmas, frontier AI labs, and the techbio companies pushing the field forward. This is a rare chance to help advance some of the most important work happening in biotech today. Our automated lab is powered by a deep software + hardware stack: lab instruments worth millions of USD reverse-engineered into API-controllable hardware, dozens of devices orchestrated through complex workflows, full observability on everything that happens in the lab, processing pipelines for messy physical-world data, and AI systems that troubleshoot production results and accelerate assay development. We’re growing rapidly and are hiring for talented people to scale and support the massive demand for AI-driven wet lab experimentatio",
+      "tags": [
+        "Software"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T11:40:19.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
+      ]
+    },
+    {
+      "id": "arbeitnow-teilprojektleiter-hardware-digital-plattform-und-gerat-berlin-274346",
+      "title": "Teilprojektleiter Hardware Digital (Plattform) und Gerät (m/w/d)",
+      "company": "citema systems GmbH",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/citema-systems-gmbh/teilprojektleiter-hardware-digital-plattform-und-gerat-berlin-274346",
+      "description": "Deine Mission Wir suchen Dich als Teilprojektleiter Hardware Digital (Plattform) und Gerät (m/w/d) am Standort Berlin (hybrid). Deine Aufgaben dabei sind: Du führst ein kleines Team fachlich und steuerst Arbeitspakete, Ergebnisse, Termine und Fortschritt. Du entwickelst und bewertest Architekturkonzepte (z. B. FPGA, SoC, ADC/DAC, JESD204B) und führst sie zu einem tragfähigen Systemdesign zusammen. Du erarbeitest gemeinsam mit dem technischen Projektleiter und den Architekten das Gesamtkonzept und baust tiefes Systemwissen auf, idealerweise inklusive grundlegender HF-Messungen. Du verantwortest die Multi-Board-Architektur und die Schnittstellen zwischen Hard- und Software sowie die Anbindung des HF-Frontends an den Digitalteil. Du koordinierst die Zusammenarbeit von Hardware, Firmware und Software und bereitest fundierte Architekturentscheidungen vor. Du verantwortest die Geräteintegration und -verifikation und stimmst die Meilensteine mit den beteiligten Teams und der Teilprojektleitung Produktion ab. Du erstellst und pflegst Produktbeschreibungen, Testverfahren und Datenblätter und steuerst die gerätebezogenen Quality Gates. Du bewertest Aufwand, Machbarkeit und Risiken und inform",
+      "tags": [
+        "Project Management"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T07:31:08.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-research-scientist-synthetic-organic-chemistry-cambridge-ma-240915",
+      "title": "Research Scientist, Synthetic Organic Chemistry",
+      "company": "Dayhoff Labs",
+      "location": "Cambridge, MA",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/dayhoff-labs/research-scientist-synthetic-organic-chemistry-cambridge-ma-240915",
+      "description": "About us We're reverse-engineering the origin of life — one of the great unsolved problems in science, and one we think AI finally makes tractable. Understanding this transition, from geochemistry to biochemistry, is what will let us orchestrate molecular networks and build systems that are more capable, adaptive, and efficient. If we succeed, the applications are vast: catalysis, green synthesis, ab initio synthetic biology, programmable matter. Understanding and harnessing these processes could let ten billion of us thrive on this planet — and let life keep evolving beyond it. We're a small, diverse team of AI engineers, computational scientists, and bench scientists. We hold ourselves to the rigor of a research institute, but we ship like an engineering firm. Global team, HQs in Cambridge, MA and London, UK. The role We're looking for a chemist who combines organic synthesis with strong analytical expertise. You'll synthesise biological molecules — including peptides, nucleic acid derivatives, and modified building blocks — and develop methods to understand how they behave in chemical and biochemical reactions. Analytical method development is a central part of the role. You'll ",
+      "tags": [
+        "Experimental"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:40:14.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-data-science-london-495457",
+      "title": "Data Science",
+      "company": "Axle Careers",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/axle-careers/data-science-london-495457",
+      "description": "About Us At Axle Energy, we’re building the infrastructure that will underpin the decarbonised energy system. Our software moves energy usage to times when electricity is cheap and green, by controlling vehicle charging, heating systems, and home batteries. We control hundreds of thousands of energy assets. We’re building in a legacy industry and moving gigawatt-hours of electrons in the real world, but we operate at lightning speed, and we’re growing the team to meet customer demand. We’re proud to be supported by world-leading investors, including Energize Capital and Accel. Read more about what we’re building here . About the role We're hiring full stack data scientists who love to get into the nitty gritty of the domain, have an instinct for commercial value, and own the entire process from data exploration to production. Building, optimising, and deploying models that operate reliably at scale Developing a deep understanding of energy markets, grid dynamics, and trading strategies Taking ownership of the full lifecycle of your work, from research and prototyping through to production Writing clean, production-quality code and contributing to robust, scalable systems Working be",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-21T05:40:13.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-ingenieur-projet-pre-feed-h-f-mazamet-222278",
+      "title": "Ingénieur Projet Pré-FEED (H/F)",
+      "company": "EXOCETH CONSULTING",
+      "location": "Mazamet, Occitanie, France",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/exoceth-consulting/ingenieur-projet-pre-feed-h-f-mazamet-222278",
+      "description": "Ingénieur Projet Pré-FEED (H/F) Informations clés Référence : 262403S Démarrage : Janvier 2027 Durée : Mission longue durée Type de contrat : Freelance ou CDIC Zone géographique : Occitanie (81) Langue : Anglais courant indispensable Contexte de la mission Dans le cadre d'un programme de construction d'une nouvelle usine industrielle à l'international, prévu sur la période 2028-2032, nous recherchons un profil expérimenté pour intervenir en phase amont d'analyse des besoins et de pré-FEED (Front-End Engineering Design). La mission consiste à réaliser un audit approfondi de deux usines de production existantes, l'une en France et l'autre en Amérique du Nord, afin d'identifier les bonnes pratiques, les axes d'amélioration et les besoins des différents services. L'objectif est de recueillir et de formaliser l'ensemble des exigences techniques, fonctionnelles et opérationnelles dans un cahier des charges aussi complet que possible, afin de sécuriser les futures phases d'ingénierie, de conception et de construction de la nouvelle usine. Missions Réaliser un audit fonctionnel et opérationnel de deux usines de production existantes, situées en France et en Amérique du Nord. Analyser les i",
+      "tags": [],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T23:31:44.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-applikations-entwickler-java-100-zurich-122448",
+      "title": "Applikations-Entwickler Java (100%)",
+      "company": "Callista Group AG",
+      "location": "Zürich, Zürich, Switzerland",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/callista-group-ag/applikations-entwickler-java-100-zurich-122448",
+      "description": "Du möchtest moderne Softwarelösungen im Finanzumfeld mitgestalten und deine Java-Kenntnisse gezielt einsetzen? In dieser Funktion entwickelst und optimierst du Applikationen und Services im Portfolio «Anlagen und Vorsorge» eines renommierten Finanzinstituts. Gemeinsam mit deinem Team stellst du den zuverlässigen Betrieb sicher und treibst die kontinuierliche Weiterentwicklung der Services nach dem DevOps-Prinzip voran. Dabei arbeitest du in einem grossen Agile Release Train (ART) und gestaltest die Zukunft der Applikationslandschaft aktiv mit – agil, teamorientiert und nach SAFe und SCRUM. Hauptaufgaben: Selbständiges Implementieren von Anforderungen aus dem Fachbereich auf dem vorgegebenen Technologie-Stack (Java Spring Backend, Angular Frontend, Azure Cloud) Abklärungen mit dem Fachbereich / Auftraggeber und den Applikationsveranwortlichen Teilnahme an agilen Zeremonien Anforderungen: Fundierte Ausbildung in Informatik sehr gute Kentnisse in Java und den Java-Entwicklungswerkzeugen Kentnisse in Spring Boot, Hibernate/JPA Mindestens 5 Jahre Erfahrung als Softwareentwickler im Java-Umfeld Fokus in Backend-Entwicklung, mit gutem Verständnis der Frontend-Entwicklung Kentnisse in Angu",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T17:31:20.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-control-systems-engineer-lausanne-423621",
+      "title": "Senior Control Systems Engineer",
+      "company": "Fusionality",
+      "location": "Lausanne",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/fusionality/senior-control-systems-engineer-lausanne-423621",
+      "description": "Fusionality is building the measurement, simulation and control stack of the fusion energy reactors of the future. Our technology enables effective and reliable operation, monitoring, and analysis of high-temperature plasmas in fusion devices — which will one day provide clean, practically limitless power to the grid. We have spun out of EPFL’s Swiss Plasma Center and have just completed our pre-seed fundraise. We are looking for a Senior Control Systems Engineer to join our founding team in Lausanne and help build our core technology. This job is for you if you are a passionate engineer with deep knowledge cutting across real-time / embedded systems, software and hardware, and excited about building the systems to monitor and control real-world fusion plasmas. Tasks Implement real-time control, analysis, data acquisition systems in the kHz to MHz range, as individual contributor and in a team. Integrate solutions across a variety of company products and services as well as on our in-house test beds. Provide technical leadership within a growing real-time control and software engineering team that you will help to build. Translate customer needs into requirements and specifications",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T16:30:52.000Z",
       "score": 35,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "remote"
+        "seniority fit"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-ml-qa-cambridge-26304",
+      "title": "Staff Software Engineer (ML QA)",
+      "company": "Graphcore",
+      "location": "Cambridge",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/graphcore/staff-software-engineer-ml-qa-cambridge-26304",
+      "description": "&lt;h2&gt;About the job&lt;/h2&gt; &lt;p&gt;Build the software that validates Graphcore’s machine learning stack, from frameworks to AI accelerator hardware.&lt;/p&gt; &lt;p&gt;You’ll design production-quality test infrastructure that engineers can extend, maintain and rely on as Graphcore’s ML software grows. Your work will help teams deliver reliable products, with clear evidence of numerical accuracy and performance across the stack.&lt;/p&gt; &lt;p&gt;You’ll architect scalable test frameworks and build CI/CD pipelines that run across simulators, emulators and physical hardware. You’ll create representative ML workloads, analyse their execution and turn the results into practical improvements to testing and tooling.&lt;/p&gt; &lt;p&gt;This role gives you scope to shape software architecture and developer experience, not just add tests to existing systems. You’ll deepen your understanding of the AI compute stack while solving engineering problems that connect software design with hardware behaviour.&lt;/p&gt; &lt;h2&gt;The team and culture&lt;/h2&gt; &lt;p&gt;Graphcore’s ML QA engineers build automation, work with industry-standard frameworks and models, and contribute to upstrea",
+      "tags": [
+        "Software Ops"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T23:55:22.000Z",
+      "score": 25,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-java-billing-geneva-129814",
+      "title": "Staff Software Engineer (Java) - Billing",
+      "company": "Sonarsource",
+      "location": "Geneva",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/sonarsource/staff-software-engineer-java-billing-geneva-129814",
+      "description": "Who is Sonar? Sonar is driving the future of agent-centric software development. As the leader in AI code verification and governance, we solve a critical problem: ensuring that software generated by AI-assisted developers or autonomous agents is reliable, secure, and maintainable. Integrating seamlessly with Claude Code, Codex, Cursor, GitHub Copilot, Gemini, and Devin, we help over 75% of the Fortune 100 build trusted, reliable, compliant software. Customers who use Sonar are 44% less likely to report an outage due to AI-generated code. We believe code verification is the critical missing link in the Agent-Centric Development Cycle (AC/DC). Industry giants like Nvidia, ServiceNow, Booking.com, Goldman Sachs, AstraZeneca, and Ford Motor Company count on us to provide independent, explainable, consistent review and governance of their AI-generated code via products like: SonarQube: The world’s leading AI code review and verification platform. SonarQube Foundation Agent: Currently topping the leaderboards for agentic software repair. SonarSweep &amp; Sonar Context Augmentation: Providing the enterprise-grade context and constraints agents need to be truly effective. Our team operate",
+      "tags": [
+        "Storefront"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-20T23:09:42.000Z",
+      "score": 25,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch"
       ]
     }
   ]
