@@ -68,6 +68,14 @@ function projectImages() {
     card("toodler"),
     ...[1, 2, 3].map((n) => gallery("toodler", n)),
     card("quiz-wizz"),
+    // Before/after composite is landscape; the colourised page alone is a
+    // 600×853 portrait and stays at its native size (no enlargement).
+    card("mangakahue"),
+    gallery("mangakahue", 1, true),
+    // The full verdict card is a tall portrait render; the flow diagram is an
+    // SVG imported directly and never passes through here.
+    card("satya-aahar"),
+    gallery("satya-aahar", 1, true),
   ];
 }
 

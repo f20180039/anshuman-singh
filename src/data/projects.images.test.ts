@@ -5,27 +5,26 @@ import { describe, expect, it } from "vitest";
 import { FEATURED_SLUGS, PROJECTS, type ProjectImage } from "./projects";
 
 /**
- * Case studies whose screenshots land in Task 7 (MangakaHue artwork and the
- * anonymised Satya Aahar sample card); every other case study ships its images
- * in Task 6. Remove a slug here when its images arrive.
- */
-const IMAGES_ARRIVE_LATER = new Set(["satya-aahar", "mangakahue"]);
-
-/**
  * Vite rewrites an asset import to a URL path (`/src/assets/x.webp`) in tests,
- * so the referenced file can be checked on disk.
+ * so the referenced file can be checked on disk. An asset under
+ * `assetsInlineLimit` (the small flow-diagram SVG) is inlined as a base64
+ * `data:` URL instead; its bytes are decoded and checked the same way.
  */
-function assetPath(src: string): string {
+function assetSource(src: string): string | Buffer {
+  const inlined = /^data:[^;]+;base64,(.*)$/.exec(src);
+  if (inlined) return Buffer.from(inlined[1], "base64");
   const relative = src.replace(/^\//, "").split("?")[0];
   return path.join(process.cwd(), relative);
 }
 
 function assetExists(src: string): boolean {
-  return fs.existsSync(assetPath(src));
+  const source = assetSource(src);
+  return Buffer.isBuffer(source) ? source.length > 0 : fs.existsSync(source);
 }
 
 function describeImage(slug: string, use: string, image: ProjectImage) {
-  return `${slug} ${use} (${image.src})`;
+  const src = image.src.startsWith("data:") ? "inlined data: URL" : image.src;
+  return `${slug} ${use} (${src})`;
 }
 
 function referencedImages() {
@@ -77,7 +76,7 @@ describe("project images", () => {
     // reserve the wrong box and reintroduce the layout shift they prevent.
     for (const { slug, use, image } of referencedImages()) {
       const label = describeImage(slug, use, image);
-      const meta = await sharp(assetPath(image.src)).metadata();
+      const meta = await sharp(assetSource(image.src)).metadata();
       expect(
         { width: image.width, height: image.height },
         `${label} dimensions differ from the encoded file`,
@@ -90,7 +89,6 @@ describe("project images", () => {
       ...FEATURED_SLUGS,
       ...PROJECTS.filter((p) => p.caseStudy).map((p) => p.slug),
     ]);
-    for (const slug of IMAGES_ARRIVE_LATER) needImage.delete(slug);
 
     const missing = [...needImage].filter(
       (slug) => PROJECTS.find((p) => p.slug === slug)?.image === undefined,
@@ -99,5 +97,19 @@ describe("project images", () => {
       missing,
       `projects without a card image: ${missing.join(", ")}`,
     ).toEqual([]);
+  });
+
+  it("MangakaHue credits its artwork with a public-domain or CC licence and a source URL", () => {
+    // The case-study page may only show artwork we are allowed to publish, and
+    // the licence must be visible on the page itself (spec: "credit the source
+    // and licence on the case-study page").
+    const credit = PROJECTS.find((p) => p.slug === "mangakahue")?.caseStudy
+      ?.artworkCredit;
+    expect(
+      credit,
+      "mangakahue.caseStudy.artworkCredit is missing",
+    ).toBeTruthy();
+    expect(credit).toMatch(/public domain|CC BY|CC0|Creative Commons/i);
+    expect(credit).toContain("https://");
   });
 });

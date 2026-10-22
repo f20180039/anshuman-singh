@@ -45,6 +45,11 @@ import Toodler1 from "../assets/projects/toodler-1.webp";
 import Toodler2 from "../assets/projects/toodler-2.webp";
 import Toodler3 from "../assets/projects/toodler-3.webp";
 import QuizWizzCard from "../assets/projects/quiz-wizz-card.webp";
+import MangakahueCard from "../assets/projects/mangakahue-card.webp";
+import Mangakahue1 from "../assets/projects/mangakahue-1.webp";
+import SatyaAaharCard from "../assets/projects/satya-aahar-card.webp";
+import SatyaAahar1 from "../assets/projects/satya-aahar-1.webp";
+import SatyaAaharFlow from "../assets/projects/satya-aahar-flow.svg";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "../common/constants";
 
 export type StatusKind = "live" | "in-progress" | "build";
@@ -281,6 +286,12 @@ export const PROJECTS: Project[] = [
     tagline: "AI manga colouriser that keeps the original line art",
     description:
       "Colourises manga pages while preserving the line work, for creators, scanlation teams and hobbyists, with a chapter reader and public library around it.",
+    image: {
+      src: MangakahueCard,
+      alt: "Before and after: a six-panel black-and-white 1902 comic strip beside the same page colourised by MangakaHue, with the original ink lines kept",
+      width: 640,
+      height: 482,
+    },
     tech: [SiNextdotjs, SiSupabase, SiPostgresql],
     repo: { visibility: "private" },
     links: [],
@@ -310,7 +321,19 @@ export const PROJECTS: Project[] = [
         "OCR runs on-device (PP-OCRv5) rather than through a hosted OCR API.",
       ],
       numbers: ["119 tests", "7 pluggable providers"],
-      gallery: [],
+      // Public-domain page (author died 1955); the Commons file page states
+      // {{PD-Japan}}. The page is 600×853 and is shown at that native size.
+      // CaseStudy.tsx prefixes "Artwork: " when it renders this.
+      artworkCredit:
+        "Tagosaku to Mokube no Tokyo Kenbutsu by Rakuten Kitazawa, Public domain (PD-Japan), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Tagosaku_to_Mokube_no_Tokyo_Kenbutsu.jpg)",
+      gallery: [
+        {
+          src: Mangakahue1,
+          alt: "The colourised 1902 strip on its own: six panels of two men at a cast-iron water pump, coloured in warm earth tones with the line art untouched",
+          width: 600,
+          height: 853,
+        },
+      ],
     },
   },
   {
@@ -320,6 +343,13 @@ export const PROJECTS: Project[] = [
       "Snap a packaged-food label, get HIGH SUGAR / SALT / FAT warnings against ICMR-NIN 2024",
     description:
       "“Truth about food”: an India-first engine that reads a packaged-food label and flags HIGH SUGAR / SALT / FAT against ICMR-NIN 2024, daily-limit shares, additives banned elsewhere and per-family-member risks, in English and Hindi.",
+    // Rendered from the real engine's output for a synthetic, unbranded label.
+    image: {
+      src: SatyaAaharCard,
+      alt: "Verdict card for an anonymised 100 g pack of cream biscuits: HIGH SUGAR, HIGH SALT and HIGH FAT badges in English and Hindi, with each nutrient's share of the daily limit",
+      width: 640,
+      height: 616,
+    },
     tech: [SiPython, SiFastapi, SiPostgresql, SiRedis],
     repo: { visibility: "private" },
     links: [],
@@ -354,7 +384,20 @@ export const PROJECTS: Project[] = [
         "~1,000 tests",
         "Photos purged after 24 h",
       ],
-      gallery: [],
+      gallery: [
+        {
+          src: SatyaAahar1,
+          alt: "Full Satya Aahar verdict for the anonymised cream biscuits: three HIGH warnings, daily-limit shares, per-family-member flags for a child and an adult with diabetes, and an additive note, each line in English and Hindi",
+          width: 720,
+          height: 1150,
+        },
+        {
+          src: SatyaAaharFlow,
+          alt: "Pipeline diagram: label photo, barcode and vision extraction, rules engine with the ICMR-NIN 2024 India pack, HIGH SUGAR / SALT / FAT warnings in English and Hindi, then per-family-member flags",
+          width: 640,
+          height: 230,
+        },
+      ],
     },
   },
   {
