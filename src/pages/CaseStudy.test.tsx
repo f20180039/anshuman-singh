@@ -116,18 +116,27 @@ describe("CaseStudy page", () => {
     expect(screen.getByText("/projects/does-not-exist")).toBeInTheDocument();
   });
 
-  it("artwork credit shown when present", () => {
-    const mangakahue = project("mangakahue");
-    const credit = mangakahue.caseStudy?.artworkCredit;
+  it("artwork credit names the work, the licence and links the Commons source", () => {
+    const credit = project("mangakahue").caseStudy?.artworkCredit;
+    if (!credit) throw new Error("mangakahue must carry an artworkCredit");
+    const url = /\((https:\/\/commons\.wikimedia\.org\/\S+)\)\s*$/.exec(
+      credit,
+    )?.[1];
+    if (!url) throw new Error("artworkCredit must end in (<Commons URL>)");
 
     renderAt("/projects/mangakahue");
 
-    if (credit) {
-      expect(screen.getByText(credit)).toBeInTheDocument();
-    } else {
-      // Until Task 7 supplies the credit, the line must not render at all.
-      expect(screen.queryByText(/Artwork/)).toBeNull();
-    }
+    // The wording is unchanged by the link markup.
+    const line = screen.getByText(/^Artwork:/).closest("p");
+    expect(line).toHaveTextContent(`Artwork: ${credit}`);
+
+    // The source is a real external link that can wrap on a phone, not an
+    // unbreakable run of text the body's overflow-x: hidden would clip.
+    const link = within(line as HTMLElement).getByRole("link", { name: url });
+    expect(link).toHaveAttribute("href", url);
+    expect(link).toHaveAttribute("target", "_blank");
+    expect(link).toHaveAttribute("rel", "noopener noreferrer");
+    expect(link.className).toMatch(/ans-break-all/);
   });
 
   it("renders a fixture with artwork credit, no hero, empty gallery and no numbers", () => {

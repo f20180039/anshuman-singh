@@ -104,6 +104,33 @@ function Gallery({ images }: { images: ProjectImage[] }) {
 }
 
 /**
+ * A credit of the form "<text> (<https://source>)" renders its source as a
+ * link that may break anywhere: the Commons URL is ~80 unbroken characters,
+ * and with `overflow-x: hidden` on the body an unwrappable tail would simply
+ * be clipped on a phone, hiding the source the licence requires us to show.
+ * A credit without a trailing URL renders as plain text.
+ */
+function ArtworkCredit({ credit }: { credit: string }) {
+  const match = /^(.*)\((https?:\/\/\S+)\)\s*$/.exec(credit);
+  if (!match) return <span>{credit}</span>;
+  const [, text, url] = match;
+  return (
+    <span>
+      {text}(
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="ans-break-all ans-underline hover:ans-text-th-fg"
+      >
+        {url}
+      </a>
+      )
+    </span>
+  );
+}
+
+/**
  * The page body, independent of routing so it can be rendered for any
  * project. Sections whose lists are empty are omitted rather than rendered as
  * empty headings; `image`, `gallery`, `credit` and `artworkCredit` are all
@@ -186,7 +213,7 @@ export function CaseStudyArticle({ project }: { project: Project }) {
           {study.credit && <p>{study.credit}</p>}
           {study.artworkCredit && (
             <p>
-              Artwork: <span>{study.artworkCredit}</span>
+              Artwork: <ArtworkCredit credit={study.artworkCredit} />
             </p>
           )}
         </div>
