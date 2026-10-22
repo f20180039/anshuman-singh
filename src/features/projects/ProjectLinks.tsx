@@ -6,17 +6,29 @@ import type { Project } from "../../data/projects";
 const BUTTON_CLASSES =
   "ans-flex ans-items-center ans-gap-2 ans-px-4 ans-py-2 ans-rounded-lg ans-text-White";
 
+const JUSTIFY = {
+  start: "ans-justify-start",
+  center: "ans-justify-center",
+} as const;
+
 /**
  * The outbound row shared by cards and case-study pages: GitHub (public repos
  * only), every external link in a new tab with a safe rel, and the in-app
  * demo for projects that live inside this site. Renders nothing when there is
  * nothing to link, so callers need no guard.
+ *
+ * `align` is a prop rather than a `className` override because the base and
+ * the override would both be `justify-*` utilities, and which one wins is
+ * decided by their order in the generated stylesheet, not by the caller.
  */
 export default function ProjectLinks({
   project,
+  align = "center",
   className = "",
 }: {
   project: Project;
+  /** Cards centre the row under the body; the case-study page left-aligns it. */
+  align?: keyof typeof JUSTIFY;
   className?: string;
 }) {
   const hasLinks =
@@ -27,7 +39,7 @@ export default function ProjectLinks({
 
   return (
     <div
-      className={`ans-flex ans-flex-wrap ans-gap-4 ans-justify-center ${className}`}
+      className={`ans-flex ans-flex-wrap ans-gap-4 ${JUSTIFY[align]} ${className}`}
     >
       {project.repo.visibility === "public" && (
         <motion.a

@@ -215,6 +215,8 @@ describe("CaseStudy page", () => {
       }),
     ).toBeInTheDocument();
     const gallery = screen.getByRole("list", { name: "Screenshots" });
+    // Explicit role: Safari drops list semantics from `list-style: none`.
+    expect(gallery).toHaveAttribute("role", "list");
     const shots = within(gallery).getAllByRole("img");
     expect(shots).toHaveLength(2);
     // Intrinsic size on every <img>, so the strip is laid out before the
@@ -226,5 +228,73 @@ describe("CaseStudy page", () => {
         name: "Shaanti home screen with a session timer",
       }),
     ).toHaveAttribute("width", "640");
+  });
+
+  it("each gallery shot is a keyboard-reachable link to the full-size file", () => {
+    const shaanti = project("shaanti");
+    const fixture: Project = {
+      ...shaanti,
+      caseStudy: {
+        ...shaanti.caseStudy!,
+        gallery: [
+          {
+            src: "/g1.webp",
+            alt: "Quick Settings tile toggled on",
+            width: 720,
+            height: 1280,
+          },
+          {
+            src: "/g2.webp",
+            alt: "Scheduled Plans list",
+            width: 1280,
+            height: 800,
+          },
+        ],
+      },
+    };
+    render(
+      <MemoryRouter>
+        <CaseStudyArticle project={fixture} />
+      </MemoryRouter>,
+    );
+
+    const gallery = screen.getByRole("list", { name: "Screenshots" });
+    const items = within(gallery).getAllByRole("listitem");
+    expect(items).toHaveLength(2);
+
+    // One link per shot, named from the alt so a screen reader hears what it
+    // opens; a new tab with a safe rel, like every external link.
+    const links = within(gallery).getAllByRole("link");
+    expect(links).toHaveLength(2);
+    expect(links[0]).toHaveAccessibleName(
+      "Open full-size: Quick Settings tile toggled on",
+    );
+    expect(links[0]).toHaveAttribute("href", "/g1.webp");
+    expect(links[1]).toHaveAccessibleName(
+      "Open full-size: Scheduled Plans list",
+    );
+    expect(links[1]).toHaveAttribute("href", "/g2.webp");
+    for (const link of links) {
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link).toHaveAttribute("rel", "noopener noreferrer");
+      // Visible focus ring, per the a11y bar; the strip scrolls a focused
+      // item into view because it is a real focusable element.
+      expect(link.className).toMatch(/focus-visible:ans-outline/);
+      expect(within(link).getByRole("img")).toHaveAttribute("width");
+      expect(within(link).getByRole("img")).toHaveAttribute("height");
+    }
+  });
+
+  it("stack list keeps list semantics and the links row is left-aligned", () => {
+    renderAt("/projects/shaanti");
+
+    expect(screen.getByRole("list", { name: "Stack" })).toHaveAttribute(
+      "role",
+      "list",
+    );
+
+    const row = screen.getByRole("link", { name: /Website/ }).parentElement;
+    expect(row?.className).toMatch(/ans-justify-start/);
+    expect(row?.className).not.toMatch(/ans-justify-center/);
   });
 });

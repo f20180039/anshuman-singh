@@ -72,34 +72,58 @@ function Hero({ image }: { image: ProjectImage }) {
   );
 }
 
+const GALLERY_LINK_CLASSES =
+  "ans-block ans-overflow-hidden ans-rounded-lg ans-bg-th-surface ans-shadow-md focus-visible:ans-outline focus-visible:ans-outline-2 focus-visible:ans-outline-offset-4 focus-visible:ans-outline-th-accent";
+
 /**
- * A horizontal strip at a fixed height; each image keeps its own aspect ratio
- * (`w-auto` + intrinsic `width`/`height`), so a portrait phone screenshot sits
- * tall and narrow beside a landscape console capture instead of being cropped
- * or squeezed into a common box.
+ * A horizontal strip 28rem (448 px) tall; each image keeps its own aspect
+ * ratio (`w-auto` + intrinsic `width`/`height`), so a 9:16 phone screenshot
+ * shows ~252 px wide — legible on a phone — beside a landscape capture that
+ * fills the 720 px column, neither cropped nor squeezed into a common box.
+ *
+ * Every shot is a link to the file itself (new tab) so anyone can enlarge it,
+ * which also makes each item focusable: tabbing through the strip scrolls
+ * the focused shot into view, and the outline has room to draw because the
+ * strip's padding (offset by a negative margin so the images still sit flush
+ * with the column) is wider than outline + offset. A fade on the right edge
+ * hints that the strip scrolls. `role="list"` is explicit because Safari
+ * drops list semantics from a `list-style: none` list.
  */
 function Gallery({ images }: { images: ProjectImage[] }) {
   return (
-    <ul
-      aria-label="Screenshots"
-      className="ans-flex ans-list-none ans-gap-4 ans-overflow-x-auto ans-pb-2"
-    >
-      {images.map((image) => (
-        <li key={image.src} className="ans-shrink-0">
-          <figure className="ans-m-0 ans-overflow-hidden ans-rounded-lg ans-bg-th-surface ans-shadow-md">
-            <img
-              src={image.src}
-              alt={image.alt}
-              width={image.width}
-              height={image.height}
-              className="ans-block ans-h-56 ans-w-auto ans-max-w-none sm:ans-h-72"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </li>
-      ))}
-    </ul>
+    <div className="ans-relative">
+      <ul
+        role="list"
+        aria-label="Screenshots"
+        className="-ans-mx-2 ans-flex ans-list-none ans-snap-x ans-snap-proximity ans-gap-4 ans-overflow-x-auto ans-scroll-px-2 ans-px-2 ans-py-2"
+      >
+        {images.map((image) => (
+          <li key={image.src} className="ans-shrink-0 ans-snap-start">
+            <a
+              href={image.src}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Open full-size: ${image.alt}`}
+              className={GALLERY_LINK_CLASSES}
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                className="ans-block ans-h-[28rem] ans-w-auto ans-max-w-none"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div
+        aria-hidden="true"
+        className="ans-pointer-events-none ans-absolute ans-inset-y-0 -ans-right-2 ans-w-10 ans-bg-gradient-to-l ans-from-th-bg ans-to-transparent"
+      />
+    </div>
   );
 }
 
@@ -183,6 +207,7 @@ export function CaseStudyArticle({ project }: { project: Project }) {
         <Section title="How it's built">
           {study.stack.length > 0 && (
             <ul
+              role="list"
               aria-label="Stack"
               className="ans-flex ans-list-none ans-flex-wrap ans-gap-2"
             >
@@ -206,7 +231,7 @@ export function CaseStudyArticle({ project }: { project: Project }) {
         </Section>
       )}
 
-      <ProjectLinks project={project} className="ans-justify-start" />
+      <ProjectLinks project={project} align="start" />
 
       {(study.credit || study.artworkCredit) && (
         <div className="ans-flex ans-flex-col ans-gap-1 ans-text-1 ans-text-th-muted-fg">

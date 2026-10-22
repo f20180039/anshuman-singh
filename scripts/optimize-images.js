@@ -43,7 +43,10 @@ const TARGETS = [
  * / hero image (640 wide, like the older cards); `<slug>-<n>` is a gallery
  * image (1280 wide for landscape captures). Portrait phone screenshots are
  * encoded at 720 wide instead: a 1080×1920 shot resized to 1280 wide would be
- * enlarged, and the gallery never shows a portrait wider than ~360 CSS px.
+ * enlarged, and the gallery strip (28rem tall, see CaseStudy.tsx) shows a
+ * 9:16 portrait at ~252 CSS px wide, so 720 covers it at 2× and all but
+ * exactly at 3×. The strip links each shot to the file itself for a
+ * full-size view, which is the encoded size, not the original.
  */
 function projectImages() {
   const card = (slug) => ({
