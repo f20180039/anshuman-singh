@@ -31,7 +31,13 @@ describe("App deep links", () => {
     render(<App />);
 
     expect(
-      await screen.findByRole("heading", { level: 1, name: "Shaanti" }),
+      // Lazy route + Suspense under full-suite load can outlast the default
+      // 1 s; the longer wait only matters when something is actually slow.
+      await screen.findByRole(
+        "heading",
+        { level: 1, name: "Shaanti" },
+        { timeout: 5000 },
+      ),
     ).toBeInTheDocument();
     expect(document.title).toBe("Shaanti — Android focus app | Anshuman Singh");
     expect(
@@ -52,10 +58,11 @@ describe("App deep links", () => {
     render(<App />);
 
     expect(
-      await screen.findByRole("heading", {
-        level: 1,
-        name: "This page took a wrong turn",
-      }),
+      await screen.findByRole(
+        "heading",
+        { level: 1, name: "This page took a wrong turn" },
+        { timeout: 5000 },
+      ),
     ).toBeInTheDocument();
     expect(document.title).toBe("Page Not Found (404) | Anshuman Singh");
   });
