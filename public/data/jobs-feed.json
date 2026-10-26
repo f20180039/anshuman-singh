@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T08:36:09.171Z",
-  "count": 53,
+  "generatedAt": "2026-10-26T09:12:28.130Z",
+  "count": 52,
   "sourcesLive": 3,
   "jobs": [
     {
@@ -85,7 +85,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
-      "description": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RMjAuMTAyLjk1LjE0NA== when applying to show you read the job post completely (#RMjAuMTAyLjk1LjE0NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RNC4yMjcuMTcwLjExNQ== when applying to show you read the job post completely (#RNC4yMjcuMTcwLjExNQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "golang",
         "dev",
@@ -185,18 +185,46 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-fullstack-entwickler-php-symfony-react-berlin-348681",
-      "title": "Senior Fullstack-Entwickler (m/w/d) – PHP/Symfony & React – Berlin",
-      "company": "MRP My Recruitment Partners Ltd.",
-      "location": "Berlin, Brandenburg, Germany",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/mrp-my-recruitment-partners-ltd/senior-fullstack-entwickler-php-symfony-react-berlin-348681",
-      "description": "Senior Fullstack-Entwickler (m/w/d) – PHP/Symfony &amp; React – Berlin Der Plan steht, jetzt fehlst du: Bring unsere Software von Legacy-PHP auf Symfony und React. Auf einen Blick Stack: PHP 8.1 (Legacy) → Symfony · jQuery/Vanilla-JS → React · MySQL/MariaDB, SingleStore · Git, CI/CD Gehalt: 52.000–62.000 € brutto/Jahr, für außergewöhnliche Profile auch mehr · unbefristet, Vollzeit Arbeitsmodell: hybrid, 3 Tage Büro / 2 Tage remote Standort: Berlin-Zehlendorf, direkt am S-Bahnhof Zehlendorf (S1) Produkt: Konsentas, ein Termin- und Vorgangsmanagement für Behörden Start: so bald wie möglich oder nach Vereinbarung Die Rolle Unser Kernprodukt Konsentas ist über viele Jahre gewachsen, und das sieht man dem Code an. Das Backend läuft auf PHP 8.1 ohne Framework. Im Frontend stehen jQuery und Vanilla-JS neben React, und automatisierte Tests gibt es bisher wenige. Wohin es gehen soll, ist klar: Das Backend wird schrittweise auf Symfony umgestellt, das Frontend auf React vereinheitlicht. Bis Ende 2027 soll die Migration abgeschlossen sein. Was dafür fehlt, ist kein Plan, sondern Kapazität. Du triffst eigenständig technische Entscheidungen, bringst dich in Architektur- und Modernisierungsfrage",
+      "id": "arbeitnow-senior-software-engineer-agentic-engineering-berlin-358641",
+      "title": "Senior Software Engineer | Agentic Engineering",
+      "company": "Insurgo GmbH",
+      "location": "Berlin",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/insurgo-gmbh/senior-software-engineer-agentic-engineering-berlin-358641",
+      "description": "Wir bei Insurgo Wir bei Insurgo sind nicht nur ein Technologie-Unternehmen. Wir sind Innovatoren, die den Weg für digitale Lösungen in der Versicherungswirtschaft ebnen. Hunderte Maklerbüros arbeiten bereits mit unserer Software, unser Postfach Plus nimmt ihnen bis zu 80 Prozent ihres Verwaltungsaufwands ab, und unsere Kunden bewerten uns über 900 Mal. Wir entwickeln Insurgo zunehmend mit KI-Agenten. Nicht als Spielerei und nicht im Blindflug: Agenten übernehmen einen wachsenden Teil der Umsetzung, du gibst die Richtung vor, prüfst, entscheidest und verantwortest das Ergebnis. Genau dafür suchen wir dich. Aufgaben Als Senior Software Engineer entwickelst du unsere Plattform in voller Breite weiter. Du arbeitest fachlich eng mit unserem Product Management zusammen und berichtest an den Geschäftsführer. Plattform weiterentwickeln: Du verantwortest Features vom Rails-Backend über die REST-API bis ins Angular-Frontend, von der Idee bis zum Release. Agentic Engineering: Du arbeitest täglich mit Coding-Agenten wie Cursor, Claude Code und GitHub Copilot. Du zerlegst Aufgaben so, dass Agenten sie zuverlässig umsetzen, und sicherst die Qualität über Code Review und Tests. Wissen für Mensch ",
       "tags": [
-        "Girona"
+        "Remote",
+        "Software Development"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T23:31:30.000Z",
+      "posted": "2026-10-26T08:00:44.000Z",
+      "score": 85,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-entwickler-php-symfony-react-berlin-hybrid-495904",
+      "title": "Senior Software-Entwickler (m/w/d) – PHP/Symfony & React – Berlin - Hybrid",
+      "company": "MRP My Recruitment Partners Ltd.",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/mrp-my-recruitment-partners-ltd/senior-software-entwickler-php-symfony-react-berlin-hybrid-495904",
+      "description": "Senior Software-Entwickler (m/w/d) – PHP/Symfony &amp; React – Berlin Der Plan steht, jetzt fehlst du: Bring unsere Software von Legacy-PHP auf Symfony und React. Auf einen Blick Stack: PHP 8.1 (Legacy) → Symfony · jQuery/Vanilla-JS → React · MySQL/MariaDB, SingleStore · Git, CI/CD Vertrag: unbefristet, Vollzeit Arbeitsmodell: hybrid, 3 Tage Büro / 2 Tage remote Standort: Berlin-Zehlendorf, direkt am S-Bahnhof Zehlendorf (S1) Produkt: Konsentas, ein Termin- und Vorgangsmanagement für Behörden Start: so bald wie möglich oder nach Vereinbarung Die Rolle Unser Kernprodukt Konsentas ist über viele Jahre gewachsen, und das sieht man dem Code an. Das Backend läuft auf PHP 8.1 ohne Framework. Im Frontend stehen jQuery und Vanilla-JS neben React, und automatisierte Tests gibt es bisher wenige. Wohin es gehen soll, ist klar: Das Backend wird schrittweise auf Symfony umgestellt, das Frontend auf React vereinheitlicht. Bis Ende 2027 soll die Migration abgeschlossen sein. Was dafür fehlt, ist kein Plan, sondern Kapazität. Du triffst eigenständig technische Entscheidungen, bringst dich in Architektur- und Modernisierungsfragen ein und sorgst dafür, dass die Codequalität mit jedem Release besser",
+      "tags": [
+        "Information technology",
+        "vocational"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-26T06:20:05.000Z",
       "score": 85,
       "regions": [
         "Europe",
@@ -212,85 +240,29 @@
       ]
     },
     {
-      "id": "arbeitnow-sr-software-engineer-ai-ml-ai-platform-london-257080",
-      "title": "Sr. Software Engineer - AI/ML - AI Platform",
-      "company": "Addepar1",
+      "id": "arbeitnow-senior-data-scientist-full-stack-london-355881",
+      "title": "Senior Data Scientist - Full Stack",
+      "company": "Clearscoretechnologylimited",
       "location": "London",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/addepar1/sr-software-engineer-ai-ml-ai-platform-london-257080",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Addepar is a global data and AI platform empowering investment professionals to turn complex financial information into actionable intelligence. Addepar unifies portfolio, market and client data in a total portfolio view and delivers AI-powered insights within investment and client workflows. More than 1,500 firms in 60 countries use Addepar to manage and advise on nearly $10 trillion in assets. Its open platform integrates with 650 software, data and consulting partners to power end-to-end investment operations across firms of all sizes and levels of complexity. Addepar supports clients worldwide with offices in New York City, Salt Lake City, São Paulo, London, Edinburgh, Geneva, Warsaw, Dubai, Pune and Singapore.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt; &lt;p&gt;We are seeking a Senior AI Engineer to join our AI Platform team. The AI Platform team is focused on enabling and building disruptive",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/clearscoretechnologylimited/senior-data-scientist-full-stack-london-355881",
+      "description": "&lt;p&gt;&lt;strong&gt;Senior Data Scientist - Full Stack&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;em&gt;Please note visa sponsorship is not currently available for this position. &lt;/em&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;We are looking for a Senior Full Stack Data Scientist to join our Data &amp;amp; Analytics team at ClearScore. Data Scientists play a key role in our business, driving strategy and decision-making at all levels, which ultimately benefits our users, partners, and other teams across the organisation. We are seeking a proactive, outcomes-oriented individual, ready to take on broad ownership of a range of initiatives, to join our growing Global Targeting team. Working to enhance the ClearScore user experience through improved dynamic content targeting and prioritisation, you will take end-to-end ownership of data science and machine learning solutions across a variety of use cases, business areas, and markets. You’ll bring the knowledge and expertise required to evaluate transformative new approaches in machine learning and AI against our current implementations, applying your judgement and craft to incorporate ",
       "tags": [
-        "AI"
+        "Analytics"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-25T06:55:19.000Z",
-      "score": 85,
+      "posted": "2026-10-25T15:55:22.000Z",
+      "score": 80,
       "regions": [
-        "India",
-        "UAE",
-        "Singapore",
-        "Europe",
-        "Remote"
+        "Europe"
       ],
-      "sponsorshipFriendly": false,
+      "sponsorshipFriendly": true,
       "roleRelevant": true,
       "reasons": [
         "role in title",
         "seniority fit",
-        "region: India/UAE/Singapore/Europe/Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-full-stack-product-engineer-paris-157871",
-      "title": "Senior Full-Stack Product Engineer",
-      "company": "The Flex",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/the-flex/senior-full-stack-product-engineer-paris-157871",
-      "description": "About Us Base360.ai is the AI operating system for short-term rental businesses, helping property managers run their operations on autopilot. Born out of The Flex, a short-term rental operator that scaled to an eight-figure business using its own software, Base360.ai is now launching as a standalone platform for short-term rental operators worldwide. We bring reservations, guest communication, pricing, payments, cleaning, maintenance, and reporting into one platform—helping operators automate manual work, reduce costs, increase revenue, and scale their portfolios. We're looking for an ambitious Senior Full-Stack Product Engineer who wants to turn real customer problems into intuitive, reliable software. You'll work closely with founders, designers, and operators to identify what matters, build solutions, and improve them based on how people use them. If you enjoy owning the full journey from customer problem to shipped product—and you're excited by AI, automation, and short-term rentals—we want to meet you. What You'll Build As a Senior Full-Stack Product Engineer, you'll help shape and scale Base360.ai across the entire short-term rental lifecycle. You'll build customer-facing fea",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T20:40:17.000Z",
-      "score": 85,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Remote",
-        "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-paris-16114",
-      "title": "Senior Software Engineer",
-      "company": "The Flex",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/the-flex/senior-software-engineer-paris-16114",
-      "description": "About Us Base360.ai is the AI operating system for short-term rental businesses, helping property managers run their operations on autopilot. Born out of The Flex, a short-term rental operator that scaled to an eight-figure business using its own software, Base360.ai is now launching as a standalone platform for short-term rental operators worldwide. We bring reservations, guest communication, pricing, payments, cleaning, maintenance, and reporting into one platform—helping operators automate manual work, reduce costs, increase revenue, and scale their portfolios. We're looking for a highly ambitious Senior Software Engineer who wants to build systems that solve real problems at scale. You'll build, ship, automate, and deliver products that directly impact property managers, their teams, and their guests. If you're excited by APIs, automation, AI agents, cloud infrastructure, and building products from the ground up, we want to meet you. What You'll Build As a Senior Software Engineer, you'll help architect and scale Base360.ai —the platform powering every aspect of a short-term rental business. You'll build customer-facing products, automation engines, AI-powered workflows, integr",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T20:40:17.000Z",
-      "score": 85,
-      "regions": [
-        "Remote"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Remote",
-        "remote"
+        "region: Europe",
+        "sponsorship/relocation mentioned"
       ]
     },
     {
@@ -432,23 +404,45 @@
       ]
     },
     {
-      "id": "arbeitnow-sr-software-engineer-portfolio-data-workflows-edinburgh-8282",
-      "title": "Sr. Software Engineer - Portfolio Data Workflows",
-      "company": "Addepar1",
-      "location": "Edinburgh",
+      "id": "arbeitnow-senior-software-developer-fullstack-java-angular-nuremberg-140491",
+      "title": "Senior Software Developer – Fullstack Java & Angular (m/w/d)",
+      "company": "isento GmbH",
+      "location": "Nuremberg",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/addepar1/sr-software-engineer-portfolio-data-workflows-edinburgh-8282",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;Addepar is a global data and AI platform empowering investment professionals to turn complex financial information into actionable intelligence. Addepar unifies portfolio, market and client data in a total portfolio view and delivers AI-powered insights within investment and client workflows. More than 1,500 firms in 60 countries use Addepar to manage and advise on nearly $10 trillion in assets. Its open platform integrates with 650 software, data and consulting partners to power end-to-end investment operations across firms of all sizes and levels of complexity. Addepar supports clients worldwide with offices in New York City, Salt Lake City, São Paulo, London, Edinburgh, Geneva, Warsaw, Dubai, Pune and Singapore.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt; &lt;p&gt;We are currently seeking a Backend Software Engineer for our Portfolio Data Products team. In this role, you&#39;ll be at the forefro",
+      "url": "https://www.arbeitnow.com/jobs/companies/isento-gmbh/senior-software-developer-fullstack-java-angular-nuremberg-140491",
+      "description": "Deine Rolle Als Senior Software Developer bist Du bei isento ein erfahrenes und verlässliches Teammitglied in unseren Projekten. Du bist Vollblutentwickler und begleitest den gesamten Entwicklungsprozess: von der ersten Idee über die Umsetzung und das Testen bis hin zum Deployment und Monitoring. Bei uns gibt es keine starren Hierarchien oder einsame Entscheidungen im Elfenbeinturm: Wir entscheiden technische Fragestellungen gemeinsam im Team. Wir suchen jemanden mit Praxiserfahrung, der vorausschauend mitdenkt, technische Herausforderungen früh erkennt und jüngeren Kolleginnen und Kollegen im Alltag mit Rat und Tat zur Seite steht. Deine Aufgaben bei isento Du entwickelst im Team moderne Softwarelösungen für lokale Kunden oder unsere hauseigenen Produkte auf Basis von Java, Spring Boot und Angular Du packst hands-on im gesamten Stack mit an und bringst Dich je nach Deiner persönlichen Neigung gerne schwerpunktmäßig im Backend oder Frontend ein Du übernimmst gemeinsam mit Deinem Team die Verantwortung für den gesamten Entwicklungsprozess und triffst pragmatische Entscheidungen mit Blick auf tatsächlichen Bedarf, Qualität, Risiko und wirtschaftlichen Nutzen Clean Code, automatisiert",
       "tags": [
-        "Core Product Engineering"
+        "Software Development"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-25T06:55:19.000Z",
+      "posted": "2026-10-26T08:00:44.000Z",
       "score": 70,
       "regions": [
-        "India",
-        "UAE",
-        "Singapore",
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-cloud-services-rust-munich-281854",
+      "title": "Software Engineer – Cloud Services – Rust",
+      "company": "tensordyne",
+      "location": "Munich",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/tensordyne/software-engineer-cloud-services-rust-munich-281854",
+      "description": "&lt;div&gt; &lt;p&gt;&lt;strong&gt;About Tensordyne&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;AI is transforming our world. It can perform cognitive functions that previously only humans could do, such as perceiving interactions across different modalities and environments - with the ability to quickly learn and then solve complex problems. Tensordyne is an AI system solution company that builds very high-performance, low-power generative AI inference systems. Our mission, through the creation of custom silicon, hardware and software, is to enable multimodal Generative AI inference acceleration at scale, with safe, sustainable, high-performance systems for our hyperscaler and neocloud data center customers. We are at the leading edge of advancing the latest research and product improvements for generative Al inference solutions that will make Al even more advantageous for compelling new generative AI applications.Tensordyne is a well funded, fast-paced startup company with headquarters in both Sunnyvale, CA, and Munich, Germany. We also have many talented team members working remotely across North America and Europe. We take care of our people and their families with comprehensiv",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T12:55:19.000Z",
+      "score": 70,
+      "regions": [
         "Europe",
         "Remote"
       ],
@@ -456,23 +450,198 @@
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "region: India/UAE/Singapore/Europe/Remote",
+        "region: Europe/Remote",
         "remote"
       ]
     },
     {
-      "id": "arbeitnow-senior-software-engineer-i-paris-123796",
-      "title": "Senior Software Engineer I",
-      "company": "Checkout.com",
-      "location": "Paris",
+      "id": "arbeitnow-senior-software-engineer-microsoft-dynamics-365-and-azure-berlin-414862",
+      "title": "(Senior) Software Engineer - Microsoft Dynamics 365 and Azure (m/f/d)",
+      "company": "Unzer",
+      "location": "Berlin",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/checkoutcom/senior-software-engineer-i-paris-123796",
-      "description": "Company Description We’re Checkout.com . You might not know our name, but companies like eBay, Spotify, Klarna, Uber, and Sony do, because we’re behind many of the digital experiences you use every day. We are where the world checks out, enabling over 10 billion transactions yearly for more than one billion global shoppers. Whether you want to book a holiday, order food, renew a subscription, or check out online, there’s a good chance our tech powers the payments behind the scenes. Our platform helps the most ambitious businesses deliver effortless digital experiences, at scale. If you want to do career-defining work, you’ve come to the right place. We move fast, think globally, and believe great teams are built by hiring exceptional people with conviction, curiosity, and the desire to make an impact. With 20 offices across six continents and London as our HQ, we’re shaping the future of fintech – and we’re just getting started. About the role: As a Senior Software Developer at Checkout.com , you will be embedded within the Identity Verification Team, a critical function focused on building innovative products to verify the identities of individuals and businesses globally. In this",
+      "url": "https://www.arbeitnow.com/jobs/companies/unzer/senior-software-engineer-microsoft-dynamics-365-and-azure-berlin-414862",
+      "description": "ABOUT US &nbsp; Unzer is a leading European fintech company with a mission to simplify international payments for e-commerce and retail businesses. Our brand was formed from 13 companies that now contribute to building a unique product covering the entire payment flow.&nbsp;&nbsp; &nbsp; At Unzer, we are driven by the belief that customers should enjoy a seamless shopping experience, no matter where they choose to shop. We are a team of over 700 experts of 55 different nationalities, dedicated to creating a state-of-the-art unified commerce platform. Our goal is to enable businesses to delight their customers with a seamless payment experience.&nbsp;&nbsp; &nbsp; Whether you're a tech enthusiast, payment expert, or a dedicated support professional, we are looking for individuals who are passionate about making a difference.&nbsp;&nbsp; &nbsp; Our offices: We are based across Austria, Denmark, Germany and Luxembourg, with a HQ in Berlin. &nbsp; ABOUT THE TEAM Help us connect Microsoft Dynamics 365 with our wider technology platform. As part of a cross-functional team, you will work with product managers, business stakeholders and engineers to turn business needs into reliable softwa",
       "tags": [
-        "All Departments"
+        "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T20:40:17.000Z",
+      "posted": "2026-10-25T12:07:43.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-pub-sub-london-105273",
+      "title": "Software Engineer, Pub/Sub",
+      "company": "Ably30",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/ably30/software-engineer-pub-sub-london-105273",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our everyday digital experiences are in the middle of a realtime revolution: chatting alongside a livestream, getting realtime financial updates, or working with colleagues in a shared online space. Consumers now expect realtime as standard, and Ably powers a large part of it.&lt;/p&gt; &lt;p&gt;We put developers first. Our products help teams build, extend, and deliver realtime digital experiences, delivering over 700 billion messages to more than 2 billion devices every month. Teams at HubSpot, Fin, Dialpad, NASCAR, Sportsbet, and General Motors all build on Ably.&lt;/p&gt; &lt;p&gt;Working at Ably means helping build the infrastructure that will shape the next generation of the internet. More of what people do online is becoming live, shared and interactive, which only makes what we build more relevant and more necessary. AI is the latest place that shows up. There&#39;s still so much to build, and we&#39;d like your help with it.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About this role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;The Pub/Sub team owns the core backend that underpins Ably&#39;s entire edge messaging platform. This is",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T15:55:21.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-backoffice-platform-london-381554",
+      "title": "Senior Software Engineer, Backoffice Platform",
+      "company": "Ably30",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/ably30/senior-software-engineer-backoffice-platform-london-381554",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Our everyday digital experiences are in the middle of a realtime revolution: chatting alongside a livestream, getting realtime financial updates, or working with colleagues in a shared online space. Consumers now expect realtime as standard, and Ably powers a large part of it.&lt;/p&gt; &lt;p&gt;We put developers first. Our products help teams build, extend, and deliver realtime digital experiences, delivering over 700 billion messages to more than 2 billion devices every month. Teams at HubSpot, Fin, Dialpad, NASCAR, Sportsbet, and General Motors all build on Ably.&lt;/p&gt; &lt;p&gt;Working at Ably means helping build the infrastructure that will shape the next generation of the internet. More of what people do online is becoming live, shared and interactive, which only makes what we build more relevant and more necessary. AI is the latest place that shows up. There&#39;s still so much to build, and we&#39;d like your help with it.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;&lt;strong&gt;About this role&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Ably&#39;s back office platform is where every customer account is managed. It holds the packages, entit",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T15:55:21.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-software-engineer-stream-processing-290179",
+      "title": "Senior Software Engineer (Stream Processing)",
+      "company": "Nebius",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/nebius/senior-software-engineer-stream-processing-290179",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;amp;D.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;The role&lt;/h3&gt; &lt;p&gt;We are looking for a Senior Software Engineer to build the event-processing pipelines and services that turn Nebius product usage into revenue.&lt;br&gt;You will work on systems that process a continuous stream of usage events, where",
+      "tags": [
+        "Backend"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T15:55:20.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-experienced-senior-fullstack-engineer-squad-scribe-paris-127612",
+      "title": "Experienced/Senior Fullstack Engineer - Squad Scribe",
+      "company": "Doctrine",
+      "location": "Paris",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/doctrine/experienced-senior-fullstack-engineer-squad-scribe-paris-127612",
+      "description": "Our Mission ⚖️ At Doctrine, we're building Europe's leading legal AI platform. Our belief? Law shouldn't be slowed down by repetitive tasks. It should be augmented by a specialised AI, designed to understand, analyse and produce legal reasoning at the highest standard. Our ambition? To help legal professionals work with greater reliability, efficiency and peace of mind, through a single, comprehensive and secure platform. Today, 27,000 legal professionals across five countries (France, Italy, Germany, Spain and Luxembourg) trust us to do just that. Our growth is guided by a clear approach: a global vision, grounded in a deep understanding of local specificities. Behind this ambition, a team of around 250 people, united around one goal: supporting lawyers and legal professionals at every stage of their work, from research to drafting. And we're just getting started. The context We’re looking for a senior/fullstack engineer to help us build the first legal intelligence platform . You’ll join the “Scribe” team with a clear mission: revolutionize legal drafting (Drafting) in France, Italy, and Germany . We deploy cutting-edge solutions (LLMs) directly where lawyers and legal profession",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-26T03:07:53.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-experienced-senior-fullstack-engineer-platform-squad-paris-354815",
+      "title": "Experienced / senior Fullstack Engineer (Platform squad)",
+      "company": "Doctrine",
+      "location": "Paris",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/doctrine/experienced-senior-fullstack-engineer-platform-squad-paris-354815",
+      "description": "Notre mission ⚖️ Chez Doctrine, nous construisons le leader de l’IA juridique en Europe. Notre conviction ? Le droit ne doit pas être ralenti par des tâches répétitives. Il doit être augmenté par une IA spécialisée, conçue pour comprendre, analyser et produire du raisonnement juridique avec un haut niveau d’exigence. Notre ambition ? Permettre aux professionnels du droit de gagner en fiabilité, en efficacité et en sérénité, grâce à une plateforme unique, exhaustive et sécurisée. Aujourd’hui, 27 000 professionnels du droit, répartis dans cinq pays (France, Italie, Allemagne, Espagne, Luxembourg), nous font confiance. Notre développement est guidé par une approche claire : une vision globale, ancrée dans une compréhension fine des spécificités locales. Derrière cette ambition, une équipe d’environ 250 personnes, réunies autour d’un même objectif : accompagner les juristes et avocats à toutes les étapes de leur travail, de l’analyse à la rédaction. Et nous n’en sommes qu’au début. Le contexte Nous cherchons un ingénieur fullstack pour nous aider à construire la première plateforme d’intelligence juridique. Tu rejoindras l'équipe Platform dont la mission est la gestion de l’authentific",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-26T03:07:53.000Z",
+      "score": 70,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-software-engineer-69648",
+      "title": "Software Engineer",
+      "company": "360Learning",
+      "location": "Paris, Remote",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/360learning/remote-software-engineer-69648",
+      "description": "At the start of 360Learning's growth, we were only 10 developers in the R&amp;D department working on a single codebase. Today, we are a team of 60+ engineers divided into 10 product squads. Each squad includes developers, product managers and designers. Our technical teams are paramount to 360Learning’s response to our increasingly demanding customers and are strategic players for the growth of the company. We have the opportunity to:&nbsp; &nbsp; Lead real and complex technical challenges : A complex codebase on which analysis and modeling capabilities are key. Significant traffic (2.3M registered users, 200K unique monthly visitors) with a considerable volume of data to manage. A strong focus on “clean architecture” for long-term growth. &nbsp; Work on an attractive technical stack : We work on MongoDB, Node.js and Vue.js, three of the most popular JS technologies on the market. We are currently migrating to TypeScript. &nbsp; Grow within a R&amp;D team that allows rapid progress : Our decentralized peer review process provides us with qualitative and regular feedback from other team members. We promote pair programming and knowledge sharing. Within 1 month, you will: Discover t",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-26T03:07:53.000Z",
+      "score": 70,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-system-software-engineer-zurich-493111",
+      "title": "(Senior) System software engineer",
+      "company": "CDDS AG",
+      "location": "Zürich",
+      "remote": false,
+      "url": "https://www.arbeitnow.ch/jobs/companies/cdds-ag/senior-system-software-engineer-zurich-493111",
+      "description": "You want to help build Europe's resilience. You want to protect people and critical infrastructure - ultimately saving the lives of thousands. You want to work at the frontier of high-performance autonomous systems. At CDDS, you'll build the software platform that connects our next-generation interceptor drones with sensors and operators, the nervous system of a counter-drone defense network protecting critical infrastructure and, ultimately, saving lives. We're looking for a strong all-around software engineer to: Build the platform that fuses radar, sensors, and third-party data into a single, real-time operational picture Integrate our drones with external systems at low latency, under conditions where reliability isn't optional Design fleet-management tooling to monitor, configure, and coordinate drones operating in the field This is real-time, safety-critical software with actual physical stakes. You'll work close to hardware, close to operators, and close to the mission. We move fast and priorities shift as the threat landscape does. Tasks What you will own Architect the ground-segment platform that fuses radar and multi-sensor data into a real-time operational picture, under",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T13:00:52.000Z",
       "score": 70,
       "regions": [
         "Europe"
@@ -630,112 +799,45 @@
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-mission-control-software-munich-247496",
-      "title": "Software Engineer – Mission Control Software",
-      "company": "The Exploration Company",
-      "location": "Munich, Germany",
+      "id": "arbeitnow-senior-product-engineer-berlin-253211",
+      "title": "Senior Product Engineer",
+      "company": "Cosuno",
+      "location": "Berlin/Remote",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/the-exploration-company/software-engineer-mission-control-software-munich-247496",
-      "description": "Here at The Exploration Company, we are building spacecrafts for humanity. Join us as a Software Engineer – Mission Control Software, where you will develop mission-critical software that powers our integrated testing and mission operations. You will primarily work on our Mission Control Software and build supporting tools used by flight controllers and engineering teams. Key Responsibilities In your capacity as a Software Engineer - Ground Segment you will: Develop robust software used in testing and mission operations Contribute across the full software development lifecycle, from design to deployment Build scalable systems that support TEC’s expanding mission activities Collaborate with testing, engineering, and operations teams to understand and meet operational needs Write performant, maintainable, and well-documented code Ensure reliability through automated testing and operational validation Support users and contribute to improving development workflows and tooling Mentor junior engineers and contribute to a strong engineering culture What we would love to see from you The ideal candidate will have: Experience with backend development using Python and/or Ruby (on Rails) Fro",
+      "url": "https://www.arbeitnow.com/jobs/companies/cosuno/senior-product-engineer-berlin-253211",
+      "description": "Your mission Join our Engineering team and own features from the problem to the shipped product, in a platform used by thousands of construction professionals. Own problems end to end: Take a customer or business problem all the way to production. You shape the solution and its acceptance criteria, design the data model and services behind it, and ship it across backend, API, and front end. Solve hard backend problems: Our domain is complex — tenders, bills of quantities, and millions of price data points. You design the data models, APIs, and services that handle it reliably and at scale. Make product decisions: Decide how a solution should work for the user, down to the interface, which you build on our design system with little guidance. Build our biggest bets: Partner with Product and Design on our most strategic initiatives, and own bringing them to life in the product. Collaborate across teams: Work with Product, Design, and Data to translate business problems into shipped features. Shape our codebase: Architect and implement modular packages and services in our monorepo. Your profile TypeScript, React, Node: Non-negotiable. You have significant professional experience buildi",
       "tags": [
-        "Digital Systems"
+        "Tech"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T23:40:11.000Z",
-      "score": 55,
+      "posted": "2026-10-26T03:40:14.000Z",
+      "score": 65,
       "regions": [
-        "Europe"
+        "Europe",
+        "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in title",
-        "region: Europe"
+        "role in description",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote"
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-ii-oxford-53842",
-      "title": "Software Engineer II",
-      "company": "tripadvisor",
-      "location": "Oxford",
+      "id": "arbeitnow-software-engineer-java-berlin-377662",
+      "title": "Software Engineer (Java) - (m/f/d)",
+      "company": "Unzer",
+      "location": "Berlin",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/tripadvisor/software-engineer-ii-oxford-53842",
-      "description": "&lt;div&gt; &lt;div class=&quot;attachment-overlay preview&quot;&gt; &lt;div id=&quot;viewer-container&quot;&gt; &lt;div id=&quot;canvas-container&quot;&gt; &lt;div id=&quot;viewer&quot; class=&quot;pdfViewer&quot;&gt; &lt;div class=&quot;page&quot; data-page-number=&quot;1&quot; data-loaded=&quot;true&quot;&gt; &lt;div class=&quot;textLayer&quot;&gt; &lt;div&gt;&amp;nbsp;&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;p&gt;&lt;strong&gt;About Tripadvisor&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Tripadvisor Group connects people to experiences worth sharing, and aims to be the world’s most trusted source for travel and experiences. We leverage our brands, technology, and capabilities to connect our global audience with partners through rich content, travel guidance, and two-sided marketplaces for experiences, accommodations, restaurants, and other travel categories. The subsidiaries of Tripadvisor, Inc. (Nasdaq: TRIP), include a portfolio of travel brands and businesses, including Tripadvisor, Viator, and TheFork.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Tripadvisor Experienc",
-      "tags": [
-        "Engineering & Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-25T03:55:19.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-fullstack-engineer-united-kingdom-158685",
-      "title": "Fullstack Engineer",
-      "company": "Kpler",
-      "location": "United Kingdom",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/kpler/fullstack-engineer-united-kingdom-158685",
-      "description": "At Kpler, we are dedicated to helping our clients navigate complex markets with ease. By simplifying global trade information and providing valuable insights, we empower organisations to make informed decisions in commodities, energy, and maritime sectors. &nbsp; Since our founding in 2014, we have focused on delivering top-tier intelligence through user-friendly platforms. Our team of over 850 experts from 69 countries works tirelessly to transform intricate data into actionable strategies, ensuring our clients stay ahead in a dynamic market landscape. Join us to leverage cutting-edge innovation for impactful results and experience unparalleled support on your journey to success. &nbsp; About the Role As a Full Stack Engineer at Kpler, you will play a central role in designing, building, and operating responsive web applications and backend APIs that deliver real-time trade intelligence to global market leaders. Working across frontend user interfaces and microservice architectures, you will turn complex datasets into intuitive, high-impact features. Your contributions will directly enhance how clients interact with critical maritime analytics, driving data-driven decisions across",
-      "tags": [
-        "Engineering Maritime & Logistic"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-25T03:07:33.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-junior-full-stack-engineer-london-143121",
-      "title": "Junior Full Stack Engineer",
-      "company": "Bloom & Wild Group",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/bloom-wild-group/junior-full-stack-engineer-london-143121",
-      "description": "📍 Location: UK or Netherlands 🛠️ Tech stack: Ruby, Angular, TypeScript, SASS, design system, Contentful, GitHub Actions 🎯 Focus: hands-on full stack product work, with room to grow into frontend About Tech at Bloom &amp; Wild Group 🌸 We're Europe's largest direct-to-consumer flower and gifting business (Bloom &amp; Wild, bloomon and Bergamotte). Our Tech team builds the software behind the shops, warehouses and delivery. The P&amp;L squad is hiring a Junior Full Stack Engineer who will spend their time building in the product and learning from experienced engineers. You can read more about the stack and how we work on our tech blog, Code &amp; Wild. The Role You will work across our Ruby backend and our multi-brand Angular and TypeScript frontend, scoping what to build and how with engineers, designers and product managers, and growing your career in a supportive engineering culture. Key responsibilities: Full stack features: Help deliver the squad roadmap by building features across Ruby services and our Angular and TypeScript apps, from brief to something a customer can use. Quality in the pages you touch: Accessibility, states, performance, tests and scripts, using the share",
-      "tags": [
-        "Bloom & Wild"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-25T03:07:32.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-rust-software-engineer-london-153138",
-      "title": "Rust Software Engineer",
-      "company": "Prima",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/rust-software-engineer-london-153138",
-      "description": "Are you looking for a new challenge? Fancy helping us shape the future of motor insurance? Prima could be the place for you.&nbsp; Since 2015, we’ve been using our love of data and tech to rethink motor insurance and bring drivers a great experience at a great price.&nbsp;Our story began in Italy, where we’ve quickly become the number one online motor insurance provider. In fact, we’re trusted by over 5 million drivers. And now we’re expanding to help millions more drivers in the UK and Spain. To help fuel that growth, we need a Rust Engineer to join our dynamic teams .&nbsp; &nbsp; This team is the beating heart of Prima.&nbsp; &nbsp; You’ll be joining over +350 engineers across software development, infrastructure, operations and security. Fueled by curiosity, experimentation and collaboration, you’ll help deliver scalable, impactful solutions that shape the future of insurance. &nbsp; Excited to make an impact? Here are the details What you’ll do Architect, design, develop, and maintain scalable and consistent services, writing reusable, modular, and maintainable code aligned with industry best practices. Collaborate closely with stakeholders, product managers, and engineering m",
+      "url": "https://www.arbeitnow.com/jobs/companies/unzer/software-engineer-java-berlin-377662",
+      "description": "ABOUT US &nbsp; Unzer is a leading European fintech company with a mission to simplify international payments for e-commerce and retail businesses. Our brand was formed from 13 companies that now contribute to building a unique product covering the entire payment flow.&nbsp;&nbsp; At Unzer, we are driven by the belief that customers should enjoy a seamless shopping experience, no matter where they choose to shop. We are a team of over 700 experts of 55 different nationalities, dedicated to creating a state-of-the-art unified commerce platform. Our goal is to enable businesses to delight their customers with a seamless payment experience.&nbsp;&nbsp; &nbsp; Whether you're a tech enthusiast, payment expert, or a dedicated support professional, we are looking for individuals who are passionate about making a difference.&nbsp;&nbsp; &nbsp; Our offices We are based across Austria, Denmark, Germany and Luxembourg with a HQ in Berlin.&nbsp;&nbsp; &nbsp; &nbsp; ABOUT THE TEAM &nbsp; The Foundations group is focused on delivering core platform software products. Starting from gateways, through merchant onboarding and offboarding reaching the billing systems and debtor management solutions o",
       "tags": [
         "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-25T03:07:32.000Z",
+      "posted": "2026-10-25T12:07:43.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -748,18 +850,18 @@
       ]
     },
     {
-      "id": "arbeitnow-elixir-software-engineer-london-471776",
-      "title": "Elixir Software Engineer",
-      "company": "Prima",
+      "id": "arbeitnow-software-engineer-localisation-london-487888",
+      "title": "Software Engineer - Localisation",
+      "company": "Roller",
       "location": "London",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/prima/elixir-software-engineer-london-471776",
-      "description": "Are you looking for a new challenge? Fancy helping us shape the future of motor insurance? Prima could be the place for you.&nbsp; Since 2015, we’ve been using our love of data and tech to rethink motor insurance and bring drivers a great experience at a great price.&nbsp;Our story began in Italy, where we’ve quickly become the number one online motor insurance provider. In fact, we’re trusted by over 5 million drivers. And now we’re expanding to help millions more drivers in the UK and Spain. To help fuel that growth, we need a Elixir Engineer to join our dynamic teams .&nbsp; &nbsp; This team is the beating heart of Prima.&nbsp; &nbsp; You’ll be joining over +350 engineers across software development, infrastructure, operations and security. Fueled by curiosity, experimentation and collaboration, you’ll help deliver scalable, impactful solutions that shape the future of insurance. &nbsp; Excited to make an impact? Here are the details What you’ll do Architect, design, develop, and maintain scalable and consistent services, writing reusable, modular, and maintainable code aligned with industry best practices. Collaborate closely with stakeholders, product managers, and engineering",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/roller/software-engineer-localisation-london-487888",
+      "description": "&lt;h1&gt;&lt;strong&gt;About ROLLER&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;ROLLER isn’t your average SaaS company. We operate globally across 30+ countries, powering millions of real-world experiences in the leisure and attractions industry. What we build doesn’t just live on a screen. It shows up in busy venues, peak weekends, and unforgettable moments for guests.&lt;/p&gt; &lt;p&gt;Our mission is simple but ambitious: help operators run better businesses while creating great guest experiences. That means solving complex, real-world problems across ticketing, point of sale, self-service, memberships, kiosks, and digital waivers, all at meaningful scale.&lt;/p&gt; &lt;p&gt;Just as importantly, it’s the people. We’re a team of 300+ smart, grounded, and genuinely passionate humans working across the globe. We care about quality, ownership, and doing work we’re proud of, without taking ourselves too seriously.&lt;/p&gt; &lt;p&gt;We’re growing fast, aiming high, and building something that matters. If you want to work on real problems, with real customers, alongside people who care deeply about their craft and impact, ROLLER is a great place to do it.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&g",
       "tags": [
-        "Engineering"
+        "Tech"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-25T03:07:32.000Z",
+      "posted": "2026-10-25T12:55:16.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -772,110 +874,18 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-software-engineer-analytics-data-platform-paris-24911",
-      "title": "Senior Software Engineer - Analytics Data Platform",
-      "company": "Datadog",
+      "id": "arbeitnow-confirmed-fullstack-engineer-platform-squad-paris-432475",
+      "title": "Confirmed Fullstack Engineer (Platform squad)",
+      "company": "Doctrine",
       "location": "Paris",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/datadog/senior-software-engineer-analytics-data-platform-paris-24911",
-      "description": "&lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;div&gt; &lt;p&gt;The Analytics Data Platform Batch team owns the platform that powers batch data processing across Datadog’s internal data infrastructure. We execute 800k+ Spark jobs daily - plus PySpark, Ray, and Python-based workloads - serving 50+ internal teams across billing, cost management, security intelligence, applied AI and more.&lt;/p&gt; &lt;p&gt;We are a platform engineering team: our customers are Datadog’s internal data engineers and scientists, and our product is the infrastructure, abstractions, and tooling they build on top of. We operate at the intersection of distributed systems, developer experience, cost engineering, and AI-assisted automation - working on problems that affect pipelines at scale&lt;/p&gt; &lt;p&gt;&lt;em&gt;At Datadog, we place value in our office culture - the relationships that it builds, the creativity it brings to the table, and the collaboration of being together. We operate as a hybrid workplace to ensure our employees can create a work-life harmony that best fits the",
-      "tags": [
-        "Dev Eng"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T20:55:30.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-software-engineer-privacy-299929",
-      "title": "Senior Software Engineer, Privacy",
-      "company": "mozilla",
-      "location": "Not specified",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mozilla/senior-software-engineer-privacy-299929",
-      "description": "&lt;div class=&quot;gmail_default&quot; style=&quot;font-size: small;&quot;&gt; &lt;div&gt; &lt;p&gt;&lt;strong&gt;Why Mozilla?&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make pioneering brands like Firefox, the privacy-minded web browser. Now, with more than 225 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, social media, security and more. And we’re doing this while never losing our focus on our core mission – to make the internet better for people.&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;The Mozilla Corporation is wholly owned by the non-profit 501(c) Mozilla Foundation. This means we aren’t beholden to any shareholders — only to our mission. Along with thousands of volunteer contributors and collaborators all over the world, Mozillians design, build and distribute &lt;/span&gt;&lt;st",
-      "tags": [
-        "Firefox"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T05:55:21.000Z",
-      "score": 55,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit"
-      ]
-    },
-    {
-      "id": "arbeitnow-trading-data-software-engineer-amsterdam-497034",
-      "title": "Trading Data Software Engineer",
-      "company": "Imc",
-      "location": "Amsterdam",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/imc/trading-data-software-engineer-amsterdam-497034",
-      "description": "&lt;p&gt;At IMC, technology is not a department; it’s at the heart of everything we do. Developed in house, our innovative software makes millions of trading decisions daily, and we win by making better and faster decisions than our competition.&lt;/p&gt; &lt;p&gt;IMC’s Amsterdam-based Global VMM Data team works on a centralised global data platform to serve high-quality curated data for Valuation Market Making (VMM) research and strategies all throughout IMC. We address the ever changing data requirements and our team tries to solve this in a young project building a central system to ingest, curate and expose data to our research tooling within IMC.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Your Core Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a Trading Data Software Engineer, you&#39;ll work on enabling high-quality research using fundamental option pricing data. Next to that you will increase researchers&#39; focus by centralising the curation of the data and enable quick onboarding of new data sets, to allow for researching new types of strategies that are going to play a vital role in the strategies of IMC now and in the future. We build the tooling that allows a team of da",
-      "tags": [
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T17:55:26.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-java-software-engineer-amsterdam-443240",
-      "title": "Java Software Engineer",
-      "company": "Imc",
-      "location": "Amsterdam",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/imc/java-software-engineer-amsterdam-443240",
-      "description": "&lt;p&gt;At IMC, technology is not a department; it’s at the heart of everything we do. Developed in house, our innovative software makes millions of trading decisions daily, and we win by making better and faster decisions than our competition.&lt;/p&gt; &lt;p&gt;IMC’s Amsterdam-based Java teams work on a wide variety of applications, tools and functionalities, including trading algorithm implementations, option pricing, calculating volatility, simulation frameworks, market risk applications, trade reconciliation applications and data analysis &amp;amp; visualisation tools for traders. We frequently need to develop not just the business applications themselves, but also the tools that keep our development process at the cutting edge.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Your Core Responsibilities:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As a software engineer, you’ll work in multidisciplinary teams alongside other engineers as well as risk teams and traders to deliver challenging projects, while taking ownership for end-to-end product development – from requirements gathering to production. You’ll write reliable, high-performance software while balancing time to production with quality and ",
-      "tags": [
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T17:55:26.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-java-logistics-amsterdam-48094",
-      "title": "Software Engineer (Java) - Logistics",
-      "company": "Teampicnic",
-      "location": "Amsterdam",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/teampicnic/software-engineer-java-logistics-amsterdam-48094",
-      "description": "&lt;section class=&quot;section vacancy-detail-intro-section&quot;&gt; &lt;div class=&quot;section-inner&quot;&gt; &lt;div class=&quot;entry-intro&quot;&gt; &lt;h2&gt;&lt;strong&gt;In a nutshell&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;Our Java teams in the Logistics domain make sure that our products travel all the way from the suppliers in our electronic vehicles, and arrive at our customers’ houses with a smile. From optimizing our routes, to making our drivers’ lives easier, to planning and executing all inbound and outbound products: there’s a wide range of products to work on. Through designing, developing, and testing new features, or improving the scalability and security of our platform: you’ll be owning a product together with your team, while finding yourself fully immersed in an engaging scaleup culture. &amp;nbsp;&lt;/p&gt; &lt;h2&gt;&lt;strong&gt;Tricks of the trade&lt;/strong&gt;&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;Ownership&lt;/strong&gt;: Take ownership of projects from concept to delivery, aligning technical solutions with business goals with a product engineering mindset&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Problem solving&lt;/strong&gt;: You see a problem, you",
+      "url": "https://www.arbeitnow.fr/jobs/companies/doctrine/confirmed-fullstack-engineer-platform-squad-paris-432475",
+      "description": "Notre mission ⚖️ Chez Doctrine, nous construisons le leader de l’IA juridique en Europe. Notre conviction ? Le droit ne doit pas être ralenti par des tâches répétitives. Il doit être augmenté par une IA spécialisée, conçue pour comprendre, analyser et produire du raisonnement juridique avec un haut niveau d’exigence. Notre ambition ? Permettre aux professionnels du droit de gagner en fiabilité, en efficacité et en sérénité, grâce à une plateforme unique, exhaustive et sécurisée. Aujourd’hui, 27 000 professionnels du droit, répartis dans cinq pays (France, Italie, Allemagne, Espagne, Luxembourg), nous font confiance. Notre développement est guidé par une approche claire : une vision globale, ancrée dans une compréhension fine des spécificités locales. Derrière cette ambition, une équipe d’environ 250 personnes, réunies autour d’un même objectif : accompagner les juristes et avocats à toutes les étapes de leur travail, de l’analyse à la rédaction. Et nous n’en sommes qu’au début. Le contexte &nbsp; Nous cherchons un ingénieur fullstack pour nous aider à construire la première plateforme d’intelligence juridique. Tu rejoindras l'équipe Platform dont la mission est la gestion de l’auth",
       "tags": [
         "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T02:55:21.000Z",
+      "posted": "2026-10-26T03:07:53.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -991,18 +1001,18 @@
       ]
     },
     {
-      "id": "arbeitnow-chief-science-officer-stuttgart-369217",
-      "title": "Chief Science Officer",
-      "company": "Sereact GmbH",
-      "location": "Stuttgart Schockenriedstr. 17",
+      "id": "arbeitnow-senior-data-engineer-176412",
+      "title": "Senior Data Engineer",
+      "company": "Nebius",
+      "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/chief-science-officer-stuttgart-369217",
-      "description": "Chief Science Officer @ Sereact 🦾 Chief Science Officer (m/f/d) · Zurich or Stuttgart, Boston possible · Reports to the CEO · Full-time Who we are Sereact builds the robot brain for physical work. Cortex , our vision-language-action foundation model, is hardware-agnostic: the same model runs single-arm and dual-arm systems, mobile manipulators and humanoids that pick, sort and handle returns in live production across Europe and the US. Customers include Zalando, IKEA, BMW, Rohlik and DHL. Founded in 2021 in Stuttgart, with an R&amp;D hub in Zurich and a US office in Boston. We have raised more than $145 million, most recently a $116 million Series B led by Headline, with Zalando as a strategic investor. We work in small, senior teams with a flat structure; execution counts more than titles. Why this role, why now Our robots produce data no lab can stage. Our fleet has recorded more than 500 million manipulation interactions in live warehouse operations; Cortex 2.0 was trained on a curated 10 million of them and added a world model that plans before it acts ( arXiv 2604.20246 ). Cortex 2.5 learns a new task from a few demonstrations instead of a training run. Deployments are growin",
+      "url": "https://www.arbeitnow.com/jobs/companies/nebius/senior-data-engineer-176412",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;amp;D.&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;The role&lt;/span&gt;&lt;/strong&gt;&lt;span data-ccp-props=&quot;{}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/h3&gt; &lt;p&gt;&lt;span data-contrast=&quot;auto&quot;&gt;The Data Engineering team builds and ope",
       "tags": [
-        "Leadership"
+        "Technology"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T23:40:12.000Z",
+      "posted": "2026-10-25T15:55:20.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -1016,18 +1026,18 @@
       ]
     },
     {
-      "id": "arbeitnow-ip-rights-manager-paris-315528",
-      "title": "IP Rights Manager",
-      "company": "Mistral.ai",
-      "location": "Paris",
+      "id": "arbeitnow-senior-tech-lead-backend-engineer-managed-kubernetes-7631",
+      "title": "Senior/Tech Lead Backend Engineer (Managed Kubernetes)",
+      "company": "Nebius",
+      "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/ip-rights-manager-paris-315528",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role As a Legal Operations Specialist – Data Licensing on the IP &amp; Licensing team, you will own the processes that let Mistral license content and data without slowing down. This role exists because we need someone who can turn legal analysis into repeatable workflows — managing rights, obligations, and restrictions across our growing dataset portfolio. You will work closely with the colleagues who negotiate our commercial and legal agreements, turning their work into clear metadata, tracked obligations, and aut",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/nebius/senior-tech-lead-backend-engineer-managed-kubernetes-7631",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;amp;D.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;Nebius Managed Kubernetes (mk8s) mission is to grow the Nebius cloud platform by providing a Kubernetes-native way to run AI systems with high efficiency and low operational overhead.&amp;nbsp;With a single click, it provides a Kubernetes cluster on top of Nebius",
       "tags": [
-        "Legal"
+        "Backend"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T20:40:18.000Z",
+      "posted": "2026-10-25T15:55:20.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -1038,6 +1048,31 @@
         "role in description",
         "seniority fit",
         "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-product-manager-140298",
+      "title": "Product Manager",
+      "company": "360Learning",
+      "location": "Paris, Remote",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/360learning/remote-product-manager-140298",
+      "description": "Our Product team comprises Group Product Managers and Product Managers. Within a Product Squad, the Product Manager works with a Product Designer and 4 to 6 Software Engineers on an ambitious roadmap. Product Managers are committed to maintaining our lead in Collaborative Learning. To secure the delivery of our new features and solutions, we are recruiting a Product Manager who will own the functional and technical scope of the squads. They will identify problems, define solutions and manage delivery. They make sure their roadmap is aligned with the Product vision. Within 1 month, you will: Become a Trello expert through our onboarding process Understand our product offering through training Meet the global team through virtual coffee meets and happy hour Within 3 months, you will: Write features specifications and user stories Manage the roadmap and product backlog of your squad Ensure timely and effective delivery of new features Attend customer discoveries and adapt solutions consequently Within 6 months, you will: Become a subject matter expert for any topic related to the product backlog, the roadmap and the user stories in your squad Partner with other key stakeholders like o",
+      "tags": [
+        "Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-26T03:07:53.000Z",
+      "score": 50,
+      "regions": [
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Remote",
+        "remote"
       ]
     },
     {
@@ -1093,6 +1128,32 @@
       ]
     },
     {
+      "id": "arbeitnow-social-media-content-creater-vrijwillig-capelle-aan-den-ijssel-151324",
+      "title": "Social media content creater (vrijwillig)",
+      "company": "Mirtos Animal Project",
+      "location": "Capelle aan den IJssel",
+      "remote": true,
+      "url": "https://www.arbeitnow.nl/jobs/companies/mirtos-animal-project/social-media-content-creater-vrijwillig-capelle-aan-den-ijssel-151324",
+      "description": "Als social media content creator ben jij een belangrijke schakel in ons team en kun je écht impact maken. Door onze socials actief en aantrekkelijk te houden, zorgen we samen voor meer zichtbaarheid én meer adopties. Je werkt hierbij vanuit huis. Taken Wat ga je doen?: • Vertalen van beeld en tekst van onze Griekse partners naar pakkende social media posts • Regelmatig plaatsen van beschikbare dieren op Instagram en Facebook • Reageren op reacties en berichten van volgers • Campagnes bedenken en beheren, samen met je collega content maker Vereisten Wat heb je in huis? • Je beheerst de Nederlandse taal goed, mondeling én schriftelijk • Je bent creatief en het lijkt je leuk om met Canva te werken • Je kunt werken binnen een bestaande huisstijl • Je werkt zelfstandig vanuit huis • Je bent beschikbaar voor ongeveer 1 uur per week, flexibel in te delen Benefits Wat bieden wij?  Dankbaar vrijwilligerswerk met directe impact  Ondersteuning vanuit een betrokken team  Flexibiliteit: je werkt vanuit huis en bepaalt grotendeels je eigen tijdsindeling Waarom jij? Met jouw inzet maken we het verschil. Door onze social media kanalen goed te beheren, vergroten we de zichtbaarheid van de dieren",
+      "tags": [
+        "Remote",
+        "Marketing and Communication"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T13:31:13.000Z",
+      "score": 50,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe",
+        "remote"
+      ]
+    },
+    {
       "id": "remoteok-1137508",
       "title": "Principal Software Engineer",
       "company": "Vytalize Health",
@@ -1127,43 +1188,18 @@
       ]
     },
     {
-      "id": "arbeitnow-member-of-technical-staff-software-engineer-fraud-prevention-london-460512",
-      "title": "Member of Technical Staff (Software Engineer, Fraud Prevention)",
-      "company": "Perplexity",
-      "location": "London",
+      "id": "arbeitnow-sr-software-engineer-cloud-platform-54921",
+      "title": "Sr. Software Engineer, Cloud Platform",
+      "company": "Samsara",
+      "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/perplexity/member-of-technical-staff-software-engineer-fraud-prevention-london-460512",
-      "description": "About the role Perplexity's fraud prevention team protects our products, users, and infrastructure from fraud and abuse across the whole lifecycle: sign-up, authentication, payments, API usage, and product features. We build and operate a real-time decisioning platform together with the surrounding systems: data pipelines for detection and model training, integrations with product and payment systems, and internal tooling for investigation and response. As a software engineer on the team, you will own services end to end, from design to production operations, and work closely with fraud analysts, ML engineers, and product teams to make abuse expensive and legitimate usage frictionless. Responsibilities Design, build, and operate high-throughput, low-latency backend services for fraud detection and prevention Build data pipelines and real-time feature computation that power detections and ML models Collect and process trust signals Integrate fraud decisions into product, auth, and payment flows across Perplexity Own reliability of production services: observability, alerting, safe rollouts, incident response Build internal tooling for investigation, enforcement, and auditability Par",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/samsara/sr-software-engineer-cloud-platform-54921",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif;&quot;&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 300; font-family: arial, helvetica, sans-serif;&quot;&gt;Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 300; font-family: arial, helvetica, sans-serif;&quot;&gt;Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product ",
       "tags": [
-        "Search"
+        "Platform"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-25T06:40:15.000Z",
-      "score": 40,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-web-full-stack-paris-462123",
-      "title": "Software Engineer, Web (Full stack)",
-      "company": "Amo",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/amo/software-engineer-web-full-stack-paris-462123",
-      "description": "We are looking for someone to join us as an early member of the Web team, to build and own web platforms that turn large amounts of data into products people love to use. Maps and location data sit at the core of what we build, and we’re looking for an engineer who can take a platform from data model to pixel. In the initial months, you’ll work closely with the team, gradually taking ownership of central systems and features. Given our stage, we’re seeking versatile engineers comfortable contributing across the frontend, the backend and the data. We value team members who delve deep into their respective domains, aiming to cultivate a team of subject matter experts with a high sense of ownership. This commitment to expertise is an expectation for every team member. As a Web Engineer, your day-to-day will include: Platform Engineering Designing and building robust, scalable web platforms end-to-end in TypeScript: APIs, services, data access layers and the UI on top of them. You’ll make the architectural decisions and set the patterns that others build on. Workflows &amp; Data Pipelines Architecting durable, long-running workflows and background processes on our workflow orchestratio",
-      "tags": [
-        "Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T05:40:26.000Z",
+      "posted": "2026-10-26T03:55:24.000Z",
       "score": 40,
       "regions": [],
       "sponsorshipFriendly": false,
@@ -1173,18 +1209,19 @@
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-web-growth-paris-437744",
-      "title": "Software Engineer, Web (Growth)",
-      "company": "Amo",
-      "location": "Paris",
+      "id": "arbeitnow-software-engineer-embedded-security-zurich-357319",
+      "title": "Software Engineer – Embedded Security",
+      "company": "CDDS AG",
+      "location": "Zürich",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/amo/software-engineer-web-growth-paris-437744",
-      "description": "We are looking for someone to join us as an early member of the Web team, owning the user-facing web at amo. For many people, the web is where they first meet our apps: a link shared by a friend, opened in a messenger or a social feed, often seconds before they decide whether to download. That moment matters a lot to us. In the initial months, you’ll work closely with the team on the surfaces that bring new people into our products, gradually taking ownership of a growing part of our consumer web experience. Given our stage, we’re seeking versatile engineers comfortable working across product, engineering and growth. We value team members who delve deep into their respective domains, aiming to cultivate a team of subject matter experts with a high sense of ownership. This commitment to expertise is an expectation for every team member. As a Web Engineer, your day-to-day will include: Consumer Web Experiences Building fast, beautiful, conversion-focused web experiences that show off our apps at their best, from the first link someone taps to the moment they open the app. You’ll turn designs into polished UI that loads instantly on any device and in any in-app browser, and you’ll car",
+      "url": "https://www.arbeitnow.ch/jobs/companies/cdds-ag/software-engineer-embedded-security-zurich-357319",
+      "description": "You want to help build the Western resilience and protect people and critical infrastructure. At CDDS, you’ll help secure the software behind our next-generation interceptor drones. We’re looking for a hands-on software engineer who understands embedded security and US security requirements. You’ll complement our existing cloud security expertise by implementing security on our devices and supporting compliance documentation from a technical perspective. What you will do Write and maintain software that secures our embedded Linux devices and ground systems. Implement secure provisioning, authentication, key management, and software updates. Translate security requirements into practical technical solutions alongside our security and compliance lead. Identify vulnerabilities, implement fixes, and verify that security measures work on real hardware. Support compliance work with technical documentation and evidence of implemented controls. Requirements Strong software development skills in Python and/or C++. Experience securing embedded Linux systems. Practical knowledge of encryption, secure boot, access control, and device security. Ability to balance security requirements with perf",
       "tags": [
-        "Engineering"
+        "Embedded Systems",
+        "Firmware Development"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T05:40:26.000Z",
+      "posted": "2026-10-25T13:00:51.000Z",
       "score": 40,
       "regions": [],
       "sponsorshipFriendly": false,
@@ -1194,39 +1231,18 @@
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-net-woerden-170023",
-      "title": "Software Engineer (.NET)",
-      "company": "CCS Connects",
-      "location": "Woerden, Utrecht, Nederland",
+      "id": "arbeitnow-software-developer-schwerpunkt-angular-nuremberg-76257",
+      "title": "Software Developer (m/w/d) - Schwerpunkt Angular",
+      "company": "isento GmbH",
+      "location": "Nuremberg",
       "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/ccs-connects/software-engineer-net-woerden-170023",
-      "description": "Your Mission As a Software Engineer at CCS, you'll play a key role in our modernization journey—bridging legacy systems with future-ready solutions. You’ll help deliver innovative, high-quality software that transforms how our clients operate. Modernization is not just about adopting new technologies—it’s about continuously improving how we build, learn, and grow. You love experimenting, learning by doing, and inspiring others to raise the bar. What You’ll Do You’ll join a team focused on modernizing our insurance back-office systems—critical components in our clients' ecosystems. Your main focus will be on SureCore , our next-gen solution that works in tandem with Level , our trusted legacy platform. This hybrid approach lets us evolve system functionality domain by domain. You enjoy working at the intersection of old and new tech, and you thrive on technical challenges that require creativity and collaboration. Your Skills &amp; Experience &nbsp; Must-have: &nbsp; Strong experience with .NET Hands-on knowledge of Domain-Driven Design (DDD) Comfortable with Docker and container orchestration Proficient in GitHub for version control and collaboration Familiar with both relational a",
+      "url": "https://www.arbeitnow.com/jobs/companies/isento-gmbh/software-developer-schwerpunkt-angular-nuremberg-76257",
+      "description": "Deine Rolle Komplexe Prozesse so in ein Frontend zu gießen, dass die Bedienung fast schon intuitiv Spaß macht – genau darum geht es bei uns. Als Software Developer mit Schwerpunkt Angular bist Du die treibende Kraft dafür, dass unsere Webanwendungen nicht nur technisch sauber ticken, sondern auch im Alltag durch Geschwindigkeit, Barrierefreiheit und eine erstklassige UX überzeugen. Dein Zuhause ist das Frontend mit Angular und TypeScript, gleichzeitig bringst du Offenheit und Neugier mit, im Backend mit Java und Spring Boot mit anzupacken.Du arbeitest dabei in unseren eigenen, eingespielten Entwicklungsteams an anspruchsvollen Kundenprojekten oder unseren eigenen Produkten. Bei isento hast Du kurze Wege und den Freiraum, Deine eigenen Ideen einzubringen und mitzugestalten. Aufgaben Deine Aufgaben bei isento Du entwickelst moderne, barrierefreie und performante Webanwendungen mit Angular und TypeScript Du übernimmst gemeinsam mit Deinem Team die Verantwortung für den gesamten Entwicklungsprozess von Konzeption und Umsetzung über automatisierte Tests bis zum Deployment und Monitoring Du nutzt moderne KI-Tools und Coding-Agents gezielt, um Deine tägliche Entwicklungsarbeit effizienter",
       "tags": [
-        "Development"
+        "Software Development"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T05:51:41.000Z",
-      "score": 40,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title"
-      ]
-    },
-    {
-      "id": "arbeitnow-operativer-einkauf-stuttgart-238870",
-      "title": "Operativer Einkauf",
-      "company": "Sereact GmbH",
-      "location": "Stuttgart Schockenriedstr. 17",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/operativer-einkauf-stuttgart-238870",
-      "description": "Wer wir sind: Wir entwickeln die Intelligenz, die es Robotern ermöglicht, die reale Welt wahrzunehmen, zu verstehen und in ihr zu handeln – über das Labor hinaus und hinein in den industriellen Alltag, etwa in Lagerhallen und Fabriken. Unsere Technologie schließt die Automatisierungslücken, an denen klassische Systeme scheitern. Wir haben es uns zur Aufgabe gemacht, die Art und Weise, wie körperliche Arbeit verrichtet wird, neu zu denken, und suchen neugierige, mutige Köpfe, die die Zukunft der Robotik gemeinsam mit uns gestalten wollen. Überblick: Wir suchen eine prozessorientierte Person, die im operativen technischen Einkauf, das kaufmännische Fundament unserer innovativen Robotiklösungen bei Sereact stärkt. Du übernimmst die Verantwortung für unsere internen kaufmännischen Abläufe und bist ein echtes Organisationstalent, das sich gerne mitten ins Geschehen stürzt und dafür sorgt, dass unser Tagesgeschäft im Hintergrund reibungslos läuft. Die Stelle ist in Stuttgart angesiedelt und eignet sich ideal für jemanden, der gerne strukturierte Prozesse aufbaut, kaufmännische Aufgaben steuert und ein Team unterstützt, das an modernster Technologie arbeitet. Deine Aufgaben: Projekt- und ",
-      "tags": [
-        "Operations"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T23:40:12.000Z",
+      "posted": "2026-10-26T08:00:44.000Z",
       "score": 35,
       "regions": [
         "Europe"
@@ -1239,18 +1255,92 @@
       ]
     },
     {
-      "id": "arbeitnow-praktikum-anwendungsentwicklung-berlin-174622",
-      "title": "Praktikum Anwendungsentwicklung (w/m/d)",
-      "company": "SWOOFLE GmbH",
-      "location": "Berlin",
+      "id": "arbeitnow-technical-account-manager-cologne-255317",
+      "title": "Technical Account Manager (m/w/d)",
+      "company": "ticket i/O GmbH",
+      "location": "Cologne",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/swoofle-gmbh/praktikum-anwendungsentwicklung-berlin-174622",
-      "description": "SWOOFLE ist der einzige Eventmöbelanbieter, der via InstantBooking online Möbel vermietet. Unsere Designmöbel werden nachhaltig in Berlin produziert. Unser Team ist von Anfang 20 bis 80 sehr breit aufgestellt, wodurch Hierarchien entfallen und Innovation aus Tradition gewonnen wird. Du suchst noch nach einem Pflichtpraktikum für deine Ausbildung oder dein Studium im Bereich Anwendungsentwicklung? Oder möchtest du ein freiwilliges Praktikum absolvieren? Zum nächstmöglichen Zeitpunkt suchen wir Studenten und Studentinnen für ein dreimonatiges oder längeres Praktikum. Aufgaben · Wartung und Erweiterung unserer Website und des innovativen InstantBooking-Tools. · Pflege und Administration der Datenbank. · Wartung und Erweiterung diverser interner Webanwendungen. · Umsetzung von neuen und innovativen Anwendungen. Qualifikation · Grundkenntnisse in JavaScript, PHP, CSS und HTML-Methoden · Von Vorteil sind Kenntnisse zu WordPress, WooCommerce, Node.js sowie npm · Verständnis von Git sowie von Frontend-Frameworks wie Vue 3 · Entwicklung auf Betriebssystemen wie Windows 11 und Linux Debian · Grundlegendes Verständnis zum Arbeiten über SSH und CLI · Du denkst „Out-of-the-box“, bist kreativ un",
+      "url": "https://www.arbeitnow.com/jobs/companies/ticket-io-gmbh/technical-account-manager-cologne-255317",
+      "description": "Du bist souveräne:r Ansprechpartner:in für unsere Geschäftskund:innen bei allen fachlichen und technischen Anliegen. Du betreust und berätst Mandant:innen sowie Dienstleister:innen umfassend rund um Set-up, Konfiguration und die Gestaltung individueller Shopdesigns. Dabei übersetzt du technische Anforderungen passgenau in funktionierende Lösungen, vermittelst auch komplexe Sachverhalte leicht verständlich und setzt Anpassungs- und Designwünsche eigenständig mittels HTML, CSS sowie JavaScript um. Wir sind ein innovatives Unternehmen aus der Ticketing- und Veranstaltungsbranche. Wir verarbeiten die langjährigen Erfahrungen aus Event-, Freizeit- Sport- und Messebereich mit der besten Technologie zu einer intuitiven Online Ticketing Softwarelösung. Seit 2014 sorgen mittlerweile gut 95 Mitarbeitende mit viel Engagement für einen reibungslosen Ablauf vor, während und nach einer Veranstaltung. Aufgaben Du übernimmst Verantwortung für unsere Geschäftskund:innen (Mandant:innen) und bist die erste Ansprechperson für fachliche und technische Fragen. Du berätst unsere Mandant:innen sowie Dienstleister:innen hinsichtlich Set-up, Konfiguration und individuellem Shopdesign. Du setzt individuelle ",
       "tags": [
-        "Software Development"
+        "Customer Service"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-24T22:00:29.000Z",
+      "posted": "2026-10-26T07:30:41.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-wirtschaftsinformatiker-vollzeit-georgsmarienhutte-111282",
+      "title": "Wirtschaftsinformatiker (m/w/d) - Vollzeit",
+      "company": "Hohn Digital GmbH",
+      "location": "Georgsmarienhütte",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/hohn-digital-gmbh/wirtschaftsinformatiker-vollzeit-georgsmarienhutte-111282",
+      "description": "Wir suchen Wirtschaftsinformatiker (m/w/d) für unseren Business Development-Bereich, die Prozesse mit modernen Tools gestalten und automatisieren und dafür sorgen, dass Systeme ineinandergreifen, Datenflüsse reibungslos funktionieren und unsere Abläufe noch effizienter werden. Du hast Erfahrung mit digitalen Themen und kennst dich mit Low-Code-/No-Code-Lösungen sowie API-Tools wie Zapier oder Make.com aus oder bist in der Lage, dich schnell und eigenständig einzuarbeiten? Dann ist unser Bereich IT bzw. Business Development die richtige Wahl für Dich. Dich erwartet bei Hohn Digital ein moderner und schnell wachsender Arbeitgeber , bei dem Du in einem leistungsorientierten und kollegialen Team arbeitest. Dein Aufgabenbereich: Automatisierung unserer Geschäftsprozesse mit No-Code / Low-Code Tools wie n8n, Zapier, Make Aufbau, Pflege und Verwaltung von Airtable-Datenbanken Entwicklung von Front-Ends und Interfaces mit No-Code / Low-Code-Tools Management und Weiterentwicklung unseres CRM-Systems (insbesondere Close) Planung, Umsetzung und Implementierung von neuen Geschäftsprozessen Dokumentation &amp; Konzeption von digitalen Geschäftsprozessen Anwenderschulung &amp; -betreuung Grundge",
+      "tags": [
+        "Information technology",
+        "bachelor's degree"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T16:20:07.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-fachinformatiker-vollzeit-georgsmarienhutte-266994",
+      "title": "Fachinformatiker (m/w/d) - Vollzeit",
+      "company": "Hohn Digital GmbH",
+      "location": "Georgsmarienhütte",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/hohn-digital-gmbh/fachinformatiker-vollzeit-georgsmarienhutte-266994",
+      "description": "Wir suchen Fachinformatiker (m/w/d) für unseren Business Development-Bereich, die Prozesse mit modernen Tools gestalten und automatisieren und dafür sorgen, dass Systeme ineinandergreifen, Datenflüsse reibungslos funktionieren und unsere Abläufe noch effizienter werden. Du hast Erfahrung mit digitalen Themen und kennst dich mit Low-Code-/No-Code-Lösungen sowie API-Tools wie Zapier oder Make.com aus oder bist in der Lage, dich schnell und eigenständig einzuarbeiten? Dann ist unser Bereich IT bzw. Business Development die richtige Wahl für Dich. Dich erwartet bei Hohn Digital ein moderner und schnell wachsender Arbeitgeber , bei dem Du in einem leistungsorientierten und kollegialen Team arbeitest. Dein Aufgabenbereich: Automatisierung unserer Geschäftsprozesse mit No-Code / Low-Code Tools wie n8n, Zapier, Make Aufbau, Pflege und Verwaltung von Airtable-Datenbanken Entwicklung von Front-Ends und Interfaces mit No-Code / Low-Code-Tools Management und Weiterentwicklung unseres CRM-Systems (insbesondere Close) Planung, Umsetzung und Implementierung von neuen Geschäftsprozessen Dokumentation &amp; Konzeption von digitalen Geschäftsprozessen Anwenderschulung &amp; -betreuung Grundgehalt Fa",
+      "tags": [
+        "Information technology",
+        "bachelor's degree"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T16:20:07.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-forward-deployed-engineer-london-128990",
+      "title": "Forward Deployed Engineer",
+      "company": "True Talent Solutions Partners",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/true-talent-solutions-partners/forward-deployed-engineer-london-128990",
+      "description": "About the Role Join a SaaS product engineering team building AI-powered tools for certification, inspection, and compliance workflows. You will work directly with customer operations to turn real-world processes into reliable software that improves how these workflows are carried out. What You'll Do Work alongside customers to understand how certification, inspection, and compliance processes operate in practice. Lead customer calls, write product specifications, and build full-stack systems from user interface through backend, data model, and AI components. Own product areas from discovery through production delivery, collaborating directly with company founders. Ship software quickly, observe how customers use it, and refine it based on feedback. Use judgment to distinguish customer requests that apply broadly from those that are specific to one workflow. Analyze customer documents and real-world outputs to develop AI-enabled workflows for scheduling, technical review, conformity assessment, field inspection, and document intelligence. What We're Looking For Three to six years of software or product engineering experience, with a record of building and shipping production systems",
+      "tags": [
+        "Client Roles"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-10-25T21:40:25.000Z",
       "score": 35,
       "regions": [
         "Europe"
@@ -1331,30 +1421,6 @@
       ]
     },
     {
-      "id": "arbeitnow-stage-software-developer-gouda-40167",
-      "title": "Stage: Software Developer",
-      "company": "Centric",
-      "location": "Gouda, Zuid-Holland, Nederland",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/centric/stage-software-developer-gouda-40167",
-      "description": "Ben jij een hbo-student Informatica, Software Engineering of een vergelijkbare opleiding en wil je praktijkervaring opdoen binnen een professionele softwareontwikkelomgeving? Wil je meewerken aan een applicatie die door gemeenten wordt gebruikt voor het beheren van WOZ-gegevens? Dan is deze meewerkstage binnen het Scrumteam WOZ ABC iets voor jou. Wat ga je doen? Als meewerkstagiair binnen het Scrumteam WOZ ABC (Afnemers, Bronhouders &amp; Confrontatie) werk je mee aan de ontwikkeling, het onderhoud en het testen van functionaliteiten binnen Key2WOZ. De stage biedt volop ruimte om praktijkervaring op te doen binnen een professionele softwareontwikkelomgeving, waarbij werkzaamheden worden afgestemd op kennis, ervaring en leerdoelen. &nbsp; Omdat de stagiair volledig meedraait in het scrumteam en direct bijdraagt aan de ontwikkeling van onze WOZ-oplossingen, zoeken we een hbo- of wo-student met aantoonbare ervaring in softwareontwikkeling, opgedaan tijdens projecten, stages of een relevante bijbaan. &nbsp; Je gaat onder andere: Ondersteunen bij de ontwikkeling en het testen van software binnen Key2WOZ. Meewerken aan reguliere werkzaamheden binnen de sprints. Deelnemen aan Scrum-events",
-      "tags": [
-        "Stage"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T05:51:42.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
       "id": "arbeitnow-frontend-developer-intern-zurich-262783",
       "title": "Frontend Developer Intern",
       "company": "ParetoLabs",
@@ -1377,88 +1443,26 @@
       ]
     },
     {
-      "id": "arbeitnow-automotive-mcu-chip-architect-duesseldorf-107336",
-      "title": "Automotive MCU Chip Architect",
-      "company": "Hop",
-      "location": "Duesseldorf",
+      "id": "arbeitnow-ai-architect-260070",
+      "title": "AI Architect",
+      "company": "shifttechnology",
+      "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/hop/automotive-mcu-chip-architect-duesseldorf-107336",
-      "description": "We are looking for an experienced Automotive MCU Chip Architect to define the system and subsystem&nbsp;architecture of next-generation automotive microcontrollers. The role includes ownership of chip-level architecture concepts, subsystem partitioning, compute and memory architecture, interconnect strategy, safety and security integration, power/reset/clock concepts, and hardware/software interface definition. The successful candidate will work closely with product management, safety, security, design, verification, software, and implementation teams to ensure the MCU architecture meets demanding automotive requirements for real-time performance, functional safety, cybersecurity, reliability, scalability, and cost efficiency. What you'll do Key Responsibilities System Architecture Definition Define the overall automotive MCU architecture from product, customer, and market requirements. Translate use cases into chip-level requirements covering performance, safety, security, power, cost, and scalability. Drive system partitioning across CPUs, memories, interconnects, peripherals, safety/security functions, debug, test, and power domains. Own architecture trade-offs and document deci",
+      "url": "https://www.arbeitnow.fr/jobs/companies/shifttechnology/ai-architect-260070",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt; font-family: arial, helvetica, sans-serif;&quot;&gt;Shift delivers AI agents that transform insurers&#39; most critical work. By combining deep industry expertise and unmatched data resources, Shift provides proven results that have earned the trust of hundreds of the world&#39;s leading insurers. Our insurance-grade AI is accurate, explainable, and secure—empowering human experts to move with unmatched speed, total confidence, and a renewed focus on the people they serve.&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;video poster=&quot;https://8595762.fs1.hubspotusercontent-na1.net/hubfs/8595762/2026%20Website%20Refresh/2026%20Shift%20Brand%20Video/thumbnail-violet.jpg&quot; controls=&quot;controls&quot; width=&quot;300&quot; height=&quot;150&quot;&gt; &amp;nbsp;&amp;nbsp;&lt;source src=&quot;https://8595762.fs1.hubspotusercontent-na1.net/hubfs/8595762/2026%20Website%20Refresh/2026%20Shift%20Brand%20Video/2026%20Shift%20Brand%20Video%20(English).mp4&quot; type=&quot;video/mp4&quot;&gt; &amp;nbsp;&amp;nbsp;Your browser does not support the video tag.&lt;/video&gt;&lt;/p&gt;",
       "tags": [
-        "Software Engineer"
+        "Technology - Software Engineering",
+        "Infrastructure",
+        "and Security"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-10-25T03:07:26.000Z",
+      "posted": "2026-10-26T03:55:18.000Z",
       "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description"
-      ]
-    },
-    {
-      "id": "arbeitnow-technical-procurement-purchasing-officer-stuttgart-348796",
-      "title": "Technical Procurement / Purchasing Officer",
-      "company": "Sereact GmbH",
-      "location": "Stuttgart Schockenriedstr. 17",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/technical-procurement-purchasing-officer-stuttgart-348796",
-      "description": "Who We Are: We build the intelligence that lets robots sense, reason, and act in the real world—moving beyond the lab and into everyday industrial settings like warehouses and factories. Our technology closes the automation gaps that traditional systems can’t solve. We are on a mission to redefine how physical work gets done, and we’re looking for curious, bold thinkers to help shape the future of robotics with us. Overview: We are looking for a highly process-driven Technical Procurement / Purchasing Officer to strengthen the commercial foundation of our innovative robotics solutions at Sereact. You will take ownership of our internal commercial workflows, acting as a true organizational talent who loves to dive into the thick of things and keep our operations running smoothly behind the scenes. This role is based in Stuttgart and is ideal for someone who thrives on building structured processes, managing commercial tasks, and supporting a team building cutting-edge technology. Your Responsibilities: Project &amp; Order Management: Manage our projects from a commercial perspective, from the initial order to final delivery. Purchasing &amp; Material Management: Support the procurem",
-      "tags": [
-        "Operations"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T23:40:12.000Z",
-      "score": 20,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description"
-      ]
-    },
-    {
-      "id": "arbeitnow-strategic-accounts-manager-stuttgart-239266",
-      "title": "Strategic Accounts Manager (m/f/d)",
-      "company": "Sereact GmbH",
-      "location": "Stuttgart Schockenriedstr. 17",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/strategic-accounts-manager-stuttgart-239266",
-      "description": "Who We Are: We build the intelligence that lets robots sense, reason, and act in the real world—moving beyond the lab and into everyday industrial settings like warehouses and factories. Our technology closes the automation gaps that traditional systems can’t solve. We are on a mission to redefine how physical work gets done, and we’re looking for curious, bold thinkers to help shape the future of robotics with us. Overview: We are hiring one of our first Strategic Accounts Managers to own and grow Sereact’s most important customer relationships. You will ensure customers get successful value generation of our AI-powered robotics solutions, drive measurable customer outcomes, and unlock expansion opportunities across Fashion, General Merchandise, E-Grocery, and 3PL customers. This is a hands-on, high-impact role combining strategic account management, customer success, and commercial growth in a fast-scaling AI robotics company. Willingness to travel: up to 50% Your Responsibilities: Own strategic customer relationships end-to-end: onboarding, adoption, retention, and expansion Act as trusted advisor to operational and executive stakeholders Drive customer value realization and ROI",
-      "tags": [
-        "G2M"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-24T23:40:12.000Z",
-      "score": 20,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description"
-      ]
-    },
-    {
-      "id": "arbeitnow-principal-engineer-application-engineering-munich-469710",
-      "title": "Principal Engineer, Application Engineering (f/m/d)",
-      "company": "Hop",
-      "location": "Munich",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/hop/principal-engineer-application-engineering-munich-469710",
-      "description": "This is a great time to be in the Automotive space. Cars are undergoing a big transformation into software platforms on wheels, as they move to become Electric, Automated &amp; Personalized. Under the hood, the electronics infrastructure is a key enabler with domain &amp; zonal electronic architectures. Renesa is a leader in Automotive semiconductors. It is the role within the System Application Engineering team to fully understand the future trends of vehicle infrastructure, and how this maps to current and future the company's MCU products. Become part of a dynamic team that is analysing automotive systems to engage with vehicle OEMs and direct customers at expert level to define next generation automotive systems. There is a lot of room for new ideas and innovations, and you will be supported to have a continuous focus on development, coaching and creating a supportive environment for your team. The company strongly believes that the business is rapidly transforming, and future growth will be driven by innovations. Our engineers will help to lead this transformation. What you'll do Understand vehicle E/E architecture evolution and resulting impact on MCU (e.g. impact of central ",
-      "tags": [
-        "Software Engineer"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-10-25T03:07:26.000Z",
-      "score": 5,
-      "regions": [],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority mismatch"
       ]
     }
   ]
