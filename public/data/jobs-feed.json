@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T10:30:40.780Z",
-  "count": 56,
+  "generatedAt": "2026-11-08T10:38:12.480Z",
+  "count": 58,
   "sourcesLive": 3,
   "jobs": [
     {
@@ -144,7 +144,7 @@
       "location": "Remote",
       "remote": true,
       "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
-      "description": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RNTIuMTY1Ljg1LjE1MQ== when applying to show you read the job post completely (#RNTIuMTY1Ljg1LjE1MQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "description": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE** and tag RNTIuMTY1Ljg2LjE3 when applying to show you read the job post completely (#RNTIuMTY1Ljg2LjE3). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
       "tags": [
         "golang",
         "dev",
@@ -229,6 +229,60 @@
       ],
       "source": "RemoteOK",
       "posted": "2026-10-09T13:09:18+00:00",
+      "score": 85,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-full-stack-engineer-database-observability-grafana-cloud-germany-remote-305330",
+      "title": "Senior Full Stack Engineer | Database Observability, Grafana Cloud | Germany | Remote",
+      "company": "grafanalabs",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/senior-full-stack-engineer-database-observability-grafana-cloud-germany-remote-305330",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at &lt;u&gt;&lt;span&gt;&lt;a href=&quot;http://grafana.com&quot; target=&quot;_blank&quot;&gt;grafana.com&lt;/a&gt;&lt;/span&gt;&lt;/u&gt; and follow us on &lt;u&gt;&lt;span&gt;&lt;a href=&quot;https://www.linkedin.com/company/grafana-labs/&quot; target=&quot;_blank&quot;&",
+      "tags": [
+        "R&D: Observability"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T09:55:24.000Z",
+      "score": 85,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-full-stack-engineer-database-observability-grafana-cloud-uk-remote-48471",
+      "title": "Senior Full Stack Engineer | Database Observability, Grafana Cloud | UK | Remote",
+      "company": "grafanalabs",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/grafanalabs/senior-full-stack-engineer-database-observability-grafana-cloud-uk-remote-48471",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at &lt;u&gt;&lt;span&gt;&lt;a href=&quot;http://grafana.com&quot; target=&quot;_blank&quot;&gt;grafana.com&lt;/a&gt;&lt;/span&gt;&lt;/u&gt; and follow us on &lt;u&gt;&lt;span&gt;&lt;a href=&quot;https://www.linkedin.com/company/grafana-labs/&quot; target=&quot;_blank&quot;&",
+      "tags": [
+        "R&D: Observability"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T09:55:25.000Z",
       "score": 85,
       "regions": [
         "Europe",
@@ -373,120 +427,198 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-fullstack-engineer-f-m-aachen-413975",
-      "title": "(Senior) Fullstack Engineer (F/M/*)",
-      "company": "Amber",
-      "location": "Aachen",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/amber/senior-fullstack-engineer-f-m-aachen-413975",
-      "description": "Aus Europa, für Europa – wir entwickeln Europas Business-KI. Wir sind das größte KI-Start-up in Aachen. Mittelständische Unternehmen profitieren davon, wenn internes Wissen sofort nutzbar wird und intelligente Agenten darauf reagieren können. Wir glauben an eine Zukunft, in der Business-KI – einschließlich Agenten innerhalb von amber und anderen Plattformen – auf einer gemeinsamen Kontextebene arbeitet. So können Teams schneller arbeiten, Übergaben nahtlos erfolgen und wertvolles Wissen im Unternehmen bleiben. Als (Senior) Fullstack Engineer (F/M/*) entwickelst du unsere Plattform ganzheitlich weiter – von der Benutzeroberfläche bis zu den dahinterliegenden Services. Ein wichtiger Teil deiner Arbeit ist die Gestaltung moderner, intuitiver Nutzererlebnisse. Gleichzeitig bringst du dich in Backend- und API-Themen ein und sorgst dafür, dass alle Komponenten zuverlässig zusammenspielen. Wenn du ein Unternehmen suchst, dessen Produkt im Arbeitsalltag von Tausenden Menschen einen echten Unterschied macht, dann gestalte mit uns die Zukunft nutzerzentrierter Technologien und bewirb dich jetzt! Werde Teil eines Teams, das Wert auf Codequalität, Mentoring und kontinuierliches Lernen legt. De",
+      "id": "arbeitnow-remote-full-stack-engineer-productions-417254",
+      "title": "Full-Stack Engineer - Productions",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-productions-417254",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
       "tags": [
-        "Tech"
+        "Engineering & Product"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T03:40:24.000Z",
+      "posted": "2026-11-08T00:40:11.000Z",
       "score": 70,
       "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-frontend-developer-in-aircraft-domain-gilching-156154",
-      "title": "Senior Frontend Developer in Aircraft Domain (m/f/d)",
-      "company": "Quantum-Systems GmbH",
-      "location": "Gilching, Bayern, Germany",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-frontend-developer-in-aircraft-domain-gilching-156154",
-      "description": "About the role: You will join Quantum Systems’ Aircraft Domain, where we develop large airborne systems and bring them to operational readiness. At the heart of the domain is our multi-role aircraft programme, serving both civil and military applications. The Pulse P19, is our flagship product, with additional airborne system developments set to expand the domain’s product portfolio in the near future. As a Front End Engineer , you will play a key role in our Aircraft Domain team, being responsible for building sleek, responsive, and user-friendly interfaces to enable real-time control and monitoring of our mission aircraft and their related systems. While this role focuses on the development for the P19 and related aircraft, your work is conducted in close collaboration with the core development team, which drives the whole swarm robotics and sensor control distributed over multiple domains. Your work will directly contribute to the usability and efficiency of our cutting-edge robotics solutions. What is your Day to Day Mission: Design, develop, and optimize frontend applications for controlling and visualizing robotic swarms and sensor data. Collaborate with backend engineers to ",
-      "tags": [
-        "Software"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T03:31:34.000Z",
-      "score": 70,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-staff-software-engineer-android-south-east-hampshire-431084",
-      "title": "Staff Software Engineer, Android",
-      "company": "Archer56",
-      "location": "South East Hampshire",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/archer56/staff-software-engineer-android-south-east-hampshire-431084",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Headquartered in Silicon Valley, California, Archer is a leader in the next-gen aerospace sector building an end-to-end advanced air mobility platform that delivers air taxis, unmanned aircraft systems (“UAS”), aviation-related physical artificial intelligence (“AI”) solutions, and other technologies to customers worldwide across the commercial aerospace and defense sectors.&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Our sights are set high and our problems are hard, and we believe that diversity in the workplace is what makes us smarter, drives better insights, and will ultimately lift us all to success. We are dedicated to cultivating an equitable and inclusive environment that embraces our differences, and supports and celebrates all of our team members.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=&quot;line-height: 1.4;&quot;&gt;&lt;span style=&quot;font-family: helvetica, arial, sans-serif; font-size: 12pt;&quot;&gt;Archer is best known for Midnight, our electric aircraft. This role isn&#39;t on that program. The AI Products Org builds consumer software for the general aviation industry. There&#39;s ",
-      "tags": [
-        "Plane Finder"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:55:14.000Z",
-      "score": 70,
-      "regions": [
+        "Europe",
         "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Remote",
+        "region: Europe/Remote",
         "remote"
       ]
     },
     {
-      "id": "arbeitnow-forward-software-engineer-paris-278437",
-      "title": "Forward Software Engineer",
-      "company": "Mistral.ai",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/forward-software-engineer-paris-278437",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. About The Job As a Forward Software Engineer, you will build the systems behind some of the hardest problems Mistral takes on. You join our team of engineers in Applied AI. We gravitate towards hard problems, decide how to solve them, and ship fast. You work closely with our customer-facing teams, and what works goes into production with our customers and across the company. When a project needs it, you work directly on customer engagements. We're looking for a strong software engineer who has shipped agentic or GenAI s",
+      "id": "arbeitnow-remote-full-stack-engineer-elevencreative-enterprise-233049",
+      "title": "Full-Stack Engineer - ElevenCreative Enterprise",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-elevencreative-enterprise-233049",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
       "tags": [
-        "Solutions"
+        "Engineering & Product"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
+      "posted": "2026-11-08T00:40:11.000Z",
       "score": 70,
       "regions": [
-        "Europe"
+        "Europe",
+        "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "seniority fit",
-        "region: Europe"
+        "region: Europe/Remote",
+        "remote"
       ]
     },
     {
-      "id": "arbeitnow-forward-software-engineer-data-paris-359594",
-      "title": "Forward Software Engineer, Data",
-      "company": "Mistral.ai",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/forward-software-engineer-data-paris-359594",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. About The Job As a Forward Software Engineer, Data, you will build the systems behind some of the hardest problems Mistral takes on. You join our team of engineers in Applied AI. We gravitate towards hard problems, decide how to solve them, and ship fast. You work closely with our customer-facing teams, and what works goes into production with our customers and across the company. When a project needs it, you work directly on customer engagements. We're looking for a strong software engineer who builds end to end and ha",
+      "id": "arbeitnow-remote-full-stack-engineer-ads-engine-93467",
+      "title": "Full-Stack Engineer - Ads Engine",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-ads-engine-93467",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
       "tags": [
-        "Solutions"
+        "Engineering & Product"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
+      "posted": "2026-11-08T00:40:11.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-full-stack-engineer-backend-leaning-creative-agents-223892",
+      "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-creative-agents-223892",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
+      "tags": [
+        "Engineering & Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T00:40:11.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-full-stack-engineer-backend-leaning-payments-engineering-222551",
+      "title": "Full-Stack Engineer (Backend Leaning) - Payments Engineering",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-payments-engineering-222551",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
+      "tags": [
+        "Engineering & Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T00:40:11.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-full-stack-engineer-backend-leaning-platform-engineering-280315",
+      "title": "Full-Stack Engineer (Backend Leaning) - Platform Engineering",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-platform-engineering-280315",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
+      "tags": [
+        "Engineering & Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T00:40:11.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-remote-full-stack-engineer-frontend-leaning-studio-486011",
+      "title": "Full-Stack Engineer (Frontend Leaning) - Studio",
+      "company": "ElevenLabs",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-frontend-leaning-studio-486011",
+      "description": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to ",
+      "tags": [
+        "Engineering & Product"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T00:40:11.000Z",
+      "score": 70,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-sr-software-engineer-cloud-platform-bolton-19384",
+      "title": "Sr. Software Engineer, Cloud Platform",
+      "company": "Samsara",
+      "location": "Bolton, England, United Kingdom",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/samsara/sr-software-engineer-cloud-platform-bolton-19384",
+      "description": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you'll help define the future of physical operations and be on a team that's shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you'll have the autonomy and support to make an impact as we build for the long term. About the role: As a Senior Engineer in the Infrastructure org, you will help evolve the cloud foundations behind every Samsara product. Your goal will be to redu",
+      "tags": [],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T08:45:28.000Z",
       "score": 70,
       "regions": [
         "Europe"
@@ -524,31 +656,6 @@
         "role in title",
         "region: Europe/Remote",
         "remote"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-frontend-engineer-technical-lead-amsterdam-166994",
-      "title": "Senior Frontend Engineer / Technical Lead",
-      "company": "Athora Netherlands",
-      "location": "Amsterdam, Noord-Holland, Nederland",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/athora-netherlands/senior-frontend-engineer-technical-lead-amsterdam-166994",
-      "description": "Wil jij niet alleen bouwen aan frontendoplossingen, maar ook richting geven aan hoe we onze websites en digitale platformen de komende jaren ontwikkelen? Wat je over ons moet weten? Wij zijn Athora Netherlands, een verzekeringsbedrijf met de bekende merken Zwitserleven en Reaal. Wij houden ons voornamelijk bezig met pensioenen en levensverzekeringen op de Nederlandse markt. Dat doen wij als onderdeel van een Europese groep met vestigingen in Ierland, het Verenigd Koninkrijk, België, Duitsland en Italië. Wij zijn een sterk bedrijf met ruim één miljoen klanten en wij willen de komende jaren doorgroeien tot een van de belangrijkste spelers in de snel veranderende pensioenmarkt. Daarom zoeken wij mensen die niet terugdeinzen voor verandering, die van aanpakken weten, die de ambitie hebben om resultaten neer te zetten en die daarom het beste uit zichzelf en hun team weten te halen. Slimmer samen, noemen wij dat. Wat ga je doen? Voor ons Websites &amp; Portals Platform team zoeken we een ervaren frontend engineer die technisch leiderschap combineert met sterke hands-on kennis van Angular. Iemand die vooruitkijkt, een frontend visie en roadmap kan neerzetten en andere teams kan meenemen i",
-      "tags": [
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-06T21:31:23.000Z",
-      "score": 70,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority fit",
-        "region: Europe"
       ]
     },
     {
@@ -729,66 +836,18 @@
       ]
     },
     {
-      "id": "arbeitnow-software-engineer-tech-lead-enterprise-london-73844",
-      "title": "Software Engineer - Tech Lead - Enterprise",
-      "company": "Monday.com",
-      "location": "London",
+      "id": "arbeitnow-staff-software-engineer-opentelemetry-python-instrumentation-germany-remote-427337",
+      "title": "Staff Software Engineer - OpenTelemetry Python instrumentation | Germany | Remote",
+      "company": "grafanalabs",
+      "location": "Not specified",
       "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/mondaycom/software-engineer-tech-lead-enterprise-london-73844",
-      "description": "At monday.com , we help teams get more work done. We are the best AI work platform that empowers teams to automate, build, and scale their impact end-to-end with tools that actually execute the work for you. With over $1B in ARR, 250,000+ customers, and a global team, we’re serious about building a product people love to use and giving our employees the same ownership and flexibility to shape the way the world works. We care about the impact you make, not the hours you clock, so we encourage initiative, ownership, and fresh thinking. We back our people with flexible work, wellness and mental health support, and a work environment built on collaboration. We’re currently expanding our engineering teams in London and looking for experienced Tech Leads. This is an individual contributor role with technical leadership scope, it’s not a people management position. You'll drive the development of infrastructure features that shape our product's future from UI to database. 🎯 Check out our Engineering Blog - https://engineering.monday.com/ Please note this is a hybrid role based in our incredible London office in Fitzrovia, with 3 days per week on-site. About the Team Our Enterprise Engine",
+      "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/staff-software-engineer-opentelemetry-python-instrumentation-germany-remote-427337",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at &lt;u&gt;&lt;span&gt;&lt;a href=&quot;http://grafana.com&quot; target=&quot;_blank&quot;&gt;grafana.com&lt;/a&gt;&lt;/span&gt;&lt;/u&gt; and follow us on &lt;u&gt;&lt;span&gt;&lt;a href=&quot;https://www.linkedin.com/company/grafana-labs/&quot; target=&quot;_blank&quot;&",
       "tags": [
-        "R&D"
+        "R&D: Ops"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T09:40:16.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineer-london-287186",
-      "title": "Software Engineer",
-      "company": "Catonetworks",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/catonetworks/software-engineer-london-287186",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;Cato Networks is the converged network and security cloud for the AI era.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;201341983&amp;quot;:0,&amp;quot;335551550&amp;quot;:1,&amp;quot;335551620&amp;quot;:1,&amp;quot;335557856&amp;quot;:16777215,&amp;quot;335559685&amp;quot;:0,&amp;quot;335559737&amp;quot;:0,&amp;quot;335559738&amp;quot;:225,&amp;quot;335559739&amp;quot;:225,&amp;quot;335559740&amp;quot;:279}&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt; &lt;p&gt;&lt;span data-contrast=&quot;none&quot;&gt;As AI reshapes cybersecurity, enterprises face a dual challenge: unlocking AI’s potential while defending against AI-driven attacks. Cato addresses both through a unified, cloud-native platform, providing the visibility and context to prioritize risks and stop threats in real time across users, applications, data, and AI agents.&lt;/span&gt;&lt;span data-ccp-props=&quot;{&amp;quot;134233117&amp;quot;:false,&amp;quot;134233118&amp;quot;:false,&amp;quot;201341983&amp;quot;:0,&amp;quot;335551550&amp;quot;:1,&amp;quot",
-      "tags": [
-        "Engineering - Business"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:55:18.000Z",
-      "score": 55,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-staff-software-engineer-partner-engineering-london-168644",
-      "title": "Staff Software Engineer, Partner Engineering",
-      "company": "Crunchyroll",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/crunchyroll/staff-software-engineer-partner-engineering-london-168644",
-      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h2 data-pm-slice=&quot;1 1 []&quot;&gt;About Crunchyroll&lt;/h2&gt; &lt;p&gt;Founded by fans, Crunchyroll delivers the art and culture of anime to a passionate community. We super-serve over 100 million anime and manga fans across 200+ countries and territories, and help them connect with the stories and characters they crave. Whether that experience is online or in-person, streaming video, theatrical, games, merchandise, events and more, it’s powered by the anime content we all love.&lt;/p&gt; &lt;p&gt;Join our team, and help us shape the future of anime!&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;About the role&lt;/h2&gt; &lt;p&gt;Crunchyroll is scaling globally, creating unique challenges and exciting opportunities to delight millions of anime fans worldwide. The Partner Engineering team, part of the larger Ecosystem Engineering organization, works with our growing network of partners and internal teams to ensure an exceptional experience for all Crunchyroll fans.&lt;/p&gt; &lt;p&gt;As a Staff Partner Engineer, you&#39;ll lead strategic technical integrations, optimize deployment processes, and collaborate with key partners to deliver outstandi",
-      "tags": [
-        "Engineering: Fan Experiences"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T03:55:19.000Z",
+      "posted": "2026-11-08T09:55:24.000Z",
       "score": 55,
       "regions": [
         "Europe",
@@ -804,18 +863,72 @@
       ]
     },
     {
-      "id": "arbeitnow-platform-software-engineer-amsterdam-the-netherlands-313114",
-      "title": "Platform Software Engineer",
-      "company": "Tomtom",
-      "location": "Amsterdam, The Netherlands",
+      "id": "arbeitnow-senior-staff-software-engineer-agentic-platform-berlin-102006",
+      "title": "Senior Staff Software Engineer, Agentic Platform",
+      "company": "tide",
+      "location": "Berlin",
       "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/platform-software-engineer-amsterdam-the-netherlands-313114",
-      "description": "The Developer Enablement &amp; Security (DE&amp;S) team within Platform Engineering owns the tooling that TomTom engineers use to write, build, store and secure code. This covers GitHub platform management, artifact management with JFrog Artifactory, security scanning, developer tooling and AI governance platforms. We treat internal developers as our customers and aim to make the secure path the easy path. What you will do Administer and automate GitHub Enterprise: repository settings, rulesets, access and governance across a large repository estate. Operate and improve JFrog Artifactory, including repository configuration, cleanup, permissions and support for our hybrid cloud setup. Replace repetitive admin work with scripts and automation using Python, Bash and REST APIs. Build and maintain GitHub Actions workflows and support teams whose pipelines pull and publish packages. Manage platform configuration as code with Terraform or similar tools. Use AI tools to speed up automation and support work, and help developers adopt them safely in line with our AI governance approach. Take ownership of well-defined platform tasks from start to finish, asking for guidance when needed. Troub",
+      "url": "https://www.arbeitnow.com/jobs/companies/tide/senior-staff-software-engineer-agentic-platform-berlin-102006",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;strong&gt;BOUT TIDE&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.&lt;/p&gt; &lt;p&gt;Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.&lt;/p&gt; &lt;p&gt;Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Tide facts:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Tide is available for UK, Indian, German and French SMEs&lt;/li&gt; &lt;li&gt;Over 2 million members globally and rapidly growing&lt;/li&gt; &lt;li&gt;Over $300 million raised in funding&lt;/li&gt; &lt;li&gt;3,000 Tideans globally&lt;/li&gt; &lt;li",
       "tags": [
-        "PE Platform Engineering"
+        "One Platform"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T00:08:41.000Z",
+      "posted": "2026-11-08T03:55:32.000Z",
+      "score": 55,
+      "regions": [
+        "India",
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority fit",
+        "seniority mismatch",
+        "region: India/Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-opentelemetry-python-instrumentation-uk-remote-85977",
+      "title": "Staff Software Engineer - OpenTelemetry Python instrumentation | UK | Remote",
+      "company": "grafanalabs",
+      "location": "Not specified",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/grafanalabs/staff-software-engineer-opentelemetry-python-instrumentation-uk-remote-85977",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Grafana Labs is the company behind Grafana Cloud, the fully managed observability platform trusted by more than 10,000 organizations to ensure reliability, resolve incidents faster, and optimize telemetry at scale. Built on open source and open standards and designed for interoperability across any stack, Grafana Cloud brings AI to observability and observability to AI, giving teams (and their agents) unified visibility so they can see, understand, and act on all their disparate data, wherever it lives, and move at the speed of their ambitions. Customers, including Anthropic, Bloomberg, NVIDIA, Microsoft, and Salesforce, rely on Grafana Labs. We are a 100% remote company with team members across 40+ countries, backed by leading investors including Lightspeed Venture Partners, Sequoia Capital, GIC, Coatue, J.P. Morgan, CapitalG, and Lead Edge Capital. Learn more at &lt;u&gt;&lt;span&gt;&lt;a href=&quot;http://grafana.com&quot; target=&quot;_blank&quot;&gt;grafana.com&lt;/a&gt;&lt;/span&gt;&lt;/u&gt; and follow us on &lt;u&gt;&lt;span&gt;&lt;a href=&quot;https://www.linkedin.com/company/grafana-labs/&quot; target=&quot;_blank&quot;&",
+      "tags": [
+        "R&D: Ops"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T09:55:25.000Z",
+      "score": 55,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-london-416656",
+      "title": "Software Engineer",
+      "company": "Nexcade",
+      "location": "London",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/nexcade/software-engineer-london-416656",
+      "description": "About us People assume the supply chain is an automated, algorithmic system. It is not. It is a large number of people acting as the glue between organisations and systems, doing work the world depends on with tools that have barely changed in decades. Nexcade builds AI agents for those people, starting in freight forwarding, a $210BN industry. Our agents are live in production with some of the leading global forwarders, pricing millions in freight every week, and we are expanding the platform deeper into the shipment lifecycle. We have raised $8.5M to make this a reality. Our founders, Dan and Tasho, spent years at Sedna and Palantir working with supply chain companies on problems like this one. We are backed by top VCs and angels who backed or founded Synthesia, n8n and other world-class companies. How we work Everybody codes, founders included. The whole company is technical, commercial team included, and runs on coding agents. Closely with customers and design partners, so what we ship changes how they operate. At pace. Fast cycles and quick iterations, on the product and on how we work. End to end. If you see something broken or missing, you have the freedom (and the responsib",
+      "tags": [
+        "Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T09:40:15.000Z",
       "score": 55,
       "regions": [
         "Europe"
@@ -828,25 +941,77 @@
       ]
     },
     {
-      "id": "arbeitnow-senior-software-engineer-364223",
-      "title": "Senior Software Engineer",
-      "company": "Redwoodsoftware",
-      "location": "Not specified",
+      "id": "arbeitnow-software-engineer-generative-ai-uk-london-225087",
+      "title": "Software engineer, generative AI (UK)",
+      "company": "Writer",
+      "location": "London, UK",
       "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/redwoodsoftware/senior-software-engineer-364223",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;em&gt;OUR MISSION&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;At Redwood, we empower our customers with lights-out automation for their mission-critical business processes with industry leading products and platforms developed through an AI-Driven Software Development Life Cycle.&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;ABOUT US&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;Redwood Software is the leading orchestration platform for the autonomous enterprise, driving business transformation at the lowest total cost of ownership. Redwood empowers organizations to intelligently automate and orchestrate mission-critical business and IT processes across complex ERP, hybrid cloud, data and emerging agentic AI systems. Through its SaaS-first automation fabric—with AI embedded across the automation lifecycle—Redwood accelerates the path to autonomous operations. Backed by 30 years of experience and trusted by more than 50% of the Fortune 50, Redwood helps organizations unlock human potential to focus on innovation, gr",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/writer/software-engineer-generative-ai-uk-london-225087",
+      "description": "🚀 About WRITER WRITER is the AI platform built for the world’s most ambitious marketing and revenue teams, bringing the frontier of AI to the people who drive enterprise growth. With WRITER, autonomous agents work across the buyer journey, continuously executing on market signals and enterprise intelligence to grow revenue faster. Every agent action and asset is grounded in trust, built on an Enterprise Brain that unites brand, product, and company knowledge with fiduciary-grade governance and compliance. Fortune 500 companies are transforming how they go to market with WRITER, including 3 of the top 5 US banks, 2 of the 5 largest global CPG conglomerates, and 4 of the top 5 US healthcare insurers. Founded in 2020, WRITER is backed by investors including Insight Partners, ICONIQ, Radical Ventures, Premji Invest, Balderton, B Capital, Salesforce Ventures, Adobe Ventures, Accenture, Citi Ventures, IBM Ventures, WndrCo, and others. Learn more at WRITER.com . 📐 About the role Imagine stepping into a role where your code directly empowers the world's largest enterprises to safely adopt superintelligence. As a software engineer, generative ai at WRITER, you'll be at the forefront of ex",
       "tags": [
-        "Engineering"
+        "Engineering",
+        "product & design"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-06T21:55:17.000Z",
+      "posted": "2026-11-08T06:40:12.000Z",
       "score": 55,
-      "regions": [],
+      "regions": [
+        "Europe"
+      ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in title",
-        "seniority fit"
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineer-agents-uk-london-467443",
+      "title": "Software engineer, agents (UK)",
+      "company": "Writer",
+      "location": "London, UK",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/writer/software-engineer-agents-uk-london-467443",
+      "description": "🚀 About WRITER WRITER is the AI platform built for the world’s most ambitious marketing and revenue teams, bringing the frontier of AI to the people who drive enterprise growth. With WRITER, autonomous agents work across the buyer journey, continuously executing on market signals and enterprise intelligence to grow revenue faster. Every agent action and asset is grounded in trust, built on an Enterprise Brain that unites brand, product, and company knowledge with fiduciary-grade governance and compliance. Fortune 500 companies are transforming how they go to market with WRITER, including 3 of the top 5 US banks, 2 of the 5 largest global CPG conglomerates, and 4 of the top 5 US healthcare insurers. Founded in 2020, WRITER is backed by investors including Insight Partners, ICONIQ, Radical Ventures, Premji Invest, Balderton, B Capital, Salesforce Ventures, Adobe Ventures, Accenture, Citi Ventures, IBM Ventures, WndrCo, and others. Learn more at WRITER.com . 📐 About the role We’re seeking a highly skilled fullstack software engineer to join our engineering team building advanced AI-driven agent systems that execute autonomous workflows, orchestrate multi-step tasks, and extend human",
+      "tags": [
+        "Engineering",
+        "product & design"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T06:40:12.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineering-manager-almelo-364758",
+      "title": "Software Engineering Manager",
+      "company": "Benchmark",
+      "location": "Almelo, Overijssel, Nederland",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/benchmark/software-engineering-manager-almelo-364758",
+      "description": "Bouw aan de software van morgen. Ontwikkel de engineers die het mogelijk maken. Van medische apparatuur en industriële automatisering tot semicon-oplossingen: achter ieder succesvol high-tech product schuilt sterke software. Ben jij de leider die softwareteams helpt excelleren, nieuwe technologieën zoals AI omarmt en tegelijkertijd bouwt aan de engineers van morgen? Dan komen we graag met je in contact. &nbsp; Bij ons speel je een sleutelrol in de verdere ontwikkeling van onze Software Engineering-organisatie. Je bent verantwoordelijk voor de groei, kwaliteit en prestaties van een team van circa 45 (embedded) softwareprofessionals en zorgt ervoor dat zij de juiste omgeving, richting en ondersteuning krijgen om complexe technologische uitdagingen succesvol aan te gaan. &nbsp; Je beweegt je op het snijvlak van technologie, leiderschap en organisatieontwikkeling. Daarbij richt jij je niet alleen op de resultaten van vandaag, maar bouw je ook aan de softwareorganisatie van morgen. Je creëert een omgeving waarin vakmanschap, kennisdeling, innovatie en continue verbetering centraal staan. Daarnaast volg je technologische ontwikkelingen op de voet en stimuleer je de inzet van moderne tech",
+      "tags": [
+        "Design Engineering"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-07T15:51:23.000Z",
+      "score": 55,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "region: Europe"
       ]
     },
     {
@@ -1017,18 +1182,44 @@
       ]
     },
     {
-      "id": "arbeitnow-langfuse-senior-product-engineer-germany-349978",
-      "title": "Langfuse - Senior Product Engineer",
-      "company": "Clickhouse",
-      "location": "Germany",
+      "id": "arbeitnow-web-designer-at-aios-remote-75k-150k-yr-including-equity-berlin-388201",
+      "title": "Web Designer at AIOS — Remote, $75k-$150k/yr (including equity)",
+      "company": "AIOS (YC W20/S21)",
+      "location": "Remote (EU)",
       "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/clickhouse/langfuse-senior-product-engineer-germany-349978",
-      "description": "Why Product Engineering at Langfuse Your work will have an outsized impact. Everything you build is open source (MIT-licensed) and immediately visible. Langfuse has 35,000+ GitHub stars and our SDKs are downloaded more than a hundred million times per month. When you ship a new feature the community notices in GitHub issues, on X, and in our community channels. Product engineers at Langfuse are the people who deliver new features end-to-end to our users. You own the product thinking from understanding the user problem to deciding what to build to shipping the solution. You will also have direct exposure to how cutting-edge LLM applications are built. The users you serve are some of the best and most ambitious software engineers leveraging Langfuse to improve their applications. Deeply understanding the problems they solve will help you design the best possible product and along the way makes you an expert on LLM engineering yourself. You will grow at Langfuse by Own features end-to-end : from talking to users, to writing the spec, to shipping the code and docs, to writing the changelog post with your name on it. To give you a sense: recent features a single engineer owned include t",
+      "url": "https://www.arbeitnow.com/jobs/companies/aios-yc-w20s21/web-designer-at-aios-remote-75k-150k-yr-including-equity-berlin-388201",
+      "description": "About AIOS AIOS is building the world’s first full-stack AI doctor. We’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving &gt;200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable. Our strategy exists at the intersection of two strong theses: The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history. The $2T European healthcare market is overlooked by the most talented builders. Our master plan: Step 0 → $100M/yr by end of 2025 : We went from $10M to $100M in 6 months serving the UK GLP-1 market. Step 1 → $1B ARR by end of 2026 : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR. Step 2 → $10B ARR by end of 2028 : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider. Step 3 → $100B/yr by end of 2030 : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe. Step 4 → $1T/yr by end of 2035 : With one l",
       "tags": [
-        "Engineering"
+        "Growth"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T09:40:16.000Z",
+      "posted": "2026-11-08T06:40:11.000Z",
+      "score": 50,
+      "regions": [
+        "Europe",
+        "Remote"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe/Remote",
+        "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-senior-lead-program-manager-berlin-17627",
+      "title": "Senior / Lead Program Manager",
+      "company": "Nebius",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/nebius/senior-lead-program-manager-berlin-17627",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;amp;D.&lt;/p&gt;&lt;/div&gt;&lt;h1&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/h1&gt; &lt;p&gt;Nebius is looking for a Senior / Lead Program Manager to help develop and execute our asset-light model for expanding AI infrastructure through partnerships.&lt;/p&gt; &lt;p&gt;You will work at the ",
+      "tags": [
+        "Product & Infrastructure"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T03:55:22.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -1042,168 +1233,70 @@
       ]
     },
     {
-      "id": "arbeitnow-solution-operations-manager-strategic-accounts-paris-438879",
-      "title": "Solution Operations Manager, Strategic Accounts",
-      "company": "Mistral.ai",
-      "location": "Paris",
+      "id": "arbeitnow-clinical-pharmacist-independent-prescriber-at-aios-medical-remote-ps45-hr-inc-equity-blackburn-86985",
+      "title": "Clinical Pharmacist (Independent Prescriber) at AIOS Medical- Remote, £45/hr inc equity",
+      "company": "AIOS (YC W20/S21)",
+      "location": "Remote (UK hours)",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/solution-operations-manager-strategic-accounts-paris-438879",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. About the role Mistral partners with the leaders of their industries to redefine how their most complex, high-stakes challenges are solved with frontier AI. As a Solutions Operations Manager for our strategic accounts , you act as the Technical Program Manager to the account leadership: you sit at the heart of the transformation, working with the client's leadership and with Mistral's best deployment strategists, forward-deployed engineers and applied scientists. You own technical program management end-to-end, planning",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/aios-yc-w20s21/clinical-pharmacist-independent-prescriber-at-aios-medical-remote-ps45-hr-inc-equity-blackburn-86985",
+      "description": "About AIOS AIOS is building the world’s first full-stack AI doctor. We’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving &gt;200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable. Our strategy exists at the intersection of two strong theses: The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history. The $2T European healthcare market is overlooked by the most talented builders. Our master plan: Step 0 → $100M/yr by end of 2025 : We went from $10M to $100M in 6 months serving the UK GLP-1 market. Step 1 → $1B ARR by end of 2026 : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR. Step 2 → $10B ARR by end of 2028 : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider. Step 3 → $100B/yr by end of 2030 : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe. Step 4 → $1T/yr by end of 2035 : With one l",
       "tags": [
-        "Solutions"
+        "Medical/Program"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
+      "posted": "2026-11-08T06:40:11.000Z",
       "score": 50,
       "regions": [
-        "Europe"
+        "Europe",
+        "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "seniority fit",
-        "region: Europe"
+        "region: Europe/Remote",
+        "remote"
       ]
     },
     {
-      "id": "arbeitnow-product-manager-context-paris-160061",
-      "title": "Product Manager, Context",
-      "company": "Mistral.ai",
-      "location": "Paris",
+      "id": "arbeitnow-talent-lead-at-aios-remote-100-200k-inc-equity-blackburn-405054",
+      "title": "Talent Lead at AIOS- Remote, $100-200k inc equity",
+      "company": "AIOS (YC W20/S21)",
+      "location": "Remote (UK hours)",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/product-manager-context-paris-160061",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role As a Product Manager on the Context team, you will define and build the foundation for how AI agents access, interact with, and leverage context, data, tools, platforms, and environments, to deliver powerful, scalable solutions. This role exists to bridge the gap between cutting-edge AI capabilities and real-world usability, ensuring our agents are both capable and seamlessly integrated into Mistral’s broader product ecosystem. You’ll work at the intersection of engineering, research, design, and business, alig",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/aios-yc-w20s21/talent-lead-at-aios-remote-100-200k-inc-equity-blackburn-405054",
+      "description": "About AIOS AIOS is building the world’s first full-stack AI doctor. We’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving &gt;200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable. Our strategy exists at the intersection of two strong theses: The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history. The $2T European healthcare market is overlooked by the most talented builders. Our master plan: Step 0 → $100M/yr by end of 2025 : We went from $10M to $100M in 6 months serving the UK GLP-1 market. Step 1 → $1B ARR by end of 2026 : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR. Step 2 → $10B ARR by end of 2028 : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider. Step 3 → $100B/yr by end of 2030 : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe. Step 4 → $1T/yr by end of 2035 : With one l",
       "tags": [
-        "Product"
+        "Company"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
+      "posted": "2026-11-08T06:40:11.000Z",
       "score": 50,
       "regions": [
-        "Europe"
+        "Europe",
+        "Remote"
       ],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
         "role in description",
-        "seniority fit",
-        "region: Europe"
+        "region: Europe/Remote",
+        "remote"
       ]
     },
     {
-      "id": "arbeitnow-senior-engineering-manager-iaas-paris-288931",
-      "title": "Senior Engineering Manager, IaaS",
-      "company": "Mistral.ai",
-      "location": "Paris",
+      "id": "arbeitnow-senior-product-analyst-data-scientist-amsterdam-147157",
+      "title": "Senior Product Analyst / Data Scientist",
+      "company": "Nebius",
+      "location": "Amsterdam",
       "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/senior-engineering-manager-iaas-paris-288931",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The team Mistral is building a sovereign AI cloud for Europe. Customers in finance, healthcare, and the public sector run frontier models on European-jurisdiction infrastructure, and the IaaS group builds the layer they stand on: Kubernetes, networking, and storage, running on our own bare metal. European Compute Units let enterprises commit to multi-year capacity on that infrastructure, and we are scaling toward a gigawatt of compute across Europe by 2030. The org hires about ten engineers a month, and this group carri",
+      "url": "https://www.arbeitnow.nl/jobs/companies/nebius/senior-product-analyst-data-scientist-amsterdam-147157",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About Nebius:&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.&lt;/p&gt; &lt;p&gt;Built by engineers, for engineers. From large-scale GPU orchestration to inference optimization, we own the hard problems across compute, storage, networking and applied AI.&lt;/p&gt; &lt;p&gt;Listed on Nasdaq (NBIS) and headquartered in Amsterdam, we have a global footprint with R&amp;amp;D hubs across Europe, the UK, North America and Israel. Our team of 1,500+ includes hundreds of engineers with deep expertise across hardware, software and AI R&amp;amp;D.&lt;/p&gt;&lt;/div&gt;&lt;h4&gt;The role:&lt;/h4&gt; &lt;p&gt;In Token Factory analytics there is no split into product analysts, ML engineers and data engineers. Each person owns a question end to end: builds the data, runs the analysis, and comes back with a recommendation that changes a dec",
       "tags": [
-        "Engineering & Infra"
+        "New Products"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-vp-global-developer-relations-paris-473073",
-      "title": "VP, Global Developer Relations",
-      "company": "Mistral.ai",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/vp-global-developer-relations-paris-473073",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role As our VP of Global Developer Relations, you’ll be the voice and facilitator of Mistral to the developer, scientific, and technical communities. You’ll build and scale a global DevRel strategy that fosters deep engagement, advocacy, and love for Mistral’s models and technology. Your team will build communities and educate, excite, and empower developers to adopt, innovate, and evangelize Mistral’s technology—whether they’re startups, enterprises, researchers, or open-source contributors. You’ll work closely wit",
-      "tags": [
-        "Marketing"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-network-development-engineer-data-center-fabrics-paris-212739",
-      "title": "Network Development Engineer, Data Center Fabrics",
-      "company": "Mistral.ai",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/network-development-engineer-data-center-fabrics-paris-212739",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role As a Network Development Engineer, Data Center Fabrics, you will help design and build systems for operating large-scale networks within our data centers. You will apply deep networking expertise to leaf-spine architecture, automation, testing, and production troubleshooting across Ethernet switching, IP routing, BGP, EVPN/VXLAN, and VRFs. This is a hands-on role for a networking expert who is also comfortable building production software. Go and Kubernetes experience are helpful but not required; strong engine",
-      "tags": [
-        "Engineering & Infra"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-applied-scientist-amsterdam-the-netherlands-322073",
-      "title": "Senior Applied Scientist",
-      "company": "Tomtom",
-      "location": "Amsterdam, The Netherlands",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/senior-applied-scientist-amsterdam-the-netherlands-322073",
-      "description": "Meet the team&nbsp; &nbsp; You’ll join the Traffic Control Features team within TomTom’s Automated Driving organization . The team builds the technology that turns real-world observations into reliable map information about traffic signs, traffic lights, stop lines and road markings . &nbsp; You’ll work with applied scientists and software engineers to develop algorithms and machine-learning solutions that detect, position and connect these features to the right roads and driving directions. The goal is to deliver accurate, scalable map content that supports navigation and advanced driving experiences. TomTom measures these features using quality dimensions such as recall, precision, and road-relation accuracy. &nbsp; What you will do: Develop algorithms and ML solutions for traffic signs, traffic lights, road markings, and other traffic-control features, including projects with Computer Vision and Image Recognition. Design and productionize solutions that extract reliable map information from diverse, large-scale and noisy real-world data sources, including car sensor data and unstructured information. Improve how features are detected, positioned, and associated with the correct ",
-      "tags": [
-        "Maps Directions"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T00:08:41.000Z",
-      "score": 50,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-senior-ai-engineer-amsterdam-the-netherlands-4381",
-      "title": "Senior AI Engineer",
-      "company": "Tomtom",
-      "location": "Amsterdam, The Netherlands",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/senior-ai-engineer-amsterdam-the-netherlands-4381",
-      "description": "We’re looking for a Software Engineer to join our team and help us build a production-ready AI/data product for TomTom. The work is covering everything from new feature development to infrastructure, and data Engineering. Responsibilities: Build AI systems: Design, develop and maintain production AI solutions, including LLM-based applications, retrieval-augmented generation (RAG) pipelines, agentic workflows and ML model services. Productionize models: Take models and prototypes from applied scientists and turn them into robust, low-latency, cost-efficient services that scale to global traffic. Evaluation and quality: Define and automate evaluation frameworks, benchmarks and guardrails that measure accuracy, safety, latency and cost, and monitor models once they're in production. Data and pipelines: Build and optimize data pipelines for training, fine-tuning, embedding and inference, making sure data is high quality, traceable and handled in line with privacy requirements. MLOps and infrastructure: Implement CI/CD for ML, model versioning, experiment tracking and observability on cloud platforms. Cross-functional collaboration: Work with product, engineering and science stakeholder",
-      "tags": [
-        "Navigation Intelligence"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T00:08:41.000Z",
+      "posted": "2026-11-08T03:55:23.000Z",
       "score": 50,
       "regions": [
         "Europe"
@@ -1248,6 +1341,103 @@
         "role in title",
         "seniority mismatch",
         "remote"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-agentic-platform-berlin-386674",
+      "title": "Staff Software Engineer, Agentic Platform",
+      "company": "tide",
+      "location": "Berlin",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/tide/staff-software-engineer-agentic-platform-berlin-386674",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;h3&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;strong&gt;BOUT TIDE&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting.&lt;/p&gt; &lt;p&gt;Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, India, Germany and France.&lt;/p&gt; &lt;p&gt;Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Tide facts:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Tide is available for UK, Indian, German and French SMEs&lt;/li&gt; &lt;li&gt;Over 2 million members globally and rapidly growing&lt;/li&gt; &lt;li&gt;Over $300 million raised in funding&lt;/li&gt; &lt;li&gt;3,000 Tideans globally&lt;/li&gt; &lt;li",
+      "tags": [
+        "One Platform"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T03:55:32.000Z",
+      "score": 40,
+      "regions": [
+        "India",
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: India/Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-software-engineering-data-and-ai-engineering-it-management-consultant-2026-27-graduate-hamburg-125215",
+      "title": "Software Engineering /Data and AI Engineering/ IT-Management Consultant (2026/27 Graduate) (m/f/d)",
+      "company": "Netlight",
+      "location": "Hamburg",
+      "remote": false,
+      "url": "https://www.arbeitnow.com/jobs/companies/netlight/software-engineering-data-and-ai-engineering-it-management-consultant-2026-27-graduate-hamburg-125215",
+      "description": "About us Netlight is an international digital consulting firm, helping leading companies to succeed in the digital landscape, from advice to implementation. Our service contains the collective intelligence of more than 2000 consultants offering a comprehensive range of digital services, from strategy to technology. Co-creating the future today, since 1999. &nbsp; Netlight has been awarded several times for profitable growth and management, as a top employer, and for our engagement in Diversity, Equity, and Inclusion. Located in Stockholm, Gothenburg, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt, Zurich, Cologne, Amsterdam, Madrid, Toronto and London. &nbsp; What does it mean to be a consultant at Netlight?&nbsp; Join the Netlight Hamburg team as a consultant and be a part of shaping the software products and technical solutions of today and tomorrow alongside your colleagues and clients. Our focus is not just on the digital product, but also on the team and the business. You'll have the ownership to carve your own career path, choosing from a range of clients and roles based on your personal experience, strengths, interests, and market demand. Our projects encompa",
+      "tags": [
+        "Hamburg"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T03:08:15.000Z",
+      "score": 40,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-staff-software-engineer-paris-392655",
+      "title": "Staff Software Engineer",
+      "company": "Malt",
+      "location": "Paris",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/malt/staff-software-engineer-paris-392655",
+      "description": "🪐&nbsp;Discover our galaxy &nbsp; Join the Future of Work ! Malt is Europe's leading freelance marketplace, connecting over 1,000,000 talented freelancers with 100,000+ companies. Founded in 2013, we're transforming how work gets done through our tech-powered, human-centered platform. What makes us different: &nbsp; - A diverse team of 600 Malters across 6 European countries - A culture that champions equality (50% of our Comex are women) and inclusive growth - Backed by top investors including ISAI, Serena Capital, Eurazeo Growth, Goldman Sachs, and BPI - A mission to give everyone the freedom to work differently &nbsp; Ready to help shape the future of work? Your next chapter starts here! 🪐 &nbsp; At Malt we believe that Ambition is the Way, so all lists of missions and responsibilities are non-exhaustive. Key responsibilities Lead High-Impact Projects: Lead, plan, and drive the execution of large, complex, and sometimes high-risk engineering projects that often span across multiple teams or systems. Architectural Design: Design, develop, and implement scalable, efficient, and robust software solutions and systems.&nbsp; Set Technical Vision: Define the short-term and long-term",
+      "tags": [
+        "Software Engineers"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T03:08:20.000Z",
+      "score": 40,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title",
+        "seniority mismatch",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-embedded-software-engineer-gcs-paris-409445",
+      "title": "Embedded Software Engineer - GCS",
+      "company": "Signal Processing Engineer (RF Processing & Analytics)",
+      "location": "Paris",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/signal-processing-engineer-rf-processing-analytics/embedded-software-engineer-gcs-paris-409445",
+      "description": "About Us Harmattan AI is a next-generation defense prime building autonomous and scalable defense systems. Following the close of a $200M Series B, valuing the company at $1.4 billion, we are expanding our teams and capabilities to deliver mission-critical systems to allied forces. Our work is guided by clear values: building technologies with real-world impact, pursuing excellence in everything we do, setting ambitious goals, and taking on the hardest technical challenges. We operate in a demanding environment where rigor, ownership, and execution are expected. About the Role As an Embedded Software Engineer on Harmattan AI’s GCS (Ground Control System) module, you’ll develop the firmware and low-level software that powers our next-generation handheld UAV controllers. This includes real-time handling of inputs (joysticks, buttons, touchscreens), communication with the UAV, power management, and overall system responsiveness. Your code will bring to life a reliable, intuitive, and mission-ready operator experience. Responsibilities Develop embedded firmware for custom handheld ground stations, integrating displays, input devices, wireless modules, and battery systems. Implement the",
+      "tags": [
+        "R&D"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-07T21:40:15.000Z",
+      "score": 40,
+      "regions": [],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in title"
       ]
     },
     {
@@ -1297,285 +1487,156 @@
       ]
     },
     {
-      "id": "arbeitnow-software-engineering-intern-internal-developer-platform-amsterdam-the-netherlands-91789",
-      "title": "Software Engineering Intern - Internal Developer Platform",
-      "company": "Tomtom",
-      "location": "Amsterdam, The Netherlands",
+      "id": "arbeitnow-deployment-strategist-london-421911",
+      "title": "Deployment Strategist",
+      "company": "Serval - Account Executive, Mid Market -EMEA",
+      "location": "London",
       "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/software-engineering-intern-internal-developer-platform-amsterdam-the-netherlands-91789",
-      "description": "We build Frontstage, TomTom's developer portal based on Backstage, and Watchtower, the service that collects data behind it. Together they help engineering teams see what software they own and how it is doing, for example on security, quality and cost. What you'll do: Join a friendly team of engineers and pick up a project of your own, with a mentor to guide you Help build new pages and scorecards in Frontstage using TypeScript and React Help extend Watchtower, our TypeScript and PostgreSQL backend, with new data sources and APIs Work on features that matter to our users, for example showing teams what their services cost on our Kubernetes platform Help keep Frontstage up to date with new Backstage releases Participate in the full cycle: understanding what users need, designing a solution, building, testing and releasing it Build iteratively using agile methodologies, with your code reviewed by the team What you'll need: Being enrolled in a Dutch university until at least September 2027, so the entire duration of the internship Being located in Amsterdam or cities close by to be able to commute to the office at least twice a week Available for at least 32h/week Good TypeScript or J",
-      "tags": [
-        "Platform Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T00:08:41.000Z",
-      "score": 40,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineering-intern-ai-platform-excellence-amsterdam-the-netherlands-231363",
-      "title": "Software Engineering Intern - AI Platform Excellence",
-      "company": "Tomtom",
-      "location": "Amsterdam, The Netherlands",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/software-engineering-intern-ai-platform-excellence-amsterdam-the-netherlands-231363",
-      "description": "We look after the AI tools TomTom engineers use every day, such as GitHub Copilot, Claude and Cursor, and the platform that gives teams access to AI models. We help teams use these tools well, keep an eye on usage and cost, and try out new tools as they appear. What you'll do: Join a friendly team of platform engineers and pick up a project of your own, with a mentor to guide you Help build reports and dashboards that show how AI tools are used across TomTom and what they cost Look into how engineers can get good results from AI tools while using fewer tokens, and share simple tips and tooling with them Help improve our model gateway, for example by adding usage tracking or making it easier for teams to try new models Take part in trying out new AI developer tools and help write down what works and what does not Support the pilot of our AI-assisted ways of working with engineering teams, for example by collecting feedback and usage numbers Build iteratively using agile methodologies, and learn how a platform team works day to day What you'll need: Being enrolled in a Dutch university until at least September 2027, so the entire duration of the internship Being located in Amsterdam ",
-      "tags": [
-        "Platform Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T00:08:41.000Z",
-      "score": 40,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-principle-software-engineer-87856",
-      "title": "Principle Software Engineer",
-      "company": "Redwoodsoftware",
-      "location": "Not specified",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/redwoodsoftware/principle-software-engineer-87856",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;em&gt;OUR MISSION&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;At Redwood, we empower our customers with lights-out automation for their mission-critical business processes with industry leading products and platforms developed through an AI-Driven Software Development Life Cycle.&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;ABOUT US&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;Redwood Software is the leading orchestration platform for the autonomous enterprise, driving business transformation at the lowest total cost of ownership. Redwood empowers organizations to intelligently automate and orchestrate mission-critical business and IT processes across complex ERP, hybrid cloud, data and emerging agentic AI systems. Through its SaaS-first automation fabric—with AI embedded across the automation lifecycle—Redwood accelerates the path to autonomous operations. Backed by 30 years of experience and trusted by more than 50% of the Fortune 50, Redwood helps organizations unlock human potential to focus on innovation, gr",
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/serval-account-executive-mid-market-emea/deployment-strategist-london-421911",
+      "description": "Who We Are Serval is the AI-native enterprise service management platform that automates the work legacy IT service management tools only track. Our AI agents build the automations that power employee support, then resolve requests against them instantly—helping teams across IT, HR, finance, legal, and beyond automate work within one governed platform. Companies including Fox, Live Nation, Notion, Ramp, and Lucid Motors run on Serval. Headquartered in San Francisco, we’ve raised $277 million from investors including Sequoia Capital, Redpoint Ventures, First Round, General Catalyst, and Elad Gil, most recently a $150 million Series C at a $3 billion valuation. We’re building a team that moves quickly, takes ownership, and wants to make a meaningful impact on how the world’s largest organizations work. Come help us build what’s next for enterprise service management. About the team The Agent Deployment team is a customer-facing technical team, central to how Serval turns product capability into real business outcomes. The org is a family of roles: Deployment Strategists are the primary technical relationship and AI advisor for each customer, partnering with Deployed Software Engineer",
       "tags": [
         "Engineering"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-06T21:55:17.000Z",
-      "score": 40,
+      "posted": "2026-11-08T06:40:13.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-dispenser-blackburn-430493",
+      "title": "Dispenser",
+      "company": "AIOS (YC W20/S21)",
+      "location": "Blackburn, Lancashire",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/aios-yc-w20s21/dispenser-blackburn-430493",
+      "description": "About Bolt Pharmacy and AIOS AIOS is building the world’s first full-stack AI doctor. We’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving &gt;200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable. Our strategy exists at the intersection of two strong theses: The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history. The $2T European healthcare market is overlooked by the most talented builders. Our master plan: Step 0 → $100M/yr by end of 2025 : We went from $10M to $100M in 6 months serving the UK GLP-1 market. Step 1 → $1B ARR by end of 2026 : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR. Step 2 → $10B ARR by end of 2028 : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider. Step 3 → $100B/yr by end of 2030 : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe. Step 4 → $1T/yr by end of",
+      "tags": [
+        "Company"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T06:40:11.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-warehouse-operative-blackburn-360966",
+      "title": "Warehouse Operative",
+      "company": "AIOS (YC W20/S21)",
+      "location": "Blackburn, Lancashire",
+      "remote": false,
+      "url": "https://www.arbeitnow.co.uk/jobs/companies/aios-yc-w20s21/warehouse-operative-blackburn-360966",
+      "description": "About Bolt Pharmacy and AIOS AIOS is building the world’s first full-stack AI doctor. We’re at $450M ARR, growing from $7M/yr in April 2025. We’re faithfully serving &gt;200k/mo patients via Bolt Pharmacy, our main UK brand. We’ve just launched Bolt Med, our international brand. We’re profitable. Our strategy exists at the intersection of two strong theses: The AI doctor that wins will get to escape velocity using GLP-1s, the fastest growing consumer product in history. The $2T European healthcare market is overlooked by the most talented builders. Our master plan: Step 0 → $100M/yr by end of 2025 : We went from $10M to $100M in 6 months serving the UK GLP-1 market. Step 1 → $1B ARR by end of 2026 : Since April 2025 we've grown from 3k to 200k UK active GLP-1 patients. We’ll continue this growth curve to hit $1B ARR. Step 2 → $10B ARR by end of 2028 : Blitzscale Europe. We’ll be Europe’s largest GLP-1 provider. Step 3 → $100B/yr by end of 2030 : Get regulatory approval across Europe for our Full Autonomous Prescribing (FAP) system. Win contracts at scale with European payers to mass replace human labor. We’ll be the dominant full-stack AI doctor in Europe. Step 4 → $1T/yr by end of",
+      "tags": [
+        "Company"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T06:40:11.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-stage-social-media-content-marketing-flagship-events-amsterdam-mbo-hbo-wo-350549",
+      "title": "Stage Social Media & Content Marketing | Flagship Events Amsterdam mbo/hbo/wo",
+      "company": "Flagship Amsterdam",
+      "location": "Amsterdam, Noord-Holland, Nederland",
+      "remote": false,
+      "url": "https://www.arbeitnow.nl/jobs/companies/flagship-amsterdam/stage-social-media-content-marketing-flagship-events-amsterdam-mbo-hbo-wo-350549",
+      "description": "Wat ga je doen? Als Social Media &amp; Content Marketing Stagiair(e) bij Flagship Events ben je bezig met het bedenken en maken van creatieve content voor onze verschillende socialmediakanalen. Je laat zien wat Flagship Amsterdam allemaal te bieden heeft: van onze rondvaarten en evenementen tot onze verschillende activiteiten en ervaringen in de stad. Je houdt je vooral bezig met Instagram en TikTok en weet als geen ander wat er speelt op social media. Je bedenkt nieuwe concepten, gaat zelf op pad om video's te filmen en monteert deze tot aantrekkelijke content. Zo help je Flagship Events om op een creatieve en herkenbare manier zichtbaar te blijven bij verschillende doelgroepen. Wat ga je leren? Creatieve content bedenken en maken voor Instagram en TikTok; Video's filmen, monteren en voorbereiden voor publicatie; Een contentkalender opstellen en bijhouden; Inspelen op actuele socialmediatrends en deze vertalen naar passende content; Content maken rondom onze rondvaarten, evenementen en andere activiteiten; Reviews en user-generated content verzamelen en verwerken; De interactie met volgers onderhouden en reacties beantwoorden; Meedenken over de online uitstraling en zichtbaarheid ",
+      "tags": [
+        "Kantoor"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-07T12:31:42.000Z",
+      "score": 35,
+      "regions": [
+        "Europe"
+      ],
+      "sponsorshipFriendly": false,
+      "roleRelevant": true,
+      "reasons": [
+        "role in description",
+        "region: Europe"
+      ]
+    },
+    {
+      "id": "arbeitnow-technical-project-manager-engineering-delivery-paris-257191",
+      "title": "Technical Project Manager - Engineering Delivery",
+      "company": "Diabolocom",
+      "location": "Paris",
+      "remote": false,
+      "url": "https://www.arbeitnow.fr/jobs/companies/diabolocom/technical-project-manager-engineering-delivery-paris-257191",
+      "description": "Diabolocom is looking for a Technical Project Manager to coordinate engineering delivery across our organization and work closely with the Head of Software Engineering on roadmap execution. You will work across Engineering, Product, Infrastructure and Project teams to keep delivery on track, manage dependencies, identify risks early, and help turn delivery challenges into clear actions and decisions. We are looking for someone with a software engineering background who has moved into technical leadership and genuinely enjoys the operational side of engineering. The role Our engineering organization includes around 90 engineers across 12 teams , working on a complex global product and multiple parallel initiatives. This role combines ownership of our engineering delivery processes with hands-on execution . You will be responsible not only for running these processes, but also for continuously improving how we plan, coordinate and track delivery across the organization. Process ownership You will own and continuously improve: engineering delivery planning processes delivery tracking and reporting cross-team coordination and dependency management. You will build on our existing practi",
+      "tags": [
+        "Software Development"
+      ],
+      "source": "Arbeitnow",
+      "posted": "2026-11-08T03:08:18.000Z",
+      "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in title"
+        "role in description"
       ]
     },
     {
-      "id": "arbeitnow-it-internship-fullstack-engineer-cloud-native-platform-engineering-developer-experience-rotterdam-477686",
-      "title": "IT Internship - Fullstack Engineer: Cloud-Native Platform Engineering & Developer Experience",
-      "company": "Swisscom",
-      "location": "Rotterdam, Zuid-Holland, Netherlands",
+      "id": "arbeitnow-applied-ai-engineer-switzerland-204694",
+      "title": "Applied AI Engineer",
+      "company": "Jobgether",
+      "location": "Switzerland",
       "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/swisscom/it-internship-fullstack-engineer-cloud-native-platform-engineering-developer-experience-rotterdam-477686",
-      "description": "IT Internship - Cloud-Native Platform Engineering &amp; Developer Experience (AnyOrg) Becoming an IT professional that you aspire to be About the Internship Swisscom is always keen on attracting and developing the best talents. As part of the leading telecom and tech company in Switzerland, you will work on real projects that have real impact. From day one, you will be part of an international team collaborating across Switzerland, Rotterdam, and Riga, contributing to innovative solutions in Swisscom’s digital transformation. This means working hands‑on in backend, cloud, or full‑stack development, applying your Computer Science skills to real technical challenges. With colleagues from over 60 nationalities, diversity is not just something we value, it is how we work. We believe in open collaboration, ownership, and continuous learning. You will be encouraged to share ideas, take initiative, and grow within the environment. We respect each other, help each other out, and are not afraid to make mistakes. We make sure you can be the best version of yourself. Our internship program starts on 1st February 2027 . In this 6 months internship you will work in agile teams using Scrum and S",
+      "url": "https://www.arbeitnow.ch/jobs/companies/jobgether/applied-ai-engineer-switzerland-204694",
+      "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for an Applied AI Engineer based in Switzerland. As an Applied AI Engineer, you will play a pivotal role in designing and building the next generation of intelligent, agentic systems. You will develop the core infrastructure that enables AI agents to manage context, use tools, coordinate tasks, and continuously improve their performance. Working at the intersection of advanced AI research and practical software engineering, you will transform complex operational workflows into reliable, scalable production solutions. You will establish robust evaluation, testing, and observability frameworks to ensure AI-powered systems deliver predictable and measurable results. You will also explore innovative ways to integrate coding agents and specialized subagents into software development processes. Collaborating closely with product and operational teams, you will identify high-impact automation opportunities and translate them into effective technical solutions. As an early core member of the engineering team, you will have significant influence over architectural deci",
       "tags": [
-        "IT & DevOps"
+        "IT"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-06T18:31:19.000Z",
-      "score": 40,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in title",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-finance-accounting-manager-stuttgart-226325",
-      "title": "Finance & Accounting Manager (m/f/d)",
-      "company": "Sereact GmbH",
-      "location": "Stuttgart Schockenriedstr. 17",
-      "remote": false,
-      "url": "https://www.arbeitnow.com/jobs/companies/sereact-gmbh/finance-accounting-manager-stuttgart-226325",
-      "description": "Finance &amp; Accounting Manager (m/f/d) Building a finance function from zero is rare — doing it at a fast-growing robotics AI company is rarer. Sereact is scaling internationally (Germany, US, Switzerland), and our Director Accounting is looking for a smart early hire to build our finance function together: processes, systems, and standards, from day one. You'll work directly with leadership and help take the group through its first statutory audit. Based on-site at our Stuttgart headquarters. Who We Are Sereact builds AI that lets robots sense, reason, and act in the real world — in warehouses and factories. Our mission is to redefine how physical work gets done, and we're looking for curious, bold people who want to make a real difference. Overview Working side by side with our Director Accounting, you'll help bring bookkeeping in-house, help shape our finance systems setup (including how we use Odoo alongside DATEV), and get us ready for our first statutory audit — working closely with the founders and our external tax and audit partners. We value people who work independently, take initiative, and build rather than wait for the perfect setup. Your Responsibilities Day-to-day ",
-      "tags": [
-        "Business Operations"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T09:40:16.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-partner-deployed-engineer-europe-london-167976",
-      "title": "Partner Deployed Engineer - Europe",
-      "company": "Cognition",
-      "location": "London",
-      "remote": false,
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/cognition/partner-deployed-engineer-europe-london-167976",
-      "description": "We are an applied AI lab building end-to-end software agents. We're the makers of Devin, the first AI software engineer. Our team is extremely talent-dense. Among our founding team, we have world-class competitive programmers, former founders, and leaders from companies at the cutting edge of AI including Scale AI, Palantir, Cursor, Waymo, Tesla, Lunchclub, Modal, Google DeepMind, and Nuro. Building Devin is just the first step—our hardest challenges still lie ahead. If you’re excited to solve some of the world’s biggest problems and build AI that can reason on real-world tasks, apply to join us. About the Role At Cognition, partners are force multipliers . Partner Deployed Engineers (Partner DEs) are partner-facing (and customer-facing) technical experts who enable services partners such as Global Systems Integrators to successfully deploy, scale, and deliver value with Devin and Windsurf across their client base. In this role, you will work closely with partner solution architects, delivery leads, and engineering teams to help them build repeatable offerings and internal expertise on top of the Cognition platform. Rather than owning a single customer, you’ll amplify impact by ena",
-      "tags": [
-        "Customer Engineering"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:29.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-ai-scientist-intern-internship-masters-or-phd-paris-445628",
-      "title": "AI Scientist Intern - (Internship, Masters or Phd)",
-      "company": "Mistral.ai",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/ai-scientist-intern-internship-masters-or-phd-paris-445628",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. About Mistral At Mistral AI, we believe in the power of AI to simplify tasks, save time, and enhance learning and creativity. Our technology is designed to integrate seamlessly into daily working life. We democratize AI through high-performance, optimized, open-source and cutting-edge models, products and solutions. Our comprehensive AI platform is designed to meet enterprise needs, whether on-premises or in cloud environments. Our offerings include le Chat, the AI assistant for life and work. We are a dynamic, collabor",
-      "tags": [
-        "Science"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-product-director-studio-paris-443732",
-      "title": "Product Director, Studio",
-      "company": "Mistral.ai",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/mistralai/product-director-studio-paris-443732",
-      "description": "About Mistral Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms. We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited. The Role Studio has been developed to help enterprises build, evaluate, and operate AI systems reliably, safely, and at scale, turning prototypes into production-ready solutions. It provides the infrastructure enterprises need to scale their use cases, including comprehensive monitoring, reliable automation, and centralized tracking of AI assets. We are seeking a strong product leader to own the strategy and shape the future of Studio redefining the AI builder experience in enterprises. You will determine how enterprise",
-      "tags": [
-        "Product"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T06:40:26.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "seniority fit",
-        "seniority mismatch",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-manager-i-engineering-client-sdks-mobile-browser-paris-39066",
-      "title": "Manager I, Engineering - Client SDKs (Mobile & Browser)",
-      "company": "Datadog",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/datadog/manager-i-engineering-client-sdks-mobile-browser-paris-39066",
-      "description": "&lt;p data-renderer-start-pos=&quot;215&quot; data-local-id=&quot;9c03ffd59c47&quot;&gt;Datadog&#39;s client SDKs run inside our customers&#39; mobile apps and websites, and every Datadog client-side product depends on them, including Real User Monitoring, Session Replay, Product Analytics, and Feature Flags. We maintain 11 open source SDKs across Browser, iOS, Android, React Native, Flutter, Kotlin Multiplatform, Unity, and more.&amp;nbsp;&lt;/p&gt; &lt;p data-renderer-start-pos=&quot;556&quot; data-local-id=&quot;8f8d86b9cd1f&quot;&gt;&amp;nbsp;&lt;/p&gt; &lt;p data-renderer-start-pos=&quot;558&quot; data-local-id=&quot;d4b51c5266b7&quot;&gt;As the Engineering Manager for Client SDKs, you&#39;ll build and lead the team that makes it easy for any team at Datadog to ship into those SDKs safely: fast CI, predictable releases, a shared spec across SDKs, and tooling that lets engineers and coding agents contribute without waiting on a review queue. It&#39;s a rare chance to own a developer platform that ships in public, at a scale where small decisions reach a lot of customers, and to shape how Datadog builds client-side products in the AI-native era. Both the team and its scope are e",
-      "tags": [
-        "Leadership"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T03:55:18.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-junior-or-medior-ai-engineer-rotterdam-368271",
-      "title": "Junior or Medior AI Engineer",
-      "company": "Helloprint",
-      "location": "Rotterdam, Zuid-Holland, Netherlands",
-      "remote": false,
-      "url": "https://www.arbeitnow.nl/jobs/companies/helloprint/junior-or-medior-ai-engineer-rotterdam-368271",
-      "description": "HelloPrint is rebuilding the entire platform: new frontend, new pricing engine, new content engine, new product engine, everything ready for an agentic future. No one on the team writes code manually for what these systems handle. You'll work inside this rebuild, under the direction of our founding team (Hans, CEO, and Michael, CIO/Chief AI Officer), executing on high-leverage AI problems with real commercial impact, visible immediately in revenue or cost. There's no management layer between you and the outcome. You build, you ship, you measure, you move to the next problem. What you will build: The opportunity surface is large: 14 markets, 600,000 customers, a platform being rebuilt in parallel across four core engines. You'll work on problems from areas like: Dynamic pricing and margin optimization across markets. Agentic procurement: supplier selection, ordering, quality management. Customer journey automation from configuration to post-delivery. Intelligent content and SEO infrastructure at platform scale. Predictive demand and inventory across the supplier network. Internal tooling that multiplies the output of every team. Before you read further HelloPri nt is on a mission to",
-      "tags": [
-        "Technology"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-06T18:31:20.000Z",
-      "score": 35,
-      "regions": [
-        "Europe"
-      ],
-      "sponsorshipFriendly": false,
-      "roleRelevant": true,
-      "reasons": [
-        "role in description",
-        "region: Europe"
-      ]
-    },
-    {
-      "id": "arbeitnow-software-engineering-intern-paris-230291",
-      "title": "Software Engineering Intern",
-      "company": "Datadog",
-      "location": "Paris",
-      "remote": false,
-      "url": "https://www.arbeitnow.fr/jobs/companies/datadog/software-engineering-intern-paris-230291",
-      "description": "&lt;p&gt;We’re looking for Software Engineering Interns to help build and scale the systems that power Datadog’s observability and security platform. Interns contribute directly to real-world engineering challenges across backend, frontend, infrastructure, data engineering, and developer tooling while working alongside experienced engineers and mentors. You’ll help design, build, and improve systems that process and analyze massive volumes of metrics, logs, and application data in real time. Whether you’re interested in distributed systems, Kubernetes, AI-powered products like Bits AI, or developer platform tooling, you’ll work on meaningful projects that deliver impact for customers at global scale.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;At Datadog, we place value in our office culture - the relationships and collaboration it builds and the creativity it brings to the table. We operate as a hybrid workplace to ensure our Datadogs can create a work-life harmony that best fits them.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What You’ll Do:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Contribute to production systems that process and analyze ",
-      "tags": [
-        "Engineering Interns"
-      ],
-      "source": "Arbeitnow",
-      "posted": "2026-11-07T03:55:18.000Z",
-      "score": 25,
+      "posted": "2026-11-07T12:08:24.000Z",
+      "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
       "roleRelevant": true,
       "reasons": [
-        "role in title",
-        "seniority mismatch"
+        "role in description"
       ]
     },
     {
-      "id": "arbeitnow-llm-deployment-engineer-zurich-16388",
-      "title": "LLM Deployment Engineer",
-      "company": "Destinusgroup",
-      "location": "Zürich, Switzerland",
+      "id": "arbeitnow-ai-engineer-switzerland-78556",
+      "title": "AI Engineer",
+      "company": "Jobgether",
+      "location": "Switzerland",
       "remote": false,
-      "url": "https://www.arbeitnow.ch/jobs/companies/destinusgroup/llm-deployment-engineer-zurich-16388",
-      "description": "About the role We are seeking an LLM Deployment Engineer to drive the adoption of AI-powered automation across the organization. In this role, you will deploy and scale LLMs to streamline business processes and assist engineering R&amp;D. You'll work at the intersection of ML, software infrastructure engineering, and enterprise systems, by developing integration and automation solutions that enable teams across the organization to operate more efficiently. What You´ll Do · Deploy and maintain open-weights LLMs on cloud and local cluster. · Scale deployments to serve a large number of users within the organization. · Be up-to-date with new model releases, to keep our deployment state of the art. · Connect LLMs to specific use cases, helping users across the organization to automate their work routine. · Analyze the effectiveness of models on automation tasks. · Embed security and privacy in the automation pipeline, to safeguard sensitive content. Requirements What You’ll Need · 3+ years of professional experience in software engineering · Experience working with LLM APIs, both open-weight and proprietary · Familiarity with LLM applications, including tools, retrieval-augmented gener",
+      "url": "https://www.arbeitnow.ch/jobs/companies/jobgether/ai-engineer-switzerland-78556",
+      "description": "This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for an AI Engineer based in Switzerland. We are looking for an experienced AI Engineer to build and deploy production-grade AI systems that address complex challenges across heavy industries, including utilities, manufacturing, logistics, and energy. You will play a key role in developing a next-generation industrial operating system, taking innovative products from concept to production. The role combines agentic AI, multimodal machine learning, industrial data integration, and full-stack engineering. You will work with real-world data from sensors, machines, and operational systems to deliver intelligent solutions that improve efficiency, reliability, and decision-making. This is a high-ownership opportunity in a fast-moving, zero-to-one product environment. You will help establish the foundations of an ambitious platform designed to transform industrial operations. Accountabilities You will design, build, and ship the core AI capabilities of an industrial intelligence platform, connecting advanced models with operational data, enterprise systems, and practi",
       "tags": [
-        "Aviation & Aerospace",
-        "Machine Learning & Software Engineering"
+        "IT"
       ],
       "source": "Arbeitnow",
-      "posted": "2026-11-06T12:20:15.000Z",
+      "posted": "2026-11-07T12:08:24.000Z",
       "score": 20,
       "regions": [],
       "sponsorshipFriendly": false,
