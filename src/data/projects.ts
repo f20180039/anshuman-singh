@@ -50,6 +50,9 @@ import Mangakahue1 from "../assets/projects/mangakahue-1.webp";
 import SatyaAaharCard from "../assets/projects/satya-aahar-card.webp";
 import SatyaAahar1 from "../assets/projects/satya-aahar-1.webp";
 import SatyaAaharFlow from "../assets/projects/satya-aahar-flow.svg";
+import HonestAttemptCard from "../assets/projects/honestattempt-card.webp";
+import HonestAttempt1 from "../assets/projects/honestattempt-1.webp";
+import HonestAttempt2 from "../assets/projects/honestattempt-2.webp";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "../common/constants";
 
 export type StatusKind = "live" | "in-progress" | "build";
@@ -96,6 +99,8 @@ export interface CaseStudy {
   numbers: string[];
   credit?: string;
   artworkCredit?: string;
+  /** Planned work, shown as "What's next"; omitted when there is none. */
+  next?: string[];
   gallery: ProjectImage[];
 }
 
@@ -122,6 +127,7 @@ export const FEATURED_SLUGS = ["shaanti", "signal-desk", "mangakahue"] as const;
 // Case-study copy and every figure below come from the "Content facts" section of
 // docs/superpowers/specs/2026-10-21-project-case-studies-design.md. Status
 // labels, credits and link rules are guarded by projects.content.test.ts.
+// HonestAttempt was added later from facts the owner supplied on 2026-11-21.
 export const PROJECTS: Project[] = [
   {
     slug: "shaanti",
@@ -574,6 +580,71 @@ export const PROJECTS: Project[] = [
         "2-model consensus",
       ],
       gallery: [],
+    },
+  },
+  {
+    slug: "honestattempt",
+    title: "HonestAttempt",
+    tagline:
+      "Turns any exam-paper PDF into a strict practice exam that runs like the real one",
+    description:
+      "A web app that turns any exam-paper PDF into a strict, honest practice exam that runs like the real online exam. Built first for RBI Grade B prep, it works for other exams too, and everything stays in your browser.",
+    // Captured from the live app in a fresh browser: no paper loaded, no data.
+    image: {
+      src: HonestAttemptCard,
+      alt: 'HonestAttempt home screen: a "How HonestAttempt works" card with three steps (Load your PDF, Check it, Sit the exam), a ticked "Prepare without seeing the key" option and a Get started button',
+      width: 640,
+      height: 400,
+    },
+    tech: [SiNextdotjs, SiTypescript, SiTailwindcss],
+    repo: { visibility: "private" },
+    links: [{ label: "Live app", href: "https://honestattempt.vercel.app" }],
+    status: { kind: "live", label: "Live, in active development" },
+    caseStudy: {
+      problem:
+        "Practising from a previous-year paper PDF makes it easy to fool yourself by accident: the answers and solutions are often printed on the page, the clock is whatever you decide, and nothing stops you going back. The real online exam is strict about all of that. HonestAttempt turns the PDF into a practice exam that runs like the real one, so the score is one you earned. It was built first for RBI Grade B prep and works for other exams.",
+      built: [
+        "Import that reads the PDF's text layer, crops each question and detects the questions, sections and answer key, with a check screen that shows “What's left” before you start",
+        "Blind mode: answers and solutions printed in the PDF are hidden or covered, so you can't see them by accident",
+        "Exam player with section timers, auto-end of a section and auto-submit, no going back where the exam forbids it, a question palette in the standard status colours, mark for review, one or two questions per screen, a 5-minute warning that doesn't block the screen, and a calculator where the exam allows one",
+        "Honest mode, a full-screen and leave-page guard, with an optional Reveal answer locked behind Strict mode, which is on by default",
+        "Results with negative marking and a section breakdown, plus a question-by-question review of your answer next to the key; the key is optional, and adding it later re-scores the attempt",
+        "“Send to phone”: a file that moves a prepared paper from a laptop to a phone",
+      ],
+      stack: [
+        "Next.js 16 (static export)",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "pdf.js",
+        "IndexedDB",
+        "Vitest",
+        "Playwright",
+      ],
+      decisions: [
+        "No server and no account: papers and attempts live in the browser's IndexedDB and the app ships as a static export, so a paper moves between devices as a file you carry, not an upload.",
+        "Questions are cropped from the PDF itself, using its text layer to find them, so each one looks exactly as printed; the check screen lists what is left to confirm before an attempt starts.",
+        "Built with AI-assisted, test-driven development and an independent review at every step.",
+      ],
+      numbers: ["Over 1,000 automated tests across Vitest and Playwright"],
+      next: [
+        "Text-first questions with OCR",
+        "Exam presets for JEE Main and Advanced, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
+        "A visual refresh with light and dark mode",
+      ],
+      gallery: [
+        {
+          src: HonestAttempt1,
+          alt: 'HonestAttempt home screen with the three steps Load your PDF, Check it and Sit the exam, the note "Your PDF and your answers never leave this device." and a Get started button',
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: HonestAttempt2,
+          alt: "HonestAttempt About page on Honest mode: what it does (the key stays hidden until you submit, the timer cannot be paused, leaving the tab is noticed and logged) and what it cannot do",
+          width: 1280,
+          height: 800,
+        },
+      ],
     },
   },
   {

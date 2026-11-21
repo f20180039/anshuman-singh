@@ -79,6 +79,10 @@ function projectImages() {
     // SVG imported directly and never passes through here.
     card("satya-aahar"),
     gallery("satya-aahar", 1, true),
+    // Captured from the live app in a fresh browser (no papers, no data).
+    card("honestattempt"),
+    gallery("honestattempt", 1),
+    gallery("honestattempt", 2),
   ];
 }
 
