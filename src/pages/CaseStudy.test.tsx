@@ -107,6 +107,30 @@ describe("CaseStudy page", () => {
     }
   });
 
+  it("live private project: live link, private badge, What's next after the numbers", () => {
+    renderAt("/projects/honestattempt");
+
+    expect(
+      screen.getByRole("heading", { level: 1, name: "HonestAttempt" }),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Private code")).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /GitHub/ })).toBeNull();
+    expect(screen.getByText("Live, in active development")).toBeInTheDocument();
+
+    const live = screen.getByRole("link", { name: /Live app/ });
+    expect(live).toHaveAttribute("href", "https://honestattempt.vercel.app");
+    expect(live).toHaveAttribute("target", "_blank");
+    expect(live).toHaveAttribute("rel", "noopener noreferrer");
+
+    const names = screen.getAllByRole("heading").map((h) => h.textContent);
+    expect(names.indexOf("What's next")).toBe(
+      names.indexOf("By the numbers") + 1,
+    );
+    for (const item of project("honestattempt").caseStudy?.next ?? []) {
+      expect(screen.getByText(item)).toBeInTheDocument();
+    }
+  });
+
   it("unknown slug shows NotFound", () => {
     renderAt("/projects/does-not-exist");
 
@@ -169,6 +193,7 @@ describe("CaseStudy page", () => {
     expect(
       screen.queryByRole("heading", { name: "By the numbers" }),
     ).toBeNull();
+    expect(screen.queryByRole("heading", { name: "What's next" })).toBeNull();
     expect(
       screen.getByText("Sample page from a public-domain manga (CC0)"),
     ).toBeInTheDocument();

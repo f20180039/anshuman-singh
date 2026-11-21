@@ -14,6 +14,7 @@ const CASE_STUDY_SLUGS = [
   "solarfile-reels",
   "toodler",
   "quiz-wizz",
+  "honestattempt",
 ] as const;
 
 const PRIVATE_SLUGS = [
@@ -22,7 +23,11 @@ const PRIVATE_SLUGS = [
   "mangakahue",
   "solarfile-reels",
   "quiz-wizz",
+  "honestattempt",
 ] as const;
+
+/** Case studies whose product is genuinely live; every other one must not say so. */
+const LIVE_SLUGS = new Set<string>(["toodler", "honestattempt"]);
 
 const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   shaanti: "Play Store release pending",
@@ -32,6 +37,7 @@ const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   "signal-desk": "Hackathon build",
   toodler: "Live prototype",
   "quiz-wizz": "Private release (v1.3.2)",
+  honestattempt: "Live, in active development",
 };
 
 function project(slug: string): Project {
@@ -45,7 +51,7 @@ function json(slug: string): string {
 }
 
 describe("case-study content", () => {
-  it("has exactly the seven case studies", () => {
+  it("has exactly the eight case studies", () => {
     expect(PROJECTS.filter((p) => p.caseStudy).map((p) => p.slug)).toEqual([
       ...CASE_STUDY_SLUGS,
     ]);
@@ -125,7 +131,7 @@ describe("case-study content", () => {
       /available on (google )?play|on the play store|download (it )?on/i,
     );
     for (const slug of CASE_STUDY_SLUGS) {
-      if (slug === "toodler") continue;
+      if (LIVE_SLUGS.has(slug)) continue;
       expect(project(slug).status?.kind).not.toBe("live");
     }
   });
@@ -180,6 +186,21 @@ describe("case-study content", () => {
         expect(entry.repo.url).toMatch(/^https:\/\//);
       }
     }
+  });
+
+  it("honestattempt live link and planned work", () => {
+    const entry = project("honestattempt");
+    expect(entry.links).toEqual([
+      { label: "Live app", href: "https://honestattempt.vercel.app" },
+    ]);
+    expect(entry.status?.kind).toBe("live");
+    // Facts only: the test count is stated as a floor, never an exact figure.
+    expect(entry.caseStudy?.numbers).toEqual([
+      "Over 1,000 automated tests across Vitest and Playwright",
+    ]);
+    expect(entry.caseStudy?.next?.length).toBe(3);
+    // The paper is described generically; no third-party publisher is named.
+    expect(entry.caseStudy?.problem).toContain("a previous-year paper PDF");
   });
 
   it("no TradingAgents", () => {

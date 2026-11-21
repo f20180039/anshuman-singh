@@ -8,7 +8,7 @@ import { FAQ_DATABASE, RESUME_CONTEXT } from "./faq-knowledge-base";
  * The chat assistant's knowledge lives twice: this module feeds the frontend,
  * and `server/faq-data.json` feeds the Render backend (read with `fs` there,
  * so it is read the same way here and a JSON syntax error fails loudly).
- * Both copies must describe the same seven case studies, under the same
+ * Both copies must describe the same eight case studies, under the same
  * rules as the Projects pages (no names or handles, no private repo links,
  * no overclaiming of Shaanti's release).
  */
@@ -69,11 +69,11 @@ const FILES: [string, string][] = [
 ];
 
 describe("chat knowledge of the case studies", () => {
-  it("covers exactly the seven case studies from projects.ts", () => {
-    expect(CASE_STUDY_TITLES).toHaveLength(7);
+  it("covers exactly the eight case studies from projects.ts", () => {
+    expect(CASE_STUDY_TITLES).toHaveLength(8);
   });
 
-  it.each(COPIES)("%s mentions all seven case studies", (_label, copy) => {
+  it.each(COPIES)("%s mentions all eight case studies", (_label, copy) => {
     const missing = CASE_STUDY_TITLES.filter((title) => !copy.includes(title));
     expect(missing).toEqual([]);
   });
@@ -126,7 +126,7 @@ describe("chat knowledge of the case studies", () => {
 
   it.each(FILES)("%s links no private repo", (_f, src) => {
     expect(src).not.toMatch(
-      /github\.com\/f20180039\/(shaanti|satya-aahar|MangakaHue|solarfile-reels|quiz-wizz)/i,
+      /github\.com\/f20180039\/(shaanti|satya-aahar|MangakaHue|solarfile-reels|quiz-wizz|honestattempt)/i,
     );
   });
 

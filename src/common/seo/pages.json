@@ -90,6 +90,14 @@
       "changefreq": "monthly"
     },
     {
+      "path": "/projects/honestattempt",
+      "title": "HonestAttempt — exam practice from a PDF | Anshuman Singh",
+      "description": "Case study: a browser-only web app that turns any exam-paper PDF into a strict, timed practice exam that runs like the real one. No server, no account.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
       "path": "/certificates",
       "title": "Certificates & Credentials | Anshuman Singh",
       "description": "Verified courses and certifications in frontend engineering, JavaScript, React and web development completed by Anshuman Singh.",

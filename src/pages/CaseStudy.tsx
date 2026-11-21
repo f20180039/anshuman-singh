@@ -231,6 +231,12 @@ export function CaseStudyArticle({ project }: { project: Project }) {
         </Section>
       )}
 
+      {study.next && study.next.length > 0 && (
+        <Section title="What's next">
+          <BulletList items={study.next} />
+        </Section>
+      )}
+
       <ProjectLinks project={project} align="start" />
 
       {(study.credit || study.artworkCredit) && (
