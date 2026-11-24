@@ -106,6 +106,22 @@
       "changefreq": "monthly"
     },
     {
+      "path": "/projects/azentio-portal",
+      "title": "Azentio Portal — Hackathon build | Anshuman Singh",
+      "description": "Case study: a solo hackathon build of a public site and governed portal where client observations become moderated, de-identified shared learning. FastAPI.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/projects/azentio-csm-voice",
+      "title": "CSM Voice Agent — Bank voice agent | Anshuman Singh",
+      "description": "Case study: a team-built customer-service voice agent for a bank, in English, Kannada and Hindi, that verifies callers before sharing any record.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
       "path": "/certificates",
       "title": "Certificates & Credentials | Anshuman Singh",
       "description": "Verified courses and certifications in frontend engineering, JavaScript, React and web development completed by Anshuman Singh.",

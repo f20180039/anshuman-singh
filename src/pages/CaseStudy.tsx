@@ -12,6 +12,7 @@ import {
 import PrivateCodeBadge from "../features/projects/PrivateCodeBadge";
 import ProjectLinks from "../features/projects/ProjectLinks";
 import StatusBadge from "../features/projects/StatusBadge";
+import VideoGallery from "../features/projects/VideoGallery";
 import NotFound from "./NotFound";
 
 const BACK_LINK_CLASSES =
@@ -190,6 +191,9 @@ export function CaseStudyArticle({ project }: { project: Project }) {
 
       {project.image && <Hero image={project.image} />}
       {study.gallery.length > 0 && <Gallery images={study.gallery} />}
+      {study.videos && study.videos.length > 0 && (
+        <VideoGallery videos={study.videos} />
+      )}
 
       <Section title="The problem">
         <p className="ans-text-2 ans-leading-relaxed ans-text-th-secondary-fg">
@@ -238,6 +242,9 @@ export function CaseStudyArticle({ project }: { project: Project }) {
       )}
 
       <ProjectLinks project={project} align="start" />
+      {study.linkNote && (
+        <p className="ans-text-1 ans-text-th-muted-fg">{study.linkNote}</p>
+      )}
 
       {(study.credit || study.artworkCredit) && (
         <div className="ans-flex ans-flex-col ans-gap-1 ans-text-1 ans-text-th-muted-fg">

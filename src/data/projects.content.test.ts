@@ -16,6 +16,8 @@ const CASE_STUDY_SLUGS = [
   "quiz-wizz",
   "honestattempt",
   "taxmitra",
+  "azentio-portal",
+  "azentio-csm-voice",
 ] as const;
 
 const PRIVATE_SLUGS = [
@@ -29,7 +31,11 @@ const PRIVATE_SLUGS = [
 ] as const;
 
 /** Case studies whose product is genuinely live; every other one must not say so. */
-const LIVE_SLUGS = new Set<string>(["toodler", "honestattempt"]);
+const LIVE_SLUGS = new Set<string>([
+  "toodler",
+  "honestattempt",
+  "azentio-portal",
+]);
 
 const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   shaanti: "Play Store release pending",
@@ -41,6 +47,8 @@ const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   "quiz-wizz": "Private release (v1.3.2)",
   honestattempt: "Live, in active development",
   taxmitra: "In development",
+  "azentio-portal": "Hackathon build, live",
+  "azentio-csm-voice": "Hackathon build",
 };
 
 function project(slug: string): Project {
@@ -54,7 +62,7 @@ function json(slug: string): string {
 }
 
 describe("case-study content", () => {
-  it("has exactly the nine case studies", () => {
+  it("has exactly the eleven case studies", () => {
     expect(PROJECTS.filter((p) => p.caseStudy).map((p) => p.slug)).toEqual([
       ...CASE_STUDY_SLUGS,
     ]);
@@ -105,6 +113,14 @@ describe("case-study content", () => {
       visibility: "public",
       url: "https://github.com/f20180039/toodler",
     });
+    expect(project("azentio-portal").repo).toEqual({
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-portal",
+    });
+    expect(project("azentio-csm-voice").repo).toEqual({
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-csm",
+    });
   });
 
   it("status labels are exact", () => {
@@ -126,6 +142,12 @@ describe("case-study content", () => {
     );
     expect(project("solarfile-reels").caseStudy?.credit).toBe(
       "Seeded from a friend's open-source reels-generator",
+    );
+    expect(project("azentio-portal").caseStudy?.credit).toBe(
+      "Built solo, with AI-assisted development (disclosed)",
+    );
+    expect(project("azentio-csm-voice").caseStudy?.credit).toBe(
+      "Team build; I owned the backend and the voice pipeline",
     );
   });
 
@@ -232,6 +254,47 @@ describe("case-study content", () => {
     expect(FEATURED_SLUGS).not.toContain("taxmitra" as never);
     expect(entry.caseStudy?.problem).toMatch(/deterministic tax engine/);
     expect(entry.caseStudy?.numbers).toEqual(["Over 200 automated test files"]);
+  });
+
+  it("azentio portal: public repo, live demo link, three demo clips, not featured", () => {
+    const entry = project("azentio-portal");
+    expect(entry.links).toEqual([
+      { label: "Live demo", href: "https://azentio-portal.onrender.com/demo" },
+    ]);
+    expect(entry.status).toEqual({
+      kind: "live",
+      label: "Hackathon build, live",
+    });
+    expect(entry.caseStudy?.linkNote).toMatch(/\/demo/);
+    expect(entry.caseStudy?.linkNote).toMatch(/moment to wake/);
+    expect(entry.caseStudy?.videos).toHaveLength(3);
+    for (const video of entry.caseStudy?.videos ?? []) {
+      expect(video.caption.trim().length).toBeGreaterThanOrEqual(15);
+      expect(video.poster).toBeTruthy();
+    }
+    expect(FEATURED_SLUGS).not.toContain("azentio-portal" as never);
+    // Facts from the repo README only.
+    expect(entry.caseStudy?.numbers).toEqual([
+      "232 automated tests",
+      "2 independent security reviews, every finding fixed",
+      "Synthetic data only",
+    ]);
+    expect(JSON.stringify(entry)).toMatch(/AI-assisted development \(disclosed\)/);
+  });
+
+  it("csm voice agent: public repo, no live link, credits no teammate by name", () => {
+    const entry = project("azentio-csm-voice");
+    // The hosted voice service is down, so there is no live link.
+    expect(entry.links).toEqual([]);
+    expect(entry.status).toEqual({ kind: "build", label: "Hackathon build" });
+    expect(FEATURED_SLUGS).not.toContain("azentio-csm-voice" as never);
+    expect(entry.caseStudy?.videos).toBeUndefined();
+    const copy = JSON.stringify(entry);
+    expect(copy).toMatch(/Kannada/);
+    expect(copy).toMatch(/Hindi/);
+    expect(copy).not.toMatch(/Chirag|Pavan|chiraghs|pavanmandavilli/i);
+    // No phone numbers or emails from the demo script.
+    expect(copy).not.toMatch(/\d{5} \d{5}|@[a-z]+\./i);
   });
 
   it("no TradingAgents", () => {

@@ -16,6 +16,7 @@ import {
   SiPython,
   SiReact,
   SiRedis,
+  SiSqlite,
   SiSupabase,
   SiTailwindcss,
   SiTypescript,
@@ -56,6 +57,18 @@ import HonestAttemptCard from "../assets/projects/honestattempt-card.webp";
 import HonestAttempt1 from "../assets/projects/honestattempt-1.webp";
 import HonestAttempt2 from "../assets/projects/honestattempt-2.webp";
 import TaxMitraFlow from "../assets/projects/taxmitra-flow.svg";
+import AzentioPortalCard from "../assets/projects/azentio-portal-card.webp";
+import AzentioPortalPoster1 from "../assets/projects/azentio-portal-poster-1.webp";
+import AzentioPortalPoster2 from "../assets/projects/azentio-portal-poster-2.webp";
+import AzentioPortalPoster3 from "../assets/projects/azentio-portal-poster-3.webp";
+// Narrated demo clips (synthetic data, TTS narration), re-encoded with ffmpeg
+// to H.264 + AAC at 720p, about 1.2-1.5 MB each.
+import AzentioPortalVideo1 from "../assets/projects/azentio-portal-1.mp4";
+import AzentioPortalVideo2 from "../assets/projects/azentio-portal-2.mp4";
+import AzentioPortalVideo3 from "../assets/projects/azentio-portal-3.mp4";
+import AzentioCsmVoiceCard from "../assets/projects/azentio-csm-voice-card.webp";
+import AzentioCsmVoice1 from "../assets/projects/azentio-csm-voice-1.webp";
+import AzentioCsmVoice2 from "../assets/projects/azentio-csm-voice-2.webp";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "../common/constants";
 
 export type StatusKind = "live" | "in-progress" | "build";
@@ -74,6 +87,21 @@ export interface ProjectImage {
    * arrives and nothing below it moves. Guarded against the file on disk by
    * projects.images.test.ts.
    */
+  width: number;
+  height: number;
+}
+
+/**
+ * A short demo clip shown on the case-study page. `poster` is a frame of the
+ * clip itself, so the page shows something before a visitor presses play;
+ * nothing is downloaded until then (`preload="none"`). `width`/`height` are
+ * the clip's intrinsic size, used for the aspect ratio.
+ */
+export interface ProjectVideo {
+  src: string;
+  poster: string;
+  /** Visible caption under the clip, also its accessible name. */
+  caption: string;
   width: number;
   height: number;
 }
@@ -105,6 +133,10 @@ export interface CaseStudy {
   /** Planned work, shown as "What's next"; omitted when there is none. */
   next?: string[];
   gallery: ProjectImage[];
+  /** Narrated demo clips, shown after the screenshots; omitted when there are none. */
+  videos?: ProjectVideo[];
+  /** One line shown under the links, e.g. that a free-tier demo needs a moment to wake. */
+  linkNote?: string;
 }
 
 export interface Project {
@@ -698,6 +730,147 @@ export const PROJECTS: Project[] = [
       ],
       numbers: ["Over 200 automated test files"],
       gallery: [],
+    },
+  },
+  {
+    slug: "azentio-portal",
+    title: "Azentio Portal",
+    tagline:
+      "Public site plus a governed client-collaboration portal, a solo hackathon build",
+    description:
+      "A hackathon build of the azentio.ai public site plus a secure portal, made for Azentio.ai Build Labs (offline finale, Bengaluru, 31 Oct 2026). Client market observations become moderated, de-identified shared learning. Synthetic data only.",
+    // A frame of the public-visitor demo clip: the public home page.
+    image: {
+      src: AzentioPortalCard,
+      alt: 'The azentio.ai public home page from the hackathon build: the headline "Build intelligence. Create shared value." above Explore products and Request a demo buttons',
+      width: 640,
+      height: 360,
+    },
+    tech: [SiPython, SiFastapi, SiSqlite],
+    repo: {
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-portal",
+    },
+    links: [
+      { label: "Live demo", href: "https://azentio-portal.onrender.com/demo" },
+    ],
+    status: { kind: "live", label: "Hackathon build, live" },
+    caseStudy: {
+      problem:
+        "Clients notice things in their own markets that a software vendor's product teams should hear about, but no client's private information can reach another client. This build pairs the azentio.ai public site with a secure portal: employees and clients each get their own workspace, client market observations become moderated, de-identified shared learning, and product owners turn recurring themes into improvement ideas without exposing client data.",
+      built: [
+        "The public site and a portal where employees and clients each get their own workspace",
+        "Moderation that turns a client's observation into a de-identified shared copy, then themes, and improvement ideas that product owners build from recurring themes",
+        "AIRA, an assistant on a Groq model that answers only from approved shared copies",
+        "Search over a SQLite full-text index, and a hash-chained audit log",
+        "Live sessions, a library, Microsoft Entra ID sign-in and a federated-learning track",
+      ],
+      stack: ["Python", "FastAPI", "SQLite (FTS5)", "Groq", "Jinja2", "Render"],
+      decisions: [
+        "Every access decision is made on the server by one policy layer covering role, tenant, audience and entitlement; the browser only hides what the server already denies.",
+        "Private records and shared copies are separate tables, and only moderated copies are indexed for search or ever reach AIRA.",
+        "Built solo with AI-assisted development (disclosed), with two independent security reviews and every finding fixed.",
+      ],
+      numbers: [
+        "232 automated tests",
+        "2 independent security reviews, every finding fixed",
+        "Synthetic data only",
+      ],
+      credit: "Built solo, with AI-assisted development (disclosed)",
+      linkNote:
+        "The live demo starts at /demo and runs on a free host, so it may take a moment to wake.",
+      gallery: [],
+      videos: [
+        {
+          src: AzentioPortalVideo1,
+          poster: AzentioPortalPoster1,
+          caption:
+            "Public visitor: the public site, the sandboxes and AIRA for visitors, with private pages closed",
+          width: 1280,
+          height: 720,
+        },
+        {
+          src: AzentioPortalVideo2,
+          poster: AzentioPortalPoster2,
+          caption:
+            "Moderator: publishing is refused while the text still looks sensitive; the moderator redacts it, picks themes and publishes a shared copy",
+          width: 1280,
+          height: 720,
+        },
+        {
+          src: AzentioPortalVideo3,
+          poster: AzentioPortalPoster3,
+          caption:
+            "Portal admin: approving staff, separate permission grants, offboarding, accounts and client organisations with their entitlements",
+          width: 1280,
+          height: 720,
+        },
+      ],
+    },
+  },
+  {
+    slug: "azentio-csm-voice",
+    title: "CSM Voice Agent",
+    tagline:
+      "Customer-service voice agent for a bank, a team build at Azentio.ai Build Labs",
+    description:
+      "A voice agent for a bank's customer-service line, built by a team for problem #05 at Azentio.ai Build Labs (Bengaluru, 31 Oct 2026). Callers speak English, Kannada or Hindi, and the agent verifies them before sharing any record. Synthetic data only.",
+    image: {
+      src: AzentioCsmVoiceCard,
+      alt: "Azentio-CSM customer service desk: a list of calls with channel, verified state, detected intents such as Loan application and Service request, and a status of Resolved, Routed or Escalated",
+      width: 640,
+      height: 400,
+    },
+    tech: [SiPython, SiFastapi, SiReact],
+    repo: {
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-csm",
+    },
+    links: [],
+    status: { kind: "build", label: "Hackathon build" },
+    caseStudy: {
+      problem:
+        "A bank's service line has to understand callers in more than one language, confirm who they are before saying anything personal, and never make up a figure. The agent takes calls in English, Kannada or Hindi, verifies the caller by registered mobile number and date of birth, and answers only from what its tools retrieved from a simulated bank, with every call on the record for the bank's operators.",
+      built: [
+        "Voice pipeline: browser microphone over WebRTC (Pipecat), uploaded recordings and optional phone calls, with voice activity detection, Groq Whisper speech-to-text and Edge-TTS replies",
+        "Customer verification by mobile number and date of birth before any record is shared; three failures lock it, and another customer's record is refused by the bank simulator itself",
+        "Service requests, complaints, routed queries and escalations to a person, each with a reference read back to the caller",
+        "An operator desk with each call's transcript, detected intents, verification state and tool trace",
+        "A bank simulator with the core-banking and service records, and a system of record with a hash-chained audit log, role-based access and a review queue",
+        "An ordered chain of models that falls back to the next when one is rate-limited",
+      ],
+      stack: [
+        "Python",
+        "FastAPI",
+        "Pipecat",
+        "Groq Whisper",
+        "Edge-TTS",
+        "SQLite (FTS5)",
+        "React 18 + Vite",
+      ],
+      decisions: [
+        "Verification is checked twice, in the agent's tool layer and again in the bank simulator, which requires a session token, so a prompt cannot talk the model past it.",
+        "Every figure the agent speaks comes from that turn's tool result; the FAQ search has a relevance threshold, so an unapproved question returns nothing and becomes a routed query instead of a guess.",
+      ],
+      numbers: [
+        "3 languages: English, Kannada and Hindi",
+        "Typed desk turns: p50 1.7 s, p95 3.4 s from request to reply text",
+      ],
+      credit: "Team build; I owned the backend and the voice pipeline",
+      gallery: [
+        {
+          src: AzentioCsmVoice1,
+          alt: "Azentio-CSM customer service desk: a list of calls with channel, verified state, detected intents such as Loan application and Service request, and a status of Resolved, Routed or Escalated",
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: AzentioCsmVoice2,
+          alt: "A support call in Kannada on the operator desk: each customer and agent turn shows the Kannada text with its English translation, the detected intent and what was retrieved, beside the call details and an escalation reference",
+          width: 1280,
+          height: 800,
+        },
+      ],
     },
   },
   {

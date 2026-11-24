@@ -8,7 +8,7 @@ import { FAQ_DATABASE, RESUME_CONTEXT } from "./faq-knowledge-base";
  * The chat assistant's knowledge lives twice: this module feeds the frontend,
  * and `server/faq-data.json` feeds the Render backend (read with `fs` there,
  * so it is read the same way here and a JSON syntax error fails loudly).
- * Both copies must describe the same nine case studies, under the same
+ * Both copies must describe the same eleven case studies, under the same
  * rules as the Projects pages (no names or handles, no private repo links,
  * no overclaiming of Shaanti's release).
  */
@@ -69,11 +69,11 @@ const FILES: [string, string][] = [
 ];
 
 describe("chat knowledge of the case studies", () => {
-  it("covers exactly the nine case studies from projects.ts", () => {
-    expect(CASE_STUDY_TITLES).toHaveLength(9);
+  it("covers exactly the eleven case studies from projects.ts", () => {
+    expect(CASE_STUDY_TITLES).toHaveLength(11);
   });
 
-  it.each(COPIES)("%s mentions all nine case studies", (_label, copy) => {
+  it.each(COPIES)("%s mentions all eleven case studies", (_label, copy) => {
     const missing = CASE_STUDY_TITLES.filter((title) => !copy.includes(title));
     expect(missing).toEqual([]);
   });
@@ -106,6 +106,8 @@ describe("chat knowledge of the case studies", () => {
         /Seeded from a friend's open-source reels-generator/i,
       );
       expect(copy).toMatch(/Round-2 take-home/);
+      expect(copy).toMatch(/AI-assisted development \(disclosed\)/);
+      expect(copy).toMatch(/I owned the backend and the voice pipeline/);
     },
   );
 
@@ -122,6 +124,7 @@ describe("chat knowledge of the case studies", () => {
 
   it.each(FILES)("%s names no person, handle or TradingAgents", (_f, src) => {
     expect(src).not.toMatch(/Prathamesh|alok2569|\bAlok\b|TradingAgents/i);
+    expect(src).not.toMatch(/Chirag|Pavan|chiraghs|pavanmandavilli/i);
   });
 
   it.each(FILES)("%s links no private repo", (_f, src) => {

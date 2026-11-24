@@ -7,7 +7,7 @@ const caseStudies = PROJECTS.filter((project) => project.caseStudy);
 
 describe("SEO page entries", () => {
   it("every case study has an indexable SEO entry", () => {
-    expect(caseStudies.length).toBe(9);
+    expect(caseStudies.length).toBe(11);
 
     for (const project of caseStudies) {
       const path = caseStudyPath(project.slug);
