@@ -15,6 +15,7 @@ const CASE_STUDY_SLUGS = [
   "toodler",
   "quiz-wizz",
   "honestattempt",
+  "taxmitra",
 ] as const;
 
 const PRIVATE_SLUGS = [
@@ -24,6 +25,7 @@ const PRIVATE_SLUGS = [
   "solarfile-reels",
   "quiz-wizz",
   "honestattempt",
+  "taxmitra",
 ] as const;
 
 /** Case studies whose product is genuinely live; every other one must not say so. */
@@ -38,6 +40,7 @@ const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   toodler: "Live prototype",
   "quiz-wizz": "Private release (v1.3.2)",
   honestattempt: "Live, in active development",
+  taxmitra: "In development",
 };
 
 function project(slug: string): Project {
@@ -51,7 +54,7 @@ function json(slug: string): string {
 }
 
 describe("case-study content", () => {
-  it("has exactly the eight case studies", () => {
+  it("has exactly the nine case studies", () => {
     expect(PROJECTS.filter((p) => p.caseStudy).map((p) => p.slug)).toEqual([
       ...CASE_STUDY_SLUGS,
     ]);
@@ -126,6 +129,12 @@ describe("case-study content", () => {
     );
   });
 
+  it("exploding production says it was co-developed, naming no one", () => {
+    const game = project("exploding-production-game");
+    expect(game.tagline).toBe("Browser game co-developed with a friend");
+    expect(game.description).toContain("co-developed with a friend");
+  });
+
   it("no overclaiming", () => {
     expect(json("shaanti")).not.toMatch(
       /available on (google )?play|on the play store|download (it )?on/i,
@@ -196,11 +205,33 @@ describe("case-study content", () => {
     expect(entry.status?.kind).toBe("live");
     // Facts only: the test count is stated as a floor, never an exact figure.
     expect(entry.caseStudy?.numbers).toEqual([
-      "Over 1,000 automated tests across Vitest and Playwright",
+      "Over 1,700 automated unit tests plus Playwright end-to-end tests across desktop and phone browsers",
     ]);
-    expect(entry.caseStudy?.next?.length).toBe(3);
+    expect(entry.caseStudy?.next).toEqual([
+      "Text-first questions with OCR",
+      "Accounts and shareable test links",
+      "Exam presets for JEE, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
+    ]);
+    // Shipped work is no longer listed as planned, and nothing about pricing.
+    expect(JSON.stringify(entry)).not.toMatch(
+      /pric|subscri|\bPro\b|monetis|monetiz|₹|\$\d/i,
+    );
     // The paper is described generically; no third-party publisher is named.
     expect(entry.caseStudy?.problem).toContain("a previous-year paper PDF");
+  });
+
+  it("taxmitra: private, unlinked, no screenshots, figures from the engine", () => {
+    const entry = project("taxmitra");
+    expect(entry.repo).toEqual({ visibility: "private" });
+    expect(entry.links).toEqual([]);
+    expect(entry.status).toEqual({ kind: "in-progress", label: "In development" });
+    // The card is a drawn architecture diagram, never a screenshot of user data.
+    expect(entry.image?.src).toBeTruthy();
+    expect(entry.caseStudy?.gallery).toEqual([]);
+    expect(entry.caseStudy?.next).toBeUndefined();
+    expect(FEATURED_SLUGS).not.toContain("taxmitra" as never);
+    expect(entry.caseStudy?.problem).toMatch(/deterministic tax engine/);
+    expect(entry.caseStudy?.numbers).toEqual(["Over 200 automated test files"]);
   });
 
   it("no TradingAgents", () => {

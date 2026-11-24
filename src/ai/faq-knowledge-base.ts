@@ -64,7 +64,7 @@ export const FAQ_DATABASE: FAQItem[] = [
   },
   {
     question: "What are your career goals?",
-    answer: "I'm focused on deepening my expertise in frontend engineering while expanding into full-stack development and AI/ML product development. I'm particularly interested in roles that combine modern frontend frameworks with AI integrations, working on products that have meaningful impact. Long-term, I aim to lead engineering teams and contribute to technical architecture decisions.",
+    answer: "I'm focused on building complete products end to end, from production React and TypeScript frontends to APIs, PostgreSQL, background workers and AI integrations, with a particular interest in AI/ML product development. I'm particularly interested in roles that combine modern frontend frameworks with AI integrations, working on products that have meaningful impact. Long-term, I aim to lead engineering teams and contribute to technical architecture decisions.",
     keywords: ["career goals", "future", "aspirations", "growth", "goals", "plans"],
   },
   {
@@ -79,8 +79,8 @@ export const FAQ_DATABASE: FAQItem[] = [
   },
   {
     question: "What projects have you built?",
-    answer: "At HealthPlix, I architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer, built an AI dictation/summarization tool over OpenAI + SSE, and developed a reusable UI component library. My recent personal work: Shaanti, an Android focus app (Kotlin, Jetpack Compose) that cuts the internet for the apps you choose during a timed session while the rest of the phone keeps working (Play Store release pending); Signal Desk, agentic ops intelligence for enterprise commute where deterministic rules compute PASS / WATCH / CONCERN / BREACH findings with evidence SQL and the LLM only writes the prose (built with a teammate at the MoveInSync hackathon); MangakaHue, an AI manga colouriser that keeps the original line art (Next.js, Supabase, ComfyUI; closed beta soon); Satya Aahar, an India-first engine that reads a packaged-food label and flags HIGH SUGAR / SALT / FAT against ICMR-NIN 2024 in English and Hindi (FastAPI, Postgres; in development); SolarFile Reels, a pipeline that turns a topic into a finished 1080×1920 reel with voice, stock footage and word-timed captions, seeded from a friend's open-source reels-generator (in development); Toodler, a clickable admissions workflow-builder prototype built for Toddle's Round-2 take-home (React, TypeScript; live prototype); Quiz Wizz, a Chrome MV3 extension and practice aid that runs OCR on canvas-rendered quiz questions and answers them by multi-model consensus voting (private release, v1.3.2); and HonestAttempt, a web app that turns any exam-paper PDF into a strict, honest practice exam that runs like the real online exam, entirely in the browser with no server and no account (Next.js, TypeScript, pdf.js; live at https://honestattempt.vercel.app, in active development). Earlier projects include a real-time multiplayer game hub (WebSockets), Snapgram (a full-stack social app), and this portfolio with a 3D hero and AI chat. See the Projects section for the full case studies.",
-    keywords: ["projects", "work", "portfolio", "built", "developed", "apps", "side projects", "case study", "shaanti", "signal desk", "mangakahue", "satya aahar", "solarfile", "toodler", "quiz wizz", "honestattempt", "honest attempt"],
+    answer: "At HealthPlix, I architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer, built an AI dictation/summarization tool over OpenAI + SSE, and developed a reusable UI component library. My recent personal work: Shaanti, an Android focus app (Kotlin, Jetpack Compose) that cuts the internet for the apps you choose during a timed session while the rest of the phone keeps working (Play Store release pending); Signal Desk, agentic ops intelligence for enterprise commute where deterministic rules compute PASS / WATCH / CONCERN / BREACH findings with evidence SQL and the LLM only writes the prose (built with a teammate at the MoveInSync hackathon); MangakaHue, an AI manga colouriser that keeps the original line art (Next.js, Supabase, ComfyUI; closed beta soon); Satya Aahar, an India-first engine that reads a packaged-food label and flags HIGH SUGAR / SALT / FAT against ICMR-NIN 2024 in English and Hindi (FastAPI, Postgres; in development); SolarFile Reels, a pipeline that turns a topic into a finished 1080×1920 reel with voice, stock footage and word-timed captions, seeded from a friend's open-source reels-generator (in development); Toodler, a clickable admissions workflow-builder prototype built for Toddle's Round-2 take-home (React, TypeScript; live prototype); Quiz Wizz, a Chrome MV3 extension and practice aid that runs OCR on canvas-rendered quiz questions and answers them by multi-model consensus voting (private release, v1.3.2); HonestAttempt, a web app that turns any exam-paper PDF into a strict, honest practice exam that runs like the real online exam, with a practice mode, entirely in the browser with no server and no account (Next.js, TypeScript, pdf.js; live at https://honestattempt.vercel.app, in active development); and TaxMitra, an India tax-filing assistant where a deterministic tax engine computes every figure and an LLM only phrases the questions, behind a guard that stops it from introducing numbers (Python FastAPI services, PostgreSQL, Qdrant, React Native (Expo) client; in development). Earlier projects include a real-time multiplayer game hub (WebSockets), Snapgram (a full-stack social app), and this portfolio with a 3D hero and AI chat. See the Projects section for the full case studies.",
+    keywords: ["projects", "work", "portfolio", "built", "developed", "apps", "side projects", "case study", "shaanti", "signal desk", "mangakahue", "satya aahar", "solarfile", "toodler", "quiz wizz", "honestattempt", "honest attempt", "taxmitra", "tax mitra", "tax"],
   },
   {
     question: "What is your experience with system design or architecture?",
@@ -108,7 +108,11 @@ export const FAQ_DATABASE: FAQItem[] = [
  * Resume context - factual information about experience, education, skills
  */
 export const RESUME_CONTEXT = `
-# Anshuman Singh - Frontend Engineer
+# Anshuman Singh - Software Engineer
+
+## Summary
+
+4+ years building production React and TypeScript products in healthtech, plus shipping complete products end to end: APIs, PostgreSQL, background workers, AI integrations and test automation.
 
 ## Professional Experience
 
@@ -152,10 +156,11 @@ Birla Institute of Technology and Science (BITS), Pilani - 2022
 5. **SolarFile Reels** - Pipeline that turns a topic into a script, voice track (edge-tts), stock footage and word-timed captions (faster-whisper), rendered as a 1080×1920 reel with FFmpeg, plus a Next.js studio for reviewing the script and swapping clips; Supabase (RLS), S3-compatible storage, Mac render worker with heartbeat and requeue. Seeded from a friend's open-source reels-generator. Status: In development.
 6. **Toodler** - Clickable admissions workflow-builder prototype built for Toddle's Round-2 take-home: ordered stages, Branch and Parallel nodes, a config panel for every node, undo/redo, URL-linkable state, 15 seed workflows, with a written spec and competitor research; React, TypeScript, Vite, 47 Vitest tests. Status: Live prototype. Live: https://toddle-admissions-prototype.onrender.com, code: https://github.com/f20180039/toodler
 7. **Quiz Wizz** - Chrome MV3 extension and practice aid for quiz pages that render as canvas: Tesseract OCR reads the question, a ranked queue of LLMs (Groq, Gemini, Mistral, Sarvam) answers it with two-model consensus voting, and a shared Upstash Redis cache remembers what has already been answered; no-dependency build. Status: Private release (v1.3.2), shared privately.
-8. **HonestAttempt** - Web app that turns any exam-paper PDF into a strict, honest practice exam that runs like the real online exam; built first for RBI Grade B prep, works for other exams. Detects questions, sections and the answer key from the PDF's text layer, hides answers printed in the PDF (blind mode), and runs the paper with section timers, auto-submit, a question palette, mark for review, a calculator where allowed, and an honest mode (full-screen and leave-page guard); results with negative marking, section breakdown and question-by-question review, re-scored if the key is added later. Everything stays in the browser (IndexedDB), no server and no account; Next.js 16 (static export), TypeScript, Tailwind CSS v4, pdf.js, Vitest, Playwright; over 1,000 automated tests. Status: Live, in active development. Live: https://honestattempt.vercel.app
-9. **Portfolio** - React + TypeScript portfolio with a 3D hero (React Three Fiber), an AI chat assistant, and an automated CI pipeline that syncs the resume PDF
-10. **Multiplayer Game Hub** - Real-time multiplayer platform with WebSocket-driven game rooms and bi-directional state sync
-11. **Snapgram** - Full-stack social app with authentication, posts, likes, comments, and real-time feed updates (React, Tailwind, Appwrite)
+8. **HonestAttempt** - Web app that turns any exam-paper PDF into a strict, honest practice exam that runs like the real online exam; built first for RBI Grade B prep, works for other exams. Detects questions, sections and the answer key from the PDF's text layer, hides answers printed in the PDF (blind mode), and runs the paper with section timers, auto-submit, a question palette, mark for review, a calculator where allowed, and an honest mode (full-screen and leave-page guard); a practice mode for the whole paper or one section, with a stopwatch that counts only time spent on the page and pauses when you switch away, Save & exit and "Continue practice" from Home, and the paper's answer key locked while a practice is open; a distinct "Revealed" status for questions whose answer was revealed; results with negative marking, section breakdown, working time and question-by-question review, re-scored if the key is added later; a full visual refresh with light and dark modes and a Light/Dark/System switch. Everything stays in the browser (IndexedDB), no server and no account; Next.js 16 (static export), TypeScript, Tailwind CSS v4, pdf.js, Vitest, Playwright; over 1,700 automated unit tests plus Playwright end-to-end tests across desktop and phone browsers. Next: text-first questions with OCR, accounts and shareable test links, and exam presets for JEE, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT. Status: Live, in active development. Live: https://honestattempt.vercel.app
+9. **TaxMitra** - India tax-filing assistant: a deterministic tax engine computes every figure, and an LLM only phrases the questions, behind a guard that stops it from introducing numbers. Python services (engine, ingest, agent, knowledge base, regulation watcher, filing) behind a FastAPI API; PostgreSQL plus a Qdrant vector store; Google sign-in with a consent record; document uploads to AWS S3 (ap-south-1) with SSE-KMS encryption; background workers for reminders and regulation changes; a React Native (Expo) mobile client with end-to-end tests; Docker; over 200 automated test files; AI-assisted, test-driven development with an independent review at every step. Status: In development.
+10. **Portfolio** - React + TypeScript portfolio with a 3D hero (React Three Fiber), an AI chat assistant, and an automated CI pipeline that syncs the resume PDF
+11. **Multiplayer Game Hub** - Real-time multiplayer platform with WebSocket-driven game rooms and bi-directional state sync
+12. **Snapgram** - Full-stack social app with authentication, posts, likes, comments, and real-time feed updates (React, Tailwind, Appwrite)
 
 ## Interests
 
@@ -170,7 +175,7 @@ export const ADDITIONAL_CONTEXT = `
 
 - **Location:** Currently in Bangalore, India. Open to relocation within India or remote roles.
 - **Work Style:** Comfortable with office-based, hybrid, or remote work arrangements.
-- **Role Type:** Seeking frontend engineering or full-stack roles with AI/ML focus.
+- **Role Type:** Seeking software engineering roles, especially on AI-powered products.
 - **Company Stage:** Open to both startups and established companies with strong engineering culture.
 - **Team Size:** Comfortable in both small agile teams and larger organizations.
 
@@ -190,8 +195,7 @@ export const ADDITIONAL_CONTEXT = `
 
 ## Professional Goals
 
-- Deepen expertise in frontend engineering
-- Expand into full-stack development
+- Keep building complete products end to end: frontend, APIs, data and AI integrations
 - Work on impactful AI-powered products
 - Eventually lead engineering teams
 - Contribute to open-source projects

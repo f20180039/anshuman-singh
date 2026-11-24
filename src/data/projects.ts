@@ -1,7 +1,9 @@
 import type { IconType } from "react-icons";
 import {
   SiAndroid,
+  SiDocker,
   SiDuckdb,
+  SiExpo,
   SiFastapi,
   SiFfmpeg,
   SiGooglechrome,
@@ -53,6 +55,7 @@ import SatyaAaharFlow from "../assets/projects/satya-aahar-flow.svg";
 import HonestAttemptCard from "../assets/projects/honestattempt-card.webp";
 import HonestAttempt1 from "../assets/projects/honestattempt-1.webp";
 import HonestAttempt2 from "../assets/projects/honestattempt-2.webp";
+import TaxMitraFlow from "../assets/projects/taxmitra-flow.svg";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "../common/constants";
 
 export type StatusKind = "live" | "in-progress" | "build";
@@ -127,7 +130,8 @@ export const FEATURED_SLUGS = ["shaanti", "signal-desk", "mangakahue"] as const;
 // Case-study copy and every figure below come from the "Content facts" section of
 // docs/superpowers/specs/2026-10-21-project-case-studies-design.md. Status
 // labels, credits and link rules are guarded by projects.content.test.ts.
-// HonestAttempt was added later from facts the owner supplied on 2026-11-21.
+// HonestAttempt was added later from facts the owner supplied on 2026-11-21,
+// and refreshed, with TaxMitra added, from facts supplied on 2026-11-24.
 export const PROJECTS: Project[] = [
   {
     slug: "shaanti",
@@ -604,12 +608,12 @@ export const PROJECTS: Project[] = [
       problem:
         "Practising from a previous-year paper PDF makes it easy to fool yourself by accident: the answers and solutions are often printed on the page, the clock is whatever you decide, and nothing stops you going back. The real online exam is strict about all of that. HonestAttempt turns the PDF into a practice exam that runs like the real one, so the score is one you earned. It was built first for RBI Grade B prep and works for other exams.",
       built: [
-        "Import that reads the PDF's text layer, crops each question and detects the questions, sections and answer key, with a check screen that shows “What's left” before you start",
-        "Blind mode: answers and solutions printed in the PDF are hidden or covered, so you can't see them by accident",
+        "Import that reads the PDF's text layer, crops each question and detects the questions, sections and answer key, with a check screen that shows “What's left” before you start, and “Send to phone”, a file that moves a prepared paper from a laptop to a phone",
+        "Blind mode hides or covers answers and solutions printed in the PDF, and Honest mode adds a full-screen and leave-page guard; an optional Reveal answer is locked behind Strict mode, on by default, and a question whose answer was revealed gets its own “Revealed” status",
         "Exam player with section timers, auto-end of a section and auto-submit, no going back where the exam forbids it, a question palette in the standard status colours, mark for review, one or two questions per screen, a 5-minute warning that doesn't block the screen, and a calculator where the exam allows one",
-        "Honest mode, a full-screen and leave-page guard, with an optional Reveal answer locked behind Strict mode, which is on by default",
-        "Results with negative marking and a section breakdown, plus a question-by-question review of your answer next to the key; the key is optional, and adding it later re-scores the attempt",
-        "“Send to phone”: a file that moves a prepared paper from a laptop to a phone",
+        "Practice mode for the whole paper or one section, with a stopwatch that counts only time spent on the page and pauses when you switch away; Save & exit, then “Continue practice” from Home; the paper's answer key stays locked while a practice is open",
+        "Results with negative marking, a section breakdown and the working time, plus a question-by-question review of your answer next to the key; the key is optional, and adding it later re-scores the attempt",
+        "A full visual refresh with light and dark modes and a Light/Dark/System switch",
       ],
       stack: [
         "Next.js 16 (static export)",
@@ -625,11 +629,13 @@ export const PROJECTS: Project[] = [
         "Questions are cropped from the PDF itself, using its text layer to find them, so each one looks exactly as printed; the check screen lists what is left to confirm before an attempt starts.",
         "Built with AI-assisted, test-driven development and an independent review at every step.",
       ],
-      numbers: ["Over 1,000 automated tests across Vitest and Playwright"],
+      numbers: [
+        "Over 1,700 automated unit tests plus Playwright end-to-end tests across desktop and phone browsers",
+      ],
       next: [
         "Text-first questions with OCR",
-        "Exam presets for JEE Main and Advanced, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
-        "A visual refresh with light and dark mode",
+        "Accounts and shareable test links",
+        "Exam presets for JEE, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
       ],
       gallery: [
         {
@@ -645,6 +651,53 @@ export const PROJECTS: Project[] = [
           height: 800,
         },
       ],
+    },
+  },
+  {
+    slug: "taxmitra",
+    title: "TaxMitra",
+    tagline:
+      "India tax-filing assistant where a deterministic engine computes every figure",
+    description:
+      "An India tax-filing assistant. A deterministic tax engine computes every figure; a language model only phrases the questions, behind a guard that stops it from introducing numbers.",
+    // No screenshots: no synthetic screen is safe to publish yet, so the card is
+    // an architecture diagram drawn from the README facts (no user data).
+    image: {
+      src: TaxMitraFlow,
+      alt: "TaxMitra architecture: upload to S3 in ap-south-1 with SSE-KMS, ingest, the deterministic tax engine that computes every figure, and the question agent; a language model that only phrases questions sits behind a number guard, beside PostgreSQL with Qdrant, background workers and the React Native (Expo) app",
+      width: 640,
+      height: 300,
+    },
+    tech: [SiPython, SiFastapi, SiPostgresql, SiExpo, SiDocker],
+    repo: { visibility: "private" },
+    links: [],
+    status: { kind: "in-progress", label: "In development" },
+    caseStudy: {
+      problem:
+        "A tax return has to be exact to the rupee, and a language model that guesses a figure is worse than no assistant at all. TaxMitra keeps the two apart: a deterministic tax engine computes every figure, and the model only phrases the questions the engine needs answered, behind a guard that stops it from introducing a number of its own.",
+      built: [
+        "A deterministic tax engine that computes every figure, with a question loop in which the language model only phrases the questions",
+        "Python services for the engine, document ingest, the question agent, the tax-law knowledge base, a regulation watcher and filing, served through a FastAPI API",
+        "Google sign-in with a consent record, and document uploads to AWS S3 in ap-south-1 with SSE-KMS encryption",
+        "Background workers for reminders and for regulation changes",
+        "A React Native (Expo) mobile client with end-to-end tests",
+      ],
+      stack: [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Qdrant",
+        "AWS S3 (SSE-KMS)",
+        "React Native (Expo)",
+        "Docker",
+      ],
+      decisions: [
+        "Every number comes from the engine: a guard discards any model wording that carries a figure the engine did not give, and fixed templates take over, so the assistant still works with no model at all.",
+        "The tax-law knowledge base sits in a Qdrant vector store beside PostgreSQL, so an answer can show the text of the law it rests on, while the figure itself still comes from the engine.",
+        "Built with AI-assisted, test-driven development and an independent review at every step.",
+      ],
+      numbers: ["Over 200 automated test files"],
+      gallery: [],
     },
   },
   {
@@ -668,9 +721,9 @@ export const PROJECTS: Project[] = [
   {
     slug: "exploding-production-game",
     title: "Exploding Production Game",
-    tagline: "Codex-assisted browser game",
+    tagline: "Browser game co-developed with a friend",
     description:
-      "Codex-assisted browser game with polished gameplay flow, production routing, and frontend-first interaction design.",
+      "Codex-assisted browser game, co-developed with a friend, with polished gameplay flow, production routing, and frontend-first interaction design.",
     image: {
       src: ExplodingProductionImage,
       alt: "Screenshot of the Exploding Production browser game showing its gameplay board and score panel",

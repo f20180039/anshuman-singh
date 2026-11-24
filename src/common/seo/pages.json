@@ -3,16 +3,16 @@
   "pages": [
     {
       "path": "/",
-      "title": "Anshuman Singh — Frontend Engineer (React, TypeScript, AI)",
-      "description": "Frontend engineer in Bengaluru with {years}+ years shipping React and TypeScript products at HealthPlix — AI clinical documentation, billing modules, and performance work.",
+      "title": "Anshuman Singh — Software Engineer (React, TypeScript, AI)",
+      "description": "Software engineer in Bengaluru: {years}+ years building production React and TypeScript products in healthtech, plus APIs, PostgreSQL, workers and AI.",
       "indexable": true,
       "priority": 1.0,
       "changefreq": "monthly"
     },
     {
       "path": "/about",
-      "title": "About — Anshuman Singh, Frontend Engineer in Bengaluru",
-      "description": "Background, education and technical skills: {years}+ years of React, TypeScript, BFF architecture, AI integrations and web performance in the healthtech domain.",
+      "title": "About — Anshuman Singh, Software Engineer in Bengaluru",
+      "description": "Background, education and skills: {years}+ years of production React and TypeScript in healthtech, plus APIs, PostgreSQL, background workers and AI integrations.",
       "indexable": true,
       "priority": 0.8,
       "changefreq": "monthly"
@@ -98,6 +98,14 @@
       "changefreq": "monthly"
     },
     {
+      "path": "/projects/taxmitra",
+      "title": "TaxMitra — India tax-filing assistant | Anshuman Singh",
+      "description": "Case study: an India tax-filing assistant where a deterministic engine computes every figure and an LLM only phrases the questions. FastAPI, Postgres, Expo.",
+      "indexable": true,
+      "priority": 0.6,
+      "changefreq": "monthly"
+    },
+    {
       "path": "/certificates",
       "title": "Certificates & Credentials | Anshuman Singh",
       "description": "Verified courses and certifications in frontend engineering, JavaScript, React and web development completed by Anshuman Singh.",
@@ -107,15 +115,15 @@
     },
     {
       "path": "/contact",
-      "title": "Contact — Hire Anshuman Singh, Frontend Engineer",
-      "description": "Get in touch about frontend engineering roles or freelance work. Send a message directly, or reach out by email, phone or LinkedIn. Based in Bengaluru, India.",
+      "title": "Contact — Hire Anshuman Singh, Software Engineer",
+      "description": "Get in touch about software engineering roles or freelance work. Send a message directly, or reach out by email, phone or LinkedIn. Based in Bengaluru, India.",
       "indexable": true,
       "priority": 0.9,
       "changefreq": "yearly"
     },
     {
       "path": "/resume",
-      "title": "Resume — Anshuman Singh, Frontend Engineer",
+      "title": "Resume — Anshuman Singh, Software Engineer",
       "description": "Read or download the up-to-date resume of Anshuman Singh in single-column or two-column layout. Kept in sync automatically from source.",
       "indexable": true,
       "priority": 0.9,

@@ -57,11 +57,11 @@ const AboutMe = () => (
       About Me
     </h2>
     <p className="ans-text-3 ans-text-th-secondary-fg ans-leading-relaxed ans-mb-4">
-      I&apos;m a passionate <strong className="ans-text-th-fg">Frontend Engineer</strong> with{" "}
-      <strong className="ans-text-th-accent">{getYearsOfExperience()}+ years</strong> of
-      experience building scalable, high-performance applications. I specialize in{" "}
-      <strong className="ans-text-th-fg">React, TypeScript, AI integrations, and performance optimization</strong>,
-      particularly in the healthtech domain.
+      I&apos;m a <strong className="ans-text-th-fg">Software Engineer</strong> with{" "}
+      <strong className="ans-text-th-accent">{getYearsOfExperience()}+ years</strong>{" "}
+      building production <strong className="ans-text-th-fg">React and TypeScript</strong> products
+      in healthtech, and I ship complete products end to end:{" "}
+      <strong className="ans-text-th-fg">APIs, PostgreSQL, background workers, AI integrations and test automation</strong>.
     </p>
     <p className="ans-text-3 ans-text-th-secondary-fg ans-leading-relaxed">
       At HealthPlix, I architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-labelledby="t d">
+  <title id="t">TaxMitra architecture</title>
+  <desc id="d">Uploaded documents are stored in S3 in ap-south-1 with SSE-KMS and read by the ingest service; the deterministic tax engine computes every figure; the question agent asks what the engine needs, and the language model only phrases those questions, behind a guard that stops it adding numbers. PostgreSQL and a Qdrant knowledge base hold the data, background workers send reminders and watch for regulation changes, and a React Native (Expo) app with Google sign-in and a consent record talks to the FastAPI API.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 Z" fill="#6b7a8a"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif; fill: #1b2430; }
+    .lbl { font-size: 13px; font-weight: 700; }
+    .sub { font-size: 10.5px; fill: #5b6774; }
+    .step { font-size: 9.5px; fill: #8a96a3; font-weight: 700; letter-spacing: .08em; }
+    .box { fill: #ffffff; stroke: #c9d2dc; stroke-width: 1.25; }
+    .box.engine { fill: #e3f4f2; stroke: #0b6e6a; }
+    .box.model { fill: #fff6e5; stroke: #b54708; }
+    .box.app { fill: #eef2f6; stroke: #c9d2dc; }
+    .edge { stroke: #6b7a8a; stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+    .guard { fill: #b54708; font-size: 10px; font-weight: 700; }
+  </style>
+
+  <!-- Own light background, so the diagram reads on every site theme. -->
+  <rect x="0" y="0" width="640" height="300" rx="16" fill="#f7f9fb"/>
+
+  <!-- 1. Upload -->
+  <text class="step" x="20" y="36">01</text>
+  <rect class="box" x="20" y="44" width="140" height="78" rx="12"/>
+  <text class="lbl" x="32" y="76">Upload</text>
+  <text class="sub" x="32" y="94">S3 ap-south-1</text>
+  <text class="sub" x="32" y="109">SSE-KMS encrypted</text>
+
+  <!-- 2. Ingest -->
+  <text class="step" x="172" y="36">02</text>
+  <rect class="box" x="172" y="44" width="140" height="78" rx="12"/>
+  <text class="lbl" x="184" y="76">Ingest</text>
+  <text class="sub" x="184" y="94">Documents into</text>
+  <text class="sub" x="184" y="109">tax facts</text>
+
+  <!-- 3. Tax engine -->
+  <text class="step" x="324" y="36">03</text>
+  <rect class="box engine" x="324" y="44" width="140" height="78" rx="12"/>
+  <text class="lbl" x="336" y="76">Tax engine</text>
+  <text class="sub" x="336" y="94">Deterministic</text>
+  <text class="sub" x="336" y="109">Computes every figure</text>
+
+  <!-- 4. Question agent -->
+  <text class="step" x="476" y="36">04</text>
+  <rect class="box" x="476" y="44" width="144" height="78" rx="12"/>
+  <text class="lbl" x="488" y="76">Question agent</text>
+  <text class="sub" x="488" y="94">Asks what the</text>
+  <text class="sub" x="488" y="109">engine needs</text>
+
+  <!-- Data and workers -->
+  <rect class="box" x="20" y="166" width="292" height="56" rx="12"/>
+  <text class="lbl" x="32" y="190">PostgreSQL + Qdrant</text>
+  <text class="sub" x="32" y="207">Data · tax-law knowledge base</text>
+
+  <rect class="box" x="324" y="166" width="140" height="56" rx="12"/>
+  <text class="lbl" x="336" y="190">Workers</text>
+  <text class="sub" x="336" y="207">Reminders · regulations</text>
+
+  <!-- Language model, under the agent, behind the guard -->
+  <rect class="box model" x="476" y="166" width="144" height="56" rx="12"/>
+  <text class="lbl" x="488" y="190">Language model</text>
+  <text class="sub" x="488" y="207">Phrases questions only</text>
+
+  <!-- App strip -->
+  <rect class="box app" x="20" y="240" width="600" height="44" rx="12"/>
+  <text class="lbl" x="32" y="267">React Native (Expo) app</text>
+  <text class="sub" x="210" y="267">Google sign-in · consent record · FastAPI API · Docker</text>
+
+  <!-- edges -->
+  <path class="edge" d="M160 83 H170"/>
+  <path class="edge" d="M312 83 H322"/>
+  <path class="edge" d="M464 83 H474"/>
+  <path class="edge" d="M548 166 V125"/>
+  <text class="guard" x="556" y="150">Number guard</text>
+</svg>

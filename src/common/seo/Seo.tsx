@@ -66,7 +66,7 @@ export default function Seo() {
     setMeta({ property: "og:description" }, seo.description);
     setMeta({ property: "og:url" }, url);
     setMeta({ property: "og:image" }, OG_IMAGE_URL);
-    setMeta({ property: "og:image:alt" }, `${SITE_NAME} — Frontend Engineer`);
+    setMeta({ property: "og:image:alt" }, `${SITE_NAME} — Software Engineer`);
 
     setMeta({ name: "twitter:card" }, "summary_large_image");
     setMeta({ name: "twitter:title" }, seo.title);

@@ -131,6 +131,24 @@ describe("CaseStudy page", () => {
     }
   });
 
+  it("private project with no screenshots: badge only, no links, diagram only, no What's next", () => {
+    const { container } = renderAt("/projects/taxmitra");
+
+    expect(
+      screen.getByRole("heading", { level: 1, name: "TaxMitra" }),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Private code")).toBeInTheDocument();
+    expect(screen.getByText("In development")).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /GitHub/ })).toBeNull();
+    expect(container.querySelector('a[href^="http"]')).toBeNull();
+    // Only the architecture diagram; no screenshot gallery.
+    expect(container.querySelectorAll("img")).toHaveLength(1);
+    expect(
+      screen.getByRole("heading", { name: "By the numbers" }),
+    ).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "What's next" })).toBeNull();
+  });
+
   it("unknown slug shows NotFound", () => {
     renderAt("/projects/does-not-exist");
 
