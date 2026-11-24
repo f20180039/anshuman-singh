@@ -83,6 +83,18 @@ function projectImages() {
     card("honestattempt"),
     gallery("honestattempt", 1),
     gallery("honestattempt", 2),
+    // Poster frames of the three narrated demo clips (1280×720, synthetic
+    // data); the clips themselves are re-encoded with ffmpeg, not here.
+    card("azentio-portal"),
+    ...[1, 2, 3].map((n) => ({
+      input: `projects/azentio-portal-poster-${n}.png`,
+      output: `projects/azentio-portal-poster-${n}.webp`,
+      width: 1280,
+    })),
+    // Presentation screenshots from the public repo, checked for personal data.
+    card("azentio-csm-voice"),
+    gallery("azentio-csm-voice", 1),
+    gallery("azentio-csm-voice", 2),
   ];
 }
 

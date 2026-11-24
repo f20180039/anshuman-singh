@@ -1,7 +1,9 @@
 import type { IconType } from "react-icons";
 import {
   SiAndroid,
+  SiDocker,
   SiDuckdb,
+  SiExpo,
   SiFastapi,
   SiFfmpeg,
   SiGooglechrome,
@@ -14,6 +16,7 @@ import {
   SiPython,
   SiReact,
   SiRedis,
+  SiSqlite,
   SiSupabase,
   SiTailwindcss,
   SiTypescript,
@@ -53,6 +56,19 @@ import SatyaAaharFlow from "../assets/projects/satya-aahar-flow.svg";
 import HonestAttemptCard from "../assets/projects/honestattempt-card.webp";
 import HonestAttempt1 from "../assets/projects/honestattempt-1.webp";
 import HonestAttempt2 from "../assets/projects/honestattempt-2.webp";
+import TaxMitraFlow from "../assets/projects/taxmitra-flow.svg";
+import AzentioPortalCard from "../assets/projects/azentio-portal-card.webp";
+import AzentioPortalPoster1 from "../assets/projects/azentio-portal-poster-1.webp";
+import AzentioPortalPoster2 from "../assets/projects/azentio-portal-poster-2.webp";
+import AzentioPortalPoster3 from "../assets/projects/azentio-portal-poster-3.webp";
+// Narrated demo clips (synthetic data, TTS narration), re-encoded with ffmpeg
+// to H.264 + AAC at 720p, about 1.2-1.5 MB each.
+import AzentioPortalVideo1 from "../assets/projects/azentio-portal-1.mp4";
+import AzentioPortalVideo2 from "../assets/projects/azentio-portal-2.mp4";
+import AzentioPortalVideo3 from "../assets/projects/azentio-portal-3.mp4";
+import AzentioCsmVoiceCard from "../assets/projects/azentio-csm-voice-card.webp";
+import AzentioCsmVoice1 from "../assets/projects/azentio-csm-voice-1.webp";
+import AzentioCsmVoice2 from "../assets/projects/azentio-csm-voice-2.webp";
 import { EAPP_ROUTES, PROJECT_ROUTES } from "../common/constants";
 
 export type StatusKind = "live" | "in-progress" | "build";
@@ -71,6 +87,21 @@ export interface ProjectImage {
    * arrives and nothing below it moves. Guarded against the file on disk by
    * projects.images.test.ts.
    */
+  width: number;
+  height: number;
+}
+
+/**
+ * A short demo clip shown on the case-study page. `poster` is a frame of the
+ * clip itself, so the page shows something before a visitor presses play;
+ * nothing is downloaded until then (`preload="none"`). `width`/`height` are
+ * the clip's intrinsic size, used for the aspect ratio.
+ */
+export interface ProjectVideo {
+  src: string;
+  poster: string;
+  /** Visible caption under the clip, also its accessible name. */
+  caption: string;
   width: number;
   height: number;
 }
@@ -102,6 +133,10 @@ export interface CaseStudy {
   /** Planned work, shown as "What's next"; omitted when there is none. */
   next?: string[];
   gallery: ProjectImage[];
+  /** Narrated demo clips, shown after the screenshots; omitted when there are none. */
+  videos?: ProjectVideo[];
+  /** One line shown under the links, e.g. that a free-tier demo needs a moment to wake. */
+  linkNote?: string;
 }
 
 export interface Project {
@@ -127,7 +162,8 @@ export const FEATURED_SLUGS = ["shaanti", "signal-desk", "mangakahue"] as const;
 // Case-study copy and every figure below come from the "Content facts" section of
 // docs/superpowers/specs/2026-10-21-project-case-studies-design.md. Status
 // labels, credits and link rules are guarded by projects.content.test.ts.
-// HonestAttempt was added later from facts the owner supplied on 2026-11-21.
+// HonestAttempt was added later from facts the owner supplied on 2026-11-21,
+// and refreshed, with TaxMitra added, from facts supplied on 2026-11-24.
 export const PROJECTS: Project[] = [
   {
     slug: "shaanti",
@@ -604,12 +640,12 @@ export const PROJECTS: Project[] = [
       problem:
         "Practising from a previous-year paper PDF makes it easy to fool yourself by accident: the answers and solutions are often printed on the page, the clock is whatever you decide, and nothing stops you going back. The real online exam is strict about all of that. HonestAttempt turns the PDF into a practice exam that runs like the real one, so the score is one you earned. It was built first for RBI Grade B prep and works for other exams.",
       built: [
-        "Import that reads the PDF's text layer, crops each question and detects the questions, sections and answer key, with a check screen that shows “What's left” before you start",
-        "Blind mode: answers and solutions printed in the PDF are hidden or covered, so you can't see them by accident",
+        "Import that reads the PDF's text layer, crops each question and detects the questions, sections and answer key, with a check screen that shows “What's left” before you start, and “Send to phone”, a file that moves a prepared paper from a laptop to a phone",
+        "Blind mode hides or covers answers and solutions printed in the PDF, and Honest mode adds a full-screen and leave-page guard; an optional Reveal answer is locked behind Strict mode, on by default, and a question whose answer was revealed gets its own “Revealed” status",
         "Exam player with section timers, auto-end of a section and auto-submit, no going back where the exam forbids it, a question palette in the standard status colours, mark for review, one or two questions per screen, a 5-minute warning that doesn't block the screen, and a calculator where the exam allows one",
-        "Honest mode, a full-screen and leave-page guard, with an optional Reveal answer locked behind Strict mode, which is on by default",
-        "Results with negative marking and a section breakdown, plus a question-by-question review of your answer next to the key; the key is optional, and adding it later re-scores the attempt",
-        "“Send to phone”: a file that moves a prepared paper from a laptop to a phone",
+        "Practice mode for the whole paper or one section, with a stopwatch that counts only time spent on the page and pauses when you switch away; Save & exit, then “Continue practice” from Home; the paper's answer key stays locked while a practice is open",
+        "Results with negative marking, a section breakdown and the working time, plus a question-by-question review of your answer next to the key; the key is optional, and adding it later re-scores the attempt",
+        "A full visual refresh with light and dark modes and a Light/Dark/System switch",
       ],
       stack: [
         "Next.js 16 (static export)",
@@ -625,11 +661,13 @@ export const PROJECTS: Project[] = [
         "Questions are cropped from the PDF itself, using its text layer to find them, so each one looks exactly as printed; the check screen lists what is left to confirm before an attempt starts.",
         "Built with AI-assisted, test-driven development and an independent review at every step.",
       ],
-      numbers: ["Over 1,000 automated tests across Vitest and Playwright"],
+      numbers: [
+        "Over 1,700 automated unit tests plus Playwright end-to-end tests across desktop and phone browsers",
+      ],
       next: [
         "Text-first questions with OCR",
-        "Exam presets for JEE Main and Advanced, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
-        "A visual refresh with light and dark mode",
+        "Accounts and shareable test links",
+        "Exam presets for JEE, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
       ],
       gallery: [
         {
@@ -641,6 +679,195 @@ export const PROJECTS: Project[] = [
         {
           src: HonestAttempt2,
           alt: "HonestAttempt About page on Honest mode: what it does (the key stays hidden until you submit, the timer cannot be paused, leaving the tab is noticed and logged) and what it cannot do",
+          width: 1280,
+          height: 800,
+        },
+      ],
+    },
+  },
+  {
+    slug: "taxmitra",
+    title: "TaxMitra",
+    tagline:
+      "India tax-filing assistant where a deterministic engine computes every figure",
+    description:
+      "An India tax-filing assistant. A deterministic tax engine computes every figure; a language model only phrases the questions, behind a guard that stops it from introducing numbers.",
+    // No screenshots: no synthetic screen is safe to publish yet, so the card is
+    // an architecture diagram drawn from the README facts (no user data).
+    image: {
+      src: TaxMitraFlow,
+      alt: "TaxMitra architecture: upload to S3 in ap-south-1 with SSE-KMS, ingest, the deterministic tax engine that computes every figure, and the question agent; a language model that only phrases questions sits behind a number guard, beside PostgreSQL with Qdrant, background workers and the React Native (Expo) app",
+      width: 640,
+      height: 300,
+    },
+    tech: [SiPython, SiFastapi, SiPostgresql, SiExpo, SiDocker],
+    repo: { visibility: "private" },
+    links: [],
+    status: { kind: "in-progress", label: "In development" },
+    caseStudy: {
+      problem:
+        "A tax return has to be exact to the rupee, and a language model that guesses a figure is worse than no assistant at all. TaxMitra keeps the two apart: a deterministic tax engine computes every figure, and the model only phrases the questions the engine needs answered, behind a guard that stops it from introducing a number of its own.",
+      built: [
+        "A deterministic tax engine that computes every figure, with a question loop in which the language model only phrases the questions",
+        "Python services for the engine, document ingest, the question agent, the tax-law knowledge base, a regulation watcher and filing, served through a FastAPI API",
+        "Google sign-in with a consent record, and document uploads to AWS S3 in ap-south-1 with SSE-KMS encryption",
+        "Background workers for reminders and for regulation changes",
+        "A React Native (Expo) mobile client with end-to-end tests",
+      ],
+      stack: [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Qdrant",
+        "AWS S3 (SSE-KMS)",
+        "React Native (Expo)",
+        "Docker",
+      ],
+      decisions: [
+        "Every number comes from the engine: a guard discards any model wording that carries a figure the engine did not give, and fixed templates take over, so the assistant still works with no model at all.",
+        "The tax-law knowledge base sits in a Qdrant vector store beside PostgreSQL, so an answer can show the text of the law it rests on, while the figure itself still comes from the engine.",
+        "Built with AI-assisted, test-driven development and an independent review at every step.",
+      ],
+      numbers: ["Over 200 automated test files"],
+      gallery: [],
+    },
+  },
+  {
+    slug: "azentio-portal",
+    title: "Azentio Portal",
+    tagline:
+      "Public site plus a governed client-collaboration portal, a solo hackathon build",
+    description:
+      "A hackathon build of the azentio.ai public site plus a secure portal, made for Azentio.ai Build Labs (offline finale, Bengaluru, 31 Oct 2026). Client market observations become moderated, de-identified shared learning. Synthetic data only.",
+    // A later frame of the public-visitor clip than its poster, so the card
+    // and the first clip do not show the same image.
+    image: {
+      src: AzentioPortalCard,
+      alt: "The azentio.ai Products page from the hackathon build: product cards such as Credit Strategy Simulator and SME Credit Decisioning Workbench, with the Ask AIRA panel open for a public visitor",
+      width: 640,
+      height: 360,
+    },
+    tech: [SiPython, SiFastapi, SiSqlite],
+    repo: {
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-portal",
+    },
+    links: [
+      { label: "Live demo", href: "https://azentio-portal.onrender.com/demo" },
+    ],
+    status: { kind: "live", label: "Hackathon build, live" },
+    caseStudy: {
+      problem:
+        "Clients notice things in their own markets that a software vendor's product teams should hear about, but no client's private information can reach another client. This build pairs the azentio.ai public site with a secure portal: employees and clients each get their own workspace, client market observations become moderated, de-identified shared learning, and product owners turn recurring themes into improvement ideas without exposing client data.",
+      built: [
+        "The public site and a portal where employees and clients each get their own workspace",
+        "Moderation that turns a client's observation into a de-identified shared copy, then themes, and improvement ideas that product owners build from recurring themes",
+        "AIRA, an assistant on a Groq model that answers only from approved shared copies",
+        "Search over a SQLite full-text index, and a hash-chained audit log",
+        "Live sessions, a library, Microsoft Entra ID sign-in and a federated-learning track",
+      ],
+      stack: ["Python", "FastAPI", "SQLite (FTS5)", "Groq", "Jinja2", "Render"],
+      decisions: [
+        "Every access decision is made on the server by one policy layer covering role, tenant, audience and entitlement; the browser only hides what the server already denies.",
+        "Private records and shared copies are separate tables, and only moderated copies are indexed for search or ever reach AIRA.",
+        "Built solo with AI-assisted development (disclosed), with two independent security reviews and every finding fixed.",
+      ],
+      numbers: [
+        "232 automated tests",
+        "2 independent security reviews, every finding fixed",
+        "Synthetic data only",
+      ],
+      credit: "Built solo, with AI-assisted development (disclosed)",
+      linkNote:
+        "The live demo starts at /demo and runs on a free host, so it may take a moment to wake.",
+      gallery: [],
+      videos: [
+        {
+          src: AzentioPortalVideo1,
+          poster: AzentioPortalPoster1,
+          caption:
+            "Public visitor: the public site, the sandboxes and AIRA for visitors, with private pages closed",
+          width: 1280,
+          height: 720,
+        },
+        {
+          src: AzentioPortalVideo2,
+          poster: AzentioPortalPoster2,
+          caption:
+            "Moderator: publishing is refused while the text still looks sensitive; the moderator redacts it, picks themes and publishes a shared copy",
+          width: 1280,
+          height: 720,
+        },
+        {
+          src: AzentioPortalVideo3,
+          poster: AzentioPortalPoster3,
+          caption:
+            "Portal admin: approving staff, separate permission grants, offboarding, accounts and client organisations with their entitlements",
+          width: 1280,
+          height: 720,
+        },
+      ],
+    },
+  },
+  {
+    slug: "azentio-csm-voice",
+    title: "CSM Voice Agent",
+    tagline:
+      "Customer-service voice agent for a bank, a team build at Azentio.ai Build Labs",
+    description:
+      "A voice agent for a bank's customer-service line, built by a team for problem #05 at Azentio.ai Build Labs (Bengaluru, 31 Oct 2026). Callers speak English, Kannada or Hindi, and the agent verifies them before sharing any record. Synthetic data only.",
+    image: {
+      src: AzentioCsmVoiceCard,
+      alt: "Azentio-CSM customer service desk: a list of calls with channel, verified state, detected intents such as Loan application and Service request, and a status of Resolved, Routed or Escalated",
+      width: 640,
+      height: 400,
+    },
+    tech: [SiPython, SiFastapi, SiReact],
+    repo: {
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-csm",
+    },
+    links: [],
+    status: { kind: "build", label: "Hackathon build" },
+    caseStudy: {
+      problem:
+        "A bank's service line has to understand callers in more than one language, confirm who they are before saying anything personal, and never make up a figure. The agent takes calls in English, Kannada or Hindi, verifies the caller by registered mobile number and date of birth, and answers only from what its tools retrieved from a simulated bank, with every call on the record for the bank's operators.",
+      built: [
+        "Voice pipeline: browser microphone over WebRTC (Pipecat), uploaded recordings and optional phone calls, with voice activity detection, Groq Whisper speech-to-text and Edge-TTS replies",
+        "Customer verification by mobile number and date of birth before any record is shared; three failures lock it, and another customer's record is refused by the bank simulator itself",
+        "Service requests, complaints, routed queries and escalations to a person, each with a reference read back to the caller",
+        "An operator desk with each call's transcript, detected intents, verification state and tool trace",
+        "A bank simulator with the core-banking and service records, and a system of record with a hash-chained audit log, role-based access and a review queue",
+        "An ordered chain of models that falls back to the next when one is rate-limited",
+      ],
+      stack: [
+        "Python",
+        "FastAPI",
+        "Pipecat",
+        "Groq Whisper",
+        "Edge-TTS",
+        "SQLite (FTS5)",
+        "React 18 + Vite",
+      ],
+      decisions: [
+        "Verification is checked twice, in the agent's tool layer and again in the bank simulator, which requires a session token, so a prompt cannot talk the model past it.",
+        "Every figure the agent speaks comes from that turn's tool result; the FAQ search has a relevance threshold, so an unapproved question returns nothing and becomes a routed query instead of a guess.",
+      ],
+      numbers: [
+        "3 languages: English, Kannada and Hindi",
+        "Typed desk turns: p50 1.7 s, p95 3.4 s from request to reply text",
+      ],
+      credit: "Team build; I owned the voice pipeline and hardened the system-of-record API",
+      gallery: [
+        {
+          src: AzentioCsmVoice1,
+          alt: "Azentio-CSM customer service desk: a list of calls with channel, verified state, detected intents such as Loan application and Service request, and a status of Resolved, Routed or Escalated",
+          width: 1280,
+          height: 800,
+        },
+        {
+          src: AzentioCsmVoice2,
+          alt: "A support call in Kannada on the operator desk: each customer and agent turn shows the Kannada text with its English translation, the detected intent and what was retrieved, beside the call details and an escalation reference",
           width: 1280,
           height: 800,
         },
@@ -668,9 +895,9 @@ export const PROJECTS: Project[] = [
   {
     slug: "exploding-production-game",
     title: "Exploding Production Game",
-    tagline: "Codex-assisted browser game",
+    tagline: "Browser game co-developed with a friend",
     description:
-      "Codex-assisted browser game with polished gameplay flow, production routing, and frontend-first interaction design.",
+      "Codex-assisted browser game, co-developed with a friend, with polished gameplay flow, production routing, and frontend-first interaction design.",
     image: {
       src: ExplodingProductionImage,
       alt: "Screenshot of the Exploding Production browser game showing its gameplay board and score panel",

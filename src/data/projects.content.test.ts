@@ -15,6 +15,9 @@ const CASE_STUDY_SLUGS = [
   "toodler",
   "quiz-wizz",
   "honestattempt",
+  "taxmitra",
+  "azentio-portal",
+  "azentio-csm-voice",
 ] as const;
 
 const PRIVATE_SLUGS = [
@@ -24,10 +27,15 @@ const PRIVATE_SLUGS = [
   "solarfile-reels",
   "quiz-wizz",
   "honestattempt",
+  "taxmitra",
 ] as const;
 
 /** Case studies whose product is genuinely live; every other one must not say so. */
-const LIVE_SLUGS = new Set<string>(["toodler", "honestattempt"]);
+const LIVE_SLUGS = new Set<string>([
+  "toodler",
+  "honestattempt",
+  "azentio-portal",
+]);
 
 const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   shaanti: "Play Store release pending",
@@ -38,6 +46,9 @@ const STATUS_LABELS: Record<(typeof CASE_STUDY_SLUGS)[number], string> = {
   toodler: "Live prototype",
   "quiz-wizz": "Private release (v1.3.2)",
   honestattempt: "Live, in active development",
+  taxmitra: "In development",
+  "azentio-portal": "Hackathon build, live",
+  "azentio-csm-voice": "Hackathon build",
 };
 
 function project(slug: string): Project {
@@ -51,7 +62,7 @@ function json(slug: string): string {
 }
 
 describe("case-study content", () => {
-  it("has exactly the eight case studies", () => {
+  it("has exactly the eleven case studies", () => {
     expect(PROJECTS.filter((p) => p.caseStudy).map((p) => p.slug)).toEqual([
       ...CASE_STUDY_SLUGS,
     ]);
@@ -102,6 +113,14 @@ describe("case-study content", () => {
       visibility: "public",
       url: "https://github.com/f20180039/toodler",
     });
+    expect(project("azentio-portal").repo).toEqual({
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-portal",
+    });
+    expect(project("azentio-csm-voice").repo).toEqual({
+      visibility: "public",
+      url: "https://github.com/f20180039/azentio-csm",
+    });
   });
 
   it("status labels are exact", () => {
@@ -124,6 +143,18 @@ describe("case-study content", () => {
     expect(project("solarfile-reels").caseStudy?.credit).toBe(
       "Seeded from a friend's open-source reels-generator",
     );
+    expect(project("azentio-portal").caseStudy?.credit).toBe(
+      "Built solo, with AI-assisted development (disclosed)",
+    );
+    expect(project("azentio-csm-voice").caseStudy?.credit).toBe(
+      "Team build; I owned the voice pipeline and hardened the system-of-record API",
+    );
+  });
+
+  it("exploding production says it was co-developed, naming no one", () => {
+    const game = project("exploding-production-game");
+    expect(game.tagline).toBe("Browser game co-developed with a friend");
+    expect(game.description).toContain("co-developed with a friend");
   });
 
   it("no overclaiming", () => {
@@ -196,11 +227,74 @@ describe("case-study content", () => {
     expect(entry.status?.kind).toBe("live");
     // Facts only: the test count is stated as a floor, never an exact figure.
     expect(entry.caseStudy?.numbers).toEqual([
-      "Over 1,000 automated tests across Vitest and Playwright",
+      "Over 1,700 automated unit tests plus Playwright end-to-end tests across desktop and phone browsers",
     ]);
-    expect(entry.caseStudy?.next?.length).toBe(3);
+    expect(entry.caseStudy?.next).toEqual([
+      "Text-first questions with OCR",
+      "Accounts and shareable test links",
+      "Exam presets for JEE, NEET, CAT, banking, SSC, UPSC, GATE, CUET and CLAT",
+    ]);
+    // Shipped work is no longer listed as planned, and nothing about pricing.
+    expect(JSON.stringify(entry)).not.toMatch(
+      /pric|subscri|\bPro\b|monetis|monetiz|₹|\$\d/i,
+    );
     // The paper is described generically; no third-party publisher is named.
     expect(entry.caseStudy?.problem).toContain("a previous-year paper PDF");
+  });
+
+  it("taxmitra: private, unlinked, no screenshots, figures from the engine", () => {
+    const entry = project("taxmitra");
+    expect(entry.repo).toEqual({ visibility: "private" });
+    expect(entry.links).toEqual([]);
+    expect(entry.status).toEqual({ kind: "in-progress", label: "In development" });
+    // The card is a drawn architecture diagram, never a screenshot of user data.
+    expect(entry.image?.src).toBeTruthy();
+    expect(entry.caseStudy?.gallery).toEqual([]);
+    expect(entry.caseStudy?.next).toBeUndefined();
+    expect(FEATURED_SLUGS).not.toContain("taxmitra" as never);
+    expect(entry.caseStudy?.problem).toMatch(/deterministic tax engine/);
+    expect(entry.caseStudy?.numbers).toEqual(["Over 200 automated test files"]);
+  });
+
+  it("azentio portal: public repo, live demo link, three demo clips, not featured", () => {
+    const entry = project("azentio-portal");
+    expect(entry.links).toEqual([
+      { label: "Live demo", href: "https://azentio-portal.onrender.com/demo" },
+    ]);
+    expect(entry.status).toEqual({
+      kind: "live",
+      label: "Hackathon build, live",
+    });
+    expect(entry.caseStudy?.linkNote).toMatch(/\/demo/);
+    expect(entry.caseStudy?.linkNote).toMatch(/moment to wake/);
+    expect(entry.caseStudy?.videos).toHaveLength(3);
+    for (const video of entry.caseStudy?.videos ?? []) {
+      expect(video.caption.trim().length).toBeGreaterThanOrEqual(15);
+      expect(video.poster).toBeTruthy();
+    }
+    expect(FEATURED_SLUGS).not.toContain("azentio-portal" as never);
+    // Facts from the repo README only.
+    expect(entry.caseStudy?.numbers).toEqual([
+      "232 automated tests",
+      "2 independent security reviews, every finding fixed",
+      "Synthetic data only",
+    ]);
+    expect(JSON.stringify(entry)).toMatch(/AI-assisted development \(disclosed\)/);
+  });
+
+  it("csm voice agent: public repo, no live link, credits no teammate by name", () => {
+    const entry = project("azentio-csm-voice");
+    // The hosted voice service is down, so there is no live link.
+    expect(entry.links).toEqual([]);
+    expect(entry.status).toEqual({ kind: "build", label: "Hackathon build" });
+    expect(FEATURED_SLUGS).not.toContain("azentio-csm-voice" as never);
+    expect(entry.caseStudy?.videos).toBeUndefined();
+    const copy = JSON.stringify(entry);
+    expect(copy).toMatch(/Kannada/);
+    expect(copy).toMatch(/Hindi/);
+    expect(copy).not.toMatch(/Chirag|Pavan|chiraghs|pavanmandavilli/i);
+    // No phone numbers or emails from the demo script.
+    expect(copy).not.toMatch(/\d{5} \d{5}|@[a-z]+\./i);
   });
 
   it("no TradingAgents", () => {

@@ -131,6 +131,80 @@ describe("CaseStudy page", () => {
     }
   });
 
+  it("private project with no screenshots: badge only, no links, diagram only, no What's next", () => {
+    const { container } = renderAt("/projects/taxmitra");
+
+    expect(
+      screen.getByRole("heading", { level: 1, name: "TaxMitra" }),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Private code")).toBeInTheDocument();
+    expect(screen.getByText("In development")).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /GitHub/ })).toBeNull();
+    expect(container.querySelector('a[href^="http"]')).toBeNull();
+    // Only the architecture diagram; no screenshot gallery.
+    expect(container.querySelectorAll("img")).toHaveLength(1);
+    expect(
+      screen.getByRole("heading", { name: "By the numbers" }),
+    ).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "What's next" })).toBeNull();
+  });
+
+  it("azentio portal: live demo, public repo, three captioned demo clips and the wake note", () => {
+    const { container } = renderAt("/projects/azentio-portal");
+
+    expect(
+      screen.getByRole("heading", { level: 1, name: "Azentio Portal" }),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Hackathon build, live")).toBeInTheDocument();
+    expect(screen.queryByText("Private code")).toBeNull();
+    expect(screen.getByRole("link", { name: /GitHub/ })).toHaveAttribute(
+      "href",
+      "https://github.com/f20180039/azentio-portal",
+    );
+    expect(screen.getByRole("link", { name: /Live demo/ })).toHaveAttribute(
+      "href",
+      "https://azentio-portal.onrender.com/demo",
+    );
+    expect(screen.getByText(/may take a moment to wake/)).toBeInTheDocument();
+    expect(
+      screen.getByText("Built solo, with AI-assisted development (disclosed)"),
+    ).toBeInTheDocument();
+
+    const clips = screen.getByRole("list", { name: "Demo videos" });
+    expect(within(clips).getAllByRole("listitem")).toHaveLength(3);
+    const videos = container.querySelectorAll("video");
+    expect(videos).toHaveLength(3);
+    for (const video of videos) {
+      expect(video).toHaveAttribute("preload", "none");
+      expect(video).toHaveAttribute("controls");
+      expect(video).toHaveAttribute("poster");
+      expect(video.muted).toBe(true);
+    }
+  });
+
+  it("csm voice agent: public repo, no live link, two screenshots, no clips", () => {
+    const { container } = renderAt("/projects/azentio-csm-voice");
+
+    expect(
+      screen.getByRole("heading", { level: 1, name: "CSM Voice Agent" }),
+    ).toBeInTheDocument();
+    expect(screen.getByText("Hackathon build")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /GitHub/ })).toHaveAttribute(
+      "href",
+      "https://github.com/f20180039/azentio-csm",
+    );
+    expect(screen.queryByRole("link", { name: /Live/ })).toBeNull();
+    expect(
+      screen.getByText(
+        "Team build; I owned the voice pipeline and hardened the system-of-record API",
+      ),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("list", { name: "Screenshots" }),
+    ).toBeInTheDocument();
+    expect(container.querySelectorAll("video")).toHaveLength(0);
+  });
+
   it("unknown slug shows NotFound", () => {
     renderAt("/projects/does-not-exist");
 

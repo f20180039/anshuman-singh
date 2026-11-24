@@ -99,6 +99,37 @@ describe("project images", () => {
     ).toEqual([]);
   });
 
+  it("demo clips and their posters exist, posters match the clip size, clips stay small", async () => {
+    const videos = PROJECTS.flatMap((project) =>
+      (project.caseStudy?.videos ?? []).map((video) => ({
+        slug: project.slug,
+        video,
+      })),
+    );
+    expect(videos.length).toBeGreaterThan(0);
+
+    for (const { slug, video } of videos) {
+      const label = `${slug} video (${video.src})`;
+      const file = assetSource(video.src);
+      expect(typeof file, `${label} was inlined`).toBe("string");
+      expect(fs.existsSync(file as string), `${label} is missing`).toBe(true);
+      // Re-encoded to roughly 1-1.5 MB; anything near 2 MB was not.
+      expect(
+        fs.statSync(file as string).size,
+        `${label} is too large`,
+      ).toBeLessThan(2 * 1024 * 1024);
+
+      expect(assetExists(video.poster), `${label} poster is missing`).toBe(
+        true,
+      );
+      const meta = await sharp(assetSource(video.poster)).metadata();
+      expect(
+        { width: meta.width, height: meta.height },
+        `${label} poster size differs from the clip`,
+      ).toEqual({ width: video.width, height: video.height });
+    }
+  });
+
   it("MangakaHue credits its artwork with a public-domain or CC licence and a source URL", () => {
     // The case-study page may only show artwork we are allowed to publish, and
     // the licence must be visible on the page itself (spec: "credit the source

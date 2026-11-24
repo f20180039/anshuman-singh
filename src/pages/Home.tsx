@@ -76,7 +76,7 @@ const Home = () => {
                 overrides spacing.20 to 1.25rem, so the numeric scale lies. */}
             <motion.img
               src={Profile}
-              alt="Portrait of Anshuman Singh, frontend engineer"
+              alt="Portrait of Anshuman Singh, software engineer"
               width={192}
               height={192}
               // The largest element above the fold: load it eagerly and give it
@@ -106,15 +106,7 @@ const Home = () => {
           </h1>
 
           <p className="ans-text-2 ans-text-th-muted-fg sm:ans-text-3 lg:ans-text-4">
-            Frontend Engineer at{" "}
-            <a
-              href={C_HEALTHPLIX_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ans-text-th-accent hover:ans-underline"
-            >
-              HealthPlix
-            </a>
+            Software Engineer
           </p>
 
           <p className="ans-text-0 ans-text-th-muted-fg sm:ans-text-1">
@@ -168,12 +160,19 @@ const Home = () => {
             <strong className="ans-text-th-accent">
               {getYearsOfExperience()}+ years
             </strong>{" "}
-            building{" "}
-            <strong className="ans-text-th-fg">
-              scalable, high-performance applications
-            </strong>{" "}
-            with React and TypeScript — AI clinical documentation, billing, and
-            the performance work that keeps them fast.
+            building production{" "}
+            <strong className="ans-text-th-fg">React and TypeScript</strong>{" "}
+            products in healthtech at{" "}
+            <a
+              href={C_HEALTHPLIX_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ans-text-th-accent hover:ans-underline"
+            >
+              HealthPlix
+            </a>
+            , and shipping complete products end to end: APIs, PostgreSQL,
+            background workers, AI integrations and test automation.
           </p>
 
           {/*

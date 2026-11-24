@@ -26,8 +26,8 @@ export default function Footer() {
             Anshuman Singh
           </p>
           <p className="ans-mt-2 ans-max-w-xs ans-text-1 ans-leading-relaxed ans-text-th-muted-fg">
-            Frontend engineer building React and TypeScript products in
-            healthtech.
+            Software engineer building production React and TypeScript
+            products in healthtech, and complete products end to end.
           </p>
           <div className="ans-mt-4 ans-flex ans-gap-5">
             <a

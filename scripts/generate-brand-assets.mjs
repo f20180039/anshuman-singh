@@ -70,7 +70,7 @@ const ogSvg = () => `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height
   <text x="124" y="160" font-family="${FONT_STACK}" font-size="64" font-weight="700" fill="${ACCENT}" text-anchor="middle">A</text>
 
   <text x="72" y="300" font-family="${FONT_STACK}" font-size="82" font-weight="700" fill="${FG}">Anshuman Singh</text>
-  <text x="72" y="368" font-family="${FONT_STACK}" font-size="40" font-weight="500" fill="${ACCENT}">Frontend Engineer</text>
+  <text x="72" y="368" font-family="${FONT_STACK}" font-size="40" font-weight="500" fill="${ACCENT}">Software Engineer</text>
   <rect x="72" y="404" width="120" height="4" rx="2" fill="${ACCENT}" fill-opacity="0.7"/>
   <text x="72" y="466" font-family="${FONT_STACK}" font-size="30" font-weight="400" fill="${MUTED}">React · TypeScript · AI integrations · Web performance</text>
   <text x="72" y="516" font-family="${FONT_STACK}" font-size="26" font-weight="400" fill="${MUTED}" fill-opacity="0.8">HealthPlix Technologies · Bengaluru, India</text>
@@ -108,10 +108,10 @@ function buildIco(pngs) {
 }
 
 const MANIFEST = {
-  name: "Anshuman Singh — Frontend Engineer",
+  name: "Anshuman Singh — Software Engineer",
   short_name: "A. Singh",
   description:
-    "Portfolio of Anshuman Singh, a frontend engineer working in React, TypeScript and AI integrations.",
+    "Portfolio of Anshuman Singh, a software engineer working in React, TypeScript, APIs and AI integrations.",
   start_url: "/anshuman-singh/",
   scope: "/anshuman-singh/",
   display: "standalone",

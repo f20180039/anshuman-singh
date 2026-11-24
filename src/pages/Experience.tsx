@@ -12,7 +12,7 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: "Frontend Engineer",
+    title: "Software Engineer",
     company: "HealthPlix Technologies",
     period: "July 2022 - Present",
     isCurrent: true,
