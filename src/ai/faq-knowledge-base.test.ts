@@ -107,7 +107,7 @@ describe("chat knowledge of the case studies", () => {
       );
       expect(copy).toMatch(/Round-2 take-home/);
       expect(copy).toMatch(/AI-assisted development \(disclosed\)/);
-      expect(copy).toMatch(/I owned the backend and the voice pipeline/);
+      expect(copy).toMatch(/I owned the voice pipeline and hardened the system-of-record API/);
     },
   );
 

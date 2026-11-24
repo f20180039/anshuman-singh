@@ -196,7 +196,7 @@ describe("CaseStudy page", () => {
     expect(screen.queryByRole("link", { name: /Live/ })).toBeNull();
     expect(
       screen.getByText(
-        "Team build; I owned the backend and the voice pipeline",
+        "Team build; I owned the voice pipeline and hardened the system-of-record API",
       ),
     ).toBeInTheDocument();
     expect(

@@ -147,7 +147,7 @@ describe("case-study content", () => {
       "Built solo, with AI-assisted development (disclosed)",
     );
     expect(project("azentio-csm-voice").caseStudy?.credit).toBe(
-      "Team build; I owned the backend and the voice pipeline",
+      "Team build; I owned the voice pipeline and hardened the system-of-record API",
     );
   });
 

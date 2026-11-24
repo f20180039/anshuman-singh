@@ -739,10 +739,11 @@ export const PROJECTS: Project[] = [
       "Public site plus a governed client-collaboration portal, a solo hackathon build",
     description:
       "A hackathon build of the azentio.ai public site plus a secure portal, made for Azentio.ai Build Labs (offline finale, Bengaluru, 31 Oct 2026). Client market observations become moderated, de-identified shared learning. Synthetic data only.",
-    // A frame of the public-visitor demo clip: the public home page.
+    // A later frame of the public-visitor clip than its poster, so the card
+    // and the first clip do not show the same image.
     image: {
       src: AzentioPortalCard,
-      alt: 'The azentio.ai public home page from the hackathon build: the headline "Build intelligence. Create shared value." above Explore products and Request a demo buttons',
+      alt: "The azentio.ai Products page from the hackathon build: product cards such as Credit Strategy Simulator and SME Credit Decisioning Workbench, with the Ask AIRA panel open for a public visitor",
       width: 640,
       height: 360,
     },
@@ -856,7 +857,7 @@ export const PROJECTS: Project[] = [
         "3 languages: English, Kannada and Hindi",
         "Typed desk turns: p50 1.7 s, p95 3.4 s from request to reply text",
       ],
-      credit: "Team build; I owned the backend and the voice pipeline",
+      credit: "Team build; I owned the voice pipeline and hardened the system-of-record API",
       gallery: [
         {
           src: AzentioCsmVoice1,
