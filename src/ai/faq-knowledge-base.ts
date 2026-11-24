@@ -116,7 +116,7 @@ export const RESUME_CONTEXT = `
 
 ## Professional Experience
 
-**Frontend Engineer at HealthPlix Technologies** (July 2022 - Present)
+**Software Engineer at HealthPlix Technologies** (July 2022 - Present)
 - Architected AI Clinical Documentation and IPD/OPD Billing as standalone, end-to-end modules on a Backend-for-Frontend (BFF) layer, exposing versioned, contract-driven endpoints so external hospital systems can embed each module without adopting the full HealthPlix EMR
 - Built AI-powered medical documentation (summarization + dictation) using OpenAI workflows over Server-Sent Events (SSE) with live parsing and conversational input
 - Resolved 95% of revenue-leakage cases and stabilized high-stakes IPD/OPD billing (deposit calculations, payment-split logic)

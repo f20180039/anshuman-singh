@@ -133,6 +133,8 @@ describe("chat knowledge of the case studies", () => {
   it.each(FILES)("%s titles the owner a Software Engineer", (_f, src) => {
     expect(src).toMatch(/# Anshuman Singh - Software Engineer/);
     expect(src).not.toMatch(/# Anshuman Singh - Frontend Engineer/);
+    expect(src).toMatch(/\*\*Software Engineer at HealthPlix Technologies\*\*/);
+    expect(src).not.toMatch(/Frontend Engineer at HealthPlix/);
     expect(src).not.toMatch(/full[- ]stack (roles|development)/i);
   });
 
